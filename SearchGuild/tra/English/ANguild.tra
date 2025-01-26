@@ -1,0 +1,921 @@
+// Meeting
+@0 = ~*You see a huge bugbear in front of you, struggling fiercely to break free from the hands of the guards. Once you get in the line of sight of his one eye, the bugbear's jaw drops open. Escaping the tight grip of the guards, the bugbear addresses you directly, roaring and barking amongst its words.*~
+@1 = ~Please listen to me, CHARNAME! My knowing you! Help me!~ [BUGBR03A] 
+@2 = ~Who are you and how do you know my name?~
+@3 = ~Get away from me, you monster!~
+@4 = ~Rah, rah! Trouble! I'll be off then. I've got to get some gold for the guild!~ [BUGBR01A]
+@5 = ~My name be Nordic! And your name be CHARNAME. Mine saw the fight on the Prror-menade. Help me! These bastarrds are trrying to take away my guild!~
+@6 = ~Well... So what?~
+@7 = ~Wait till mine tells you all about it. When my Master disappeared, there was nothing to pay. Nothing to eat! I came to ask for an extension, but they won't give it. They want to take the Guild for themselves! R-r-r!~
+@8 = ~Take it easy! One more word like that and you're out of here.~
+@9 = ~What kind of a guild is this? Can you tell me?~
+@10 = ~*At this point, bugbear puffs up his cheeks in an important manner, bows his head, and solemnly speaks.* The firrst in Amn, the Detective Guild of Athkatla, founded by my Masterr - the arrchmage and the sage, Magister Adelard the Wanderer!~
+@11 = ~Hmm. Great! You said it all without a single mistake, and you almost didn't growl. Almost.~
+@12 = ~*Nordic smiles proudly from ear to ear, which makes his scarred muzzle even more terrifying.* My learrn and train... long time.~
+@13 = ~Well, your story sounds interesting, but answer me this: What happened to your master, and why are you asking a stranger for help?~
+@14 = ~Um! Whut you say? *The Bugbear lowers his head and growls sorrowfully.* Masterrr was tasked with rr-finding someone, and then he disappear-red. Mine looked all over for him and didn't find him. My guess is he's dead! Then the papers starrt coming, the debt! I've got-rr to pay-rr, and I've got no gold.~
+@15 = ~*Nordic's one eye lights up with hope as he raises his head again.* I know you. You're-rr the Hero of Baldu-rr-r's Gate, the adventur-rer! My heard you saved an entire city! You can help!~ ~*The Nordic's one eye lights up with hope as he raises his head again.* I know you, you're the Prortectr-ress of Baldu-rr-r's Gate, the adventur-rer. My heard you saved an entire city! You can help!~
+@16 = ~Sorry, big guy, but I've got my own business here and that's enough.~
+@17 = ~I have a lot of problems of my own right now and no time to rescue some unknown guild. I'm sorry, even if I'm not.~
+@18 = ~What's it to you, anyway? Your master is gone, maybe even dead - so go on your own. You're a free bugbear now, and a free being is judged by what he does today.~
+@19 = ~H-r?! Give the guild to... to those?! Mine is to serve my Master faithfully, Adelard to crreate the Guild! That's his BUSINESS! Mine is not to betrray, not to abandon, not to forget! *With an angry growl, Nordic glares at the official watching you with a nervous, tired look.*~
+@20 = ~I don't know who you are, <PRO_SIRMAAM>, but there is nothing to talk about. The owner and head of this investigation bureau has disappeared as far as I know, no income tax has been paid for a year now. He left some debt on the books and this bugbear on the hooks.~
+@21 = ~Aha, five hundred coins, and I also have to renew the lease for the next three years, because the land on which the guild building stands belongs to Athkatla, and must be leased properly. That's another two thousand, and all together that's exactly two and a half thousand gold coins.~
+@22 = ~But that's not all. *He takes a deep breath then raises his voice to shout!* You need THE GUILDY HEAD to make a new treaty with the city! DO YOU HEAR ME, BUGBEAR?! I NEED ADELARD!~
+@23 = ~Phew! I'm sorry, but this.. this visitor is unbearable. It's the fifth time he's been here, growling, threatening and demanding an extension. But delayed payments will NOT change anything! This guild will be finished if the debt is not paid by the owner within the next week and a new lease is not signed. That's the law!~
+@24 = ~Okay, I see. I'm gonna step back for a while, I need to talk to this bugbear.~
+@25 = ~As you wish.~
+@26 = ~Come with me.~
+@27 = ~*You decide to just walk past. You've got your own worries, and snarling bugbears aren't one of them.*~
+@28 = ~I wonder how many times I've been told 'help' in all my wandering. Anyway, who are you and how do you know me?~
+@29 = ~Why are you being so rude? Maybe they have a right to be.~
+@30 = ~Your guild? Seriously? What does this so-called guild do?~
+@31 = ~I mean, really, let's just, um, be nice. But I'm wondering what kind of guild this is.~
+@32 = ~Ah, so this guild has a master besides you after all! That's better.~
+@33 = ~I can't hear it anymore. I sympathise with the lawmen who have yet to deal with you. I'm leaving.~
+@34 = ~Detective Guild? Hmm... I don't even know what I was expecting to hear, but it was definitely not this.~
+@35 = ~This is rubbish. I'm just wasting my time here. I'm leaving.~
+@36 = ~Shall I save your guild? What could be more exciting? No, thank you. I'd rather chat with the hamster.~
+
+// Conversation on the street
+@37 = ~*You and Nordic leave the Government House, bugbear following eagerly behind you. In a dark alley, without witnesses, you continue your previously interrupted conversation.*~
+@38 = ~Now, let's get down to business. I want a detailed and orderly explanation of what I'm dealing with.~
+@39 = ~We are alone here, and no one will interrupt us. Please take your time and explain everything thoroughly.~
+@40 = ~Uhm! But first, let my question, too. You're a magician, grright?~ ~Uhm! But first, let my question, too. You're a sorceress, grright?~
+@41 = ~I am aware of my magical ability. Why do you inquire?~
+@42 = ~What's that got to do with it?~
+@43 = ~Sorry, mate, I don't like talking about myself. I remember when any answer to a question along the lines of "Is your name <CHARNAME>?", "Are you from Candlekeep?", "Are you a child of Gorion?" was followed by an attempt to kill me. So I am sorry.~
+@44 = ~It's just that I'm very glad. Masterr is also a wizarrd, a powerrful one. I respect mages. They are very cleverr.~
+@45 = ~Noted, but let's get to the point.~
+@46 = ~First, let my ask you something. You're a paladin, arren't you?~
+@47 = ~Yes, I serve the Light as far as my powers allow. But why do you ask?~
+@48 = ~It is very good, my very-very glad, that you are a paladin. My Masterr told me about them, how they fight evil.~
+@49 = ~But first, let my question, too. You're a wanderring priest, aren't you?~
+@50 = ~Yes, I worship my deity and wield sacred magic. But why do you ask?~
+@51 = ~It's good you're a prriest. My Masterr told me about them, he said that a warrband without a priest was worrthless. I think a prriest is re-rr-reliable.~
+@52 = ~But firrst, let my question, too. You're a barrd, aren't you?~
+@53 = ~My profession is music and poetry, as I have a talent for both. Why you are inquiring?~
+@54 = ~Do we have to discuss it?~
+@55 = ~I am honoured to be a creator of true art.~
+@56 = ~Uh! My thinking, bad, that you are a bard is to be... uncertain. It is better to think with your head than to play the flute and amuse the gawkers, so Masterr said, and my agrrees.~
+@57 = ~So you dislike bards. What is the problem? I have a lot of fun doing it and no one else complains.~
+@58 = ~Your perception of bards is... peculiar. Have you never heard the tale of a small band that bravely defended their land against superior forces, inspired by a fearless bard's heroic song? Or how a well-timed story lifted the spirits of the discouraged? Our work also demands significant mental exertion.~
+@59 = ~I do not wish to associate with a guild whose members hold such a misguided and limited perspective of the world. Perhaps it is best that I do not assist you either. Farewell Nordic, and good luck.~
+@60 = ~No, wait, don't take offence, I'm rready to co-operate! Me have to get used to it now that things have changed. Mine won't talk about it anymorrre.~
+@61 = ~Forget it, it s a waste of time to start this conversation. Sorry. Me go!~
+@62 = ~Very well, let's move on. May I ask about your guild?~
+@63 = ~But firrst, let my question, too. You're a thief, aren't you?~
+@64 = ~Is that the problem, pal?~
+@65 = ~What does that have to do with anything?~
+@66 = ~My thinking, it's bad enough being a thief, it's bad business. Earrning with your head is better-r than stealing, my thinking. And also my think you belong to a guild, obey the head thief.~
+@67 = ~So you don't like thieves. But I've never stolen anything. My job is to gather information, stay in the shadows, scout and set traps. And I don't belong to any thieves' guild. I'm on my own.~
+@68 = ~It's none of your business what I do. Keep your nose out of my business!~
+@69 = ~Hmm... you've been investigating cases, looking for criminals, right? Don't you think that no one would understand their motives and hidden actions better than someone who... 'knows' the inside of that kitchen? If you want your guild to not only BE, but to WORK, and to work well, then I'm just the person you need to help and advise you.~
+@70 = ~That's weird. I thought you wanted to save your guild, mate. And yet you're being cranky! I don't like dealing with someone like you. I'd rather go my own way.~
+@71 = ~Sur-re, ask me anything you want. I'll tell you everything I know.~
+@72 = ~Mine gets it! Mine believes you.~
+@73 = ~So your master, the head of the guild, just suddenly disappeared?~
+@74 = ~Adelard. Tell me about him.~
+@75 = ~How did YOU end up in Adelard's company? Tell me about yourself.~
+@76 = ~Fancy name: The Detective Guild. Could you please clarify the purpose of this guild?~
+@77 = ~How many members are in your guild?~
+@78 = ~Where is the Detective Guild located?~
+@79 = ~What can you offer me for my help?~
+@80 = ~I changed my mind. I'll ask my questions later.~
+@81 = ~*Nordic sighs sadly.* Huh... Adelar-rd is not only my Masterr, he is my frriend. He took me into the guild, took care-rr of me, educated me... taught me grar-mmarr. Now he's gone and I can't find him!~
+@82 = ~Let's get to the point.~
+@83 = ~It's always sad to lose friends. Aren't there any leads left?~
+@84 = ~Me distrracting, yes. Something to be! Before leaving, Masterr spoke about a certain place or name. He say "Kassia." Maybe he was looking for someone. Me neverr met anyone by that name.~
+@85 = ~Master said nothing mor-re. He went out into the night, rrready for battle, my sure knowledge. He prepared scrolls and potions, took out his strrongest quarterstaff. I asked him to brring me, with him but Master rrefused. Masterr was foolish, too sure of himself. He told me to look afterr the guild and left. Mine stayed. Ugh!~
+@86 = ~*The Bugbear falls silent, turns away, and there is a long, hard silence between you.*~
+@87 = ~Hmm, I see. And how long has it been since that night, Nordic?~
+@88 = ~My did counting, making marrrks on my club. It's been six months. On all the days, mine has been looking for my Masterr in the city, but there's no sign of him. The city is very big. And mine can only look for him at night, during the day guard chases me away. Everyone is staring at me as like a monster, but me not! Me a civilized... bugbear, unlike others of my kind! Mine is to rread books and rr-roast meat, not eat it rrraw!~
+@89 = ~Being good that some of the guarrds know my... And the other night, my was approarched by two thieves in the Docks, demanding gold. Me didn't beat them... hard, but their frriends came to the rescue. Now I can't get into the Docks.~
+@90 = ~I see. Can I ask you another question? ~
+@91 = ~I think that's all for now.~
+@92 = ~Masterr is a powerrful mage and a great thinkerr. He challenged the outlaw world of Atkatla! With his int-intellect, he can r-rar.. to solve a most difficult cases, to catch dangerrous villains!~
+@93 = ~Oh, wow. Not bad, not bad, pal.~
+@94 = ~*You smile.* Intelligence, you say? Please continue, Nordic.~
+@95 = ~Master catching crriminals by using his head. Mine has also learrned to rrespect en-telligence, to start liking to rread detective books. My whole bookshelf has already been rread, Masterr bought them for me and laughed a lot. That's how mine learrned to r-read.~
+@96 = ~Mine was borrn in slavery, in a larrge darrk elf city called Menzoberr-r-ranzan. My parrents I don't rremember, we younglings were immediately taken from them and taught to fight. Then mine were bought out by House Feng Tlabbarr, and mine had to fight for them. There was no choice.~
+@97 = ~But mine was never like of rrotten evil drrow!~
+@98 = ~Shut your mouth, bugbear, or I'll cut out your tongue!~
+@99 = ~*The Bugbear's heavy gaze rests on Viconia, without the slightest fear, but with only anger inside. You can see that Nordic is ready to attack the drow, and apparently your presence is the only thing holding him back.*~
+@100 = ~You're nobody to give orrders my! I listen only to my Masterr, not bloody dr-row!~
+@101 = ~Iblis! Just give me a reason!~
+@102 = ~R-rar! Then let's fight, black snake! I will bonk you with my club! Smah yoorr head!! Take out your weapon and face my!~ [BUGBR02A]
+@103 = ~Stop it NOW! You've both left the Underdark, so the old feud is over. Break it up!~
+@104 = ~Despite her unfriendliness, Viconia is not the Menzoberanzan drow you knew. She travels with me, fights beside me, and heals our wounds and sicknesses. I would have a hard time without her. Please do not fight with her, Nordic. Do you remember that you are a civilised bugbear?~
+@105 = ~Viconia, you're such a clever woman, please show some restraint. You can see that this poor lad had a hard time in the company of your folk. Of course he's angry. Now is not a time to fight him!~
+@106 = ~You, <CHARNAME>, are running around with that *rothe!* Associating with him shows you have exceptional confidence, or you're exceptionally idiotic. I'll just wait and watch.~
+@107 = ~Listen, Nordic! Whatever you say, Viconia is the woman I love. You better not insult her.~
+@108 = ~Do you want to fight? Let's do it! It'll be a fun show!~
+@109 = ~You know, Nordic, I'm beginning to like your manners less and less. I don't think you and I are going to be working together. Our deal is over. Farewell.~
+@110 = ~*After a moment, Nordic and Viconia step away from each other. Nordic's steps are reluctant as he glares at Viconia. Viconia proudly smiles as she splits her gaze between Nordic and you.*~
+@111 = ~I'll talk to you later, bugbear!~
+@112 = ~R-rar! You'll talk when I cut your bloody head off yourr shoulderrs!~ [BUGBR02A]
+@113 = ~*You release a heavy sigh.* Continue your story.~
+@114 = ~My so mad rright NOW! Umm... my talking about Underrrdarrk, right? One day there was a fight in the Garrison of the House, and we Bugbear-rrers decided to teach the goblins a lesson. I beat to death a dozen gobbles, and one hob, who thought to strrike from behind. It was a glorrious day! My father and grandfather killed goblins, and my kill a lot of goblins too. But for that the dr-row sentenced me and two of my kin to the execution of death in orderr to keep the other Bagbearrs to fearr.~
+@115 = ~Masterr traded then with Feng Tlabbarrr. He ransomed me and the brotherrs, saved me from death. Gave for us *bugbear starts curling his furry, fat fingers.* three hundrred... four hundrred.... five hundrred coins - a whole lot of gold! My never see that much.~
+@116 = ~As soon as Masterr had finished his business with that drrow, he loaded on us supplies, and we go on our rreturn journey. At a mountain pass, the name of which my do not know, we were attacked by goblins. There were a lot of them there, and the hobbs with them, against only fourr of us: we are bugbearrs and our Master. But we fought well, we killed a hundred goblins, and in the end they fled. Cowarrds! Hag and Balzerro were killed in that fight, Adelar-rd himself was wounded by a shorrt arrow.~
+@117 = ~*The Nordic seems to be pleased with the impression the story has made on you. He cheerfully continues to roar out his heroic tale.*~
+@118 = ~Adelarrd healed his leg, but he could not move any further. It is harrd to walk in an mountains in winter even without any wounds. My had to drop the baggage, take my Master on my back and carry him on. When the pain went his leg away, he laughed at me a lot, calling me the Tarrget Bearr.~
+@119 = ~The Target Bear?~
+@120 = ~*Nordic is visibly confused.* Even before the skirr-mish with the goblins, Master threw lightning at me, rrr-tried his magic. And then, in the battle, mine was tarrrgeted by goblin archerrs, and my whole was pinned down by arrows. Mine is big, they didn't missed in my until my got close and that's where mine lost an eye. But none of their ugly archerrs escaped alive!~
+@121 = ~Masterr and my, we weren't detected any other gobs band, we passed through a mountain, down into the valley, where we helped by the smallfolk. Then we arrived in Athkatla, where Master founded a guild and gave me a name, Nordic. That was four years ago. And that's the end of the storry.~
+@122 = ~And what was your old name? Didn't you have one?~
+@123 = ~Thanks for the story. Let me ask you something else.~
+@124 = ~Uggh. To be, yes. But that name is no longer needed... my past life is not be good. Masterr gived another meaning to my life, taked mine to the Guild. Mine is now bound to it!~
+@125 = ~Now I can see why this guild is so important to you. But let me ask you a few more questions.~
+@126 = ~RRAAARR!!!~ [BUGBR02A]
+@127 = ~The Guild do investigations. We're on the lookout for devious villains - murdererrs, rrrapists, forgerrs of silverr and gold, evil sorcererrs, and others who brrreak the law.~
+@128 = ~And since the founding of the guild, Masterr to help the guarrd. My don't quite understand, whut Masterr once said. "We serrve the Council of Five..."~
+@129 = ~So what makes your guild different from bounty hunters?~
+@130 = ~*Nordic snorts disdainfully.* Frrom these... who call themselves Venatorrs? Masterr investigates complicated cases: confusing legacies, obscure bloodlines, strrange time magic; I get a headache just thinking about it. My Masterr sometimes tell me about it, and I nodded, prretending to underr-stand.~
+@131 = ~Still, I don't see why you need all this.~
+@132 = ~My likes, everry day there's something new! My seen many things: people missing in porrtals, secrret magic, scrrolls from Abyss! We help people, follow the leads, find the trruth, and we get paid for it.~
+@133 = ~My... alone.~
+@134 = ~Are you saying that you are the entire guild? Where did everyone else go?~
+@135 = ~And no one else?! Now I can see why things aren't going well!~
+@136 = ~There was also a halfling for courier worrk, and a cook. When there was no money, and Adelarrd was gone, they left guild. Now it's just me.~
+@137 = ~Hmm, that's bad news. So that's why the official was so dismissive of this guild.~
+@138 = ~Yes... He knows that no one is here. Only my.~
+@139 = ~The guild is located in the Slums, nearr Copper Coronet.~
+@140 = ~Well, that explains the low rent. But then again, the Slums aren't the best place for a guild, are they?~
+@141 = ~Isn't there a better place for a guild? I'm sure the slum dwellers can't afford to pay for your services.~
+@142 = ~Yeah, you're telling the truth... Slums flooding in like a wave. Cheap housing and too many beggarrs around. The folk there are mean, surviving as best they can: stealing, cheating, scrounging, no better than the goblins in Drrow Town. You'll see, the guild is the last worthy place there.~
+@143 = ~Take the Guild! You'll be a worthy host, my assured. And my thinking is that you'll be able to find my Masterr.~
+@144 = ~A Bugbear offering me a guild? That isn't something that happens every day! Go on. Things can hardly get any stranger.~
+@145 = ~Is this a joke? Why am I going to all this trouble?~
+@146 = ~My offer is serrious. The guild is good pay, lots of gold, lots of op-opporrgtunities.~
+@147 = ~Money and opportunity... Well, that's something worthy to think about. But what happens if we find Adelard?~
+@148 = ~Then my Master will rewarrd you generously, my assugrred!~
+@149 = ~I'll tell you everything you ask. What else do you want to know?~
+@150 = ~I need time to consider your offer. And it wouldn't hurt to take a look at the guild.~
+@151 = ~I'm sorry, but I have to decline, I can't deal with this guild right now. No offence, tough guy.~
+@152 = ~My... understand. But then mine is to leave, to look for money!~
+@153 = ~I'll walk you to the guild, follow me.~
+
+// The Guild
+@154 = ~*You see in front of you a nice, stone two-story building with a dome, standing out sharply against the background of the dilapidated hovels surrounding it.*~
+@155 = ~So this is the Detective Guild?~
+@156 = ~Yes, it's the best building here. Adelard bought it from the librrary - the locals don't like to r-read. I think it books were given away to the Lazar-rus Library. Come inside, I'll show you everything!~
+@157 = ~There's a hall, a dining room and a meeting r-room.  But I don't eat here.  I like to eat in the kitchen.~
+@158 = ~There's a letter box by the sofa.  *Nordic looks angrily at the box*  Ooh, there's letter-rs about debt.~
+@159 = ~*The Bugbear sighs wistfully.* Masterr's office.  All things are in theirrr places, everything is as it was from the moment he left.~
+@160 = ~There's also a cabinet for important paperrs and the guild treasury near. The cupboard is locked with a special lock with a code. The lock and the cupboard can't be broken, they're secured by magic. There's a trap on the cash drawer, I have seen the Master setting it himself.~
+@161 = ~So the cabinet is where the guild documents are kept, right?~
+@162 = ~The guild treasury?  How much gold is in there?~
+@163 = ~Yes, a big, thick scroll with an herrrb seal, very imporrtant paper.~
+@164 = ~Do you have any ideas on how to open the cabinet?~
+@165 = ~There's a scrrroll in the desk, a mysterious one. Mine saw my Masterrr take it out a few times and then go back to open the cabinet. They must be connected.~
+@166 = ~I see.~
+@167 = ~My thinking is that there is little gold left. The money was spent on a new Masterr's rrobe, yes, both shiny and magical! If you decide to hack the desk, be careful!  My think the trrap is dangerous. My Masterrr did not like thieves.~
+@168 = ~This is where the lounge and library are. Here you can relax and think in silence. My apology for the furrr on the sofa.~
+@169 = ~In the librarry arre my favourite books. I can't g-rremember how many times my read them!  One is about the Body Snatcherrr. a creepy book!  My can't sleep well after it!  Also about a mysterious killer at the Docks.  There's a sequel out rrrecently, but I don't have the money to buy it.  There are more stories of different places, but they are borrring.~
+@170 = ~Herre to cook. We used to have a good cook, a kind woman who fed me. But when the money rrran out, she had to go and worrrk somewhere else.~
+@171 = ~Maybe we should get a new cook.~
+@172 = ~My think it's not that easy. You need someone, parrrt of the Guild, who doesn't like to talk much.~
+@173 = ~You're right. We'll think about hiring a chef later, once we've solved the main debt problem.~
+@174 = ~Mine knows how to cook, mmm...  meat.~
+@175 = ~It's a labogr-ratory wherrre you can do magic stuff. Mine's not very good at it.~
+@176 = ~How about this lab? Would that be okay? It looks pretty big to me.~
+@177 = ~You call this big?  In Thay, my scroll cabinet was bigger than this room and it didn't reek of fur! But since there's nothing better... I'll settle in here. Don't forget, it's just a temporary solution until you find me a living quarter worthy of a mage of my stature! (Don't expect a beast to do a man's job.)~
+@178 = ~Of course, Edwin.  In the meantime, do me a favour and make a list of everything you need for your work. Nordic, what's on the second floor?~
+@179 = ~What's on the second floor? I see the stairs are broken.~
+@180 = ~Therrre is only junk. The floorr's been uninhabited for half of yearrs. Until the stairrs breaks, I climbed up there once, err... many times and break off the bones of the salamander skeleton that the Masterrr brought back. Almost dismounted...  oh, not that! Dismantled! Almost the entirrre skeleton.~
+@181 = ~What for?~
+@182 = ~My is already told you: Masterrr has disappeared, there is no money, and my is very hungry. The salamanderr bone is valuable - burning bullets are cut from small bones for slinging, finely crushed ones are used for fire arrrows. My sold the bones to adventurers, who told me everything in detail. Without this money, my would die!~
+@183 = ~Let me guess: and then the stairs collapsed under your weight, right?~
+@184 = ~*Nordic angrily growls!* The stairs... err... The stairs were old, very old, gh-rotten. I rrrerport the Masterrr once, but he said not to botherrr him.~
+@185 = ~Well, never mind. We have other things to focus on.~
+@186 = ~There's a guest room and a fireplace. Therrre arrre no longs. Mine hasn't been stoked in a long time.~
+@187 = ~What room did you settle in?~
+@188 = ~*The Bugbear scratches his head worriedly.* My always lived in the basement. But now therrre's slime in there. I had to go upstairrrs.~
+@189 = ~Slime, you say? How -much- slime?~
+@190 = ~My killed a few, but therrre's still plenty left. It's all the worrk of a wanderring wizar-rd. Narrca!  Narrcilissa... my can't say his name. My was very wrrrong to let him spend the night here! Even worrrse, my had dropped the magical key to the Masterrr's desk downstairrs.~
+@191 = ~(You finish your inspection of the guild. Now you need to decide what to do next)~
+@192 = ~(You look at your companions - perhaps you should ask their opinion?)~
+
+// Edwin
+@193 = ~*The Red Wizard looks around the guild warily. Soon, however, the caution on his face turns to contempt.* I knew it! How this miserable thing can be called a guild, I don't know. My talents deserve a better environment than this wreck! (Careful, Odisseiron!  You want them to need you!)~
+@194 = ~I'm tired of hearing you complain. Quit it or leave.~
+@195 = ~This place is trashy, pathetic, insignificant, and condemned - whatever you want to call this 'guild.' We could have something worthwhile and instead I get -this!-~
+@196 = ~Trashy, pathetic, insignificant, whatever you want to call this 'guild'. We could have something worthwhile like that giant magic sphere in the Slums! But no, instead I get -this!-~
+@197 = ~I agree, this place has seen better days, but we'll have to make do with what we've got. There's no other safe haven for us in the Atkatla yet.~
+@198 = ~Reliable?!  It's a wonder the roof of this ruin hasn't fallen in and crushed us all!~
+@199 = ~Come, Edwin! The building is strong enough to outlast your grumbling by at least a few years. Of course, if all goes well, I will provide a room for your personal laboratory where you can continue your magical research undisturbed.~
+@200 = ~Hmm. I agree to your terms for now because you're so cock-sure, but this laboratory had better be a -large- room! Mae'Var granted me an entire floor for my works!  (How soon can I be isolated from these simians?!)~
+
+// Viconia
+@201 = ~I can't believe it! You humiliated me in front of that bloody bugbear and for what?!  To get yourself a worthless, third-rate guild!~
+@202 = ~I'm sorry it hurt you, Viconia, but you're no longer in Underdark. As for the guild, in my opinion it's a good option, if it's done wisely, of course. It would require some investment, but I'm sure we'd get a return on it.~
+@203 = ~Mind your own business, Viconia. I decide what's best for us.~
+@204 = ~*The Drow interrupts you!* Wisely?! Tell me what stopped you from taking on a real deal instead of this... this... sub-guild! *She looks flustered, as if unable to properly express how displeased she is with this situation!*~
+@205 = ~*You smile at her.* I hope that with your help we shall do well with this opportunity.~
+@206 = ~You can put your foolish hopes to rest now, jaluk. We will sit here with this 'guild' in poverty and oblivion until the next time Lolth manifests on this material plane!~
+@207 = ~I see no hope in this! *Viconia's tone changes to sarcasm.* Fools never listen to anyone anyway and get their heads bashed in!~
+
+// Imoen, Nordic
+@208 = ~There's a lot of dust in here. It all looks long-abandoned.~ 
+@209 = ~To be honest... I can't say I'm impressed. There's too much dust and cobwebs and it's damp. Br-rrr. But then again, you and I have been in worse places. I think we should do this guild thing. I'm in.~
+@210 = ~All right. I hope we can turn this pumpkin into a carriage, assuming that's how the saying goes.  In the meantime, we should at least mop the floor.~
+@211 = ~Should my do it? Mine used to scrrub the floor - once a month.~
+@212 = ~Yeah. Do it.~
+
+// Jaheira
+@213 = ~I'm sorry, but I value our friendship too much to say only what you want to hear, <CHARNAME>.  I don't see anything worthwhile here, and I don't know why you're even bothering with this. We have more important things to do, like finding Imoen and dealing with Irenicus.~
+@214 = ~Maybe you should deal with them first, and only then play further with this 'guild'?~
+@215 = ~I think the war with Irenicus will drag on, and we'll have to find shelter somewhere. I am not drowning in contacts in Athkatla, and I'd like to have a place to call my own instead of sleeping in inns or out of sight. I say we deal with the Detective Guild. It's a small place, but it's a good shelter and a place to make some coin while helping people. Isn't that your Harper motto anyway?~
+@216 = ~I'm sorry, but I value our friendship too much to say only what you want to hear, <CHARNAME>. I don't see anything worthwhile here, and I don't know why you're even bothering with this. We have more important things to do, like defeating Irenicus.~
+@217 = ~For our purposes we need money, and the guild can generate income.~
+@218 = ~As you wish.  I'm just telling you what I think. I hope you choose the right path for us.~
+
+// Minsc
+@219 = ~Minsc didn't really understand what the guild was, but he trusts your intuition. Also, the fact that the guild finds the baddies and kicks their arse, that's the part we like.~
+@220 = ~Right, Boo?~ [GAM_48]
+
+// Edwin
+@221 = ~Yeah, yeah, take this guild.  I bet we're gonna have a dragon's lair full of gold and everything. Can't we just end this circus already?! (What a rusty, derelict, abandoned junkyard!)~
+@222 = ~This guild will make us look like like the poorest folk in Athkatla!  However, you monkeys insisted this was worth our while! Make it so! (Why am I surrounded by such lunacy and idiocy?!)~
+
+// Cernd
+@223 = ~It may be worth considering the creation of a search guild, an idea with potential. Humans are constantly searching for various things such as wealth, pleasure, self-discovery, spirituality, and other people.~
+@224 = ~Cernd, I didn't expect to hear words of encouragement from you. It seems strange, maybe even contradictory for a druid like you, who is so concerned with nature, to be in a large, noisy city instead of protecting the forests and listening to the birds. Would that be the right kind of job for you?~
+@225 = ~I will not repeat the mistakes of the Shadow Druids or extreme natural Avengers. I will not turn my back on my fellow humans, as they are also a part of nature, albeit not the best.~
+@226 = ~Humanity has not fully realised its connection with nature because it has become too detached from it. Even the simplest truth, that the destruction of nature would entail the destruction of both human beings and other race, eludes them.~
+@227 = ~That is why I no longer turn my back on cities and crowds of people.  Instead, I keep my eyes open and strive to educate people, to guide them on the path of nature conservation. This is why there is a benefit for Nature in our work together.~
+@228 = ~I don't know how you managed to link natural balance and private investigation, but I feel like there's definitely logic in what you're saying.~
+
+// Alora
+@229 = ~I think it's great to go on the trail, solving crimes and grabbing the bad guys by the hand!~
+@230 = ~Oh, wait a minute... this Master of yours hasn't been investigating small, just tiny, ahem - 'borrowings' from overly rich, puffed-up merchants, did he?~
+@231 = ~*The Bugbear smiles at the praise.* No, little miss! My masterrr and I catch mostly the big baddies, yes, and deliverrr them into the hands of justice!~
+@232 = ~Marvellous, marvellous, marvellous! In that case, we must help this worthy, wonderful bugbear! *She grabs your hand.* We can do that, can't we?~
+@233 = ~*You sigh.* Please let go of my hand, Alora.~
+
+// Making a decision
+@234 = ~My told you everrything you wanted to know. You have seen the Guild. Whut did you decide?~
+@235 = ~Well, I think I'm in. Let's see if we can work out the debt problem.~
+@236 = ~*Bugbear stares at you in disbelief for a moment, then almost jumps for joy, making the old floor squeak wildly* Rrreally?!~
+@237 = ~Mine didn't think you'd agree. And your hir-ring Norrdic? My good, my loving of the guild and gr-search!~
+@238 = ~Consider yourself hired, buddy, though I'm not the one in charge in this guild. You have served the Guild with great loyalty - your master would be proud of you. However, I cannot guarantee that we will be able to pull this boat out of  the depths, if you know what I mean.~
+@239 = ~Yay! You'll be fine with us. We'll definitely save your guild, Nordy!~
+@240 = ~*Nordic shakes your hand happily* My will worrk well, Masterr, you won't rregret it!~ ~*Nordic shakes your hand happily* My will work well, Mistrress, you won't rregret it!~
+@241 = ~But now we must hurry, get the key from the basement.~
+@242 = ~*You wonder when your arm will get some circulation back as bugbear opens the hatch to the cellar*~
+@243 = ~Stay, there are no other employees here anyway, and someone needs to take care of business.~
+@244 = ~No, I'm sorry, but I'm not ready to take on this guild.~
+@245 = ~*Nordic looks wistfully at you* Maybe you will change your mind.... therr-ris no chance?~
+@246 = ~Sorry, pal. We should go.~
+@247 = ~To tell you the truth, I don't have any confidence that I'll be able to defend the guild, or if it's even worth it.~
+@248 = ~My know it's worrth it, my will try very harrd - just tell my what to do.*The Bugbear's little bear eyes take on a pleading expression* My being good, my will serve you faithfully.~
+@249 = ~All right, all right - you've won. Let's try to get out of debt.~
+
+// Tiax
+@250 = ~I think the guild could come in handy! Under Tiax's rule, he'll need Inquisitors to hunt down conspirators, torture them and flog them in the squares!~ [TIAX2]
+@251 = ~Be proud, bugbear - you are honoured to serve the Great Tiax! And here's your first task: find my old smoking pipe, it's gone missing!~
+@252 = ~My don't know you, little one! My serrve only my Master, and you are not him!~
+@253 = ~All Toril inhabitants will obey Ciric's Chosen One if they wish to avoid horrible punishments. And you too will get used to it and become an obedient servant, you filthy beast!~ [TIAXM]
+
+@254 = ~Hoorrrrrrray!~
+
+//Kagain
+@255 = ~There's a lot o' money to invest in this company to running! and there's nae guarantee 'at the profits will pay for it, so i'm against it!~ [KAGAN36]
+
+// Safana
+@256 = ~Are you serious about starting your own business in City of Coins, <CHARNMANE>? But you're not going to stay here for long, then what's the point?~ [SAFANAJ]
+
+//Xzar
+@257 = ~Oh, I love this building, especially that it's in the Slums, where even the guards don't venture. And there's a basement! Perfect place to find new rabbits, ahahahaha!!! It's even better than my villa on the beach - it's already rumored in the city. Take it, <CHARNAME>!~ [XZAR3]
+
+// PID
+@258 = ~Masterr, please hurry up!~ ~Mistrress, please hurry up!~
+@259 = ~Tell me more about the guild.~
+@260 = ~All right, let's get back to business.~
+@261 = ~My thought my had told you everything. It's a small guild, the Masterr bought the building at a barrg-gain price and founded it in the winterr of sixty-five. There is no other guild like it in Amn, but some of our clients are taken by thieves! They don't like competition very much.~
+
+//Adelard's desk and cabinet
+@262 = ~*The scroll has a drawing of a young, attractive woman sitting at a table with a cup of coffee in her hands. Below it is the inscription: "My dear Elizabeth... "*~
+@263 = ~*sighs* Mistrress... The Masterr's wife died in childbirth long before the Guild was founded. The child didn't survive either. The Masterr was deeply hurt by this, grrieving for a long time, and then left Waterr-deep....~
+@264 = ~The Master painted her in a cafe... it's a place like a coffee shop where people come for a quick bite, yes... but they don't serrve meat, they just come to chat. That's where he met her and after they got married.~
+@265 = ~Look, the cup she's holding has the number 13 on it. .... If it's a date, there are two digits missing on purpose. But there are six digits on the lock, so there's probably a month in the code. ~
+@266 = ~Tell me, Nordic, do you know when Adelard's wife died?~
+@267 = ~Yes, Masterr, it was in the spr-ring of 1363. Do you think it's a code?~ ~Yes, Mistrress, it was in the spr-ring of 1363. Do you think it's a code?~
+@268 = ~Let's see, maybe this is the way to open this combination lock. Either way, if we don't get the documents out of the cabinet, we're not getting any further.~
+@269 = ~In front of you is a mechanical code lock. It is protected by magical symbols. You need a 6 digit code to unlock the lock.~
+@270 = ~Roll the first digit.~
+@271 = ~0~
+@272 = ~1~
+@273 = ~2~
+@274 = ~3~
+@275 = ~4~
+@276 = ~5~
+@277 = ~6~
+@278 = ~7~
+@279 = ~8~
+@280 = ~9~
+@281 = ~Roll the second digit.~
+@282 = ~Roll the third digit.~
+@283 = ~Roll the the fourth digit..~
+@284 = ~Roll the the fifth digit.~
+@285 = ~Roll the sixth digit.~
+@286 = ~*You roll the last digit and wait for the result...*~
+@287 = ~*Nothing happens. Something's gone wrong.*~
+@288 = ~*Click! The lock is open!*~
+@289 = ~...~
+@290 = ~*Leave the cabinet in peace.*~
+@291 = ~My wait in the Masterr's office for a while. When you go to the basement, my go too.~
+
+// Success or failure
+@292 = ~All right, we got the documents! What do you think we should do now? Maybe we should find someone who knows about guild law.~
+@293 = ~My think this is a good idea!! One day the Master hired those teacherr to teach me to write. My write is not very good. Um... My had seen them in the Goverrnment Distrrict near the city hall. They're called counsel-lorrs, my think.~
+@294 = ~Then let's go to the government district.~
+@295 = ~Oh, and get this, there are two other names on the guild list besides yours: Clefast and Andel. Who are they?~
+@296 = ~Andel is our forrmer courier, a halfling. He worrked with us for a long time, yes, but then when the Masterr went missing, he left. I don't blame him at all, he's got a family.~
+@297 = ~Who Clefast is, my don't know.~
+@298 = ~*Nordic picks Alora up on his mighty furry shoulders and strides resolutely forward.*~
+@299 = ~Hold on tight, little missy.~
+@300 = ~Hey! Full speed ahead!~
+@301 = ~Yeah, there's not much time left, Masterr!~ ~Yeah, there's not much time left, Mistrress!~ 
+@302 = ~Speaking of which, don't call me master, Nordic. Call me by my first name.~ ~Speaking of which, don't call me mistress, Nordic. Call me by my first name.~
+@303 = ~Yeah, let's hurry up.~
+@304 = ~Yes, Masterr. As you wish.~ ~Yes, Mistrress. As you wish.~
+@305 = ~Okay, let's go find those counsellors.~
+@306 = ~*growls sorrowfully* We're too late. The guild is overr. My thanks for your help. My will go.~
+
+// Additions for the MC druid
+@307 = ~But first, let my question, too. You're a wanderring druid, aren't you?~
+@308 = ~Yes, I protect nature and endowed with sacred magic. But why do you ask?~
+@309 = ~It's good you're a drruid. My Masterr told me about them, he said that a warrband without a priest was worrthless. I think a drruid is re-rr-reliable.~
+@310 = ~Okay, that's good to hear, but can we please get back to discussing the guild?~
+
+@311 = ~Master, prepare for battle. There's a lot of slime down there.~ ~Mistress, prepare for battle. There's a lot of slime down there.~
+@312 = ~*You take the former guild leader's documents from the cabinet and study them*~
+@313 = ~Oh, come on, Edwin. It's a normal place.~
+@314 = ~It's a wonder the roof of this ruin hasn't fallen in and crushed us all!~
+@315 = ~Leave me alone, Edwin! I'm the one making the decisions here.~
+@316 = ~Hmph. (How rude and presumptuous. Why do I still tolerate this?)~
+@317 = ~But here you will have a large office where you can create scrolls.~
+@318 = ~I'm still working on the scroll, come back later!~
+
+// Counsellors
+@319 = ~Help in the registration of inheritance! Litigations! K-heh, k-heh, bloody dust!~
+@320 = ~I'm looking for a guild councillor.~
+@321 = ~Greetings. Is there anyone I might be able to consult with about the guild?~
+@322 = ~Oh, I understand how important and busy you all are! But what I really need is a guild advisor .... or counsellor, whatever.~
+@323 = ~It's a lot of bloody paperwork, innit? Why make it so hard on yourself? But whatever. I want to talk about the guild stuff.~
+@324 = ~Oh, wow! You look very important and busy here! But what I really need is an advisor on guild affairs.~
+@325 = ~*bilious* So what, citizen? I'm in the inheritance business and I haven't made a copper today. Go to Numa, that lazy bum was here today.~
+@326 = ~Then you need Numa. He was here somewhere.~
+@327 = ~I help couples to divorce. You know, it's hard for women in Amn. All the laws here are made to keep them enslaved in marriage!~
+@328 = ~But of course I also have to deal with husbands... who have at least heard of women's rights.~
+@329 = ~I was told to speak to Councillor Numa.~
+@330 = ~I've been hearing about some Numa.~
+@331 = ~About a guild... there is a case...~
+@332 = ~What can I get for you?~
+@333 = ~Then I am your man. Allow me to introduce myself, I am guild councillor Numa Beth-Din. You can find out more about me at the Collegium of Counsellors or at Government House. I've been counselling guilds for ten years, the last five of them in Athkatla.~
+@334 = ~I have thousands of successfully resolved lawsuits and myriads of grateful client! And all of this for a very modest price: for just two hundred coins you can get answers to all your questions about guilds: income tax and other levies, legal disputes, guild hierarchy and the election of masters, in short, anything you want to know! I can also represent your interests in court if necessary.~
+@335 = ~Okay. I want to defend a guild. How much will it cost to hire you? ~
+@336 = ~Hey there, Counsellor Numa! I'm reaching out because I'm in a bit of a jam with a some small guild. It might be just your cup of tea!~
+@337 = ~I've got a bit of a law case on my hands. I'm trying to save the guild. Can you help me?~
+@338 = ~Oh, you're a serious man as I see! You're just what I need. I'm here about a little guild I need to protect.~
+@339 = ~I'm not sure yet, but I'll let you know as soon as I can.~
+@340 = ~As you wish.~
+@341 = ~You again. What can I do for you?~
+@342 = ~Hello! I'm looking for a guild counsellor.~
+@343 = ~I need help with a very specific guild. I believe this case falls within your area of expertise.~
+@344 = ~I want to protect a guild. How much will it cost to hire you?~
+@345 = ~But first of all, may I ask with whom I have the honour of speaking?~
+@346 = ~My name is <CHARNAME>. I represent the Detective Guild.~
+@347 = ~I apologise for not introducing myself at the outset. My name is CHARNAME, and I would be grateful for any advice you could offer regarding the Detective Guild.~
+@348 = ~<CHARNAME>. Detective Guild.~
+@349 = ~When will they start recognising my face in this Atkatla? I am <CHARNAME>, Hero of Baldur's Gate, and I have business with you about the Detective Guild.~ ~When will they start recognising my face in this Atkatla? I am <CHARNAME>, Protectress of Baldur's Gate, and I have business with you about the Detective Guild.~
+@350 = ~Oh yeah, I remember that cute little guild from Slums! It's one of three guilds there, along with the Scavengers and the Sharpeners, if I'm not mistaken. I've heard so much about you guys, but to be honest, I've never had the pleasure of meeting any of you.~
+@351 = ~But before we get down to business, let me see something official, if I may be so bold, sir, m-mm... something that indicates your Detective Guild affiliation.~
+@352 = ~*You hand the guild papers to the councilor* Will this fit?~
+@353 = ~Oh, don't worry, I have the necessary paper with me. *You hand the guild papers to the councilor.*~
+@354 = ~Papers, papers and always papers... Where is the good old days when a good punch solved everything... no matter what. Look here, will this fit?~
+@355 = ~Damn, it seems we left the documents at the guild!~
+@356 = ~I don't have time for this nonsense! Either you lower the price or I'll hire another counsellor!~
+@357 = ~*Numa quickly looks through at the document* Wow! The Statute of the Council of Six, and it seems to be genuine. As far as I can see, the Guildmaster trusts you enough to give you such valuable documents.~
+@358 = ~Actually, the guild's problems began with his disappearance.~
+@359 = ~How dare you not trust me! There's nothing wrong with the papers. But the Guild Master has disappeared.~
+@360 = ~The Guild Master had nothing to do with it. But the guild is in trouble, and I've been asked to help.~
+@361 = ~Well, it wasn't a guild leader who gave me the papers. He's a bit... a bit... out of the picture... he's basically missing. That's why the guild is in such a mess. But the papers aren't stolen, don't worry.~
+@362 = ~Well, these documents are good enough for me. So you're saying that your guild is in trouble?~
+@363 = ~The City Council wants to seize the guild for debts. The head of the guild, the mage Adelard, has disappeared, and the guild itself is ready to be shut down today if we don't do something about it. In total, the guild is owed two thousand five hundred gold coins.~
+@364 = ~Oh, there's a whole story here! The guild was almost taken away from a Bagbear for debts, because his master, the mage Adelard, has disappeared. We have to think of something or the guild will be ruined. In total, the guild is owed two thousand five hundred gold coins.~
+@365 = ~I see. Well, it's a complicated case, but nothing is impossible. As I said, my prices are always within reason. I think I'll take two hundred gold pieces for my job.~
+@366 = ~I also need to know if you have the gold to cover the guild's debts. You should also be prepared for extraordinary expenses. We'll have to act quickly - this is Amn after all. So the total for you is 2700 gold.~
+@367 = ~Well, that's a deal!~
+@368 = ~Eh... That's a lot of money. But okay, I agree!~
+@369 = ~I don't have that much money right now.~
+@370 = ~Why is it so expensive? I thought you said that your prices were modest!~
+@371 = ~Well, you are good at making money, as I can see! How about giving us a discount?~
+@372 = ~<CHARNAME>, this things look nasty for me - don't ye daar pey. That crappy guild isn't worth ten coins, and this rascal wants to take us fur fools and make a fortune!~
+@373 = ~I see, that's fine. You can always come back when you've collected the necessary coins.~
+@374 = ~Well, shall we get back to your case?~
+@375 = ~Yes, I've managed to get you the money you need.~
+@376 = ~I've got the gold you need.~
+@377 = ~Great. Let's get started.~
+@378 = ~Not yet. I haven't got the money yet.~
+@379 = ~I see, that's fine. You can always come back when you've collected the necessary coins.~
+@380 = ~I see you've returned.~
+@381 = ~Erm... I m sorry, but I can't lower the price of my services.~
+@382 = ~I ll pay you what you re worth. Here s the money.~
+@383 = ~That's a lot of money! I can't take it from my heart! But whatever. Here you go. Let s get down to business.~
+@384 = ~I am not interested in hiring you for THAT price.~
+@385 = ~I'm not going to keep spending gold because I don't have that much. I'm sorry for the inconvenience, but I have to go.~
+@386 = ~I'll build a new guild from scratch for that cost! I will pay you nothing.~
+@387 = ~I'm afraid I can't help you in that case. Now then, if you ll allow me, I have business to attend to.~
+@388 = ~You'll rruin the guild if you don't use your head! What do we do now?!~
+@389 = ~Don't worry, we'll just hire another counsellor.~
+@390 = ~This is a question only a fool would ask. Do you want me to throw away a lot of money? We'll find another counsellor who's cheaper.~
+@391 = ~Look, I'm sorry this happened to your guild, but I'm tired of this "charity" nonsense. I'm sure someone richer will agree to help you. I'm done with this.~
+@392 = ~Bugbear, I'm tired of you. Farewell.~
+@393 = ~We don't have time to look for someone else. Hire this one! You can see it in him. *Bugbear points with his finger at Numa's decent-sized belly* This man eats a lot   that means he knows his business, and knows it well.~
+@394 = ~Hmm... I think you may have a point.~
+@395 = ~Ha ha! That's sound reasoning. Okay, consider that you have per-r-rsuaded me! *you re imitating the growl of a bugbear*.~
+@396 = ~Please do not hesitate to contact me again should you require my service.~
+@397 = ~*sadly* My guild is end. My go away.~
+@398 = ~Now, let's get to the point. You are a representative of the Detective Guild whose chief has been missing for six months. The guild is currently facing some serious issues, which have arisen as a result of unpaid taxes and the non-renewal of the rent agreement. I need to be sure I understand everything correctly.~
+@399 = ~I guess so. You've got it right.~
+@400 = ~You are absolutely correct. The situation is exactly as you have described it.~
+@401 = ~Yep, that s correct. I still don t understand why I m getting involved in all this.~
+@402 = ~Yeah, you got that right. You're a smart guy.~
+@403 = ~Perhaps we could consider concluding a new rent agreement with city as a potential starting point. This is a rather unusual practice, as in most cases the contract is simply extended. In your case, this may suggest that someone is aware of the situation with the guild and is interested in taking over the land and building. It is possible that the person (or persons as well) in question are interested in purchasing your guild at a very low price. Perhaps you might be able to shed some light on who it might be?~
+@404 = ~*you speak in a confident tone* These are the Shadow Thieves. There is no doubt about it. They are our direct competitors.~
+@405 = ~I don't know any more than you do, but it's clear that someone in official is involved here.~
+@406 = ~It doesn't matter who it is, they'll be defeated.~
+@407 = ~No, I don't know. I d like to hear your thoughts about this.~
+@408 = ~I agree with you, but without knowing who these people are, this conversation isn t going anywhere. Let s put this on hold for now and move on.~
+@409 = ~No, unfortunately I don't know. So without specific names, all of our speculation is just guesswork. Let's just put that question aside for now and move on, okay?~
+@410 = ~Maybe so. And that's not good considering their power. But without knowing who these people are, these assumptions aren't very useful, do you think? Let's not worry about this question for now, okay?~
+@411 = ~The second, and most important thing I noticed was the unexplained disappearance of the guild leader. What did you do about it?~
+@412 = ~I looked all overr town for him, but I can't find him. Then I going to the guarrrds, but they kicked me out. Then one of their still listened to me.~
+@413 = ~Good! Its good, Mr. Bugbear! Can you remember what his name was? I mean, the guard who helped you?~
+@414 = ~*Bugbear sniffles concentratedly, struggling to remember* He to be... Khomath or Kemeh.~
+@415 = ~Lieutenant Khemed?~
+@416 = ~Yes, that would be his name!~
+@417 = ~At least that's something. Lieutenant Khemed is in charge of the search for missing persons in Athkatla. I saw him outside the prison the other day.~
+@418 = ~So, what are you suggesting?~
+@419 = ~Well, how can he help us? Do you think he'll find Adelard?~
+@420 = ~Do we have to deal with the guard?~
+@421 = ~We need to talk with him. If Adelard or his body has been found, he'll let us know. Can you identify the guild master's body if you need to?~
+@422 = ~I can't. I've never seen him before in my life. *You nod at Nordick.* He can do it.~
+@423 = ~No, of course not. We didn't know each other.~
+@424 = ~Could I ask how you managed to gain entry to the guild, given that you did not see the head of the guild?~
+@425 = ~That's my business, so mind your own.~
+@426 = ~This bugbear dragged me into the guild. And don t ask me any further. I don't even know why we got into this mess.~
+@427 = ~I don't have to look for adventures, they find me. This time, it's this bugbear. He asked me to save his guild.~
+@428 = ~Of course. The employer's wishes are the law. Let's go talk to Khemed.~
+@429 = ~This case is becoming rather intriguing. However, I feel it may be beneficial to speak to Khemed at this point.~
+@430 = ~We must speak to the councillorr-rs, Master!~ ~We must speak to the councillorrrs, Mistrress!~
+
+// Khemed
+@431 = ~Khemed! It's been a long time since I've seen you. I shouldn't have left my old friends for so long.~
+@432 = ~*A wry grin crosses lieutenant's face as he meets Numa* You're no friend of mine, Sembian. And you saw me at this very place yesterday, but you didn't come near me. And you haven't even greeted me once all month. What do you want, you fat fox?~
+@433 = ~*Numa gives a friendly smile* It's nice to see you too. But since you're ready to get straight to the point, I'd like to know about a missing person.~
+@434 = ~Oh, bloody hell! OK, fine, let's do it. Sex, race, age, weight, height, appearance, occupation, family of the missing person. Then there are the special signs to look out for: missing limbs, eyes, fingers, teeth? And don't forget tattoos and burns (if MP has any).~
+@435 = ~Then, when and under what circumstances was the missing person last seen? Had he or she been in trouble with the law or had unpaid debts? Finally, did he or she have any enemies?~
+@436 = ~Have you memorised everything I've listed, citizen? Do you? Alright. Write it all down on a scroll and give it to me. And don't think the guards of our glorious city will be on the  run headlong looking for a homeless vagrant from the Slums.~
+@437 = ~*Bugbear looks defiantly at Khemed* My talk with you, months ago. You write down my story, tell me to wait. Mine waited very long, then came to you again, but mine are driven away by your soldierrs. Have you found Masterr Adelard?~
+@438 = ~Hey, monster! I remember you. You were looking for your boss, Adelard, weren't you? So that's who you're searching for. He used to run that little guild -  I remember the guards had to cooperate with him. It's all for that old bitch called Lady Justice, he-he!~
+@439 = ~Have you found my Masterr?~
+@440 = ~No, I haven't. I have checked the prison and the morgue, and I couldn't find anyone with the description you left. I have also checked it again two months later, and the result was the same.~
+@441 = ~Did you take a statement from this bugbear? I mean, did you write down his statement on the scroll?~
+@442 = ~Yes, probably I do... I mean, no, I don't. Honestly, I don't remember. I'll have to go back to the garrison to check this case. But what is your point, you sly fox?~
+@443 = ~I believe this scroll exists, stamped and dated as it should be, knowing you and your neatness. Lieutenant, please wait here for a moment. I will be back to you shortly.~
+
+// Numa
+@444 = ~*Numa takes you aside and begins to explain his plan in a low voice.*~
+@445 = ~I would be grateful if you could tell me a little more about yourself. Of course, you can answer in the most general way.~
+@446 = ~I have been sent on a diplomatic mission from Baldur's Gate to Amn.~
+@447 = ~I am a simple Cormyr merchant, here on trade business.~ ~I am a simple sutleress from Cormyr, here on business.~
+@448 = ~I'm an adventurer from the Sword Coast. That's all you need to know.~
+@449 = ~I am from Baldur's Gate, travelling to see the world.~
+@450 = ~I am the Child of Bhaal, the evil god of Murder!~
+@451 = ~Actually, in the lands north of Amn, I am known as the hero of Baldur's Gate.~ ~Actually, in the lands north of Amn, I am known as the Protectress of Baldur's Gate.~
+@452 = ~That s a good joke! I ll write it down. Now, please be serious.~
+@453 = ~Excellent. I have another question for you. Are you an enemy of Amn? Are you fleeing from justice here or in other lands? Tell me honestly. I won't tell anyone your secrets, but I need to know whether or not I can help you.~
+@454 = ~NO, I am not an outlaw. What is your purpose in asking me such questions?~
+@455 = ~I've been bringing goodness and light to everyone around me for a years now. However, it doesn't always work out the way I want it to...~
+@456 = ~I've made my mistakes, but I'm not going to run away from justice. I have never been an outlaw in the past. I am not that person.~
+@457 = ~I have made it my mission to stay clear of the political circus and all the other sordid things it entails. And that goes for crime as well.~
+@458 = ~Let me be clear: I am not an enemy of the South. I stopped the impending war between Amn and Baldur's Gate.~
+@459 = ~Please listen to me carefully. I'm certain we won't find Adelard this week. I doubt we'll ever find him at all. Speaking of which, why your guild hasn't organised a global search for him?~
+@460 = ~The problem is that you see the whole guild in front of you, no more, no less.~
+@461 = ~Unfortunately, Nordic and I are unable to do so. In other words, there are only two of us, and we represent the entire guild.~
+@462 = ~You and bugbear are the whole guild? Is this some kind of joke?~
+@463 = ~Adelard didn't need many agents; he was good at investigations by himself. Nordic said there were a couple of others in the guild, but they'd run away when the wizard was gone.~
+@464 = ~Well, it just so happens...~
+@465 = ~Bugbear... it's a bugbear. But I'm worth ten, mark my words. I could use an assistant, though. Or perhaps a couple of them.~
+@466 = ~I get it. It's a significant problem, but it's not fatal. You will always be able to new recruit, even if the material you get is not of the highest quality. The most important thing right now is to find a new guild leader to sign a contract with the city.~
+@467 = ~Where can we find a new guild master?~
+@468 = ~Hmm... new chief... Interesting.~
+@469 = ~*Numa's looking at you silently*~
+@470 = ~Do you mean me?! But how...?~
+@471 = ~Yes, I know what you're thinking. But...~
+@472 = ~Your thoughts seem to be moving in the right direction, Numa. But still...~
+@473 = ~*Counsellor interrupts you firmly* Don't worry, I'll take care of it. I'm here to support you every step of this way. Just answer the question: how would you feel about leading over the guild? Have you contemplated this decision? Although it's a difficult decision, I think this is the only way to save this guild.~
+@474 = ~But what happens if Adelard is found? What then?~
+@475 = ~Was it worth joining this guild if I don't take the lead? So be it. But I'm sure Adelard could still be found. So what then?~
+@476 = ~I really wouldn't want to take this on myself, but while we're at it... I think we're supposed to be looking for Adelard, right? And if we do happen to find him, what do you think we should do?~
+@477 = ~*Numa winks at you cajolingly* Should you wish to relinquish your position, you may do so at any time. Or you can consider becoming a Guild Master for a longer period of time, for a very lo-o-ong, if you know what I mean. Please take your time to think carefully before you answer.~
+@478 = ~Whatever you do here in Athkatla, being a guild leader will open up so many great new prospects for you! I just want to say that the advice I ve shared with you is based on my own experience, if I may be so bold, sir. I started out in this city as an assistant counsellor, and let me tell you, it took a lot of time and effort to get where I am today!~ ~Whatever you do here in Athkatla, being a guild leader will open up so many great new prospects for you! I just want to say that the advice I ve shared with you is based on my own experience, if I may be so bold, ma'am. I started out in this city as an assistant counsellor, and let me tell you, it took a lot of time and effort to get where I am today!~
+@479 = ~In my younger years, I often had to face challenges like eating less for days and sleeping on the streets before things started to improve. Luck comes right into your hands, and if I were you, I would make an effort to catch luck by the tail. Fortunately, you may need only a little effort in the right direction, and that it would not take much.~
+@480 = ~Could you please outline what will be required of me as the head of the guild?~
+@481 = ~And what does that "a little efforts" represent? What would I need to do in the guild?~
+@482 = ~To summarize, what are my duties as guildmaster?~
+@483 = ~Your duties will be relatively straightforward, including running the guild yourself, making decisions, and earning money for yourself and the guild. There will, however, be more complex duties, such as taking care of your own staff.~
+@484 = ~In short, it's the same duties as any mercenary band captain. I hope you didn't think that I wasn't aware of your true occupation. It's good that you have similar experiences.~
+@485 = ~*Bugbear growls encouragingly* You can do it. Mine will be happy to serrve you!~
+
+// NPC-reactions
+@487 = ~*Nods briefly to you* Do it. Lead this guild.~
+@489 = ~Do as you decide. I'll abstain from criticizing.~
+@491 = ~*The drow priestess silently turns to the side and grunts contemptuously - obviously, she hardly approves of your idea.*~
+@493 = ~I-I think this is going to be very interesting!~
+@495 = ~It's a strange thing, but you probably know what you're doing.~
+
+// Numa
+@496 = ~All right. I'll take over the guild leadership since there are no other options.~
+@497 = ~It was clear from the start that I was going to lead. So no problem.~
+@498 = ~I had even worse luck with... ah, whatever. I'm taking the guild.~
+@499 = ~Wow, my very own detective guild! I will gladly become a guildmaster of it!~
+@500 = ~*Bagbir growls happily, throwing his morgenstern upwards* Rr-rar!~ [BUGBR03A]
+@501 = ~*The councillor rubs his hands together* Well done! You will lose your grip if you don't challenge yourself, you know. This case is the most significant one I've had in a long time, and we're only one step away from achieving success in it.~
+@502 = ~So what now, Numa?~
+@503 = ~All of this is great, but I need to know what the plan next is.~
+@504 = ~I am pleased to share your enthusiasm. Now, what should we do next?~
+@505 = ~It's quite simple: a routine legal actions is exactly what we need. We shall require Adelard to be declared legally dead now. And Khemed will help us do that. Please wait here.~
+@506 = ~Still, I will refuse. I don't need this guild.~
+@507 = ~I haven't started anything yet and my head is already spinning around... No, it's not my thing.~ 
+@508 = ~Okay, wait. Why am I doing this? It's time for me to stop.~
+@509 = ~Have you considered this decision?~
+@510 = ~Yes, completely. My answer is no.~
+@511 = ~I don't have the habit of chatting without thinking.~
+@512 = ~I'll think about it a bit more. M-m-mm.... Nope, I don't want to lead this guild.~
+@513 = ~I repeat: I do not want this guild.~
+@514 = ~It's up to you. In that case, there's nothing I can do to the Detective Guild from being dissolved. That's the end of my work, here's your money,  minus the cost of my services. Have a good day.~
+@515 = ~Masterr... what's going on? Are you don't want to save the Guild?~ ~Mistrress... what's going on? Are you don't want to save the Guild?~
+@516 = ~I'm afraid I can't take care of the guild right now. I'm really sorry, Nordic.~
+@517 = ~I'm sorry, I shouldn't have got into this in the beginning.~
+@518 = ~Nordic, I'm not your Master. Let's wrap up this game.~ ~Nordic, I'm not your Mistress. Let's wrap up this game.~
+@519 = ~Where do my go now?~
+@520 = ~*Without saying goodbye, bugbear leaves. It's clear that the loss of the guild was a big blow to him.*~
+@521 = ~So, what's your decision? Do you want to take the reins of the guild or not? Just make up your mind!~
+
+// NPC-reaction
+@523 = ~I think it's an interesting idea!~
+@525 = ~You know my opinion, I won't repeat it.~
+@527 = ~I think looking for criminals is a good thing to do. Just don't deal with any of the Cowled Wizards.~
+@529 = ~That's the most ridiculous idea I've ever heard. Anyway, go ahead and do whatever you want.~
+@531 = ~It's your decision, I'm not a good counsellor. Just do what your heart and soul tell you to do. You'll never go wrong that way.~
+@533 = ~Woof-rrr! *growls softly in approval*~
+@534 = ~Are you, um... talking to a bear? Oh, never mind, it's none of my business.~
+@536 = ~If there's a cellar with a fine wine barrel in it, I'm in!~
+@538 = ~This guild has a nice basement where I can draw wonderful pentagrams.... and it's got thick walls, so no one can hear anything outside. So go ahead, and I'll find something to do there!~
+@540 = ~If it helps us make coins and find rare artefacts - I'm in!~
+@542 = ~*Lowering his voice* We can do a lot with this guild because the guards are unlikely to suspect the detectives. If you've got a brain in your head, you can find benefits everywhere!~
+@544 = ~Usually such organisations follow wives at the request of their husbands. They stalk unhappy lovers and prevent passionate people from enjoying life. It's terrible. However, if you don't want to do this kind of work, I m fine with that.~
+@546 = ~Sure, go for it! With the help of this guild, we'll be able to find out the secrets of many local nobles, such as where they keep their jewellery and what their sins are. It'll make it easier for us to *work* with them.~
+@548 = ~In my opinion, it's a worthy job because you get to help the guards search for criminals.~
+@550 = ~Of course, his opinion is so "important" to us! Hmph!~
+@551 = ~The Guild can come in handy for Tiax's rule to hunt down disgruntled rebels and brutally torture them until they admit Tiax is the greatest and most merciful ruler!!!~ [TIAX2]
+@553 = ~I think it's a good idea in theory, but it'll only work if you can come up with a proper plan. I can help you with that. There are crimes and missing people in Athkatla all the time. So there's plenty of work for the Detective Guild.~
+@555 = ~I'm not interested. If you want to go ahead. Otherwise, no problem.~
+@557 = ~I'd rather have joined a fighters' guild. It's a more worthy occupation. But do as you will.~
+@559 = ~If you think we'll have time to do all this, then I don't see a problem. Maybe this way we can even help someone and serve a worthy cause.~
+@561 = ~I think this will give us new material for a book about my adventures! Exciting searches for criminals and artifacts, surveillance of murderers, tears in the eyes of grateful clients... Ah, I can see it already!~
+@563 = ~Let me think... Hmm, this might be interesting, right? Oh, and we'll need this... dark uniform, right? I can already see us solving various mysteries and exploring the dark secrets of Athkatla.~
+@565 = ~If you have the enthusiasm and desire to do it, go ahead! I can t say that I m delighted, but you can count on my help.~
+@567 = ~You're in charge here, so go for it! Deekin will still be with you.~
+@569 = ~I don't see any point in wasting time on this. It's all temporary anyway. This guild and this city will disappear someday. And the locals are just grains of sand in the clock of time, just like their little problems.~
+@571 = ~N-no,  I can't tell you what to do. You know, I belong to another organisation... umm.~
+
+// Numa
+@572 = ~*The councillor returns to Khemed, and a spirited dialogue immediately ensues between them, accompanied by violent gesticulation and cursing. Finally, after mutually calling all the Gods to be witnesses, the two sides seal the deal with a handshake. Then the lieutenant starts writing something on the back of one of the soldiers. It looks like Numa's efforts have got this *deal* done.*~
+@573 = ~It's all done. This paper is the official confirming the death of Adelard the Wanderer, who went missing six months ago.~
+@574 = ~*sadly growls* Master!~
+@575 = ~If Nordic hadn't turned to the city guard, we would have failed. And now our battle is almost won!~
+@576 = ~It is now necessary to elect you, CHARNAME, as the head of the guild. The guild master is elected by an open vote of the guild members. In accordance with the law on small guilds, as I recall, there must be at least four members-electors, including the head of the guild.~
+@577 = ~Well, with your companions, we now have all the votes we need. Please write your names and sign your signatures here.~
+@578 = ~It is wrong to falsify an election, but it must be done. I'll fill in the missing names.~
+@579 = ~*He rolling up the scroll.* OK, that's it. Now, where is the official guild seal?~
+@580 = ~My saw it in the cabinet for imporrtant papers.~
+@581 = ~So let's find guild seal. Then we'll go to Government House. Let's hurry, we have to get there before it closes.~
+@582 = ~*Numa puts the seal on the scroll and gives it back to the Nordic* Now, I think we're ready. Just one more step to go.~
+@583 = ~What's it going to be?~
+@584 = ~Hooray - finally the last stage!~
+@585 = ~Can't wait to get this over with.~
+@586 = ~Thank you, Numa. So what do we do now?~
+@587 = ~We will file the papers and pay the debt. Then we claim our rights to the guild. The officials will go through the list of criminals, but it will only take a few minutes. Then, you will be sworn in and become an Amn citizen. Let me make this clear: you are not from here, and foreign people are not allowed to run Amnian guilds. Finally, you, as the new guild leader, will sign a lease renewal agreement with the city.~
+@588 = ~Okay. Let's finish what we started. Let's go.~
+@589 = ~And again I ask myself, why did we get into this nonsense? But now what we have is what we have.... here we go.~
+@590 = ~Amn citizenship? Not bad. All right, let's go.~
+@591 = ~Amn citizenship? Why do I need it? But since that's the way it's done... let's go.~
+
+// Official 
+@592 = ~*Seeing Nordic* Gods! You again!~
+@593 = ~We are here to present the papers regarding the election of a new head of the Detective Guild!~
+@594 = ~Numa? What election are you talking about? This guild is on its last legs. Tonight, we'll sign over its property to the city treasury.~
+@595 = ~*Your counsellor handing the scroll to the official.* I'm afraid that won't happen. Adelard is not just missing, he is already declared legally dead. Here s the City Guard s report on it. All within the statutory period of six months after he'd been missing.~
+@596 = ~*Stunned* The document is genuine. But I don't understand. There was no one in that guild except for bugbear. Where did the new head come from?!~
+@597 = ~*You step forward* My name is <CHARNAME>. I was elected as the new guild leader today by unanimous decision. This is the document that proves it.~
+@598 = ~*You listen quietly and don't interfere with the process.*~
+@599 = ~*The councillor nods his head in agreement with you and places another scroll on the desk of the official.*~
+@600 = ~The head of the Detective Guild has been elected today. *Nods at you* Here is that person. And this is a document confirming his successful election.~
+@601 = ~You? I believe I may have seen you here this morning, taking the Bugbear with you. So you're the new guild leader now?~
+@602 = ~That's right. I'm willing to pay my debt and make a new contract of direct lease agreement with the city.~
+@603 = ~I always pay my debts on time. ~
+@604 = ~*The councillor silently places the bag of gold coins on the table and takes a step back.*~
+@605 = ~So... "Residential&Commercial Lease Agreement"... without subletting (this limit is extended in case of jointly owned property...). In light of the new circumstances, we believe it would be best to begin preparations for your well-deserved recognition by the Amn authorities as guild leader. However, we will need to investigate your past to ensure that you are not an enemy of Amn.~
+@606 = ~Sorry to interrupt, but I've already told the new guild master everything. Let's get right to it!~
+@607 = ~Yes, yes, of course I understand. I appreciate your input. If your biography is satisfactory to us, we will do our best to keep the process as short as possible.~
+@608 = ~*For the next hour, an executive official and three of his colleagues hastily perused massive tomes filled with individuals who had been involved in espionage, outlaws and enemies of Amn, while another younger official prepared the ceremonial black robes for the upcoming ceremony and measured your finger. When the preparations were finally complete, you were solemnly sworn in as head of the guild and a citizen of Amn.*~
+@609 = ~Do you swear to uphold the rules and laws of Amn while as leader of the guild?~
+@610 = ~I swear.~
+@611 = ~Do you swear not to plot against the Council of Six and will readily carry out their orders?~
+@612 = ~Do you swear...~
+@613 = ~*After a long ceremony and quite a few oaths, you were given the symbol of your authority, the Master's ring, and you were finally able to leave the Government House, as new the rightful head of the Detective Guild.*~
+
+// Numa (checks passed successfully)
+@614 = ~I'm not saying goodbye. I'll be back soon, and we'll have something to talk about.~
+@615 = ~I'll always be glad. I want to thank you again for your efforts. Without them, we definitely could not have done it.~
+@616 = ~Thank you for helping me and Nordic so much!~
+@617 = ~If it weren't for you, things would have turned out differently. Thank you!~
+@618 = ~We all did a great job. Now, if you'll excuse me, I'm needed back to work.~
+
+// Nordic
+@622 = ~*Bugbear looks very happy.*~
+@623 = ~Well, Nordic, are you happy? ~
+@624 = ~Well, Nordic, now your precious guild will live and prosper. We should still to see what's up with Adelard's inheritance to get the guild building in our ownership.~
+@625 = ~You made me take on this job after all... But that's okay, since we're doing it this way, let's try to make the best of this guild. By the way, you're now a Senior Detective, pal. I mean "partner", of course.~
+@626 = ~The situation a bit of a mess. But you're happy, as I see.~ 
+@627 = ~My still can't believe it, Masterr. Thanky!! My thought was guild was going to end. But with you, the guild will live on. My sorry to doubted you!~ ~My still can't believe it, Mistress. Thanky!! My thought was guild was going to end. But with you, the guild will live on. My sorry to doubted you!~
+@628 = ~I wasn't sure if I should be involved in this myself, but I'm in. The decision has been made. We have the guild, so we can close the question.~ 
+@629 = ~Please don't ever doubt me again.~
+@630 = ~I hope it is clear that there was never any reason for you to doubt me. ~
+@631 = ~I, too, always have my doubts. You can't take things for granted or get your great hopes up. But things seem to be going pretty well at the moment....~
+@632 = ~Yeah, mate, I'm your master now. Don't forget that.~ ~Yeah, mate, I'm your mistress now. Don't forget that.~
+@633 = ~*Roars happily* Yes, master. That's it, I'm going to the guild!~ ~*Roars happily* Yes, mistress. That's it, I'm going to the guild!~
+
+// NPC reactions (failure)
+@634 = ~Praise Shar, we are no longer in danger of ending our days in this wretched 'guild'. Hopefully you won't waste OUR time with such nonsense from now on.~
+@635 = ~Oh, t-that's a pity. I was so interested.~
+@636 = ~Well, there you go! I was already dreaming of more striking stories...~
+@637 = ~And why am I not surprised? Why even start something that was doomed to fail beforehand?~
+@638 = ~Hmmm...to be honest, I'm a little sorry. That was a rather curious way of doing good. ~
+@639 = ~Have you had enough, <CHARNAME>? Let's do something useful. ~
+@640 = ~Pity. With this guild, we could have helped a lot of citizens.~
+@641 = ~Not everyone can do this kind of work, it takes a special kind of skill. I'm sorry you couldn't do it.~
+@642 = ~Well, the great Tiax didn't get the guild because of you worthless fools!!!! Although... I don't care, he's got greater things to do!~
+@643 = ~This time-wasting is finally over! ~
+@644 = ~This is what happens when you don't plan well! ~
+
+// Extras
+@667 = ~Perhaps with the help of the guild we can learn something about Imoen and Irenicus.~
+@668 = ~Perhaps with the help of the guild we can learn something about Irenicus.~
+@669 = ~Please come in, ladies and gentlemen.~
+@670 = ~If you've lost something or someone, I suggest you check out Adelard the Wanderer's Detective House, right here in the Slums, west of the Copper Coronet. They say they can find anything, even underground.~
+@671 = ~Tell me what kept you from taking the real deal instead of taking on this.... this *drow stumbles at this point, unable to find a sufficiently derogatory word* subguild?!~
+@672 = ~I value your opinion, Jaheira, but I have an opinion of my own.~
+@673 = ~That's for me to decide, Jaheira.~
+
+//Korgan
+@674 = ~To put it bluntly, this guild is pathetic. Warriors like us shouldn't be doing such nonsense. Hell, we could take over an entire castle, for example! Just look at it: it's not even got a bar inside! ~
+@675 = ~There's a barrel of wine down in the cellar-r, dwarrf. It's full on top.~
+@676 = ~Ho-ho, fine!! Where do ye say it is?~
+@677 = ~A-rr. Right by the stairs... good wine. Brringed from halflings to us from Sembia.~
+@678 = ~*Dwarf rubs his hands contentedly* Nice, let's go downstairs this evening, huh, Nordic? Hrrrr, maybe the half-guild has a good side after all!~
+@679 = ~To put it bluntly, this guild is a mess. There will be no money, no fame, no... booze here. Damn, there isn't even a bar here!~
+
+// Cross-mods reactions
+// The Beaurin Legacy
+@680 = ~What do you say, Minyae? Should we take over this guild?~ 
+@681 = ~You want to put me in charge? No way! If you want to be a real leader, you have to make these decisions on your own.~
+// Silver Star
+@682 = ~Say something, Silver Star.~
+@683 = ~I had a dream a while ago. In it, there was a girl crying bloody tears. She was standing in the middle of a room that looked just like this one in the guild! Refuse, <CHARNAME>!~
+@684 = ~Ahh, Mummy, tell <PRO_HIMHER> tell him not to take this guild! I don't like it here!~
+// Rjali NPC
+@685 = ~What do you think, Rjali?~
+@686 = ~With the help of this guild, we can find lost people and also make money from it. The idea is good, but I would clean up here first, otherwise the dust makes me want to sneeze!~
+// Varshoon
+@687 = ~Varshoon, do you think I should lead on this guild?~
+@688 = ~*I'm not your instructor, warm-blooded. Do whatever you want. I don't care about your decision in this matter.*~
+// Yvette
+@689 = ~I'd like to hear your advice, Yvette. How do you like this guild?~
+@690 = ~There's a lot of dust, old books and documents, but the building looks nice. I don't have any advice, but I'm sure you'll make the right choice, <CHARNAME>.~
+// Gavin
+@691 = ~What do you think, Gavin? How do you like this guild?~
+@692 = ~I'm a priest, <CHARNAME>, and I don't know much about law. But I'm sure you can do honourable things and help people in any field, and the Detective Guild is no exception.~
+
+//
+//
+//
+
+// Edwin (guild office)
+@700 = ~Edwin, we are in desperate need of magical support right now. Would you be so kind as to go to the guild and prepare spell scrolls for us?~
+@701 = ~*snorts* Of course I can do such a simple job. If you had any understanding of the magical arts, you'd know that for ME, it's a piece of cake. (Those dumb-headed primates will never appreciate my efforts!)~
+@702 = ~I crafted a scroll, which, as expected, was not difficult. Now, I hope you're not taking me away from my magical studies for nothing.~
+@703 = ~Well done, Edwin. I'd love to have you back at the troop.~
+@704 = ~You monkeys wouldn't last long without the help of a top-notch mage, and you know it.~
+@705 = ~Thank you for the scrolls. Please stay here for now.~
+@706 = ~*Sighs* Then leave. Don't waste my time with your nonsense.~
+
+// Nordic in the guild
+@707 = ~*In front of you is Nordic - a good-natured resident of the Detective Guild, who loves rrar-investigations, detectives, the Guild itself, and especially you, his Master.*~ ~*In front of you is Nordic - a good-natured inhabitant (and a detective too, of course)) of the Detective Guild, who loves rrar-investigations, detectives, the Guild itself, and especially you, his Mistress.*~
+@708 = ~Any news, Nordic?~
+@709 = ~Sweep the floor today, it's dirty!~
+@710 = ~*Leave*~
+@711 = ~Nothing new, Master.~
+@712 = ~A little man came here. My was glad that there would be worrk, because he was borr-red. But the gnome didn't want to look for anyone, he wanted to sell cabbage. Mine told him to leave. Norrdic doesn't like cabbage.~
+@713 = ~You don't like cabbage? You're making a big mistake. Have you ever tried meat baked in a cabbage leaf? I'm certain you'll like it.~
+@714 = ~Nordic has hearrd that beggarrs are being killed in the Bridge Distr-rrict. Mine was reading a book and it said that all murdererrrs have this motive, here. What's it like here? Mine doesn't know.~
+@715 = ~The man in the rred cloak - whose name is Edwin - made a lot of noise in the lab yesterday, breaking a lot of jars. Nordic is afrraid of the man in the cloak. He's a sorcerer and can burn down the guild.~
+@716 = ~While you were away, Master-r, a fat man came round, said he'd lost his.... er... *Bugbear scratches his head, remembering the right word* cufflinks! Mine don't know what they are. I guess there's no such thing and the fat man wanted to play a joke on Nordic?~ ~While you were away, Mistress, a fat man came round, said he'd lost his.... er... *Bugbear scratches the back of his head, remembering the right word* cufflinks! Mine don't know what they are. I guess there's no such thing and the fat man wanted to play a joke on Nordic?~
+@717 = ~*Sighs* I am at your service, Master.~
+@718 = ~Any news?~
+@719 = ~The master will receive the mage's robe in 1358... ah, or maybe 1357, I don't remember exactly. And he will decide to get married in 1359.~
+
+// Numa in the guild
+// Introductory dialogue
+@729 = ~Good afternoon, <CHARNAME>.~
+@730 = ~I decided to drop in on you regarding a personal matter. How are you enjoying the detective guild?~
+@731 = ~I'm slowly getting used to it. As you may recall, I wasn't looking for this job.~ ~I'm slowly getting used to it. As you may recall, I wasn't looking for this job.~
+@732 = ~I still don't know why I got involved in this story. I hope it will pay off somehow.~ ~I still don't know why I got involved in this story. I hope it will pay off somehow.~
+@733 = ~This guild is a complete mess. A complete mess. I already regret getting involved in this adventure.~ ~This is just a dump, not a guild. Total chaos. I already regret getting involved in this adventure.~
+@734 = ~You know what they say: he who begins with confidence will end with doubts; he who begins his journey with doubts will end it with confidence. I'm sure you'll get used to it soon.~
+@735 = ~*Looks around* I haven't been here for a long time. Did you know that this building used to belong to a library, until it went bankrupt? All the surviving books were sold for next to nothing to the Lazarus Library. Slum dwellers don't like to read.~
+@736 = ~The fat man is telling the truth: the building used to be a repository of knowledge. Then they lost Ogma's blessing and fell apart, standing abandoned for a long time. Then the owner will buy it out.~
+@737 = ~Thank you for enlightening me. So, what is your business with me?~
+@738 = ~Actually, we're in a hurry. What do you want?~
+@739 = ~Great, straight to the point. I want to join your guild, take the position of manager. I think I can be useful to you in this capacity, since the guild, as far as I know, still doesn't have one.~
+@740 = ~It's true that we don't have a manager. But why do you need it? It seems like things were going well for you.~
+@741 = ~What do you expect to get for this?~
+@742 = ~To answer your question, I need to explain some of the peculiarities of doing business here in Athkatla. People here try to form groups, colleges, cartels, guilds, whatever you want, whenever possible, so that they can earn more by combining their efforts. Simply put, you can't get through on your own, and I've long since reached my ceiling. The position of manager in your office would be a big step in my career. And although the guild is still insignificant now, I'm sure its position will strengthen in the future.~
+@743 = ~For example, an ordinary merchant has to fulfill a lot of requirements, sometimes quite difficult, to join a trade guild, gain the necessary experience in trade, acquire connections and guarantees, make a name for himself. And only then, having paid a considerable sum, should he try to join. Accordingly, the richer the guild, the more profitable it is to be a member and the more difficult it is to get in.~
+@744 = ~I still don't understand. Why did you need our guild then, when there is, for example, the merchant guild that trades with Maztica or others that are even richer and more powerful?~
+@745 = ~And where does such interest in the detective guild come from, and not in some other?~
+@746 = ~Of course, I could have tried to get a job with them, but I preferred you. I believe that both you and the detective guild have great potential.~
+@747 = ~And my decision also influenced...~
+@748 = ~...the lack of competition for you within the guild.~
+@749 = ~...the opportunity to become the right hand of an inexperienced guild leader who needs your advice.~
+@750 = ~...you want to bet on a "dark horse" and quickly rise in the event of success.~
+@751 = ~...the fact that you will not be refused here, considering how much we owe you for saving the guild.~
+@752 = ~That too, I will not lie. Your guild, given its size, does not need a second advisor.~
+@753 = ~You have all the makings of a strong-willed commander, that's why I bet on you. Once you gain experience, you will rule the guild with an iron fist, I have no doubt. But now, at the beginning of your journey, you really could use my advice.~
+@754 = ~That's partly true, but new things are only good for the beginning, to make a name for yourself. However, the true path to prosperity is long and hard work.~
+@755 = ~I'm glad to hear that you have so highly appreciated my modest contribution to the preservation of the guild. And of course, I hope that I will be suitable for you as an advisor, given our successful cooperation.~
+@756 = ~Okay, you are accepted. Your experience and abilities will be very useful to us.~
+@757 = ~We need not only an advisor, but also a treasurer. ~
+@758 = ~I have no other candidates anyway. So let it be your way.~
+@759 = ~I will be able to combine both of these positions, no problem. I'm a Sembian, so I've been able to count coins since I was a child.~
+@760 = ~I can also handle financial matters. I'm a Sembian, so I've been able to count coins since I was a child.~
+@761 = ~I'd be happy to work with you... and Nordic.~
+@762 = ~Now, give me some time to check on the guild's affairs...~
+@763 = ~Hmm... Wait... What's this? Ah, I see...~
+@764 = ~I must say, things are a little better than I thought. Adelard still has some clients in this city. That will be a great help for us at first.~
+@765 = ~But don't expect much. We still have bills to pay. It'll be good if we have enough money to stay afloat.~
+
+// Main Dialogue
+@766 = ~Hello, <PRO_SIRMAAM>.~
+@767 = ~Any news or guild quests?~
+@768 = ~Has any income been received by the guild?~
+@769 = ~Regarding hiring employees... Remind me, what did you propose?~
+@770 = ~Does the guild bring in any income?~
+
+// About the ranger
+@771 = ~There is one ranger who used to work for Adelard. He still continues to secretly work for the guild.~
+@772 = ~That is, he works on his own, but continues to pay us - to keep the guild badge and so that the guards don't ask unnecessary questions.~
+@773 = ~Is... an otherworldly business... cursed deals. This stalker needs a Guild badge to get lists of the dead from the priests and the captain of the guard. Oh, and he also goes to the graveyards - the guards let him through because of our guild badge. A lot of poor folk die in Athkatla - they are buried in mass graves behind the city's wall.~
+@774 = ~His men dig up decayed corpses, separate the rotting flesh from the bones, then he sells it. Adelard told me once that this stalker sells bones to necrrromancers from the South. They r-raise skeletons for roarr-d works in the vast swamps. Bad non-whole bones he sells to bonemeal manufacturr-rars.~
+@775 = ~Yes, I know who he's talking about. I once bought corpses from him - first-class goods, almost all the fabrics were intact.~
+@776 = ~In general, a small fee of 500 coins comes from him once a week.~
+
+@777 = ~Yes, that's the income we managed to get.~
+@778 = ~No, there's no income yet.~
+
+// Hiring employees
+@780 = ~<PRO_SIRMAAM>, we don't have enough detectives to handle the current orders. We can hire one or more, but it will cost money. Each employee will cost about 200 coins.~
+@781 = ~But then we'll be able to take on more orders, which will increase our income.~
+@782 = ~We're a detective guild - that means we need detectives. Nordic alone can't handle that many orders. What do you say?~
+@783 = ~Okay, let's hire one detective. Here are 200 coins.~
+@784 = ~Okay, let's hire three detectives. Here are 600 coins.~
+@785 = ~No, we've already spent enough effort and money on this guild. I don't want to pay anything more. You and Nordic can handle it together.~
+@786 = ~Okay, I'll give all the orders. I think the new staff will be here tomorrow. Once they start working, I think our income will increase a little.~
+@787 = ~Okay, I'll give all the orders. I think the new staff will be here tomorrow. Once they start working, I think our income will increase a little.~
+@788 = ~*Sighs* As you say. Then don't expect any income from the guild. If you change your mind, tell me.~
+@789 = ~I want to hire two more detectives for the guild. Here's 400 coins for spending.~
+
+@790 = ~I just stopped by to say hello, I'm leaving now.~
+@791 = ~Bye, my<PRO_LADYLORD>.~
+
+// Guild Affairs
+@792 = ~Let me think...~
+@793 = ~A nanny from the Government District came by. She said that one of her charges is a very strange boy. At night, he somehow gets out of his crib and twice already she barely managed to catch him on the threshold of the house. She thinks it is somehow connected with fairies, she sometimes heard quiet voices in the nursery. She asked to follow the boy and check where he goes. She herself is afraid to follow him at night.~
+@794 = ~It seems that the sewer is used not only for its intended purpose, but also for some dark deeds. A guard came to us and said that he noticed some noise and light from under the drain grate. At first he thought there were some monsters there, but monsters don't turn on lights.~
+@795 = ~Someone is constantly drawing offensive graffiti and wild pictures on the walls of the Council of Six. It seems that someone really doesn't like the government's policies. The guards can't catch this impudent fellow, it's as if he's invisible. So they asked us to find him.~
+@796 = ~They say smugglers are using a hidden tunnel to bypass the city walls and bring Black Lotus into the city. If we can find evidence, the city guard will offer a reward for such information.~
+@797 = ~Several residents of the Docks District have heard the terrible cry of a drowning man at night, and it repeats every night. It seems that ghosts are involved.~
+@798 = ~A dead armless man was recently found near the 'Copper Coronet', who turned out to be a well-known pickpocket in the city. Someone cut off his arms and left him to die. The guards asked for help in finding the killer.~
+@799 = ~The herbalist asked for some seaweed needed to treat rheumatism. But it was unclear where to look for it.~
+@800 = ~In the Docks area, fishermen found a floating body near the pier. Judging by the expensive clothes he was wearing, the deceased was probably a nobleman. They haven't been able to identify him yet - the fish have gnawed his face badly.~
+
+// Task for Rushdie
+@801 = ~There is work for Rushdie. *Laughs* It is time for him to show his usefulness to the guild, and not just sleep after dinner. We need to find something in the sewers.~
+@802 = ~What exactly?~
+@803 = ~The family dagger. Magical and very expensive. A squad of halflings from Baldur's Gate recently poked their head into the sewers, but were unable to complete their task. The goblins discovered them and attacked first.~
+@804 = ~When the halflings retreated, their commander dropped his dagger, and then came to us with a request to find it. He is willing to pay five hundred coins if we can return his great-grandfather's dagger.~
+@805 = ~Rushdie is at your disposal.~
+@806 = ~No, let Rushdie stay in the basement. We must not forget about the guild's safety.~
+@807 = ~Very well, then I will give him all the necessary instructions. I am sure he will succeed.~
+@808 = ~As you wish. I will inform the halflings that we will not be able to complete the task.~
+@809 = ~Rushdie found the lost dagger we spoke of earlier in the sewers. The task is complete!~
+
+// About Imoen
+@812 = ~Can we find out where my friend Imoen is? She was kidnapped by the Cowled Wizards.~
+@813 = ~I tried to make inquiries, but to no avail. The Cowled Wizards are good at keeping their secrets. It seems that Gaylan Bale's offer is the only viable option.~
+@814 = ~Okay, I'll figure it out myself. But if you do manage to dig up something worthwhile, then right away...~
+@815 = ~I'll let you know. Of course, my<PRO_LADYLORD>.~
+@816 = ~How is that possible? Since we are a detective guild, perhaps we have some special connections and sources.~
+@817 = ~Perhaps Adelard could help you with this, but unfortunately, some of his sources were known only to him.~
+@818 = ~Can we find out where the mage Irenicus is? He was arrested by the Cowled Wizards.~
+
+// Soul of an Executed Murderer (in the basement of the guild)
+@819 = ~(Suddenly, someone's shadow appears in the corner of the basement in front of you, looking very ominous...)~
+@820 = ~Who are you?~
+@821 = ~(Remain silent)~
+@822 = ~Once my name was Aiden... I was wanted for my crimes in many cities, but I was elusive... And then the damned Adelard found me and turned me over to the guards... because of him, I was sentenced to execution...~
+@823 = ~I will take revenge on him... I will take revenge on you all!!!~
+@824 = ~I've heard of such things. The souls of executed criminals sometimes return to take revenge. Sometimes, they are summoned by powerful necromancers. Fortunately, this happens rarely. And we have enough power to put them to rest.~
+@825 = ~Brrr! It's good that I wasn't the only one who entered this basement!~
+@826 = ~It looks like this guild is a real haunted house.~
+@827 = ~Aiden, you're an idiot! Before you stands the great and formidable Tiax, the future ruler of all of Toril, and you're thinking about some petty revenge?!~
+@828 = ~W-what? I... I don't remember that name... Who is Tiax?~
+@829 = ~Tiax the Great stands before you, idiot! You seem so stupid that you're not worthy of serving him! Get lost, or Tiax will trample you!~
+@830 = ~You'll die!!~
+@831 = ~Poor, restless soul...~
+@832 = ~It looks like you were a dangerous criminal in life. Which means you deserve to die even more than once!~
+@833 = ~I warned you that this guild would only cause trouble for us.~
+@834 = ~I remember Aunt Petunia telling a story about a ghost that looked a bit like you, Aiden. I don't remember his name, but in life he was a student who stole potatoes and cabbage from the city market. Then he died tragically - when he fell into a ditch and broke his neck while returning drunk from a tavern. Since then, his ghost has been seen at night at the market many times - they say he continues to steal food, but after his death he was only interested in carrots. Which is strange, considering how much the price of carrots fell that year and how cheap they became...~
+@835 = ~W-what? I don't understand anything...~
+
+// Cook
+@836 = ~Kitchen is clean, Masterrr.~ [BUGBR01A]
+@837 = ~I don't intend to eat your cooking anymore, no offense. Beef for the first course, chicken for the second, meat broth for the third. Gods! - I saw a tiny piece of meat floating in a whole ocean of fat!~
+@838 = ~*Pats himself on his furry belly contentedly* That was my recipe, yum-yum! My friend realized that if you don't wash the dishes, the next dish will only get fatter.~
+@839 = ~And your cooking is not bad, Nordik. Maybe it lacks a little variety... just a little. But everything is very tasty!~
+@840 = ~Thank you, half. My friend understands that cooking is not coo...! Not culinary, that's it!~
+@841 = ~We should hire a cook, Master.~
+@842 = ~By the way, that's a great idea. I'll put up an ad - maybe we'll find someone in a few days.~
+@843 = ~Good afternoon. My name is Anne-Marie, you can call me Marie, no fuss. I'm here about the ad. Are you looking for a cook?~
+@844 = ~Yes, the guild is looking for a cook.~
+@845 = ~No, we're not looking for anyone.~
+@846 = ~We've already found one, the vacancy is filled.~
+@847 = ~Hey, I know you! You were the one who killed my employers in the mine. I had my doubts when I first heard about you. I see you haven't wasted any time.~
+@848 = ~Exactly, we've met before - in the mines. It's good that you managed to get out. How did you end up in Athkatla?~
+@849 = ~Hmm. It happened. How did you end up in Amn?~
+@850 = ~Hmm? I don't remember you, to be honest. But it doesn't matter. How did you end up in the capital of Amn?~
+@851 = ~I got there by sea. Anyway, you can have fun playing detective games as much as you want - I don't care, just pay on time. I ask for 5 coins a day. I'll cook lunch and dinner, no breakfasts.~
+@853 = ~Okay, I'll take you on a trial period, let's see how you do. But you won't be in the guild, understand?~
+@854 = ~I don't care. My job is cooking.~
+@855 = ~*Bugbear looks at the cook affectionately, trying to butter her up in advance* No breakfast at all? Mine will be very hungry in the morning.~
+@856 = ~You'll make do, big guy. If you want some treats in the morning, you'll help carry groceries from the market.~
+@857 = ~Mine will do.~
+@858 = ~I'll only buy the freshest groceries, no magic that turns yesterday's cutlets into today's, and then into tomorrow's. I can, I did that in the mine. True, even the guard dogs refused to eat it later, they felt sick.~
+@859 = ~No need, the guild has money.~
+@860 = ~That's great. ~
+@861 = ~So you know her?~
+@862 = ~Since the War with the Iron Throne. She was a steward, in the mine I flooded.~
+@863 = ~Wow, I haven't heard about flooding the mine yet.~
+@864 = ~Not really. I barely remember who she is, to be honest.~
+@865 = ~We freed the miner slaves and opened the way for the river. It was no easy task.~
+@866 = ~Therefore interrupting the ore supply, huh?~
+@867 = ~I'll check her history, and we'll try her cooking while we're at it. If all goes well, we can offer her a contract for six months, with an extension later.~
+@868 = ~I don't do business with the Iron Throne. There's no work for you here.~
+@869 = ~I don't give a damn about that Throne! I have no ties to them anymore.~
+@870 = ~I can't trust you if you worked for them... I'm sorry, but the guild can't help you.~
+@871 = ~I get it. Then I'll be going. Goodbye.~
+@872 = ~You were smart, the old cook was better.~
+@873 = ~What's that delicious smell?~
+@874 = ~My signature vegetable stew with chicken. Help yourself.~
+@875 = ~Today's turtle soup. Help yourself.~
+@876 = ~How are you, Marie?~
+@877 = ~I just wanted to say hello. I'm leaving already.~
+@878 = ~Hello, <PRO_SIRMAAM>.~
+@879 = ~Have a nice day, <PRO_SIRMAAM>.~
+@880 = ~You were really short on supplies. The pantry only had moldy cheese, cereal, and I see the bread has already turned to stone. Oh well, I'll fill the pantry to the brim.~
+@881 = ~First take care of the broken stairs to the second floor. Every time I'm afraid I'll break my neck before I even get to the toilet!~
+@882 = ~Do you want to know where I lost my eye? I can see that you want to. One of the slaves you freed dragged me into the forest to have some fun. Managed to gouge out my eye, the beast, before I could get my dagger out.~
+@883 = ~Well, well. The same mercenary left me without a job, then hired me. Sometimes fate laughs at us.~
+@884 = ~*mutters* Mix, let sit for twenty minutes, add thyme... damn!~
+@885 = ~I'm doing fine, as you can see. So get back to your work.~
+@886 = ~What else should I buy in the kitchen? I'd replace a couple of the pans, and buy some more garlic, if you must know. They say it scares away those night monsters that the Thieves fight. May the good gods protect us, because of them we now have to sleep with one eye open.~
+@887 = ~How do you like the ale from the local tavern? Ah, I'm afraid they just don't know how to brew real beer in Amn.~
+
+// Supplement to the dialogue with Lieutenant Egisfield
+@888 = ~Although, as I heard, you recently became the head of the detective guild? Then, maybe you can find out something.~

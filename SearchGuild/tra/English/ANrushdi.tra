@@ -1,0 +1,98 @@
+// Rushdie
+@0 = ~Please, put away your weapon!! By Baelros, I swear I mean no harm!~
+@1 = ~(At first you can't even tell if you're imagining it or not, but the faint call repeats in your head over and over again, leaving no doubt that there is a psionic presence somewhere near you.)~
+@2 = ~(Looking closer, you barely notice the slime practically merging with the basement floor. No doubt the faint voice in your head is coming from it.)~
+@3 = ~I'll leave this basement immediately, I didn't mean to be here at all! ~
+@4 = ~*Try to attack the slime*~
+@5 = ~*Continue exploring the basement, ignoring the strange mustard jelly*~
+@6 = ~*Remove the weapon and continue exploring the basement, ignoring the strange mustard jelly*~
+@7 = ~Whoever you are, I'll let you leave, but don't come back here!~
+@8 = ~Who are you? *You ask out loud, then, repeat the question mentally*~
+@9 = ~(Slime splits into two halves and cowardly runs, through a small crack in the wall)~
+@10 = ~(Slime watches you for a while, then, apparently hesitant to push its luck any further, cautiously backs away, splitting in two and leaking through a small crack in the wall)~
+@11 = ~(The slime watches you for a moment, then carefully backs away, closer to the crack in the wall, ready to make a run for it at any moment.)~
+@12 = ~Oh, thank you, mi<PRO_LADYLORD>! Count me out of here already. *Split in two, the slime retreats, seeping through a small crack in the wall.*~
+@13 = ~Should my kill the slime?~  
+@14 = ~Wait. Let him answer first.~
+@15 = ~*Jelly lets out a nervous chuckle and shakes uncertainly.* I... I'm mustard jelly, as you can see. I know, I know, my appearance is somewhat unusual. But not long ago, I was a human with arms and legs like everyone else. I turned myself into slime to escape from the slave traders' base.~
+@16 = ~I'm still getting used to my new form. I thought I'd take a break in this wonderful and humid basement to get my strength back, as they say. I can confidently say that the rats here are very nutritious, he-he.~
+@17 = ~My full name is Rushdi al-Ketlal ibn Sahdi. But it doesn't matter anymore. You can call me Rushdi. You don't have to talk to me out loud, just think is enough.~
+@18 = ~You can read minds?~
+@19 = ~Only thoughts addressed to me, when you want to "tell" them to me.~
+@20 = ~*You focus your thoughts, and after a while you are surprised to find that you are now even comfortable with your previously unfamiliar mental dialog* My name is <CHARNAME>. In the detective guild you've climbed into, I am on business.~
+@21 = ~My name is <CHARNAME>. I'm here on business in the detective guild you've climbed into.~
+@22 = ~Nice to meet you, <CHARNAME>. I assure you, I will leave immediately if you want me to.~
+@23 = ~Yeah, you can leave.~
+@24 = ~I've had enough of you, get outta here.~
+@25 = ~Wait. First answer a couple of my questions.~
+@26 = ~Ask away, mi<PRO_LADYLORD>.~
+@27 = ~Hmm. How did you end up in the hands of the slave traders?~
+@28 = ~You say you turned yourself into slime. Was there no other way to escape?~
+@29 = ~How do you plan on getting back in human body?~
+@30 = ~No more questions for now.~
+@31 = ~It's a classic tale of human folly and passion. I used to be in the business of trading with Maztica. If you're willing to take a risk and set up a fast ship, it could be a good way of making a pretty good profit. The "Quetzal" (my nef; she was carrying 11,000 pounds of cargo!) made it back to Atkatla safely, and she brought me a LOT of money. I was even invited to join the Guild of Overseas Merchants - the "Golden Ashrin" themselves, so I learned how the pros make money. Hehe!~
+@32 = ~And then what happened to make things go downhill? Did a hurricane sink your ship?~
+@33 = ~Okay, I get it. No need to go into more detail. I have a few more questions.~
+@34 = ~I'm bored already. I don't even want to know what happened next. I'd appreciate it if you'd get out of here.~ 
+@35 = ~No... there are worse things than hurricanes. I started to gamble... oh, I started to gamble a lot; I didn't even realize what I was getting myself into. I was lucky at first, but you know what they say: "Tymora gives and Tymora takes away".~ 
+@36 = ~Soon I had nothing left. The house, the ship, the gold, everything I had, all gone... because of debts, my wife left me....but I continued to gamble. When I had nothing left, I put my own life on the line and lost again. It was only when I was put in chains that I woke up from my madness.~ 
+@37 = ~No, the slavers are good at what they do, and it's rare to escape them. I was lucky they didn't find the scroll. It was in a clam that I swallowed, and it took a long time to get it out of me, hehehe... so I spoke a special word over the clam to make the scroll appear. Reciting the spell was all I had to do.~ 
+@38 = ~I don't. I'm fine with that. What awaits me in the form of a human? My family and friends have turned on me, though I don't blame them for it: my health is failing, and I am a beggar myself. And my debts? I owe the City Council, the Shadow Thieves, the Calimshans, and God knows who else!~ 
+@39 = ~The new bank on the Waukeen's Promenade sent me a debt collector, a half-orc named Jackal, who tortured me with fire and cut off my ear, the bastard! For owing a thousand Coins! If the slave traders hadn't come for me, he would have cut off my nose like he threatened!~ 
+@40 = ~As you can see, mi<PRO_LADYLORD>, I have no need to return. My new body will serve me for a long time, and I have already learned how to find my own food. The most important thing is that I have retained my mind.~ 
+@41 = ~As you wish, mi<PRO_LADYLORD>. Is there anything else you'd like to know?~ 
+@42 = ~You want to crawl around in basements and eat rats? What kind of life is that?~ 
+@43 = ~But what do you think you're going to do next?~ 
+@44 = ~I think that's it, I've learned enough.~
+@45 = ~I guess that's it, I won't hold you any longer. You can leave the basement.~ 
+@46 = ~Yeah, it's not what I dreamed of, but it's a life. I'd rather be a lowly worm, but alive than dead one, even if I were a lich!~ 
+@47 = ~I'll live somehow, thank you for your concern. *I've got my eye on a nice stray doggy in a back alley. I think I'll eat her this night.~ 
+@48 = ~At your service, sir.~ ~At your service, ma'am.~
+@49 = ~Look, this guild is going to need fighters soon, even someone... um... unusual like you could be useful. We'll take care of you, but keep your eyes open for other slime or whatever else might be a threat to the guild. What do you think of this?~ 
+@50 = ~As you wish. You may leave the basement.~
+@51 = ~I don't have a lot of places to go in Athkatla, so I'm in, mi<PRO_LADYLORD> I'm willing to stand guard over this dungeon.~ 
+@52 = ~It's a tempting offer, but I'm afraid I'm not much of a fighter. I'm not fit to be a guard at all. With your permission, I'll just crawl out of here and never be a bother to you again.~ 
+
+// Reactions
+@53 = ~(As you turn around, you realize that your companions can hear this voice as well.)~
+@54 = ~Speaking slime that can also transmit thoughts from afar? Yeah, you don't see much these days. Something to tell the neighbors later! This is even more interesting than the story of Aunt Petunia's talking dog complaining about the slushy weather. Well, it was the aunt who was complaining, not the dog. The dog liked to walk in the rain, but in the heat he even lost his appetite.~ 
+@55 = ~<CHARNAME>, there's something wrong here. Looks like someone cast a spell on this creature and turned it into slime.~ 
+@56 = ~Yeah, there's definitely magic involved. This thing's enchanted, I can feel it.~
+@57 = ~ Ordinary slime always attacks as soon as it sees us. This one seems to be a peaceful creature. ~
+@58 = ~Kill that filthy thing quickly! It won't be able to fool us.~
+@59 = ~<CHARNAME>, remember when I was bewitched and looked like an ogre? I-I think it's the same thing here. Let's hear him out.~
+@60 = ~What an unfortunate creature. Perhaps there's something we can do to help him.~
+@61 = ~<CHARNAME>, be careful. It may be an illusion.~
+@62 = ~Hmm, this thing talks, and it uses psionics. Interesting, interesting.~ 
+@63 = ~What a disgusting thing! ~ 
+@64 = ~Tiax orders you to kill that thing!!!!~ [TIAXM]
+@65 = ~<CHARNAME>, that slime could make a lot of jelly to sell! Smash it!~
+@66 = ~Boo tells Minsk to listen to this creature. Slime isn't what it seems.~
+@67 = ~<CHARNAME>, don't rush to attack. We need to understand the situation.~
+@68 = ~This creature... is incredibly pathetic. But that doesn't mean it's dangerous. Let's leave it and do other things.~ [FALDO17]
+@69 = ~There was a time when Kalah turned me into a slime myself and... it's very hard to be a talking slime. Especially when you're smart and educated! I'm very familiar with that, yes.~
+@70 = ~What a fool you are, Tiax! There was a time when Kalah turned me into a slime myself, and, uh. it's very hard to be a talking slime. Especially when you're smart and educated! I'm very familiar with that, yes.~
+@71 = ~Wait... are we talking slime now? ß... don't mean to be rude, but... how do we not get our clothes dirty? And should we, uh. compliment its gelatinousness? I think I'll just stand back and wait. or something. ~
+@72 = ~Let's hear this creature out. You shouldn't judge everyone by their appearance. It's like judging a book by its cover.~
+@73 = ~What if this slime is an enchanted princess? And you have to kiss her to break the spell? I'm not the one who's gonna do it.~
+@74 = ~Come here, buddy! I just needed some slime for a little research! Hee-hee!~ [XZAR18]
+@75 = ~Get away from me, madman! I'll talk to your leader, not you!~
+
+// If the MC refused Drangolona
+@76 = ~Wise decision, mi<PRO_LADYLORD>! Only a fool would trust the foul orcs!~
+
+// PID 1-2
+@77 = ~(Rushdie is silent and rippling slightly in front of you.)~
+@78 = ~I need you to survey the underground part of Atkatla under the Temple District: sewers, drains. Can you do that?~
+@79 = ~Of course, my<PRO_LADYLORD>, I've been there before. Give me a day, you'll get the details.~
+@80 = ~(Rushdie leaves the guild, heading off on his mission)~
+@81 = ~So, did you find out anything?~
+@82 = ~Not much. I didn't risk crawling into the old tunnels, I was afraid. Nothing good awaits you there mi <PRO_LADYLORD>: it's a dark and gloomy place. Besides, there's a lot of goblins down there, and I think I heard cobolds. I'm not sure if I'm correct, but there might be another fencing-cully operating in the area. However, it's unclear to me whether this individual is involved in the actual theft of goods or not.~
+@83 = ~Thank you, Rushdie. You've done a good job, you can rest now.~
+
+// Extras
+@88 = ~(You're trying to wake Rushdie, but it's not working. It looks like the jelly has recently had a big meal from another unfortunate sewer dweller, and is now resting peacefully.)~
+@89 = ~(The slime retreats, seeping through a small crack in the wall.)~
+@90 = ~*Leave*~
+@91 = ~Nothing useful you've found out. What a waste of time!~
+@92 = ~(Rushdie is silent, and seems a little offended. Although you yourself don't know why you came to that conclusion.)~

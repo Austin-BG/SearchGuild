@@ -1,0 +1,11 @@
+// Amketran, Tavern
+@0 = ~Wait... You're <CHARNAME> from Candlekeep, right?~
+@1 = ~Yeah, what's wrong?~
+@2 = ~Let's say you are. What do you want?~
+@3 = ~How do you know my name?~
+@4 = ~No, it's not me. I have no idea who this <CHARNAME> is.~
+@5 = ~You received a letter in the morning mail. *Rumbling behind the counter* Where is it... ah, here it is.~
+@6 = ~Nothing special. You received a letter in the morning mail. *Rumbling behind the counter* Where is it... ah, here it is.~
+@7 = ~You match the description of the person I need. You received a letter in the morning mail. *Rumbling around behind the counter* Where is it... ah, here it is.~
+@8 = ~Okay, whatever you say. Anything else I can help you with?~
+@9 = ~(You are surprised to find that it is a letter from Nordic. You put it in your backpack to read later)~
