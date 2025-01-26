@@ -1,0 +1,24 @@
+IF
+Global("ANSearchGuildMattias","GLOBAL",11)
+THEN
+	RESPONSE #100
+		StartCutSceneMode()
+		CreateCreature("ANmatty",[500.395],0) 
+		SetGlobal("ANSearchGuildMattias","GLOBAL",12)		
+		ActionOverride(Player1,SetDialog("PLAYER1"))
+		EndCutSceneMode()
+		ActionOverride(Player1,StartDialog("Player1",Myself))
+END
+
+IF
+Global("ANSearchGuildMattias","GLOBAL",13)
+THEN
+	RESPONSE #100
+		StartCutSceneMode()
+		SetGlobal("ANSearchGuildMattias","GLOBAL",14)
+		AddJournalEntry(@1012,QUEST_DONE)
+		FadeFromColor([70.0],0)
+		ActionOverride(Player1,LeaveAreaLUA("AR0300","",[1829.3277],0))
+		Wait(1)
+		EndCutSceneMode()
+END
