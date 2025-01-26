@@ -1,7 +1,7 @@
 The mod adds a new detective guild building in the Slums area, which can become an additional stronghold for a player of any class - if he manages to save the guild from bankruptcy in two weeks of game time.
 The quest will begin after meeting an unusual new character in the Council of Six building in the Government District.
 You will find:
-- a new two-story building (maps were created by Gorion);
+- new area with two floors (maps were created by Gorion);
 - a new stronghold that will generate income;
 - new non-joinable characters;
 - one long quest to get a guild;
