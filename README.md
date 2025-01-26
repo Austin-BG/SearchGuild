@@ -27,11 +27,11 @@ The Fixer by Smolin
 
 ANSWERS TO QUESTIONS
 
-Will the mod work on the "classic" version of the game?
-It will, but only in conjunction with the Infinity Animations mod.
+Q: Will the mod work on the "classic" version of the game?
+A: It will, but only in conjunction with the Infinity Animations mod.
 
-How do I open the locked cabinet with documents in Adelard's office?
-Pay attention to the entry in the journal and to Nordic's words, and then select the desired date from several possible ones as an answer and type it in the MMYYYY format.
+Q:How do I open the locked cabinet with documents in Adelard's office?
+A:Pay attention to the entry in the journal and to Nordic's words, and then select the desired date from several possible ones as an answer and type it in the MMYYYY format.
 
-Will new quests be added for the guild?
-An expansion of the mod is planned, if the coder has free time. We can't promise anything yet.
+Q:Will new quests be added for the guild?
+A:An expansion of the mod is planned, if the coder has free time. We can't promise anything yet.
