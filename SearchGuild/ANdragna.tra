@@ -1,0 +1,203 @@
+// Drangonlona
+// Torture
+@0 = ~What did that orc do?~
+@1 = ~*Hostile* That stupid bitch tried to cheat us. Now fuck off! And mind your own business, stranger, or you'll be in trouble!~
+@2 = ~*Yyyyyyyyy!*~
+@3 = ~*You'll notice that the thief's tongue has been cut out*~
+@4 = ~Get out and don't talk mutch.~
+@5 = ~*You do not want to start a conflict on foreign territory, so you stop asking questions.*~
+
+// Release
+@6 = ~Khr-r! *The orc chokes on a cough of blood*~
+@7 = ~How are you? Can you move?~
+@8 = ~*You take a hand to help her up* They really beat you up. Can you move?~
+@9 = ~*Leave her and walk away*~
+@10 = ~*She struggles to get up* I think the bones are not broken. But what the hell is going on?! You attacked Mae'Var!?~
+@11 = ~I'm going to take down his guild. You obviously don't like him, so if you can help me, great. Otherwise, leave. ~
+@12 = ~It's none of your business. Get out of here now!~
+@13 = ~I'd rather die than miss my chance to take revenge on the bastards! Kha-rgh! Just give me a sec for recover!~
+@14 = ~I hope you can kill them all!~
+@15 = ~Wait, I need to heal you up before the fight.~
+@16 = ~You'll need the right equipment to fight. Here you go.~
+@17 = ~What's your name?~
+@18 = ~My name is Drangolona.~
+@19 = ~I'm <CHARNAME>. When we go down, you'll cover me from behind and make sure I don't get shot. Deal?~
+@20 = ~*She checks the bowstring* Let's go!~
+
+// Misc
+@21 = ~Good. Mae'Var was die, but it was a pity he didn't agonised more. If any of his rats survive, they'll be running away soon. I have to go too, <CHARNAME>.~
+@22 = ~What do you want here?!~
+@23 = ~*Leave*~
+@24 = ~*The orc immediately puts on her armour and takes up a weapon, then uses a healing potion on herself*~
+@25 = ~Let's go kill Mae'Var!~
+@26 = ~*You are healing this orc. She puts on her armour and picks up her weapon!~
+@27 = ~Come on, let's go fight!~
+@28 = ~The orc removes her armour and weapons from a nearby corpse, then uses a healing potion on herself.~
+@29 = ~Do you have a name, orc?~
+@30 = ~I need to know how to address you. Tell me your name.~
+@31 = ~When we get downstairs, you'll cover me from behind.~
+@32 = ~Don't you dare betray me, Drangolona. I don't trust orcs and I'll be on my guard.~
+@33 = ~Take care of yourself.~
+@34 = ~Get out of here.~
+@35 = ~*Attack her* Now it's your turn, spawn!~
+@36 = ~You know, I changed my mind. I'd rather kill you! *Attack her*~
+
+@37 = ~Mae'Var is already dead. You are free to go wherever you want.~
+@38 = ~Well done, the bastard Mae'Var has had his day. Too bad he didn't suffer for long. I'm leaving. *The half-orc woman trudges toward the exit*~
+
+// In the guild
+@39 = ~*You suddenly see an orc woman in front of you whose face looks familiar. She has a strange, absent look - similar to the after-effects of taking the "black lotus"...*~
+@40 = ~I think I know your face. You're that orc woman, from Mae'Var's guild... Drangolon, right? How did you get here?~
+@41 = ~Hey, weren't you the one we saw in Mae'Var's guild? How did you get here?~
+@42 = ~I've seen you somewhere, but I don't remember where. It doesn't matter, though. What do you want here?~ ~I've seen you somewhere, but I don't remember where. It doesn't matter, though. What do you want here?~
+@43 = ~Get out of here, orc woman, or I'll call the guards!~
+@44 = ~No guards needed! *The orc woman walks reluctantly and with difficulty toward the exit*... I'm getting out of here.~
+@45 = ~I... I have nowhere else to go. I lived with the thieves, now they're dead. But I've been here before and met the mage who ran this guild... I think his name was... Abilard or Aludard... I don't remember, and I don't care. So I snuck downstairs, thinking I'd rest here for a bit.~
+@46 = ~If you let me stay here, I promise to help. If you need to steal something, or... I can help.~
+@47 = ~Okay, stay. But you'll live in the basement, and don't show yourself to our clients. That would be... bad for our reputation.~
+@48 = ~No. You look like you're into the "black lotus." And I don't trust drug addicts.~
+
+// BEFORE THE DECISION
+// Keldorn
+@49 = ~She has a dark heart and a dark past, that's obvious. If we help her, where's the guarantee that she won't start doing evil again?~
+
+// Montaron
+@50 = ~Heh, her symptoms are similar to what happens after the "lotus". She's probably been on it for a long time.~
+
+// Nalia - Korgan
+@51 = ~Maybe we should help her after all. Pay for a shelter, or a healing at the temple... that is, I can help with my money...~
+@52 = ~Now ye've decided to help a suffering orc?! Well, I'll tell ya what, girl: I have a nose for such things; help her and get a knife in the back as thanks.~
+@53 = ~*Sympathetic* She seems so downtrodden...~
+@54 = ~*The dwarf starts to get angry* Arrrgh! Were ye even listening to me, woman?!! Don't let yer stupid sympathy get the better of ye! Save it for those who truly deserve it, not for some orc whore!!~
+
+// Dorn
+@55 = ~I think we should give her a chance. Orcs are good fighters and can be loyal comrades in arms if you earn their trust. Besides, she's not really an orc. She has human blood in her.~
+
+// Jaheira
+@56 = ~I'm not sure leaving that orc here is a wise decision, <CHARNAME>. But the choice is yours.~
+
+// Anomen
+@57 = ~She's a thief and a drug addict, that's obvious. I think she'll betray us at the first opportunity and go back to her old ways.~
+
+// Anomen CN
+@58 = ~I don't really care about the guild. I vote "yes", why not?~
+
+// Viconia
+@59 = ~I'm against it. Do you really think she can be trusted? The more I learn about the Rivvin, the more amazed I am that you managed to survive and populate the surface at all.~
+
+// Mazzy
+@60 = ~I don't trust her, that's all. I've fought orcs before, they're a vile and cruel people. And she's the same. I'm against it.~
+
+// Minsc
+@61 = ~Will Boo's vote be counted? We're against it. She may be a good fighter, but will her sword serve us? Boo and I think that we only need reliable companions who can be relied upon in battle.~
+
+// Imoen
+@62 = ~I might regret this, but I think it's worth giving her a chance.~
+
+// Edwin
+@63 = ~I'm against it. I don't see any need for the guild to have mindless orcs.~
+
+// Valygar
+@64 = ~Orcs have never been welcome in my forest. They felled and burned hundred-year-old trees, killed animals just for fun. I am against the orc woman, you shouldn't do business with such people.~
+
+// Yoshimo
+@65 = ~I have no decision. I know too little about her to make the right choice.~
+
+// Cernd
+@66 = ~I will refrain from making a decision.~
+
+// Haerdalis
+@67 = ~I think we should accept her. She has been through a lot and survived. Maybe it is not just like that, and her path crossed ours for a reason.~
+
+// Jan
+@68 = ~I don't know. But I like it when there are more people and I have someone to test my inventions on. It's decided: if she agrees to wear my newly created fireproof armor... *winks at the orc* It's so hard to find volunteers for experiments.~
+
+// Aerie
+@69 = ~I... I don't know, <CHARNAME>. It's hard for me to be around Drangolona, and I... don't quite trust her. And yet, she's been through so much. But... No, I can't decide.~
+
+// Hexxat
+@70 = ~Well, if even some vampires can be trusted, as you've already seen, how is she any worse?~
+
+// Wilson
+@71 = ~*The bear sniffs Drangolona and snorts approvingly. He has a good sense of the soul and character, so his opinion should be taken into account as well.*~
+
+// Neera
+@72 = ~It would be great to see what you are good for first, and only then hire you. But since the circumstances turned out that Beshaba kissed you... then fine, so be it. I will say "yes", but you still have to prove your usefulness.~
+
+// Rasaad
+@73 = ~I would like to vote against, but I will abstain. It is too easy to judge others when you are virtuous yourself. Maybe this orc will leave the paths of evil, I do not know.~
+
+// Yeslick
+@74 = ~I cannot trust you, because you have always betrayed your employers. You are like a rotten beam that will sooner or later collapse the arch. Which means it would be a big mistake to deal with you.~
+
+// Branwen
+@75 = ~We could use some new fighters, there aren't many of us. On the other hand, your biography, my dear, doesn't inspire optimism. So I think I'll hold off on making a decision.~
+
+// Montaron
+@76 = ~If the orc woman has decided to find herself a more decent job, then who am I to interfere with the birth of a new member of society, heh-heh. Then, I'll have a new buyer for the lotus...! I'm just kidding, heh.~
+
+// Xzar
+@77 = ~If it's already two o'clock, I'd like to have lunch. Then I'll need to look over one long, tedious spell...~
+
+// Alora
+@78 = ~I think we should stop being afraid of being repaid with evil for good and start trusting others more. Deep down, Drangolona is a good... orc. I believe her and vote for.~
+@79 = ~*The orc woman listens to Alora's speech with surprise, then snorts dismissively.*~
+
+// Ajantis
+@80 = ~This is an evil, corrupt creature. As a paladin, it is my duty to fight against people like her. Naturally, I vote against.~
+
+// Coran
+@81 = ~A difficult choice. But I will vote for, regardless of her race and past. Since we have undertaken to help her, we should not give up halfway. With us, she will have a chance to start all over again.~
+@82 = ~*The orc woman looks at the elf with excitement, then, after listening to the end, lowers her eyes to the floor. Apparently, Coran's short speech deeply affected her*~
+
+// Xan
+@83 = ~*sighs* <CHARNAME>, what is this pointless discussion for? So much fuss... so many unnecessary words. If you give this creature hope now, it will prove illusory. With or without us, this... woman will end anyway... like all of us.~
+
+// Safana
+@84 = ~Well, I'll say no. I wouldn't want to be in her company.~
+
+// Shar-Teel
+@85 = ~She's had a shitty time, and now she needs help, not drowning. ~
+
+// Garrick
+@86 = ~Oh. Talking to this lady doesn't inspire me to cheerful songs. More like a ballad about all sorts of horrors. So I can't say that I dream of seeing her in our company. But... If she just leaves now, she'll probably die, and my conscience won't let me forget that I was one of those who drove her away. So I vote "yes".~
+
+// Tiax
+@87 = ~This is some worthless drug addict, unworthy of even cleaning Tiax's boots! Get her out of here!!!~
+
+// IF IT IS DECIDED TO ACCEPT DRANGOLON
+// Dorn
+@88 = ~This is the right decision, it will pay off later. There are few of us, and her sword will definitely not be superfluous.~
+
+// Korgan, Nalia
+@89 = ~*The dwarf spits on the floor, clearly unhappy with your decision* Stupid. When she recovers, the first thing she'll do is clean us out, just like her friends, and run away. I'd like to hope that she'll just die here, but the weed doesn't work.~
+@90 = ~That's very humane of you, <CHARNAME>. It seems to me that orcs are also capable of gratitude and friendship, like all other races.~
+@91 = ~*With a sneer* "Gratitude and friendship." Say that more often when they catch you! They'll have fun with you, and then they'll cut your head off. Or they'll take you into slavery so that you give birth to little green spawn for them every year. You'll sit smeared with dirt and shit in a dark pit. Gods, brainless humans never learn!~
+@92 = ~Why do you always say such disgusting things?! I don't want to listen to you! And I think we should give her a chance, everyone deserves it!~
+@93 = ~You're just a rich, spoiled brat. Open your eyes, world, it's VERY different from your stupid notions!~
+
+// IF IT'S DECIDED NOT TO ACCEPT DRANGOLON
+// Korgan, Dorn
+@94 = ~Well, that's right! A black cat won't become white, an orc won't become a comrade.~
+@95 = ~*growls* I warn you, dwarf! As long as I'm here, you won't say another word about orcs, or you'll pay for your tongue! ~
+@96 = ~Ha! I WILL talk about orcs and other scum all I want, and no one will shut me up. Ye're a good swordsman, Dorn, and useful in battle, I'll admit it. But if ye're going to stand up for every orc scum we meet, maybe ye should leave the party, huh?~
+
+// Guild PID
+@97 = ~Last year was shit. That's what I thought, until this one came along.~
+@98 = ~I knew working for this guild was a waste of time!~
+@99 = ~What this time?!~
+
+// Escape
+@100 = ~Hello, my<PRO_LADYLORD>. I have bad news. That orc, Drangolona, escaped from the guild... but that's not the bad thing, the bad thing is that she broke into the guild safe and stole everything that was in there - 500 coins. That was the guild's income, which I was planning to give to you.~
+@101 = ~Filthy creature! I warned ye that this would happen, but no one listened to me!~
+@102 = ~This was to be expected. You can't trust drug addicts.~
+@103 = ~Well, this will teach me a lesson. Being too trusting never leads to anything good.~
+@104 = ~Apparently, the craving for drugs is always stronger than reason. Sad.~
+@105 = ~That bitch, I'll kill her if I find her!~
+@106 = ~We are a detective guild after all, so we'll try to find her, my<PRO_LADYLORD>. But I'm afraid she'll have spent the money by then, and there won't be anything to take from her.~
+
+@107 = ~*The orc leaves, limping slightly*~
+@108 = ~*The orc grits her teeth and attacks you*~
+@109 = ~*You decide to keep the orc in the guild. You're not sure if you're doing the right thing, but everyone deserves a chance, right?*~
+@110 = ~*You decide to kick the orc out. People like her can't be trusted*~
+@111 = ~Thank you... *Drangolona says this with difficulty, as if embarrassed to say kind words*~
