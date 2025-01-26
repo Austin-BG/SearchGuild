@@ -1,0 +1,10 @@
+IF 
+GlobalGT("ANSearchGuild","GLOBAL",12)
+AreaCheck("AN0450") 
+Global("ANSearchGuildEdwin","GLOBAL",0) 
+Global("ANSearchGuildEdwinAfter","AN0450",0)
+THEN
+  RESPONSE #100
+SetGlobal("ANSearchGuildEdwinAfter","AN0450",1)
+StartDialogNoSet([PC])
+END

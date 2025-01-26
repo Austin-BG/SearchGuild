@@ -1,0 +1,20 @@
+// Êגוסע "Ìוהמגûי דאלבטע"
+IF
+Global("ANSearchGuildFrodo","GLOBAL",3)
+THEN
+	RESPONSE #100
+		SetGlobal("ANSearchGuildFrodo","GLOBAL",4)
+		CreateCreature("ANmudr",[391.481],7) 
+		CreateCreature("ANFrodo",[395.481],7) 
+		ActionOverride("ANmudr",FaceObject([PC]))
+		ActionOverride("ANFrodo",FaceObject([PC]))
+		ActionOverride("ANmudr",StartDialogNoSet([PC]))
+END
+
+IF
+Global("ANSearchGuildFrodo","GLOBAL",5)
+THEN
+	RESPONSE #100
+		SetGlobal("ANSearchGuildFrodo","GLOBAL",6)
+		ActionOverride("ANmudr",StartDialogNoSet([PC]))
+END

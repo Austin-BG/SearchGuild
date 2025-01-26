@@ -1,0 +1,184 @@
+IF 
+Global("ANSearchGuild","GLOBAL",2) 
+
+THEN
+  RESPONSE #100
+StartCutSceneMode() 
+CutSceneId(Player1)   
+CreateCreature("ANbugb01",[2978.964],0)
+SetGlobal("ANSearchGuild","GLOBAL",3)  
+ActionOverride("ANbugb01",MoveToPoint([4098.1174])) 
+ActionOverride(Player1,MoveToPoint([4032.1232])) 
+ActionOverride(Player2,MoveToPoint([3984.1232])) 
+ActionOverride(Player3,MoveToPoint([4058.1273])) 
+ActionOverride(Player4,MoveToPoint([3918.1284])) 
+ActionOverride(Player5,MoveToPoint([4026.1318])) 
+ActionOverride(Player6,MoveToPoint([3957.1323])) 
+Wait(3)
+FadeFromColor([20.0],0)
+ActionOverride("ANbugb01",JumpToPoint([4098.1174])) 
+ActionOverride(Player1,JumpToPoint([4032.1232])) 
+ActionOverride(Player2,JumpToPoint([3984.1232])) 
+ActionOverride(Player3,JumpToPoint([4058.1273])) 
+ActionOverride(Player4,JumpToPoint([3918.1284])) 
+ActionOverride(Player5,JumpToPoint([4026.1318])) 
+ActionOverride(Player6,JumpToPoint([3957.1323])) 
+SmallWait(3)
+ActionOverride("ANbugb01",FaceObject(Player1)) 
+ActionOverride(Player1,FaceObject("ANbugb01")) 
+ActionOverride(Player2,FaceObject("ANbugb01"))
+ActionOverride(Player3,FaceObject("ANbugb01"))
+ActionOverride(Player4,FaceObject("ANbugb01"))
+ActionOverride(Player5,FaceObject("ANbugb01"))
+ActionOverride(Player6,FaceObject("ANbugb01"))
+MoveViewPoint([4032.1232],VERY_FAST)
+Wait(1)
+EndCutSceneMode()
+ActionOverride("ANbugb01",StartDialogNoSet(Player1)) 
+END
+
+IF 
+Global("ANSearchGuild","GLOBAL",5) 
+
+THEN
+  RESPONSE #100
+SetGlobal("ANSearchGuild","GLOBAL",6)  
+FadeFromColor([20.0],0)
+ActionOverride(Player1,LeaveAreaLUA("AR0400","",[820.2890],8))
+ActionOverride(Player2,LeaveAreaLUA("AR0400","",[839.2932],8))
+ActionOverride(Player3,LeaveAreaLUA("AR0400","",[957.2991],8))
+ActionOverride(Player4,LeaveAreaLUA("AR0400","",[924.3015],8))
+ActionOverride(Player5,LeaveAreaLUA("AR0400","",[995.3031],8))
+ActionOverride(Player6,LeaveAreaLUA("AR0400","",[1001.3035],8))
+END
+
+// Создаем Нуму и советников
+IF 
+Global("ANNumaExists","AR1000",0)
+Global("ANSearchGuild","GLOBAL",13)
+OR(2)
+GlobalGT("ViconiaFree","AR1000",1) // проверяем, чтобы у тюрьмы не было фанатиков, иначе в дальнейшем они будут мешаться при диалоге
+Global("ViconiaDeath","AR1000",1)
+
+
+THEN
+  RESPONSE #100
+SetGlobal("ANNumaExists","AR1000",1)
+CreateCreature("ANnuma1",[2777.388],3) // Нума
+CreateCreature("ANsovet1",[2720.376],0) // Советник-мужчина
+CreateCreature("ANsovet2",[2700.442],8) // Советница-женщина
+CreateCreature("ANbugb01",[2642.223],0) // Нордик
+Continue()
+END
+
+IF 
+Exists("ANnuma1")
+OR(2) // Если гильдия потеряна, убираем советников
+Global("ANSearchGuild","GLOBAL",999)
+Global("ANSearchGuild","GLOBAL",997)
+
+THEN
+  RESPONSE #100
+ActionOverride("ANsovet1",EscapeArea()) 
+ActionOverride("ANsovet2",EscapeArea()) 
+ActionOverride("ANnuma1",EscapeArea()) 
+Continue()
+END
+
+// Создаем Кхемеда
+IF 
+Global("ANSearchGuild","GLOBAL",14) 
+!Exists("ANhemed1")
+THEN
+  RESPONSE #100
+StartCutSceneMode() 
+CutSceneId(Player1)   
+CreateCreature("ANhemed1",[1715.1022],0)
+SmallWait(5)
+FadeFromColor([20.0],0)
+ActionOverride("ANbugb01",JumpToPoint([1670.1229])) 
+ActionOverride("ANnuma1",JumpToPoint([1731.1097])) 
+ActionOverride(Player1,JumpToPoint([1746.1175])) 
+ActionOverride(Player2,JumpToPoint([1787.1172])) 
+ActionOverride(Player3,JumpToPoint([1768.1205])) 
+ActionOverride(Player4,JumpToPoint([1894.1169])) 
+ActionOverride(Player5,JumpToPoint([1921.1196])) 
+ActionOverride(Player6,JumpToPoint([1824.1158])) 
+SmallWait(3)
+ActionOverride("ANbugb01",FaceObject("ANhemed1")) 
+ActionOverride("ANnuma1",FaceObject("ANhemed1")) 
+ActionOverride(Player1,FaceObject("ANhemed1")) 
+ActionOverride(Player2,FaceObject("ANhemed1"))
+ActionOverride(Player3,FaceObject("ANhemed1"))
+ActionOverride(Player4,FaceObject("ANhemed1"))
+ActionOverride(Player5,FaceObject("ANhemed1"))
+ActionOverride(Player6,FaceObject("ANhemed1"))
+Wait(1)
+EndCutSceneMode()
+ActionOverride("ANnuma1",StartDialogNoSet(Player1)) 
+END
+
+// Нума говорит с Кхемедом
+IF 
+Global("ANSearchGuild","GLOBAL",18)
+THEN
+  RESPONSE #100
+SetGlobal("ANSearchGuild","GLOBAL",19)  
+ActionOverride("ANnuma1",StartDialogNoSet(Player1)) 
+END
+
+// Сходили за печатью
+IF 
+Global("ANSearchGuild","GLOBAL",20)
+THEN
+  RESPONSE #100
+SetGlobal("ANSearchGuild","GLOBAL",21)  
+StartCutSceneMode() 
+CutSceneId(Player1)   
+FadeFromColor([20.0],0)
+ActionOverride("ANbugb01",JumpToPoint([2978.964])) 
+ActionOverride("ANnuma1",JumpToPoint([2985.954])) 
+ActionOverride(Player1,JumpToPoint([3000.1087])) 
+ActionOverride(Player2,JumpToPoint([2966.1078])) 
+ActionOverride(Player3,JumpToPoint([3025.1123])) 
+ActionOverride(Player4,JumpToPoint([2858.1119])) 
+ActionOverride(Player5,JumpToPoint([2953.1211])) 
+ActionOverride(Player6,JumpToPoint([2896.1232])) 
+SmallWait(3)
+ActionOverride("ANbugb01",FaceObject("ANnuma1")) 
+ActionOverride("ANnuma1",FaceObject(Player1)) 
+ActionOverride(Player1,FaceObject("ANnuma1")) 
+ActionOverride(Player2,FaceObject("ANnuma1"))
+ActionOverride(Player3,FaceObject("ANnuma1"))
+ActionOverride(Player4,FaceObject("ANnuma1"))
+ActionOverride(Player5,FaceObject("ANnuma1"))
+ActionOverride(Player6,FaceObject("ANnuma1"))
+Wait(1)
+EndCutSceneMode()
+ActionOverride("ANnuma1",StartDialogNoSet(Player1)) 
+END
+
+// Финальный диалог с Нумой
+IF 
+Global("ANSearchGuild","GLOBAL",24)
+THEN
+  RESPONSE #100
+SetGlobal("ANSearchGuild","GLOBAL",25)
+StartCutSceneMode() 
+CutSceneId(Player1)   
+FadeFromColor([20.0],0)
+CreateCreature("ANnuma1",[2985.954],8)
+CreateCreature("ANbugb01",[2978.964],8)
+SmallWait(3)
+ActionOverride("ANbugb01",FaceObject("ANnuma1")) 
+ActionOverride("ANnuma1",FaceObject(Player1)) 
+ActionOverride(Player1,FaceObject("ANnuma1")) 
+ActionOverride(Player2,FaceObject("ANnuma1"))
+ActionOverride(Player3,FaceObject("ANnuma1"))
+ActionOverride(Player4,FaceObject("ANnuma1"))
+ActionOverride(Player5,FaceObject("ANnuma1"))
+ActionOverride(Player6,FaceObject("ANnuma1"))
+Wait(1)
+EndCutSceneMode()
+ActionOverride("ANnuma1",StartDialogNoSet(Player1)) 
+END

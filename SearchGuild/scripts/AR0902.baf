@@ -1,0 +1,50 @@
+IF
+Global("ANSearchGuildOrgot","GLOBAL",2)
+Global("ANOrgotExists","AR0902",0)
+
+THEN
+	RESPONSE #100
+SetGlobal("ANOrgotExists","AR0902",1)
+CreateCreature("ANOrgot",[1766.1206],0)
+CreateCreature("ANLATKNI",[1866.1243],0)
+SmallWait(4)
+ActionOverride("ANLATKNI",FaceObject("ANOrgot"))
+ActionOverride("ANOrgot",FaceObject("ANLATKNI"))
+Continue()
+END
+
+IF
+Global("ANOrgotExists","AR0902",4)
+
+THEN
+	RESPONSE #100
+		SetInterrupt(FALSE)
+		MoveViewObject(LastTalkedToBy,INSTANT)
+		SetGlobal("ANOrgotExists","AR0902",5)
+		ActionOverride("ANOrgot",Polymorph(TANARRI))
+		MoveToOffset([-2.4])
+		Wait(2)
+		ActionOverride("ANOrgot",CreateVisualEffectObject("spdimndr",Myself))
+		Wait(1)
+		ActionOverride("ANOrgot",DestroySelf())
+		SetInterrupt(TRUE)
+END
+
+IF
+Global("ANOrgotExists","AR0902",5)
+
+THEN
+	RESPONSE #100
+CreateCreature("ANOrgot",[1766.1206],0)
+SetGlobal("ANOrgotExists","AR0902",6)
+END
+
+IF
+Exists("ANLATKNI")
+OR(2)
+Global("ANOrgotExists","AR0902",7)
+Dead("ANOrgot")
+THEN
+	RESPONSE #100
+ActionOverride("ANLATKNI",EscapeArea())
+END

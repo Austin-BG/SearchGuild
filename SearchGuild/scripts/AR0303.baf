@@ -1,0 +1,37 @@
+IF
+!Global("AttackedThieves2","GLOBAL",1)
+Global("ANdragonlonaExists","AR0303",0)
+!Dead("MaeVar")
+
+THEN
+	RESPONSE #100
+SetGlobal("ANdragonlonaExists","AR0303",1)
+CreateCreature("ANdragna",[1026.314],0)
+SmallWait(4)
+CreateCreature("ANshane",[994.327],0)
+CreateCreature("ANdecheb",[1072.345],0)
+CreateCreature("ANgortar",[1034.371],0)
+SmallWait(4)
+ActionOverride("ANgortar",FaceObject("ANdragna"))
+ActionOverride("ANdecheb",FaceObject("ANdragna"))
+ActionOverride("ANshane",FaceObject("ANdragna"))
+Continue()
+END
+
+IF
+OnCreation()
+!Dead("ANshane")
+THEN
+	RESPONSE #100
+		ActionOverride("ANdragna",SetSequence(SEQ_SLEEP))	
+END
+
+IF
+    Exists("ANdragna")
+	CombatCounter(0)
+    Global("ANDragonlonaBattle","GLOBAL",3)
+THEN
+	RESPONSE #100
+		ActionOverride("ANdragna",DestroySelf())
+END
+

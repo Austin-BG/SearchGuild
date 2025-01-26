@@ -1,0 +1,10 @@
+IF
+GlobalTimerExpired("ANSearchGuildTimer1","GLOBAL")
+!Global("ANSearchGuild","GLOBAL",999)
+GlobalLT("ANSearchGuild","GLOBAL",18)
+THEN
+	RESPONSE #100
+	AddJournalEntry(@1003,QUEST_DONE)
+	SetGlobal("ANSearchGuild","GLOBAL",999)
+	Continue()
+END

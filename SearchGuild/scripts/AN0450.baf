@@ -1,0 +1,382 @@
+IF
+	Global("ANSearchGuild","GLOBAL",9)
+THEN
+	RESPONSE #100
+		SetGlobal("ANSearchGuild","GLOBAL",10)
+		CreateCreature("ANbugb01",[1274.464],0)  // Нордик
+		SmallWait(3)
+		ActionOverride("ANbugb01",FaceObject(Player1))
+		ActionOverride(Player1,FaceObject("ANbugb01"))  // Нордик
+		ActionOverride(Player2,FaceObject("ANbugb01"))  // Нордик
+		ActionOverride(Player3,FaceObject("ANbugb01"))  // Нордик
+		ActionOverride(Player4,FaceObject("ANbugb01"))  // Нордик
+		ActionOverride(Player5,FaceObject("ANbugb01"))  // Нордик
+		ActionOverride(Player6,FaceObject("ANbugb01"))  // Нордик
+		MultiPlayerSync()
+		Wait(1)
+		ActionOverride(Player1,SetDialog("PLAYER1"))
+		ActionOverride("ANbugb01",StartDialogNoSet(Player1))
+END
+
+IF
+	Global("ANSearchGuildIN","AN0450",1)
+	Global("ANSearchGuild","GLOBAL",11)
+THEN
+	RESPONSE #100
+		SetGlobal("ANSearchGuildIN","AN0450",2)
+		StartCutSceneMode()
+		CutSceneId(Player1)
+		ActionOverride(Player1,MoveToPoint([1046.335]))
+		ActionOverride("ANbugb01",MoveToPoint([1132.311]))
+		MoveViewObject(Player1,INSTANT)
+		Wait(3)
+		ActionOverride(Player2,MoveToPoint([1132.311]))
+		ActionOverride(Player3,MoveToPoint([1132.312]))
+		ActionOverride(Player4,MoveToPoint([1133.313]))
+		ActionOverride(Player5,MoveToPoint([1134.314]))
+		ActionOverride(Player6,MoveToPoint([1135.315]))
+		Wait(1)
+		EndCutSceneMode()
+		ActionOverride("ANbugb01",StartDialogNoSet(Player1))
+END
+
+IF
+	Global("ANSearchGuildIN","AN0450",3)
+	Global("ANSearchGuild","GLOBAL",11)
+THEN
+	RESPONSE #100
+		SetGlobal("ANSearchGuildIN","AN0450",4)
+		StartCutSceneMode()
+		CutSceneId(Player1)
+		ActionOverride(Player1,MoveToPoint([772.658]))
+		ActionOverride("ANbugb01",MoveToPoint([912.565]))
+		MoveViewObject(Player1,INSTANT)
+		Wait(4)
+		ActionOverride(Player2,MoveToPoint([912.565]))
+		ActionOverride(Player3,MoveToPoint([912.565]))
+		ActionOverride(Player4,MoveToPoint([912.565]))
+		ActionOverride(Player5,MoveToPoint([912.565]))
+		ActionOverride(Player6,MoveToPoint([912.565]))
+		Wait(2)
+		EndCutSceneMode()
+		ActionOverride("ANbugb01",StartDialogNoSet(Player1))
+END
+
+IF
+	Global("ANSearchGuildIN","AN0450",5)
+	Global("ANSearchGuild","GLOBAL",11)
+THEN
+	RESPONSE #100
+		SetGlobal("ANSearchGuildIN","AN0450",6)
+		ClearAllActions()
+		StartCutSceneMode()
+		CutSceneId(Player1)
+		ActionOverride(Player1,MoveToPoint([1121.816]))
+		ActionOverride("ANbugb01",MoveToPoint([1126.782]))
+		MoveViewObject(Player1,INSTANT)		
+		Wait(4)
+		EndCutSceneMode()
+		ActionOverride("ANbugb01",StartDialogNoSet(Player1))
+END
+
+IF 
+Global("ANSearchGuildIN","AN0450",7)
+Global("ANSearchGuild","GLOBAL",11)
+
+THEN
+  RESPONSE #100
+SetGlobal("ANSearchGuildIN","AN0450",8)
+StartCutSceneMode() 
+CutSceneId(Player1)  
+ActionOverride(Player1,MoveToPointNoInterrupt([706.922])) 
+ActionOverride("ANbugb01",MoveToPointNoInterrupt([750.830])) 
+MoveViewObject(Player1,INSTANT)
+Wait(3)
+ActionOverride(Player2,MoveToPoint([733.822])) 
+ActionOverride(Player3,MoveToPoint([733.822])) 
+ActionOverride(Player4,MoveToPoint([733.822])) 
+ActionOverride(Player5,MoveToPoint([733.822])) 
+ActionOverride(Player6,MoveToPoint([733.822])) 
+Wait(2)
+EndCutSceneMode()
+ActionOverride("ANbugb01",StartDialogNoSet(Player1)) 
+END
+
+IF 
+Global("ANSearchGuildIN","AN0450",9)
+Global("ANSearchGuild","GLOBAL",11)
+
+THEN
+  RESPONSE #100
+SetGlobal("ANSearchGuildIN","AN0450",10)
+StartCutSceneMode() 
+CutSceneId(Player1)  
+ActionOverride(Player1,MoveToPointNoInterrupt([820.1070])) 
+ActionOverride("ANbugb01",MoveToPointNoInterrupt([689.941])) 
+MoveViewObject(Player1,INSTANT)
+Wait(3)
+ActionOverride("ANbugb01",FaceObject(Player1))
+EndCutSceneMode()
+ActionOverride("ANbugb01",StartDialogNoSet(Player1)) 
+END
+
+IF 
+Global("ANSearchGuildIN","AN0450",11)
+Global("ANSearchGuild","GLOBAL",11)
+
+THEN
+  RESPONSE #100
+ActionOverride(Player1,SetDialog("PLAYER1"))  
+SetGlobal("ANSearchGuildIN","AN0450",12)
+ActionOverride(Player1,StartDialog("Player1",Myself))
+END
+
+IF
+	Global("ANSearchGuild","GLOBAL",998)
+THEN
+	RESPONSE #100
+SetGlobal("ANSearchGuild","GLOBAL",999)	
+FadeFromColor([20.0],0)
+ActionOverride(Player1,LeaveAreaLUA("AR0400","",[820.2890],8))
+ActionOverride(Player2,LeaveAreaLUA("AR0400","",[839.2932],8))
+ActionOverride(Player3,LeaveAreaLUA("AR0400","",[957.2991],8))
+ActionOverride(Player4,LeaveAreaLUA("AR0400","",[924.3015],8))
+ActionOverride(Player5,LeaveAreaLUA("AR0400","",[995.3031],8))
+ActionOverride(Player6,LeaveAreaLUA("AR0400","",[1001.3035],8))
+END
+
+
+IF
+	Global("ANSearchGuild","GLOBAL",999)
+	Exists("ANbugb01")
+THEN
+	RESPONSE #100
+ActionOverride("ANbugb01",DestroySelf())	
+END
+
+IF
+Global("ANstolAdelardOPEN","AN0450",1)
+THEN
+	RESPONSE #100
+	    ActionOverride(Player1,SetDialog("PLAYER1"))
+		ActionOverride(Player1,StartDialog("Player1",Myself))
+END
+
+IF
+Global("ANbumagiAdelardOPEN","AN0450",1)
+THEN
+	RESPONSE #100
+	    ActionOverride(Player1,SetDialog("PLAYER1"))
+		ActionOverride(Player1,StartDialog("Player1",Myself))
+END
+
+
+
+IF
+	Opened("Kazna")
+	Global("ANkaznaOPEN","AN0450",0)
+THEN
+	RESPONSE #100
+SetGlobal("ANkaznaOPEN","AN0450",1)	
+AddexperienceParty(500)
+END
+
+IF
+	PartyHasItem("ANSCRLL0")
+	PartyHasItem("ANscrll1")
+	Global("ANscrollParty","AN0450",0)
+THEN
+	RESPONSE #100
+		SetGlobal("ANscrollParty","AN0450",1)
+		ActionOverride(Player1,SetDialog("PLAYER1"))
+		SmallWait(10)
+		ActionOverride(Player1,StartDialog("Player1",Myself))
+END
+
+// Диалоги с NPC после получения гильдии
+// Коран от Импа
+IF
+InParty("7XCORAN")!StateCheck("7XCORAN",CD_STATE_NOTVALID)
+GlobalGT("ANSearchGuild","GLOBAL",22)
+Global("CoranAN0450","AN0450",0)
+THEN
+  RESPONSE #100
+  SetGlobal("CoranAN0450","AN0450",1)
+  RealSetGlobalTimer("CoranAN0450TalkTimer","AN0450",4) 
+END
+
+IF
+InParty("7XCORAN") InMyArea("7XCORAN") !StateCheck("7XCORAN",CD_STATE_NOTVALID)
+Global("CoranAN0450","AN0450",0)
+RealGlobalTimerExpired("CoranAN0450TalkTimer","AN0450") 
+THEN
+  RESPONSE #100
+  SetGlobal("CoranAN0450","AN0450",2)
+  ActionOverride("7XCORAN",StartDialogNoSet([PC]))
+END
+
+// Коран от Кулька
+IF
+InParty("O#Coran")!StateCheck("O#Coran",CD_STATE_NOTVALID)
+GlobalGT("ANSearchGuild","GLOBAL",22)
+Global("CoranAN0450","AN0450",0)
+THEN
+  RESPONSE #100
+  SetGlobal("CoranAN0450","AN0450",1)
+  RealSetGlobalTimer("CoranAN0450TalkTimer","AN0450",4) 
+END
+
+IF
+InParty("O#Coran") InMyArea("O#Coran") !StateCheck("O#Coran",CD_STATE_NOTVALID)
+Global("CoranAN0450","AN0450",0)
+RealGlobalTimerExpired("CoranAN0450TalkTimer","AN0450") 
+THEN
+  RESPONSE #100
+  SetGlobal("CoranAN0450","AN0450",2)
+  ActionOverride("O#Coran",StartDialogNoSet([PC]))
+END
+
+// Кзар
+IF
+InParty("7XXZAR") InMyArea("7XXZAR") !StateCheck("7XXZAR",CD_STATE_NOTVALID)
+GlobalGT("ANSearchGuild","GLOBAL",22)
+Global("XzarAN0450","AN0450",0)
+THEN
+  RESPONSE #100
+  SetGlobal("XzarAN0450","AN0450",1)
+  RealSetGlobalTimer("XzarAN0450TalkTimer","AN0450",7) 
+END
+
+IF
+InParty("7XXZAR")!StateCheck("7XXZAR",CD_STATE_NOTVALID)
+Global("XzarAN0450","AN0450",0)
+RealGlobalTimerExpired("XzarAN0450TalkTimer","AN0450") 
+THEN
+  RESPONSE #100
+  SetGlobal("XzarAN0450","AN0450",2)
+  ActionOverride("7XXZAR",StartDialogNoSet([PC]))
+END
+
+// Лаборатория Эдвина
+IF
+!InParty("Edwin")
+Exists("Edwin")
+GlobalTimerExpired("EdwinLaboratoryTimer","GLOBAL") 
+Global("ANSearchGuildEdwin","GLOBAL",3)
+Global("ANEdwinSCRL5J","AN0450",0)
+Global("ANEdwinSCRL8B","AN0450",0)
+Global("ANEdwinSCRL9G","AN0450",0)
+THEN
+  RESPONSE #65
+  SetGlobal("ANEdwinSCRL5J","AN0450",1)
+  SetGlobal("ANSearchGuildEdwin","GLOBAL",4)
+  GiveItemCreate("SCRL5J","Edwin",1,0,0)
+   RESPONSE #25
+  SetGlobal("ANEdwinSCRL8B","AN0450",1)
+  SetGlobal("ANSearchGuildEdwin","GLOBAL",4)
+  GiveItemCreate("SCRL8B","Edwin",1,0,0)
+   RESPONSE #10
+  SetGlobal("ANEdwinSCRL9G","AN0450",1)
+  SetGlobal("ANSearchGuildEdwin","GLOBAL",4)
+  GiveItemCreate("SCRL9G","Edwin",1,0,0)
+END
+
+
+// Нума И Нордик появляются в гильдии, когда она получена
+IF
+	Global("ANSearchGuild","GLOBAL",26)
+	Global("ANNumaGuild","AN0450",0)
+THEN
+	RESPONSE #100
+		CreateCreature("ANbugb01",[1274.464],0)
+		CreateCreature("ANnuma1",[1548.453],0)  // Нума
+		SetGlobal("ANNumaGuild","AN0450",1)
+END
+
+// Создаем 1 детектива
+IF
+	Global("ANSearchGuildHH","GLOBAL",2)
+	Global("ANSearchGuild1DetectiveExist","AN0450",0)
+	GlobalTimerExpired("GuildHHTimer1","GLOBAL")
+THEN
+	RESPONSE #100
+		SetGlobal("ANSearchGuild1DetectiveExist","AN0450",1)
+		CreateCreature("ANsysk1",[1380.609],0) 
+END
+
+// Создаем 3 детективов
+IF
+	Global("ANSearchGuildHH","GLOBAL",3)
+	Global("ANSearchGuild3DetectiveExist","AN0450",0)
+	GlobalTimerExpired("GuildHHTimer2","GLOBAL")
+THEN
+	RESPONSE #100
+		SetGlobal("ANSearchGuild3DetectiveExist","AN0450",1)
+		CreateCreature("ANsysk1",[1380.609],0) 
+		CreateCreature("ANsysk2",[826.676],0) 
+		CreateCreature("ANsysk3",[1040.694],0) 
+END
+
+// Создаем еще 2 детективов, если ранее был нанят 1
+IF
+	Global("ANSearchGuildHH","GLOBAL",3)
+	Global("ANSearchGuild1DetectiveExist","AN0450",1)
+	GlobalTimerExpired("GuildHHTimer3","GLOBAL")
+THEN
+	RESPONSE #100
+		SetGlobal("ANSearchGuild1DetectiveExist","AN0450",3)
+		CreateCreature("ANsysk2",[826.676],0) 
+		CreateCreature("ANsysk3",[1040.694],0) 
+END
+
+// Кухарка Анн-Мари (у входа)
+IF
+	Global("ANSearchGuildKithen","AN0450",1)
+	GlobalTimerExpired("GuildAnnMaryTimer","GLOBAL")
+THEN
+	RESPONSE #100
+		SetGlobal("ANSearchGuildKithen","AN0450",2)
+		CreateCreature("ANcook1",[1415.330],0) 
+		ActionOverride("ANcook1",StartDialogNoSet([PC]))
+END
+
+// Кухарка Анн-Мари (на кухне, после найма)
+IF
+	Global("ANSearchGuildKithen","AN0450",4)
+THEN
+	RESPONSE #100
+		SetGlobal("ANSearchGuildKithen","AN0450",5)
+		CreateCreature("ANcook1",[1294.854],0) 
+END
+
+// Мистер Мэтти
+IF
+	Global("ANSearchGuildOrgot","GLOBAL",3)
+	Global("ANSearchGuildMattias","GLOBAL",0)
+	GlobalTimerExpired("GuildMattyTimer","GLOBAL")
+THEN
+	RESPONSE #100
+		CreateCreature("ANmatty",[1415.330],0) 		
+		SetGlobal("ANSearchGuildMattias","GLOBAL",1)
+		ActionOverride("ANmatty",StartDialogNoSet([PC]))
+END
+
+// Квест "Медовый гамбит"
+IF
+	Global("ANSearchGuildFrodo","GLOBAL",0)
+	GlobalTimerExpired("GuildPirogTimer","GLOBAL")
+THEN
+	RESPONSE #100
+		CreateCreature("ANFrodo",[1415.330],0) 
+		SetGlobal("ANSearchGuildFrodo","GLOBAL",1)		
+		ActionOverride("ANFrodo",StartDialogNoSet([PC]))
+END
+
+IF
+     Global("ANSearchGuildFrodo","GLOBAL",7)
+THEN
+	RESPONSE #100
+		CreateCreature("ANFrodo",[1415.330],0) 
+		SetGlobal("ANSearchGuildFrodo","GLOBAL",8)
+		ActionOverride("ANFrodo",StartDialogNoSet([PC]))
+END

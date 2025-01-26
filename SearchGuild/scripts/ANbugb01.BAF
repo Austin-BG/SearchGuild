@@ -1,0 +1,29 @@
+IF 
+Global("ANSearchGuild","GLOBAL",999)
+Global("ANSearchGuildLOSTNordik","LOCALS",0)
+See([PC])
+THEN
+  RESPONSE #100
+SetGlobal("ANSearchGuildLOSTNordik","LOCALS",1)
+StartDialogNoSet([PC])
+END
+
+IF 
+Global("ANSearchGuild","GLOBAL",996)
+THEN
+  RESPONSE #100
+EscapeArea()  
+SetGlobal("ANSearchGuild","GLOBAL",997)
+END
+
+IF 
+Global("ANSearchGuildKithen","AN0450",0)
+GlobalTimerExpired("ANNordikKitchenTimer","GLOBAL")
+Global("ANNordikKitchen","LOCALS",0)
+See([PC])
+See("ANnuma1")
+THEN
+  RESPONSE #100
+SetGlobal("ANNordikKitchen","LOCALS",1)
+StartDialogNoSet([PC])
+END

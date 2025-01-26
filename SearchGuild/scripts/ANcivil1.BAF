@@ -1,0 +1,23 @@
+IF 
+Global("ANBugbearExists","AR1002",1)
+Global("ANSearchGuild","GLOBAL",0)
+AreaCheck("AR1002")
+OR(4)
+Time(8)
+Time(9)
+Time(10)
+Time(11)
+THEN
+  RESPONSE #100
+Deactivate(Myself)
+END
+
+
+IF 
+Global("ANBugbearExists","AR1002",3)
+AreaCheck("AR1002")
+THEN
+  RESPONSE #100
+Activate(Myself)
+SetGlobal("ANBugbearExists","AR1002",4)
+END

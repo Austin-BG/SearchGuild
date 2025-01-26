@@ -1,0 +1,128 @@
+IF
+    Global("ANSearchGuild","GLOBAL",12)
+	Global("ANSearchGuildNordikInPodval","AN0451",0)
+	!Dead("ANbugb01")
+	!Exists("ANbugb01")
+THEN
+	RESPONSE #100
+		CreateCreature("ANbugb01",[603.696],0)  // Нордик
+		ChangeEnemyAlly("ANbugb01",CONTROLLED) 
+		SetGlobal("ANSearchGuildNordikInPodval","AN0451",1)
+END
+
+IF
+    !Dead("ANbugb01")
+	Dead("ANJELGRE")
+	CombatCounter(0)
+	Global("ANNordikLive","AN0451",0)
+THEN
+	RESPONSE #100
+		SetGlobal("ANNordikLive","AN0451",1)	
+		RealSetGlobalTimer("ANGuildPrizrakTimer","GLOBAL",500)
+		ChangeEnemyAlly("ANbugb01",NEUTRAL) 
+		ActionOverride("ANbugb01",MoveToPoint([1498.914]))
+		AddexperienceParty(200)
+		EraseJournalEntry(@1000)
+		AddJournalEntry(@1001,QUEST_DONE) 
+		Continue()
+END
+
+IF
+    Dead("ANbugb01")
+	Dead("ANJELGRE")
+	CombatCounter(0)
+	Global("ANNordikDead","AN0451",0)
+THEN
+	RESPONSE #100
+	    SetGlobal("ANNordikDead","AN0451",1)
+		RealSetGlobalTimer("ANGuildPrizrakTimer","GLOBAL",500)
+		AddexperienceParty(200)
+		EraseJournalEntry(@1000)
+		AddJournalEntry(@1002,QUEST_DONE) 
+		SetGlobal("ANSearchGuild","GLOBAL",999)
+END
+
+IF
+    Global("ANRushdiStoki","AN0451",1)
+	GlobalTimerExpired("ANRushdiStokiTimer","GLOBAL")
+THEN
+	RESPONSE #100
+	    SetGlobal("ANRushdiStoki","AN0451",2)
+		CreateCreature("ANRUSHD0",[1442.1341],0)  // Рушди
+		Continue()
+END
+
+// Если Рушди нанят, Нордик уходит на верхний этаж
+IF
+OR(2)
+Global("ANRushdiJoin","GLOBAL",1)
+!Exists("ANRUSHD0")
+THEN
+	RESPONSE #100
+ActionOverride("ANbugb01",DestroySelf())
+END
+
+
+
+
+// Рушди на задании от Нумы
+IF
+    Global("ANNumaRushdi","GLOBAL",2)
+	!GlobalTimerExpired("ANNumaRushdiTimer","GLOBAL")
+	Global("ANNumaRushdiExist","AN0451",0)
+THEN
+	RESPONSE #100
+		Deactivate("ANRUSHD0")  // Рушди
+		SetGlobal("ANNumaRushdiExist","AN0451",1)
+		Continue()
+END
+
+IF
+    Global("ANNumaRushdi","GLOBAL",2)
+	GlobalTimerExpired("ANNumaRushdiTimer","GLOBAL")
+	Global("ANNumaRushdiExist","AN0451",1)
+THEN
+	RESPONSE #100
+		SetGlobal("ANNumaRushdiExist","AN0451",2)
+		Activate("ANRUSHD0")  // Рушди
+END
+
+
+// Дранголона
+IF
+    Global("ANdragonlonaExists","AN0451",0)
+	Global("ANDragonlonaBattle","GLOBAL",3)
+	Global("ANDragonlonaFriend","GLOBAL",1)
+	Dead("ANJELGRE")
+	GlobalGT("ANSearchGuild","GLOBAL",25)
+	CombatCounter(0)
+THEN
+	RESPONSE #100
+	    SetGlobal("ANdragonlonaExists","AN0451",1)
+		CreateCreature("ANdragna",[547.700],0)  // Дранголона
+		Continue()
+END
+
+IF
+    Global("ANdragonlonaExists","AN0451",2)
+	GlobalTimerExpired("ANDragonlonaGuildTimer","GLOBAL")
+	Exists("ANdragna")
+THEN
+	RESPONSE #100
+        ActionOverride("ANdragna",DestroySelf())
+		SetGlobal("ANdragonlonaExists","AN0451",3)
+END
+
+
+// Душа убийцы
+IF
+    Global("ANSearchGuild","GLOBAL",26)
+	Global("ANSearchGuildPrizrak","AN0451",0)
+	RealGlobalTimerExpired("ANGuildPrizrakTimer","GLOBAL")
+
+THEN
+	RESPONSE #100
+		CreateCreature("ANGhost1",[775.1069],0) 
+		SetGlobal("ANSearchGuildPrizrak","AN0451",1)
+		ActionOverride("ANGhost1",RandomWalk())
+END

@@ -1,0 +1,15 @@
+IF
+Global("ANOrgotExists","AR0902",1)
+Detect([PC])
+THEN
+	RESPONSE #100
+	    SetGlobal("ANOrgotExists","AR0902",2)
+		ActionOverride("ANOrgot",StartDialogNoSet([PC]))
+END
+
+IF
+Global("ANOrgotExists","AR0902",6)
+THEN
+	RESPONSE #100
+			ActionOverride("ANOrgot",StartDialogNoSet([PC]))
+END

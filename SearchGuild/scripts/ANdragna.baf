@@ -1,0 +1,20 @@
+IF
+	Dead("MaeVar")
+	CombatCounter(0)
+	OR(2)
+	Global("ANDragonlonaBattle","GLOBAL",1)
+	Global("ANDragonlonaBattle","GLOBAL",2)
+	!Allegiance(Myself,NEUTRAL)
+THEN
+	RESPONSE #100
+	    ChangeEnemyAlly(Myself,NEUTRAL)
+END
+
+IF
+    Global("ANdragonlonaExists","AN0451",1)
+	CombatCounter(0)
+	See([PC])
+THEN
+	RESPONSE #100
+		ActionOverride("ANdragna",StartDialogNoSet([PC]))
+END

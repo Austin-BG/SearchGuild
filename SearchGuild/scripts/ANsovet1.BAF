@@ -1,0 +1,35 @@
+IF
+	Detect([PC])
+	Global("Display","LOCALS",0)
+THEN
+	RESPONSE #100
+		SetGlobal("Display","LOCALS",1)
+		DisplayStringHead(Myself,@26) 
+END
+
+IF
+	Detect([PC])
+	Global("Display","LOCALS",1)
+	Delay(12)
+THEN
+	RESPONSE #100
+		SetGlobal("Display","LOCALS",0)
+END
+
+IF 
+TimeOfDay(NIGHT)
+Global("ANSovet1Deactivate","AR1000",0)
+THEN
+  RESPONSE #100
+Deactivate(Myself)
+SetGlobal("ANSovet1Deactivate","AR1000",1)
+END
+
+IF 
+!TimeOfDay(NIGHT)
+Global("ANSovet1Deactivate","AR1000",1)
+THEN
+  RESPONSE #100
+Activate(Myself)
+SetGlobal("ANSovet1Deactivate","AR1000",0)
+END

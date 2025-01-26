@@ -1,0 +1,35 @@
+IF
+Global("ANSearchGuildMattias","GLOBAL",3)
+!Exists("ANSAIL1")
+THEN
+	RESPONSE #100
+		SetGlobal("ANSearchGuildMattias","GLOBAL",4)
+        CreateCreature("ANSAIL1",[1951.3330],0) 
+END
+
+IF
+Global("ANSearchGuildMattias","GLOBAL",5)
+THEN
+	RESPONSE #100
+SetInterrupt(FALSE)	
+ClearAllActions() 
+SetGlobal("ANSearchGuildMattias","GLOBAL",6)
+Wait(1)
+FadeFromColor([60.0],0)
+Wait(1)
+SetInterrupt(TRUE)
+ActionOverride("ANSAIL1",StartDialogNoSet([PC]))
+END
+
+IF 
+Global("ANSearchGuildMattias","GLOBAL",10)
+
+THEN
+  RESPONSE #100
+        SetGlobal("ANSearchGuildMattias","GLOBAL",11)
+		StartCutSceneMode()
+		FadeFromColor([70.0],0)
+		ActionOverride(Player1,LeaveAreaLUA("AN0136","",[382.314],0))
+		Wait(1)
+		EndCutSceneMode()
+END

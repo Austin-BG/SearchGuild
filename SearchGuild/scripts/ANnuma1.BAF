@@ -1,0 +1,60 @@
+IF 
+Global("ANSearchGuild","GLOBAL",15)
+See([PC])
+THEN
+  RESPONSE #100
+SetGlobal("ANSearchGuild","GLOBAL",16)
+StartDialogNoSet([PC])
+END
+
+IF 
+AreaCheck("AR1000")
+TimeOfDay(NIGHT)
+Global("ANnumaDeactivate","AR1000",0)
+THEN
+  RESPONSE #100
+Deactivate(Myself)
+SetGlobal("ANnumaDeactivate","AR1000",1)
+END
+
+IF 
+AreaCheck("AR1000")
+!TimeOfDay(NIGHT)
+Global("ANnumaDeactivate","AR1000",1)
+THEN
+  RESPONSE #100
+Activate(Myself)
+SetGlobal("ANnumaDeactivate","AR1000",0)
+END
+
+IF
+AreaCheck("AN0450")
+Global("ANSearchGuild","GLOBAL",26)
+Global("ANNumaGuild","AN0450",1)
+See([PC])
+THEN
+	RESPONSE #100
+	StartDialogNoSet([PC])
+END
+
+IF
+AreaCheck("AN0450")
+Global("ANSearchGuildKithen","AN0450",4)
+Global("ANSearchGuildOrgot","GLOBAL",0)
+GlobalTimerExpired("ANNumaOrgotTimer","GLOBAL")
+See([PC])
+THEN
+	RESPONSE #100
+	StartDialogNoSet([PC])
+END
+
+// Бегство Дранголоны
+IF
+AreaCheck("AN0450")
+GlobalTimerExpired("ANDragonlonaGuildTimer","GLOBAL")
+Global("ANSearchGuildDragnaEscape","AN0450",0)
+See([PC])
+THEN
+	RESPONSE #100
+	StartDialogNoSet([PC])
+END

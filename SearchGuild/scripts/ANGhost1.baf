@@ -1,0 +1,8 @@
+IF 
+Global("ANSearchGuildPrizrak","AN0451",1)
+See([PC])
+THEN
+  RESPONSE #100
+SetGlobal("ANSearchGuildPrizrak","AN0451",2)  
+StartDialogNoSet([PC])
+END

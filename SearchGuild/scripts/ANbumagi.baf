@@ -1,0 +1,20 @@
+IF
+	OR(5)
+		Unlocked(Myself)
+		Unlocked([PC])
+		Unlocked([ANYONE])
+		Opened([PC])
+		Opened([ANYONE])
+THEN
+	RESPONSE #100
+		NoAction()
+END
+
+IF
+    Global("ANbumagiAdelardOPEN","AN0450",0)
+	%bumagi_string%
+THEN
+	RESPONSE #100
+   SetGlobal("ANbumagiAdelardOPEN","AN0450",1)
+END
+

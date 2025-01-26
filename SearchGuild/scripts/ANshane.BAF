@@ -1,0 +1,75 @@
+IF
+	OR(2)
+		AttackedBy([GOODCUTOFF],DEFAULT)
+		Allegiance(Myself,ENEMY)
+	!Global("MaeVarExposed","GLOBAL",1)
+	!Global("ArkanisComes","GLOBAL",1)
+THEN
+	RESPONSE #100
+		SetGlobal("AttackedThieves","GLOBAL",1)
+		Continue()
+END
+
+IF
+	Global("ArkanisComes","GLOBAL",0)
+	Global("AttackedThieves","GLOBAL",1)
+	Global("WorkingForBodhi","GLOBAL",0)
+THEN
+	RESPONSE #100
+		CreateCreatureObject("STDEATH",Player1,0,0,0)  // Арканис Гат
+		SetGlobal("ArkanisComes","GLOBAL",1)
+END
+
+IF
+	Global("AttackedThieves","GLOBAL",1)
+	!Global("MaeVarExposed","GLOBAL",1)
+	Allegiance(Myself,NEUTRAL)
+THEN
+	RESPONSE #100
+		Enemy()
+END
+
+IF
+	Global("MaeVarExposed","GLOBAL",1)
+	Allegiance(Myself,NEUTRAL)
+THEN
+	RESPONSE #100
+		Enemy()
+END
+
+IF
+	Detect([PC])
+	Global("ANDisplay","LOCALS",0)
+THEN
+	RESPONSE #100
+		SetGlobal("ANDisplay","LOCALS",1)
+		ActionOverride("ANgortar",FaceObject("ANdragna"))
+        ActionOverride("ANdecheb",FaceObject("ANdragna"))
+        FaceObject("ANdragna")
+		DisplayStringHead(Myself,@39)
+		Swing()
+        Wait(2)			
+		ActionOverride("ANgortar",DisplayStringHead(Myself,@40))
+		Wait(2)
+        ActionOverride("ANdecheb",DisplayStringHead(Myself,@41)) 
+		Wait(2)		
+		Swing()
+		DisplayStringHead(Myself,@42) 
+		Wait(2)		
+		ActionOverride("ANgortar",DisplayStringHead(Myself,@43)) 
+		Wait(2)
+		Swing()
+        PlaySound("STHMA06")		
+		ActionOverride("ANdecheb",DisplayStringHead(Myself,@44)
+		Wait(2)	
+        SetGlobal("ANDisplay","LOCALS",2)		
+END
+
+IF
+	Detect([PC])
+	Global("ANDisplay","LOCALS",2)
+	Delay(12)
+THEN
+	RESPONSE #100
+		SetGlobal("ANDisplay","LOCALS",0)
+END

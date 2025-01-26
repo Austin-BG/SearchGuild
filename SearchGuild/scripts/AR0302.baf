@@ -1,0 +1,34 @@
+IF
+    Global("ANDragonlonaBattle","GLOBAL",1)
+	!Dead("ANdragna")
+	Global("ANdragnaExists","AR0302",0)
+	!Dead("MaeVar")
+THEN
+	RESPONSE #100
+		SetGlobal("ANdragnaExists","AR0302",1)
+		CreateCreature("ANdragna",[948.436],0) 
+		ChangeEnemyAlly("ANdragna",CONTROLLED) 
+        Continue()		
+END
+
+IF
+    !Dead("ANdragna")
+	Dead("MaeVar")
+	CombatCounter(0)
+    Global("ANDragonlonaBattle","GLOBAL",1)
+THEN
+	RESPONSE #100
+		ChangeEnemyAlly("ANdragna",NEUTRAL) 
+		SetGlobal("ANDragonlonaBattle","GLOBAL",2)		
+		ActionOverride("ANdragna",StartDialogNoSet([PC]))
+END
+
+IF
+    Exists("ANdragna")
+	CombatCounter(0)
+    Global("ANDragonlonaBattle","GLOBAL",3)
+THEN
+	RESPONSE #100
+		ActionOverride("ANdragna",DestroySelf())
+END
+

@@ -1,0 +1,36 @@
+IF
+Global("ANSearchGuild","GLOBAL",6)
+THEN
+	RESPONSE #100
+TriggerActivation("TranAN0450",TRUE)
+SetGlobal("ANSearchGuild","GLOBAL",7)
+CreateCreature("ANbugb01",[739.2779],0)
+Wait(1)
+ActionOverride(Player1,SetDialog("PLAYER1"))  
+ActionOverride(Player1,StartDialog("Player1",Myself))
+END
+
+IF
+Global("ANSearchGuild","GLOBAL",8)
+THEN
+	RESPONSE #100
+SetGlobal("ANSearchGuild","GLOBAL",9)
+FadeFromColor([20.0],0)
+ActionOverride("ANbugb01",DestroySelf()) 
+ActionOverride(Player1,LeaveAreaLUA("AN0450","",[1393.494],0))
+ActionOverride(Player2,LeaveAreaLUA("AN0450","",[1391.364],0))
+ActionOverride(Player3,LeaveAreaLUA("AN0450","",[1521.430],8))
+ActionOverride(Player4,LeaveAreaLUA("AN0450","",[1426.320],8))
+ActionOverride(Player5,LeaveAreaLUA("AN0450","",[1556.406],8))
+ActionOverride(Player6,LeaveAreaLUA("AN0450","",[1598.469],8))
+Wait(2)
+END
+
+IF
+Global("ANSearchGuild","GLOBAL",999)
+Global("ANSearchGuild","AR0400",0)
+THEN
+	RESPONSE #100
+TriggerActivation("TranAN0450",FALSE)
+SetGlobal("ANSearchGuild","AR0400",1)
+END
