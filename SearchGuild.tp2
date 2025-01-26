@@ -1,0 +1,525 @@
+BACKUP ~SearchGuild/backup~
+
+AUTHOR ~Scheele, Austin & Arcanecoast Team~
+VERSION ~1.1~
+
+AUTO_TRA ~SearchGuild/tra/%s~
+
+ALWAYS
+
+OUTER_SET IS_INIANIM = (FILE_EXISTS_IN_GAME ~5000.ini~) ? 1 : 0
+
+ACTION_IF NOT VARIABLE_IS_SET bg2_chapter THEN BEGIN // check to make this happen only once per install
+
+ACTION_IF (GAME_IS ~eet~) BEGIN // Check for EET and change chapter variables if it is detected
+OUTER_SET bg2_chapter = 12
+END ELSE BEGIN
+  OUTER_SET bg2_chapter = 0
+END
+OUTER_FOR (i=1; i<=10; i=i+1) BEGIN
+  OUTER_SET bg2_chapter = bg2_chapter + 1
+  OUTER_SPRINT name_source ~bg2_chapter_%i%~
+  OUTER_SET EVAL ~%name_source%~ = bg2_chapter
+END
+
+END
+
+
+// convert strings to UTF-8 for BGEE/BG2EE
+	
+ACTION_DEFINE_ARRAY ANnoconvert BEGIN END
+ACTION_DEFINE_ARRAY ANreload BEGIN setup END
+
+  LAF HANDLE_CHARSETS
+    INT_VAR
+      infer_charsets = 1
+    STR_VAR
+      tra_path = EVAL ~%MOD_FOLDER%/tra~
+      noconvert_array = ANnoconvert
+      reload_array = ANreload
+END 
+
+INCLUDE ~SearchGuild/lib/functions.tph~
+
+END
+
+// Translations
+
+LANGUAGE ~Russian~
+         ~Russian~
+         ~SearchGuild/tra/Russian/setup.TRA~
+		 
+LANGUAGE ~English~
+         ~English~
+         ~SearchGuild/tra/English/setup.TRA~		 
+		 
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+BEGIN @0 DESIGNATED 0
+
+REQUIRE_PREDICATE (GAME_IS "bg2ee eet") OR (GAME_IS "tob bgt" AND MOD_IS_INSTALLED ~INFINITYANIMATIONS.TP2~ ~0~)
+~To install this mod, you need an EE version of the game or BG2 with Infinity Animations mod~
+
+LAF HANDLE_AUDIO
+  STR_VAR
+    audio_path = ~SearchGuild/sounds/bugbear~
+    oggdec_path = ~SearchGuild/lib~
+END
+LAF HANDLE_AUDIO
+  STR_VAR
+    audio_path = ~SearchGuild/sounds/guild~
+    oggdec_path = ~SearchGuild/lib~
+END
+
+APPEND ~STATE.IDS~ ~0x80101FEF CD_STATE_NOTVALID~ UNLESS ~CD_STATE_NOTVALID~
+
+//это есть в ЕЕ, но нет в оригинальной игре
+APPEND ~gtimes.ids~ ~7200 ONE_DAY~ UNLESS ~ONE_DAY~
+APPEND ~gtimes.ids~ ~14400 TWO_DAYS~ UNLESS ~TWO_DAYS~
+APPEND ~gtimes.ids~ ~21600 THREE_DAYS~ UNLESS ~THREE_DAYS~
+APPEND ~gtimes.ids~ ~36000 FIVE_DAYS~ UNLESS ~FIVE_DAYS~
+APPEND ~gtimes.ids~ ~50400 SEVEN_DAYS~ UNLESS ~SEVEN_DAYS~
+APPEND ~gtimes.ids~ ~6000 TWENTY_HOURS~ UNLESS ~TWENTY_HOURS~
+
+ACTION_IF NOT FILE_EXISTS_IN_GAME ~dir.ids~ BEGIN
+COPY "%MOD_FOLDER%/lib/dir.ids" override
+COPY_EXISTING "action.ids" override
+    REPLACE_TEXTUALLY "Face\*)" "Face*DIR)"
+    REPLACE_TEXTUALLY "Direction\*)" "Direction*DIR)"
+    BUT_ONLY
+END
+
+// локации
+COPY ~%MOD_FOLDER%/are~ ~override~
+
+COPY_EXISTING ~AN0450.are~ ~override~
+SAY 0x244 @6
+SAY 0x3cc @47
+SAY 0x1768 @48
+SAY 0x179c @49
+SAY 0x1838 @50
+SAY 0x17d0 @51
+SAY 0x1804 @52
+
+ACTION_IF GAME_IS "bg2ee eet" BEGIN
+	ACTION_FOR_EACH tis_name_all IN AN0450 AN0451 AN0136 BEGIN //список нужных тис-файлов
+		LAF FC_COPY_TIS_PVRZ // We use a function that finds free pvrz indices
+			STR_VAR
+				tis_pvrz_path = EVAL "%MOD_FOLDER%/tis/ee" //путь к папке с tis/pvrz для EE
+				path_to_vanilla_tis = EVAL "%MOD_FOLDER%\tis\Vanilla"
+				tis_name = EVAL "%tis_name_all%" //имя tis без расширения
+		END
+	END
+END ELSE BEGIN
+	COPY ~%MOD_FOLDER%\tis\Vanilla~ ~override~
+END
+
+
+//// cre
+COPY ~%MOD_FOLDER%/cre/ANcivil1.cre~ ~override/ANcivil1.cre~
+COPY ~%MOD_FOLDER%/cre/ANguard1.cre~ ~override/ANguard1.cre~
+
+COPY ~%MOD_FOLDER%/cre/ANBAT01.cre~ ~override/ANBAT01.cre~
+
+COPY ~%MOD_FOLDER%/cre/ANRUSHD0.cre~ ~override/ANRUSHD0.cre~
+SAY NAME1 @7
+SAY NAME2 @7
+
+COPY ~%MOD_FOLDER%/cre/ANJELGRE.cre~ ~override/ANJELGRE.cre~
+SAY NAME1 @8
+SAY NAME2 @8
+
+COPY ~%MOD_FOLDER%/cre/ANnuma1.cre~ ~override/ANnuma1.cre~
+SAY NAME1 @23
+SAY NAME2 @23
+
+COPY ~%MOD_FOLDER%/cre/ANsovet1.cre~ ~override/ANsovet1.cre~
+SAY NAME1 @25
+SAY NAME2 @25
+
+COPY ~%MOD_FOLDER%/cre/ANsovet2.cre~ ~override/ANsovet2.cre~
+SAY NAME1 @24
+SAY NAME2 @24
+
+COPY ~%MOD_FOLDER%/cre/ANhemed1.cre~ ~override/ANhemed1.cre~
+SAY NAME1 @27
+SAY NAME2 @27
+
+COPY ~%MOD_FOLDER%/cre/ANdragna.cre~ ~override/ANdragna.cre~
+SAY NAME1 @35
+SAY NAME2 @35
+
+COPY ~%MOD_FOLDER%/cre/ANdragna.cre~ ~override/ANgortar.cre~
+SAY NAME1 @36
+SAY NAME2 @36
+WRITE_ASCII 0x248 ~ANgortar~         #8  // override script
+WRITE_ASCII 0x260 ~PTDEATH~   #8  // general script
+WRITE_ASCII 0x0268 ~WTASIGHT~ #8 // Creature script - Default
+WRITE_ASCII 0x0258 ~GPSHOUT~ #8 // Creature script - Race
+WRITE_ASCII 0x2cc ~ANgortar~  #8  // dialogue file
+WRITE_ASCII 0x280 ~ANgortar~  #32 // death variable - character reference
+
+COPY_EXISTING ~THIEF2.cre~ ~override/ANdecheb.cre~
+SAY NAME1 @37
+SAY NAME2 @37
+WRITE_ASCII 0x248 ~ANgortar~         #8  // override script
+WRITE_ASCII 0x260 ~PTDEATH~   #8  // general script
+WRITE_ASCII 0x0268 ~WTASIGHT~ #8 // Creature script - Default
+WRITE_ASCII 0x0258 ~GPSHOUT~ #8 // Creature script - Race
+WRITE_ASCII 0x2cc ~ANdecheb~  #8  // dialogue file
+WRITE_ASCII 0x280 ~ANdecheb~  #32 // death variable - character reference
+
+COPY_EXISTING ~THIEF4.cre~ ~override/ANshane.cre~
+SAY NAME1 @38
+SAY NAME2 @38
+WRITE_ASCII 0x248 ~ANshane~         #8  // override script
+WRITE_ASCII 0x260 ~PTDEATH~   #8  // general script
+WRITE_ASCII 0x0268 ~WTASIGHT~ #8 // Creature script - Default
+WRITE_ASCII 0x0258 ~GPSHOUT~ #8 // Creature script - Race
+WRITE_ASCII 0x2cc ~ANshane~  #8  // dialogue file
+WRITE_ASCII 0x280 ~ANshane~  #32 // death variable - character reference
+
+COPY ~%MOD_FOLDER%/cre/ANbugb01.cre~ ~override/ANbugb01.cre~
+SAY NAME1 @1
+SAY NAME2 @1
+PATCH_IF !GAME_IS "bg2ee eet" BEGIN
+ WRITE_SHORT 0x28 0x500e
+END
+
+COPY ~%MOD_FOLDER%/cre/ANsysk1.cre~ ~override/ANsysk1.cre~
+SAY NAME1 @59
+SAY NAME2 @59
+
+COPY ~%MOD_FOLDER%/cre/ANsysk2.cre~ ~override/ANsysk2.cre~
+SAY NAME1 @60
+SAY NAME2 @60
+
+COPY ~%MOD_FOLDER%/cre/ANsysk3.cre~ ~override/ANsysk3.cre~
+SAY NAME1 @61
+SAY NAME2 @61
+
+COPY ~%MOD_FOLDER%/cre/ANGhost1.cre~ ~override/ANGhost1.cre~
+SAY NAME1 @62
+SAY NAME2 @62
+
+COPY ~%MOD_FOLDER%/cre/ANcook1.cre~ ~override/ANcook1.cre~
+SAY NAME1 @63
+SAY NAME2 @63
+
+COPY ~%MOD_FOLDER%/cre/ANOrgot.cre~ ~override/ANOrgot.cre~
+SAY NAME1 @64
+SAY NAME2 @64
+
+COPY ~%MOD_FOLDER%/cre/ANLATKNI.cre~ ~override/ANLATKNI.cre~
+
+COPY ~%MOD_FOLDER%/cre/ANmatty.cre~ ~override/ANmatty.cre~
+SAY NAME1 @65
+SAY NAME2 @65
+
+COPY ~%MOD_FOLDER%/cre/ANSAIL1.cre~ ~override/ANSAIL1.cre~
+SAY NAME1 @66
+SAY NAME2 @66
+
+COPY ~%MOD_FOLDER%/cre/ANFrodo.cre~ ~override/ANFrodo.cre~
+SAY NAME1 @67
+SAY NAME2 @67
+
+COPY ~%MOD_FOLDER%/cre/ANMudr.cre~ ~override/ANMudr.cre~
+SAY NAME1 @68
+SAY NAME2 @68
+
+ACTION_IF GAME_IS "bg2ee eet" BEGIN
+ACTION_IF IS_INIANIM BEGIN
+
+APPEND ~EXTANIM.2DA~
+~57959 0 1 1 0 0 0 47 0 0 NONE NONE NONE 8 5 MBUG NONE 0 0 NONE~
+
+APPEND ~EXTSPEED.2DA~
+~57959	7~
+
+END
+COPY ~%MOD_FOLDER%\MBUG.2da~ ~override\MBUG.2da~
+END
+
+
+ACTION_IF NOT (FILE_EXISTS_IN_GAME ~MBUGA1.bam~) BEGIN // Если в игре нет анимации Багбира
+COPY ~%MOD_FOLDER%/bam/bugbear~ ~override~
+END
+
+
+ACTION_IF NOT (FILE_EXISTS_IN_GAME ~BUGBR01A.wav~) BEGIN
+COPY ~%MOD_FOLDER%/sounds/bugbear~ ~override~
+END
+
+
+//// scripts
+EXTEND_TOP ~AR1002.bcs~ ~%MOD_FOLDER%/scripts/AR1002.baf~
+EXTEND_TOP ~AR1000.bcs~ ~%MOD_FOLDER%/scripts/AR1000.baf~
+EXTEND_TOP ~AR0400.bcs~ ~%MOD_FOLDER%/scripts/AR0400.baf~
+EXTEND_TOP ~AR0300.bcs~ ~%MOD_FOLDER%/scripts/AR0300.baf~
+EXTEND_TOP ~AR0301.bcs~ ~%MOD_FOLDER%/scripts/AR0301.baf~
+EXTEND_TOP ~AR0302.bcs~ ~%MOD_FOLDER%/scripts/AR0302.baf~
+EXTEND_TOP ~AR0303.bcs~ ~%MOD_FOLDER%/scripts/AR0303.baf~
+EXTEND_TOP ~AR0902.bcs~ ~%MOD_FOLDER%/scripts/AR0902.baf~
+EXTEND_TOP ~edwin.bcs~ ~%MOD_FOLDER%/scripts/edwin.baf~
+COMPILE ~%MOD_FOLDER%/scripts/AN0450.baf~
+COMPILE ~%MOD_FOLDER%/scripts/AN0451.baf~
+COMPILE ~%MOD_FOLDER%/scripts/AN0136.baf~
+COMPILE ~%MOD_FOLDER%/scripts/ANcivil1.baf~
+COMPILE ~%MOD_FOLDER%/scripts/ANbugb01.baf~
+COMPILE ~%MOD_FOLDER%/scripts/ANsovet1.baf~
+COMPILE ~%MOD_FOLDER%/scripts/ANsovet2.baf~
+COMPILE ~%MOD_FOLDER%/scripts/ANnuma1.baf~
+COMPILE ~%MOD_FOLDER%/scripts/ANrushd0.baf~
+COMPILE ~%MOD_FOLDER%/scripts/ANshane.baf~
+COMPILE ~%MOD_FOLDER%/scripts/ANdragna.baf~
+COMPILE ~%MOD_FOLDER%/scripts/ANgortar.baf~
+COMPILE ~%MOD_FOLDER%/scripts/ANGhost1.baf~
+COMPILE ~%MOD_FOLDER%/scripts/ANOrgot.baf~
+
+ACTION_FOR_EACH area IN AR0020 AR0300 AR0400 AR0500 AR0700 AR0800 AR0900 AR1000 L#ND01 L#NI01 BEGIN //сюда можно добавить локации из модов. Типа Южной окраины. Если они установлены, туда тоже добавит
+	ACTION_IF FILE_EXISTS_IN_GAME ~%area%.bcs~ BEGIN
+		EXTEND_TOP ~%area%.bcs~ ~%MOD_FOLDER%/scripts/GuildClose.baf~ EVALUATE_BUFFER
+	END
+END
+
+// Добавляем скрипт локации лавки Энге
+COPY_EXISTING ~AR0707.are~ ~override~
+	SPRINT ~scrp~ ~%SOURCE_RES%~ //сохранение в переменную имени локации
+	READ_ASCII 0x94 are_script (8) NULL //сохранение в переменную имени скрипта локации
+	PATCH_IF ( ~%are_script%~ STR_EQ ~~ ) OR // если имя скрипта пустое
+	         ( ~%are_script%~ STR_EQ ~None~ ) OR // или None
+	         ( ~%are_script%~ STR_EQ ~AR0003~ ) BEGIN //или AR0003
+		WRITE_EVALUATED_ASCII 0x94 ~%scrp%~ (8) // то записывается в имя скрипта имя локации
+		SPRINT are_script ~%scrp%~ // сохранение в переменную нового имени скрипта
+	END
+	BUT_ONLY_IF_IT_CHANGES
+
+//если baf файл имеет такое же имя
+ACTION_IF FILE_EXISTS_IN_GAME ~%are_script%.bcs~ BEGIN
+	EXTEND_TOP ~%are_script%.bcs~ ~%MOD_FOLDER%/scripts/AR0707.baf~ EVALUATE_BUFFER //если скрипт существует, добавляем сверху или снизу
+END ELSE BEGIN
+	COMPILE ~%MOD_FOLDER%/scripts/AR0707.baf~ EVALUATE_BUFFER //если не существует, то создаем новый
+END
+
+COPY_EXISTING ~CIVIL03.cre~ ~override~
+  WRITE_EVALUATED_ASCII SCRIPT_GENERAL ~ANcivil1~ #8
+
+ACTION_IF GAME_IS "bg2ee eet" BEGIN
+OUTER_SPRINT ~stol_string~ ~OR(2) Clicked([PC]) Clicked([ANYONE])~
+OUTER_SPRINT ~bumagi_string~ ~OR(2) Clicked([PC]) Clicked([ANYONE])~
+END
+ELSE BEGIN
+OUTER_SPRINT ~stol_string~ ~Range(Player1,1)~
+OUTER_SPRINT ~bumagi_string~ ~Range(Player1,1)~
+END
+COPY ~%MOD_FOLDER%/scripts/ANstol.baf~ ~%MOD_FOLDER%/scripts~ EVALUATE_BUFFER
+COPY ~%MOD_FOLDER%/scripts/ANbumagi.baf~ ~%MOD_FOLDER%/scripts~ EVALUATE_BUFFER
+// И теперь компилируем
+COMPILE ~%MOD_FOLDER%/scripts/ANstol.baf~ EVALUATE_BUFFER
+COMPILE ~%MOD_FOLDER%/scripts/ANbumagi.baf~ EVALUATE_BUFFER
+
+// Добавляем скрипт локации гильдии Маевара (2 этаж)
+COPY_EXISTING ~AR0303.are~ ~override~
+	SPRINT ~scrp~ ~%SOURCE_RES%~ //сохранение в переменную имени локации
+	READ_ASCII 0x94 are_script (8) NULL //сохранение в переменную имени скрипта локации
+	PATCH_IF ( ~%are_script%~ STR_EQ ~~ ) OR // если имя скрипта пустое
+	         ( ~%are_script%~ STR_EQ ~None~ ) BEGIN //или None
+		WRITE_EVALUATED_ASCII 0x94 ~%scrp%~ (8) // то записывается в имя скрипта имя локации
+		SPRINT are_script ~%scrp%~ // сохранение в переменную нового имени скрипта
+	END
+	BUT_ONLY_IF_IT_CHANGES
+	
+// Добавляем скрипт локации гильдии Маевара (1 этаж)
+COPY_EXISTING ~AR0302.are~ ~override~
+	SPRINT ~scrp~ ~%SOURCE_RES%~ //сохранение в переменную имени локации
+	READ_ASCII 0x94 are_script (8) NULL //сохранение в переменную имени скрипта локации
+	PATCH_IF ( ~%are_script%~ STR_EQ ~~ ) OR // если имя скрипта пустое
+	         ( ~%are_script%~ STR_EQ ~None~ ) BEGIN //или None
+		WRITE_EVALUATED_ASCII 0x94 ~%scrp%~ (8) // то записывается в имя скрипта имя локации
+		SPRINT are_script ~%scrp%~ // сохранение в переменную нового имени скрипта
+	END
+	BUT_ONLY_IF_IT_CHANGES	
+
+//// dialogs
+COMPILE ~%MOD_FOLDER%/dlg/ANguild.d~ EVALUATE_BUFFER
+COMPILE ~%MOD_FOLDER%/dlg/ANrushdi.d~
+COMPILE ~%MOD_FOLDER%/dlg/ANdragna.d~
+COMPILE ~%MOD_FOLDER%/dlg/ANsysk.d~
+COMPILE ~%MOD_FOLDER%/dlg/ANToB.d~
+
+// Smiling Imp's Coran crossmod talks
+ACTION_IF FILE_EXISTS_IN_GAME ~7XCoranJ.dlg~ BEGIN
+COMPILE ~%MOD_FOLDER%/dlg/crossmod/SmilingImp_Coran.d~ USING ~%MOD_FOLDER%/tra/%LANGUAGE%/crossmod.tra~
+END
+
+// Kyluok's Coran crossmod talks
+ACTION_IF FILE_EXISTS_IN_GAME ~O#CORANJ.dlg~ BEGIN
+COMPILE ~%MOD_FOLDER%/dlg/crossmod/Kyluok_Coran.d~ USING ~%MOD_FOLDER%/tra/%LANGUAGE%/crossmod.tra~
+END
+
+// Smiling Imp's Xzar crossmod talks
+ACTION_IF FILE_EXISTS_IN_GAME ~7XXZARJ.dlg~ BEGIN
+COMPILE ~%MOD_FOLDER%/dlg/crossmod/SmilingImp_Xzar.d~ USING ~%MOD_FOLDER%/tra/%LANGUAGE%/crossmod.tra~
+END
+
+   // If a EE-version is installed, change the journal entries to adapt it 
+ADD_JOURNAL @1000 @1001 @1002 @1003 @1004 @1005 @1006 @1007 @1008 @1009 @1010 @1011 @1012 @1013 @1014 @1015 @1016 @1017 USING ~%MOD_FOLDER%/tra/%LANGUAGE%/setup.tra~ 
+
+// Добавляем вход на новую локацию гильдии
+COPY_EXISTING ~AR0400.are~ ~override~
+	ADD_MAP_NOTE #444 #2869 ~gray~ @5
+	LPF fj_are_structure
+		INT_VAR
+			fj_type = 2
+//коробка полигона
+			fj_box_left = 602 //минимальная координата X (из fj_vertex_XXXXX)
+			fj_box_top = 2773 //минимальная координата Y (из fj_vertex_XXXXX)
+			fj_box_right = 645 //максимальная координата X (из fj_vertex_XXXXX)
+			fj_box_bottom = 2857 //максимальная координата Y (из fj_vertex_XXXXX)
+			//курсор
+			fj_cursor_idx = 30
+			fj_flags = 1796 //Party required, deactivated, cannot be passed by NPC, use activation point
+			fj_loc_x = 264
+			fj_loc_y = 2770
+			fj_alt_x = 609
+			fj_alt_y = 2807
+//вершины полигона			
+			fj_vertex_0 = 635 + ( 2857 << 16 ) // здесь ( x_coordinate + ( y_coordinate << 16 ) )
+			fj_vertex_1 = 602 + ( 2831 << 16 )
+			fj_vertex_2 = 606 + ( 2773 << 16 )
+			fj_vertex_3 = 645 + ( 2801 << 16 )
+		STR_VAR
+			fj_structure_type = region
+			fj_name = TranAN0450
+			fj_destination_area = AN0450
+			fj_destination_name = EnterAR0400
+	END
+
+	LPF fj_are_structure // entrance
+		INT_VAR
+			fj_loc_x = 726
+			fj_loc_y = 2818
+			fj_orientation = 6 // NW
+		STR_VAR
+			fj_structure_type = entrance
+			fj_name = ExitAN0450
+	END
+
+
+
+// portraits
+ACTION_IF GAME_IS "bg2ee eet" BEGIN
+COPY ~%MOD_FOLDER%\portraits\EE~ ~override~
+END 
+ELSE 
+BEGIN
+COPY ~%MOD_FOLDER%\portraits\Vanilla~ ~override~
+END
+
+// items
+COPY ~%MOD_FOLDER%/itm/ANscrll0.itm~ ~Override/ANscrll0.itm~
+SAY NAME1 @9
+SAY NAME2 @9
+SAY UNIDENTIFIED_DESC @9
+SAY DESC @10
+
+COPY ~%MOD_FOLDER%/itm/ANscrll1.itm~ ~Override/ANscrll1.itm~
+SAY NAME1 @11
+SAY NAME2 @11
+SAY UNIDENTIFIED_DESC @11
+SAY DESC @12
+
+COPY ~%MOD_FOLDER%/itm/ANscrll2.itm~ ~Override/ANscrll2.itm~
+SAY NAME1 @13
+SAY NAME2 @13
+SAY UNIDENTIFIED_DESC @13
+SAY DESC @14
+
+COPY ~%MOD_FOLDER%/itm/ANscrll3.itm~ ~Override/ANscrll3.itm~
+SAY NAME1 @15
+SAY NAME2 @15
+SAY UNIDENTIFIED_DESC @15
+SAY DESC @16
+
+COPY ~%MOD_FOLDER%/itm/ANscrll4.itm~ ~Override/ANscrll4.itm~
+SAY NAME1 @17
+SAY NAME2 @17
+SAY UNIDENTIFIED_DESC @17
+SAY DESC @18
+
+COPY ~%MOD_FOLDER%/itm/ANscrll5.itm~ ~Override/ANscrll5.itm~
+SAY NAME1 @19
+SAY NAME2 @19
+SAY UNIDENTIFIED_DESC @19
+SAY DESC @20
+
+COPY ~%MOD_FOLDER%/itm/ANscrll6.itm~ ~Override/ANscrll6.itm~
+SAY NAME1 @21
+SAY NAME2 @21
+SAY UNIDENTIFIED_DESC @21
+SAY DESC @22
+
+COPY ~%MOD_FOLDER%/itm/ANscrll7.itm~ ~Override/ANscrll7.itm~
+SAY NAME1 @900
+SAY NAME2 @900
+SAY UNIDENTIFIED_DESC @900
+SAY DESC @901
+
+COPY ~%MOD_FOLDER%/itm/ANringGD.itm~ ~Override/ANringGD.itm~
+SAY NAME1 @28
+SAY NAME2 @28
+SAY UNIDENTIFIED_DESC @28
+SAY DESC @29
+
+COPY ~%MOD_FOLDER%/itm/ANscrGD1.itm~ ~Override/ANscrGD1.itm~
+SAY NAME1 @30
+SAY NAME2 @30
+SAY UNIDENTIFIED_DESC @30
+SAY DESC @31
+
+COPY ~%MOD_FOLDER%/itm/ANscrGD2.itm~ ~Override/ANscrGD2.itm~
+SAY NAME1 @30
+SAY NAME2 @30
+SAY UNIDENTIFIED_DESC @30
+SAY DESC @32
+
+COPY ~%MOD_FOLDER%/itm/ANTblKey.itm~ ~Override/ANTblKey.itm~
+SAY NAME1 @33
+SAY NAME2 @33
+SAY UNIDENTIFIED_DESC @33
+SAY DESC @34
+
+COPY ~%MOD_FOLDER%/itm/ANmanual.itm~ ~Override/ANmanual.itm~
+SAY NAME1 @45
+SAY NAME2 @45
+SAY UNIDENTIFIED_DESC @45
+SAY DESC @46
+
+// books
+COPY ~%MOD_FOLDER%/itm/Anbk1.itm~ ~Override/Anbk1.itm~
+SAY NAME1 @53
+SAY NAME2 @53
+SAY UNIDENTIFIED_DESC @53
+SAY DESC @54
+
+COPY ~%MOD_FOLDER%/itm/Anbk2.itm~ ~Override/Anbk2.itm~
+SAY NAME1 @55
+SAY NAME2 @55
+SAY UNIDENTIFIED_DESC @55
+SAY DESC @56
+
+COPY ~%MOD_FOLDER%/itm/Anbk3.itm~ ~Override/Anbk3.itm~
+SAY NAME1 @57
+SAY NAME2 @57
+SAY UNIDENTIFIED_DESC @57
+SAY DESC @58
