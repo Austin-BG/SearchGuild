@@ -12,6 +12,7 @@ What awaits you is the following:
 - several new items (mostly books, notes and things needed for the plot or just for immersion in history)
 
 COMPATIBILITY:
+
 On BG2EE, EET the mod works by default. On the "classic" version of the game (BG2, BGT) the mod will install only if the Infinity Animations mod is previously installed (since it requires bugbear animation in the game).
 
 The mod should be compatible with any other mods, but conflicts with mods that change Mae'Var's guild are possible - "NPC Strongholds", "D0 Questpack (Additional Shadow Thieves Content component)", "Expanded Thief Stronghold". Work with them is at your own risk.
