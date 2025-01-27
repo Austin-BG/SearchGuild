@@ -13,6 +13,16 @@ COMPATIBILITY:
 On BG2EE, EET the mod works by default. On the "classic" version of the game (BG2, BGT) the mod will install only if the Infinity Animations mod is previously installed (since it requires bugbear animation in the game).
 The mod should be compatible with any other mods, but conflicts with mods that change Mae'Var's guild are possible - "NPC Strongholds", "D0 Questpack (Additional Shadow Thieves Content component)", "Expanded Thief Stronghold". Sharing with them is at your own risk.
 
+CROSS-MOD CONTENT:
+There are some cross-mod character quotes from the following mods (all necessary permissions have been obtained):
+-"BG1 NPC in SoA&ToB" (Smiling Imp & Arcanecoast Team)
+-Xan, Coran and Tiax mods (Kulyok)
+-Quayle, Skie, Khalid, Yeslick, Varshoon, Yvette (Lava)
+-SilverStar (Seifer & Davide Carta)
+-Gavin (Berelinde)
+-Rjali (nullset)
+-Minaye ("The Beaurin Legacy" mod by jmaeq)
+
 CREDITS:
 Scheele – author of the idea and script text
 Austin – coding, additions to the script
