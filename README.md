@@ -24,16 +24,14 @@ There are some cross-mod character quotes from the following mods (all necessary
 - Minaye ("The Beaurin Legacy" mod by jmaeq)
 
 CREDITS:
-Scheele – author of the idea and script text
-Austin – coding, additions to the script
-Gorion – maps of new locations
-Tipun – technical assistance
-Alisia – additions
-Endarire - proofreading of 233 lines of English guild text
-Art objects:
-nordic__bugbear_by_thatdman,
-orc_by_michalsalatav2,
-The Fixer by Smolin
+- Scheele – author of the idea and script text
+- Austin – coding, additions to the script
+- Gorion – maps of new locations
+- Tipun – technical assistance
+- Alisia – additions
+- Endarire - proofreading of 233 lines of English guild text
+- Art objects:
+nordic__bugbear_by_thatdman, orc_by_michalsalatav2, The Fixer by Smolin
 
 ANSWERS TO QUESTIONS
 
