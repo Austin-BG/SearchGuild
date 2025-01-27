@@ -25,6 +25,7 @@ There are some cross-mod character quotes from the following mods (all necessary
 - Minaye ("The Beaurin Legacy" mod by jmaeq)
 
 CREDITS:
+Mod created by Scheele, Austin and the Arcanecoast Team.
 - Scheele – author of the idea and script text
 - Austin – coding, additions to the script
 - Gorion – maps of new locations
