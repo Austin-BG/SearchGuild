@@ -10,6 +10,7 @@ What awaits you is the following:
 - small quests and incidents in the guild itself (to get some of them, you need to return to the building later);
 - a small episode in ToB, if the guild was obtained in SoA.;
 - several new items (mostly books, notes and things needed for the plot or just for immersion in history)
+- if the PC owns a detective guild, then Lieutenant Aegisfield will draw attention to this in the first dialogue, asking for help in investigating the murders.
 - in addition, in Mae'Var's guild on the second floor you can meet the orc Drangolona. She can help kill Mae'Var and then come to the Detective guild. There the player can make a decision about her future, which will have consequences. Almost all NPCs available in the game will speak out, as well as NPCs from the "BG1 NPC in SoA&ToB" mod.
 
 COMPATIBILITY:
