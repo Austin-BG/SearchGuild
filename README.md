@@ -1,4 +1,5 @@
 The mod adds a new Detective Guild building in the Slums area, which can become an additional stronghold for a player of any class - if he manages to save the guild from bankruptcy in two weeks of game time.
+Created by the eccentric wizard Adelard the Wanderer, the Detective Guild is located in Athkatla, in the Slums, near the Copper Coronet. A new content will be available starting from the second chapter.
 The quest will begin after meeting an unusual new character in the Council of Six building in the Government District.
 
 What awaits you is the following:
