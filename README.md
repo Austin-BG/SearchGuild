@@ -13,7 +13,9 @@ What awaits you is the following:
 
 COMPATIBILITY:
 On BG2EE, EET the mod works by default. On the "classic" version of the game (BG2, BGT) the mod will install only if the Infinity Animations mod is previously installed (since it requires bugbear animation in the game).
+
 The mod should be compatible with any other mods, but conflicts with mods that change Mae'Var's guild are possible - "NPC Strongholds", "D0 Questpack (Additional Shadow Thieves Content component)", "Expanded Thief Stronghold". Work with them is at your own risk.
+
 Also added compatibility with the mod "Imoen Forever" by Jastey (if it is installed, then phrases about kidnapping Imoen will not appear in dialogues)
 
 CROSS-MOD CONTENT:
