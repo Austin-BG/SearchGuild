@@ -20,6 +20,7 @@ The mod should be compatible with any other mods, but conflicts with mods that c
 Also added compatibility with the mod "Imoen Forever" by Jastey (if it is installed, then phrases about kidnapping Imoen will not appear in dialogues)
 
 CROSS-MOD CONTENT:
+
 There are some cross-mod character quotes from the following mods (all necessary permissions have been obtained):
 - "BG1 NPC in SoA&ToB" (Smiling Imp & Arcanecoast Team)
 - Xan, Coran and Tiax mods (Kulyok)
@@ -30,6 +31,7 @@ There are some cross-mod character quotes from the following mods (all necessary
 - Minaye ("The Beaurin Legacy" mod by jmaeq)
 
 CREDITS:
+
 Mod created by Scheele, Austin and the Arcanecoast Team.
 - Scheele – author of the idea and script text
 - Austin – coding, additions to the script
