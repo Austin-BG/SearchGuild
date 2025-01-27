@@ -15,13 +15,13 @@ The mod should be compatible with any other mods, but conflicts with mods that c
 
 CROSS-MOD CONTENT:
 There are some cross-mod character quotes from the following mods (all necessary permissions have been obtained):
--"BG1 NPC in SoA&ToB" (Smiling Imp & Arcanecoast Team)
--Xan, Coran and Tiax mods (Kulyok)
--Quayle, Skie, Khalid, Yeslick, Varshoon, Yvette (Lava)
--SilverStar (Seifer & Davide Carta)
--Gavin (Berelinde)
--Rjali (nullset)
--Minaye ("The Beaurin Legacy" mod by jmaeq)
+- "BG1 NPC in SoA&ToB" (Smiling Imp & Arcanecoast Team)
+- Xan, Coran and Tiax mods (Kulyok)
+- Quayle, Skie, Khalid, Yeslick, Varshoon, Yvette (Lava)
+- SilverStar (Seifer & Davide Carta)
+- Gavin (Berelinde)
+- Rjali (nullset)
+- Minaye ("The Beaurin Legacy" mod by jmaeq)
 
 CREDITS:
 Scheele – author of the idea and script text
