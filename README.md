@@ -35,8 +35,8 @@ There are some cross-mod character quotes from the following mods (all necessary
 CREDITS:
 
 Mod created by Scheele, Austin and the Arcanecoast Team.
-- Scheele – author of the idea and script text
-- Austin – coding, additions to the script
+- Scheele – author of the idea and dialog texts
+- Austin – coding, additions to the dialog texts
 - Gorion – maps of new locations
 - Tipun – technical assistance
 - Alisia – additions
