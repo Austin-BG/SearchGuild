@@ -5,7 +5,7 @@ The quest will begin after meeting an unusual new character in the Council of Si
 What awaits you is the following:
 - new area with two floors (maps were created by Gorion);
 - a new stronghold that will generate income;
-- new non-joinable characters;
+- new non-joinable NPCs;
 - one long quest to get a guild;
 - small quests and incidents in the guild itself (to get some of them, you need to return to the building later);
 - a small episode in ToB, if the guild was obtained in SoA.;
