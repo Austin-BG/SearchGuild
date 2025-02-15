@@ -3,38 +3,29 @@ Global("ANBugbearExists","AR1002",0)
 Global("ANSearchGuild","GLOBAL",0)
 THEN
   RESPONSE #100
-SetGlobal("ANBugbearExists","AR1002",1)
-SetGlobalTimer("BagbearExistsTimer","AR1002",3)
-END
-
-IF 
-GlobalTimerExpired("BagbearExistsTimer","AR1002")
-Global("ANBugbearExists","AR1002",1)
-
-THEN
-  RESPONSE #100
-SetGlobal("ANBugbearExists","AR1002",2)
-Explore()
+ClearAllActions()  
 CreateCreature("ANbugb01",[1337.808],2)
 CreateCreature("ANcivil1",[1310.729],0)
 CreateCreature("ANguard1",[1272.748],0)
-CreateCreature("amnleg01",[1297.845],0)
-SmallWait(3)
+CreateCreature("amnleg01",[1297.845],0)  
 ActionOverride("ANcivil1",FaceObject("ANbugb01")) 
 ActionOverride("ANguard1",FaceObject("ANbugb01")) 
 ActionOverride("amnleg01",FaceObject("ANbugb01"))
 ChangeEnemyAlly("amnleg01",NEUTRAL)
+SetGlobal("ANBugbearExists","AR1002",1)
+Continue()
+END
+
+IF 
+Global("ANBugbearExists","AR1002",2)
+
+THEN
+  RESPONSE #100
+SetGlobal("ANBugbearExists","AR1002",3)
 StartCutSceneMode() 
 CutSceneId(Player1)   
 MoveViewPoint([1141.769],VERY_FAST)
 SmallWait(3)
-ActionOverride(Player1,MoveToPoint([1085.678])) 
-ActionOverride(Player2,MoveToPoint([960.558])) 
-ActionOverride(Player3,MoveToPoint([1087.602])) 
-ActionOverride(Player4,MoveToPoint([929.575])) 
-ActionOverride(Player5,MoveToPoint([1009.629])) 
-ActionOverride(Player6,MoveToPoint([889.615])) 
-Wait(5)
 ActionOverride(Player1,FaceObject("ANbugb01")) 
 ActionOverride(Player2,FaceObject("ANbugb01")) 
 ActionOverride(Player3,FaceObject("ANbugb01")) 
@@ -54,7 +45,6 @@ EndCutSceneMode()
 ActionOverride(Player1,SetDialog("PLAYER1"))
 SmallWait(3)
 ActionOverride("ANbugb01",StartDialogNoSet(Player1)) 
-Continue()
 END
 
 IF 

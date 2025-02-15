@@ -1,4 +1,14 @@
 IF 
+AreaCheck("AR1002")
+Global("ANBugbearExists","AR1002",1)
+See([PC])
+THEN
+  RESPONSE #100
+SetGlobal("ANBugbearExists","AR1002",2)
+END
+
+
+IF 
 Global("ANSearchGuild","GLOBAL",999)
 Global("ANSearchGuildLOSTNordik","LOCALS",0)
 See([PC])
