@@ -1,7 +1,7 @@
 BACKUP ~SearchGuild/backup~
 
 AUTHOR ~Scheele, Austin & Arcanecoast Team~
-VERSION "1.2"
+VERSION "1.3"
 
 AUTO_TRA ~SearchGuild/tra/%s~
 
