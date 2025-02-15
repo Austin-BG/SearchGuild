@@ -3,13 +3,13 @@ BEGIN ANcivil1
 BEGIN ANhemed1
 BEGIN ANbugb01
 
-IF ~Global("ANBugbearExists","AR1002",2) Global("ANSearchGuild","GLOBAL",0)~ THEN BEGIN ANnordikFirstTalk
+IF ~Global("ANBugbearExists","AR1002",3) Global("ANSearchGuild","GLOBAL",0)~ THEN BEGIN ANnordikFirstTalk
   SAY @0
 =@1  
-IF ~~ THEN DO ~ActionOverride(Player1,SetDialog("PLAYER1")) SetGlobal("ANBugbearExists","AR1002",3)~ REPLY @2 + ANnordikFirstTalk3
-IF ~~ THEN DO ~ActionOverride(Player1,SetDialog("PLAYER1")) SetGlobal("ANBugbearExists","AR1002",3)~ REPLY @28 + ANnordikFirstTalk3
-IF ~~ THEN DO ~SetGlobal("ANBugbearExists","AR1002",3)~ REPLY @3 + ANnordikFirstTalk2
-IF ~~ THEN DO ~SetGlobal("ANBugbearExists","AR1002",3)~ REPLY @27 + ANnordikFirstTalk2
+IF ~~ THEN DO ~ActionOverride(Player1,SetDialog("PLAYER1")) SetGlobal("ANBugbearExists","AR1002",4)~ REPLY @2 + ANnordikFirstTalk3
+IF ~~ THEN DO ~ActionOverride(Player1,SetDialog("PLAYER1")) SetGlobal("ANBugbearExists","AR1002",4)~ REPLY @28 + ANnordikFirstTalk3
+IF ~~ THEN DO ~SetGlobal("ANBugbearExists","AR1002",4)~ REPLY @3 + ANnordikFirstTalk2
+IF ~~ THEN DO ~SetGlobal("ANBugbearExists","AR1002",4)~ REPLY @27 + ANnordikFirstTalk2
 END
 
 IF ~~ THEN BEGIN ANnordikFirstTalk2
@@ -45,8 +45,8 @@ END
 IF ~~ THEN BEGIN ANnordikFirstTalk3_3
 SAY @14
 =@15
-IF ~!Global("PlayerThiefGuild","GLOBAL",1) !Global("PCKeepOwner","GLOBAL",1) !Global("JoinHelm","GLOBAL",1) !Global("DruidStronghold","GLOBAL",1)~ THEN REPLY @18 GOTO ANnordikFirstTalk4
-IF ~~ THEN REPLY @16 GOTO ANnordikFirstTalk2
+IF ~~ THEN REPLY @18 GOTO ANnordikFirstTalk4
+IF ~~ THEN REPLY @16 EXTERN ANcivil1 ANnordikFirstTalk4Civ
 IF ~~ THEN REPLY @17 GOTO ANnordikFirstTalk2
 IF ~~ THEN REPLY @36 GOTO ANnordikFirstTalk2
 END
@@ -54,6 +54,14 @@ END
 CHAIN ANbugb01 ANnordikFirstTalk4
 @19 DO ~SetGlobal("ANSearchGuild","GLOBAL",1) ActionOverride("ANguard1",DestroySelf()) ActionOverride("amnleg01",DestroySelf())~
 == ANcivil1 @20
+=@21
+=@22
+=@23
+END
+IF ~~ THEN REPLY @24 DO ~ActionOverride("ANbugb01",DestroySelf()) DestroySelf()~ EXTERN ANcivil1 ANnordikFirstTalk4-1
+
+CHAIN ANcivil1 ANnordikFirstTalk4Civ
+@20 DO ~SetGlobal("ANSearchGuild","GLOBAL",1) ActionOverride("ANguard1",DestroySelf()) ActionOverride("amnleg01",DestroySelf())~
 =@21
 =@22
 =@23
