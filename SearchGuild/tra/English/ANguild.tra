@@ -1,10 +1,10 @@
 // Meeting
 @0 = ~*You see a huge bugbear in front of you, struggling fiercely to break free from the hands of the guards. Once you get in the line of sight of his one eye, the bugbear's jaw drops open. Escaping the tight grip of the guards, the bugbear addresses you directly, roaring and barking amongst its words.*~
-@1 = ~Please listen to me, CHARNAME! My knowing you! Help me!~ [BUGBR03A] 
+@1 = ~Please listen to me, <CHARNAME>! My knowing you! Help me!~ [BUGBR03A] 
 @2 = ~Who are you and how do you know my name?~
 @3 = ~Get away from me, you monster!~
 @4 = ~Rah, rah! Trouble! I'll be off then. I've got to get some gold for the guild!~ [BUGBR01A]
-@5 = ~My name be Nordic! And your name be CHARNAME. Mine saw the fight on the Prror-menade. Help me! These bastarrds are trrying to take away my guild!~
+@5 = ~My name be Nordic! And your name be <CHARNAME>. Mine saw the fight on the Prror-menade. Help me! These bastarrds are trrying to take away my guild!~
 @6 = ~Well... So what?~
 @7 = ~Wait till mine tells you all about it. When my Master disappeared, there was nothing to pay. Nothing to eat! I came to ask for an extension, but they won't give it. They want to take the Guild for themselves! R-r-r!~
 @8 = ~Take it easy! One more word like that and you're out of here.~
@@ -15,7 +15,7 @@
 @13 = ~Well, your story sounds interesting, but answer me this: What happened to your master, and why are you asking a stranger for help?~
 @14 = ~Um! Whut you say? *The Bugbear lowers his head and growls sorrowfully.* Masterrr was tasked with rr-finding someone, and then he disappear-red. Mine looked all over for him and didn't find him. My guess is he's dead! Then the papers starrt coming, the debt! I've got-rr to pay-rr, and I've got no gold.~
 @15 = ~*Nordic's one eye lights up with hope as he raises his head again.* I know you. You're-rr the Hero of Baldu-rr-r's Gate, the adventur-rer! My heard you saved an entire city! You can help!~ ~*The Nordic's one eye lights up with hope as he raises his head again.* I know you, you're the Prortectr-ress of Baldu-rr-r's Gate, the adventur-rer. My heard you saved an entire city! You can help!~
-@16 = ~Sorry, big guy, but I've got my own business here and that's enough.~
+@16 = ~I help someone all the time, so I won't break the tradition. What should I do?~
 @17 = ~I have a lot of problems of my own right now and no time to rescue some unknown guild. I'm sorry, even if I'm not.~
 @18 = ~What's it to you, anyway? Your master is gone, maybe even dead - so go on your own. You're a free bugbear now, and a free being is judged by what he does today.~
 @19 = ~H-r?! Give the guild to... to those?! Mine is to serve my Master faithfully, Adelard to crreate the Guild! That's his BUSINESS! Mine is not to betrray, not to abandon, not to forget! *With an angry growl, Nordic glares at the official watching you with a nervous, tired look.*~
@@ -27,7 +27,7 @@
 @25 = ~As you wish.~
 @26 = ~Come with me.~
 @27 = ~*You decide to just walk past. You've got your own worries, and snarling bugbears aren't one of them.*~
-@28 = ~I wonder how many times I've been told 'help' in all my wandering. Anyway, who are you and how do you know me?~
+@28 = ~I wonder how many times I've heard 'help' in all my wandering. Anyway, who are you and how do you know me?~
 @29 = ~Why are you being so rude? Maybe they have a right to be.~
 @30 = ~Your guild? Seriously? What does this so-called guild do?~
 @31 = ~I mean, really, let's just, um, be nice. But I'm wondering what kind of guild this is.~
@@ -35,7 +35,7 @@
 @33 = ~I can't hear it anymore. I sympathise with the lawmen who have yet to deal with you. I'm leaving.~
 @34 = ~Detective Guild? Hmm... I don't even know what I was expecting to hear, but it was definitely not this.~
 @35 = ~This is rubbish. I'm just wasting my time here. I'm leaving.~
-@36 = ~Shall I save your guild? What could be more exciting? No, thank you. I'd rather chat with the hamster.~
+@36 = ~Shall I save your guild? What could be more exciting? No, thank you. I'd rather chat with a hamster.~
 
 // Conversation on the street
 @37 = ~*You and Nordic leave the Government House, bugbear following eagerly behind you. In a dark alley, without witnesses, you continue your previously interrupted conversation.*~
@@ -388,7 +388,7 @@
 @344 = ~I want to protect a guild. How much will it cost to hire you?~
 @345 = ~But first of all, may I ask with whom I have the honour of speaking?~
 @346 = ~My name is <CHARNAME>. I represent the Detective Guild.~
-@347 = ~I apologise for not introducing myself at the outset. My name is CHARNAME, and I would be grateful for any advice you could offer regarding the Detective Guild.~
+@347 = ~I apologise for not introducing myself at the outset. My name is <CHARNAME>, and I would be grateful for any advice you could offer regarding the Detective Guild.~
 @348 = ~<CHARNAME>. Detective Guild.~
 @349 = ~When will they start recognising my face in this Atkatla? I am <CHARNAME>, Hero of Baldur's Gate, and I have business with you about the Detective Guild.~ ~When will they start recognising my face in this Atkatla? I am <CHARNAME>, Protectress of Baldur's Gate, and I have business with you about the Detective Guild.~
 @350 = ~Oh yeah, I remember that cute little guild from Slums! It's one of three guilds there, along with the Scavengers and the Sharpeners, if I'm not mistaken. I've heard so much about you guys, but to be honest, I've never had the pleasure of meeting any of you.~
@@ -600,7 +600,7 @@
 @573 = ~It's all done. This paper is the official confirming the death of Adelard the Wanderer, who went missing six months ago.~
 @574 = ~*sadly growls* Master!~
 @575 = ~If Nordic hadn't turned to the city guard, we would have failed. And now our battle is almost won!~
-@576 = ~It is now necessary to elect you, CHARNAME, as the head of the guild. The guild master is elected by an open vote of the guild members. In accordance with the law on small guilds, as I recall, there must be at least four members-electors, including the head of the guild.~
+@576 = ~It is now necessary to elect you, <CHARNAME>, as the head of the guild. The guild master is elected by an open vote of the guild members. In accordance with the law on small guilds, as I recall, there must be at least four members-electors, including the head of the guild.~
 @577 = ~Well, with your companions, we now have all the votes we need. Please write your names and sign your signatures here.~
 @578 = ~It is wrong to falsify an election, but it must be done. I'll fill in the missing names.~
 @579 = ~*He rolling up the scroll.* OK, that's it. Now, where is the official guild seal?~
