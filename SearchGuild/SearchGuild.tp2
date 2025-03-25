@@ -1,7 +1,7 @@
 BACKUP ~SearchGuild/backup~
 
 AUTHOR ~Scheele, Austin & Arcanecoast Team~
-VERSION "1.3.1"
+VERSION "1.3.2"
 
 AUTO_TRA ~SearchGuild/tra/%s~
 
@@ -89,6 +89,7 @@ APPEND ~gtimes.ids~ ~21600 THREE_DAYS~ UNLESS ~THREE_DAYS~
 APPEND ~gtimes.ids~ ~36000 FIVE_DAYS~ UNLESS ~FIVE_DAYS~
 APPEND ~gtimes.ids~ ~50400 SEVEN_DAYS~ UNLESS ~SEVEN_DAYS~
 APPEND ~gtimes.ids~ ~6000 TWENTY_HOURS~ UNLESS ~TWENTY_HOURS~
+APPEND ~gtimes.ids~ ~100800 FOURTEEN_DAYS~ UNLESS ~FOURTEEN_DAYS~
 
 ACTION_IF NOT FILE_EXISTS_IN_GAME ~dir.ids~ BEGIN
 COPY "%MOD_FOLDER%/lib/dir.ids" override
