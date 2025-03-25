@@ -25,12 +25,3 @@ ActionOverride(Player5,LeaveAreaLUA("AN0450","",[1556.406],8))
 ActionOverride(Player6,LeaveAreaLUA("AN0450","",[1598.469],8))
 Wait(2)
 END
-
-IF
-Global("ANSearchGuild","GLOBAL",999)
-Global("ANSearchGuild","AR0400",0)
-THEN
-	RESPONSE #100
-TriggerActivation("TranAN0450",FALSE)
-SetGlobal("ANSearchGuild","AR0400",1)
-END
