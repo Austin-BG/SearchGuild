@@ -412,7 +412,7 @@ END
 
 IF ~~ THEN BEGIN ANnordikSecondTalkNEXT
   SAY @149
-IF ~~ THEN DO ~SetGlobal("ANSearchGuild","GLOBAL",5) SetGlobalTimer("ANSearchGuildTimer1","GLOBAL",SEVEN_DAYS)~ REPLY @150 GOTO ANnordikSecondTalk_See
+IF ~~ THEN DO ~SetGlobal("ANSearchGuild","GLOBAL",5) SetGlobalTimer("ANSearchGuildTimer1","GLOBAL",FOURTEEN_DAYS)~ REPLY @150 GOTO ANnordikSecondTalk_See
 IF ~~ THEN DO ~EscapeArea()~ REPLY @151 GOTO ANnordikSecondTalkEND
 END
 
