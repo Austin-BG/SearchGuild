@@ -137,12 +137,6 @@ THEN
 	RESPONSE #100
 SetGlobal("ANSearchGuild","GLOBAL",999)	
 FadeFromColor([20.0],0)
-ActionOverride(Player1,LeaveAreaLUA("AR0400","",[820.2890],8))
-ActionOverride(Player2,LeaveAreaLUA("AR0400","",[839.2932],8))
-ActionOverride(Player3,LeaveAreaLUA("AR0400","",[957.2991],8))
-ActionOverride(Player4,LeaveAreaLUA("AR0400","",[924.3015],8))
-ActionOverride(Player5,LeaveAreaLUA("AR0400","",[995.3031],8))
-ActionOverride(Player6,LeaveAreaLUA("AR0400","",[1001.3035],8))
 END
 
 

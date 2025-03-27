@@ -1,7 +1,7 @@
 IF 
 	Dead("ANJELGRE")
 	CombatCounter(0)
-	Global("ANRushdiTalk","LOCALS",0)
+	Global("ANRushdiTalk","AN0451",0)
 	Global("ANRushdiJoin","AN0451",0)
     Detect([PC])
 	OR(2)
@@ -9,7 +9,7 @@ IF
 	Global("ANNordikDead","AN0451",1)
 THEN
   RESPONSE #100
-SetGlobal("ANRushdiTalk","LOCALS",1)
+SetGlobal("ANRushdiTalk","AN0451",1)
 ActionOverride(Player1,SetDialog("PLAYER1"))
 StartDialogNoSet([PC])
 END

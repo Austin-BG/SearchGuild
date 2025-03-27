@@ -126,3 +126,12 @@ THEN
 		SetGlobal("ANSearchGuildPrizrak","AN0451",1)
 		ActionOverride("ANGhost1",RandomWalk())
 END
+
+// Если гильдия не получена
+IF
+	Global("ANSearchGuild","GLOBAL",999)
+	Exists("ANRUSHD0")
+THEN
+	RESPONSE #100
+ActionOverride("ANRUSHD0",DestroySelf())	
+END
