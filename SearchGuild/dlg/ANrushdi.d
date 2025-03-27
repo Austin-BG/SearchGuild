@@ -182,8 +182,7 @@ END
 
 IF ~~ THEN BEGIN ANRushdiTalkQuestions2-3
   SAY @48
-IF ~!Race(Player1,HALFORC) CheckStatGT(Player1,6,CHR) CheckStatGT(Player1,5,INT)~ THEN DO ~SetGlobal("ANRushdiTalk","AN0451",3) SetGlobal("ANRushdiJoin","GLOBAL",1)~ REPLY @49 GOTO ANRushdiTalkQuestions3YES
-IF ~OR(3) Race(Player1,HALFORC) CheckStatLT(Player1,7,CHR) CheckStatLT(Player1,6,INT)~ THEN REPLY @49 GOTO ANRushdiTalkQuestions3NO
+IF ~~ THEN DO ~SetGlobal("ANRushdiTalk","AN0451",3) SetGlobal("ANRushdiJoin","GLOBAL",1)~ REPLY @49 GOTO ANRushdiTalkQuestions3YES
 IF ~~ THEN REPLY @23 GOTO ANRushdiTalkFirst5
 IF ~~ THEN REPLY @24 GOTO ANRushdiTalkFirst5
 END
