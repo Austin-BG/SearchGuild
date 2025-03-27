@@ -2,8 +2,8 @@ BEGIN ANRUSHD0
 
 // Первый диалог
 
-CHAIN IF ~Dead("ANJELGRE") Global("ANRushdiTalk","LOCALS",1)~ THEN ANRUSHD0 ANRushdiTalkFirst
-@0 DO ~ActionOverride(Player1,SetDialog("PLAYER1")) SetGlobal("ANRushdiTalk","LOCALS",2)~
+CHAIN IF ~Dead("ANJELGRE") Global("ANRushdiTalk","AN0451",1) Global("ANNumaRushdi","GLOBAL",0)~ THEN ANRUSHD0 ANRushdiTalkFirst
+@0 DO ~ActionOverride(Player1,SetDialog("PLAYER1")) SetGlobal("ANRushdiTalk","AN0451",2)~
 =@1
 =@2 
 =@3 
@@ -48,7 +48,7 @@ IF ~~ THEN REPLY @6 GOTO ANRushdiTalkFirst3
 IF ~~ THEN REPLY @7 GOTO ANRushdiTalkFirst5
 
 APPEND ANRUSHD0
-IF ~Dead("ANJELGRE") Global("ANRushdiTalk","LOCALS",2)~ THEN BEGIN ANRushdiTalkFirstRepeat
+IF ~Dead("ANJELGRE") Global("ANRushdiTalk","AN0451",2)~ THEN BEGIN ANRushdiTalkFirstRepeat
   SAY @2
 IF ~!Exists("ANbugb01")~ THEN REPLY @8 GOTO ANRushdiTalkFirst4
 IF ~Exists("ANbugb01")~ THEN REPLY @8 EXTERN ANbugb01 ANRushdiTalkFirst4Nord  
@@ -182,7 +182,7 @@ END
 
 IF ~~ THEN BEGIN ANRushdiTalkQuestions2-3
   SAY @48
-IF ~!Race(Player1,HALFORC) CheckStatGT(Player1,6,CHR) CheckStatGT(Player1,5,INT)~ THEN DO ~SetGlobal("ANRushdiTalk","LOCALS",3) SetGlobal("ANRushdiJoin","GLOBAL",1)~ REPLY @49 GOTO ANRushdiTalkQuestions3YES
+IF ~!Race(Player1,HALFORC) CheckStatGT(Player1,6,CHR) CheckStatGT(Player1,5,INT)~ THEN DO ~SetGlobal("ANRushdiTalk","AN0451",3) SetGlobal("ANRushdiJoin","GLOBAL",1)~ REPLY @49 GOTO ANRushdiTalkQuestions3YES
 IF ~OR(3) Race(Player1,HALFORC) CheckStatLT(Player1,7,CHR) CheckStatLT(Player1,6,INT)~ THEN REPLY @49 GOTO ANRushdiTalkQuestions3NO
 IF ~~ THEN REPLY @23 GOTO ANRushdiTalkFirst5
 IF ~~ THEN REPLY @24 GOTO ANRushdiTalkFirst5
