@@ -90,16 +90,16 @@ APPEND ANbugb01
 
 IF ~Global("ANSearchGuild","GLOBAL",3)~ THEN BEGIN ANnordikSecondTalk
   SAY @37
-IF ~!Class(Player1,DRUID_ALL) !Class(Player1,THIEF_ALL) !Class(Player1,BARD_ALL) !Class(Player1,CLERIC_ALL) !Class(Player1,PALADIN_ALL) !Class(Player1,MAGE_ALL)~ THEN DO ~SetGlobal("ANSearchGuild","GLOBAL",4)~ REPLY @38 + ANnordikSecondTalk_Questions 
-IF ~!Class(Player1,DRUID_ALL) !Class(Player1,THIEF_ALL) !Class(Player1,BARD_ALL) !Class(Player1,CLERIC_ALL) !Class(Player1,PALADIN_ALL) !Class(Player1,MAGE_ALL)~ THEN DO ~SetGlobal("ANSearchGuild","GLOBAL",4)~ REPLY @39 + ANnordikSecondTalk_Questions 
-IF ~Class(Player1,THIEF_ALL)~ THEN DO ~SetGlobal("ANSearchGuild","GLOBAL",4)~ REPLY @38 + ANnordikSecondTalk1_Thief
-IF ~Class(Player1,THIEF_ALL)~ THEN DO ~SetGlobal("ANSearchGuild","GLOBAL",4)~ REPLY @39 + ANnordikSecondTalk1_Thief   
-IF ~Class(Player1,BARD_ALL)~ THEN DO ~SetGlobal("ANSearchGuild","GLOBAL",4)~ REPLY @38 + ANnordikSecondTalk1_Bard
-IF ~Class(Player1,BARD_ALL)~ THEN DO ~SetGlobal("ANSearchGuild","GLOBAL",4)~ REPLY @39 + ANnordikSecondTalk1_Bard  
-IF ~Class(Player1,CLERIC_ALL)~ THEN DO ~SetGlobal("ANSearchGuild","GLOBAL",4)~ REPLY @38 + ANnordikSecondTalk1_Cleric
-IF ~Class(Player1,CLERIC_ALL)~ THEN DO ~SetGlobal("ANSearchGuild","GLOBAL",4)~ REPLY @39 + ANnordikSecondTalk1_Cleric 
-IF ~Class(Player1,PALADIN_ALL)~ THEN DO ~SetGlobal("ANSearchGuild","GLOBAL",4)~ REPLY @38 + ANnordikSecondTalk1_Paladin
-IF ~Class(Player1,PALADIN_ALL)~ THEN DO ~SetGlobal("ANSearchGuild","GLOBAL",4)~ REPLY @39 + ANnordikSecondTalk1_Paladin  
+IF ~!Class(Player1,DRUID) !Class(Player1,THIEF) !Class(Player1,BARD) !Class(Player1,CLERIC) !Class(Player1,PALADIN) !Class(Player1,MAGE)~ THEN DO ~SetGlobal("ANSearchGuild","GLOBAL",4)~ REPLY @38 + ANnordikSecondTalk_Questions 
+IF ~!Class(Player1,DRUID) !Class(Player1,THIEF) !Class(Player1,BARD) !Class(Player1,CLERIC) !Class(Player1,PALADIN) !Class(Player1,MAGE)~ THEN DO ~SetGlobal("ANSearchGuild","GLOBAL",4)~ REPLY @39 + ANnordikSecondTalk_Questions 
+IF ~Class(Player1,THIEF)~ THEN DO ~SetGlobal("ANSearchGuild","GLOBAL",4)~ REPLY @38 + ANnordikSecondTalk1_Thief
+IF ~Class(Player1,THIEF)~ THEN DO ~SetGlobal("ANSearchGuild","GLOBAL",4)~ REPLY @39 + ANnordikSecondTalk1_Thief   
+IF ~Class(Player1,BARD)~ THEN DO ~SetGlobal("ANSearchGuild","GLOBAL",4)~ REPLY @38 + ANnordikSecondTalk1_Bard
+IF ~Class(Player1,BARD)~ THEN DO ~SetGlobal("ANSearchGuild","GLOBAL",4)~ REPLY @39 + ANnordikSecondTalk1_Bard  
+IF ~Class(Player1,CLERIC)~ THEN DO ~SetGlobal("ANSearchGuild","GLOBAL",4)~ REPLY @38 + ANnordikSecondTalk1_Cleric
+IF ~Class(Player1,CLERIC)~ THEN DO ~SetGlobal("ANSearchGuild","GLOBAL",4)~ REPLY @39 + ANnordikSecondTalk1_Cleric 
+IF ~Class(Player1,PALADIN)~ THEN DO ~SetGlobal("ANSearchGuild","GLOBAL",4)~ REPLY @38 + ANnordikSecondTalk1_Paladin
+IF ~Class(Player1,PALADIN)~ THEN DO ~SetGlobal("ANSearchGuild","GLOBAL",4)~ REPLY @39 + ANnordikSecondTalk1_Paladin  
 IF ~Class(Player1,MAGE_ALL)~ THEN DO ~SetGlobal("ANSearchGuild","GLOBAL",4)~ REPLY @38 + ANnordikSecondTalk1_Mage
 IF ~Class(Player1,MAGE_ALL)~ THEN DO ~SetGlobal("ANSearchGuild","GLOBAL",4)~ REPLY @39 + ANnordikSecondTalk1_Mage
 IF ~Class(Player1,DRUID_ALL)~ THEN DO ~SetGlobal("ANSearchGuild","GLOBAL",4)~ REPLY @38 + ANnordikSecondTalk1_Druid
@@ -164,12 +164,9 @@ END
 
 IF ~~ THEN BEGIN ANnordikSecondTalk1_Bard1
   SAY @56
-IF ~OR(2) !CheckStatGT(Player1,14,CHR) !CheckStatGT(Player1,4,WIS)~ THEN REPLY @57 GOTO ANnordikSecondTalkNO  
-IF ~OR(2) !CheckStatGT(Player1,14,CHR) !CheckStatGT(Player1,4,WIS)~ THEN REPLY @58 GOTO ANnordikSecondTalkNO
-IF ~OR(2) !CheckStatGT(Player1,14,CHR) !CheckStatGT(Player1,4,WIS)~ THEN REPLY @58 GOTO ANnordikSecondTalkNO
-IF ~CheckStatGT(Player1,14,CHR) CheckStatGT(Player1,4,WIS)~ THEN REPLY @57 GOTO ANnordikSecondTalk1_Bard2  
-IF ~CheckStatGT(Player1,14,CHR) CheckStatGT(Player1,4,WIS)~ THEN REPLY @58 GOTO ANnordikSecondTalk1_Bard2
-IF ~CheckStatGT(Player1,14,CHR) CheckStatGT(Player1,4,WIS)~ THEN REPLY @58 GOTO ANnordikSecondTalk1_Bard2
+IF ~~ THEN REPLY @57 GOTO ANnordikSecondTalk1_Bard2  
+IF ~~ THEN REPLY @58 GOTO ANnordikSecondTalk1_Bard2
+IF ~~ THEN REPLY @59 GOTO ANnordikSecondTalk1_Bard2
 END
 
 IF ~~ THEN BEGIN ANnordikSecondTalk1_Bard2
@@ -191,14 +188,10 @@ END
 
 IF ~~ THEN BEGIN ANnordikSecondTalk1_Thief1
   SAY @66
-IF ~OR(2) !CheckStatGT(Player1,8,CHR) !CheckStatGT(Player1,8,INT)~ THEN REPLY @67 GOTO ANnordikSecondTalkNO  
-IF ~OR(2) !CheckStatGT(Player1,8,CHR) !CheckStatGT(Player1,8,INT)~ THEN REPLY @68 GOTO ANnordikSecondTalkNO
-IF ~OR(2) !CheckStatGT(Player1,8,CHR) !CheckStatGT(Player1,8,INT)~ THEN REPLY @69 GOTO ANnordikSecondTalkNO
-IF ~OR(2) !CheckStatGT(Player1,8,CHR) !CheckStatGT(Player1,8,INT)~ THEN REPLY @70 GOTO ANnordikSecondTalkNO
-IF ~CheckStatGT(Player1,8,CHR) CheckStatGT(Player1,8,INT)~ THEN REPLY @67 GOTO ANnordikSecondTalk1_Thief2  
-IF ~CheckStatGT(Player1,8,CHR) CheckStatGT(Player1,8,INT)~ THEN REPLY @68 GOTO ANnordikSecondTalk1_Thief2 
-IF ~CheckStatGT(Player1,8,CHR) CheckStatGT(Player1,8,INT)~ THEN REPLY @69 GOTO ANnordikSecondTalk1_Thief2 
-IF ~CheckStatGT(Player1,8,CHR) CheckStatGT(Player1,8,INT)~ THEN REPLY @70 GOTO ANnordikSecondTalk1_Thief2 
+IF ~~ THEN REPLY @67 GOTO ANnordikSecondTalk1_Thief2  
+IF ~~ THEN REPLY @68 GOTO ANnordikSecondTalk1_Thief2 
+IF ~~ THEN REPLY @69 GOTO ANnordikSecondTalk1_Thief2 
+IF ~~ THEN REPLY @70 GOTO ANnordikSecondTalk1_Thief2 
 END
 
 IF ~~ THEN BEGIN ANnordikSecondTalk1_Thief2 
