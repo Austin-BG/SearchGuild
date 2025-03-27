@@ -1,7 +1,7 @@
 BACKUP ~SearchGuild/backup~
 
 AUTHOR ~Scheele, Austin & Arcanecoast Team~
-VERSION "1.3.2"
+VERSION "1.4"
 
 AUTO_TRA ~SearchGuild/tra/%s~
 
@@ -159,15 +159,9 @@ COPY ~%MOD_FOLDER%/cre/ANdragna.cre~ ~override/ANdragna.cre~
 SAY NAME1 @35
 SAY NAME2 @35
 
-COPY ~%MOD_FOLDER%/cre/ANdragna.cre~ ~override/ANgortar.cre~
+COPY ~%MOD_FOLDER%/cre/ANgortar.cre~ ~override/ANgortar.cre~
 SAY NAME1 @36
 SAY NAME2 @36
-WRITE_ASCII 0x248 ~ANgortar~         #8  // override script
-WRITE_ASCII 0x260 ~PTDEATH~   #8  // general script
-WRITE_ASCII 0x0268 ~WTASIGHT~ #8 // Creature script - Default
-WRITE_ASCII 0x0258 ~GPSHOUT~ #8 // Creature script - Race
-WRITE_ASCII 0x2cc ~ANgortar~  #8  // dialogue file
-WRITE_ASCII 0x280 ~ANgortar~  #32 // death variable - character reference
 
 COPY_EXISTING ~THIEF2.cre~ ~override/ANdecheb.cre~
 SAY NAME1 @37
