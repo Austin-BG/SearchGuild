@@ -1,7 +1,7 @@
 BACKUP ~SearchGuild/backup~
 
 AUTHOR ~Scheele, Austin & Arcanecoast Team~
-VERSION "1.4"
+VERSION "1.4.1"
 
 AUTO_TRA ~SearchGuild/tra/%s~
 
@@ -434,7 +434,7 @@ SAY NAME2 @11
 SAY UNIDENTIFIED_DESC @11
 SAY DESC @12
 
-COPY ~%MOD_FOLDER%/itm/ANscrll2.itm~ ~Override/ANscrll2.itm~
+COPY ~%MOD_FOLDER%/itm/ANscrll8.itm~ ~Override/ANscrll8.itm~
 SAY NAME1 @13
 SAY NAME2 @13
 SAY UNIDENTIFIED_DESC @13
