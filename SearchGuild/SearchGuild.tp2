@@ -1,7 +1,7 @@
 BACKUP ~SearchGuild/backup~
 
 AUTHOR ~Scheele, Austin & Arcanecoast Team~
-VERSION "1.4.1"
+VERSION "1.4.2"
 
 AUTO_TRA ~SearchGuild/tra/%s~
 
@@ -25,19 +25,26 @@ END
 END
 
 
-// convert strings to UTF-8 for BGEE/BG2EE
-	
-ACTION_DEFINE_ARRAY ANnoconvert BEGIN setup END
-ACTION_DEFINE_ARRAY ANreload BEGIN setup END
+    // Convert tra files for classic games
+    ACTION_IF NOT GAME_IS ~bg2ee eet~ BEGIN
+        ACTION_DEFINE_ARRAY ANnoconvert BEGIN END
+        ACTION_DEFINE_ARRAY ANreload BEGIN setup END
+		ACTION_DEFINE_ASSOCIATIVE_ARRAY charset_table BEGIN
+   ~english~     => ~CP1252~
+   ~russian~     => ~CP1251~
+   ~schinese~    => ~CP936~
+	END
+        LAF HANDLE_CHARSETS
+            INT_VAR
+                from_utf8 = 1
+            STR_VAR
+                tra_path = EVAL ~%MOD_FOLDER%/tra~
+				charset_table
+                noconvert_array = ANnoconvert
+                reload_array = ANreload
+        END
+    END
 
-  LAF HANDLE_CHARSETS
-    INT_VAR
-      infer_charsets = 1
-    STR_VAR
-      tra_path = EVAL ~%MOD_FOLDER%/tra~
-      noconvert_array = ANnoconvert
-      reload_array = ANreload
-END 
 
 INCLUDE ~SearchGuild/lib/functions.tph~
 
@@ -52,10 +59,11 @@ LANGUAGE ~Russian~
 LANGUAGE ~English~
          ~English~
          ~SearchGuild/tra/English/setup.TRA~		
- 
+
 LANGUAGE ~Simplified Chinese(By Lzw104522773)~
          ~Schinese~
-         ~SearchGuild/tra/Schinese/setup.TRA~		 
+         ~SearchGuild/tra/Schinese/setup.TRA~	
+	 
 		 
 //
 //
@@ -235,6 +243,11 @@ SAY NAME2 @67
 COPY ~%MOD_FOLDER%/cre/ANMudr.cre~ ~override/ANMudr.cre~
 SAY NAME1 @68
 SAY NAME2 @68
+
+// new v.1.4.2
+//COPY ~%MOD_FOLDER%/cre/ANRosy.cre~ ~override/ANRosy.cre~
+//SAY NAME1 @69
+//SAY NAME2 @69
 
 ACTION_IF GAME_IS "bg2ee eet" BEGIN
 ACTION_IF IS_INIANIM BEGIN
