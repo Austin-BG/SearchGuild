@@ -27,7 +27,7 @@ END
 
 // convert strings to UTF-8 for BGEE/BG2EE
 	
-ACTION_DEFINE_ARRAY ANnoconvert BEGIN END
+ACTION_DEFINE_ARRAY ANnoconvert BEGIN setup END
 ACTION_DEFINE_ARRAY ANreload BEGIN setup END
 
   LAF HANDLE_CHARSETS
@@ -51,7 +51,11 @@ LANGUAGE ~Russian~
 		 
 LANGUAGE ~English~
          ~English~
-         ~SearchGuild/tra/English/setup.TRA~		 
+         ~SearchGuild/tra/English/setup.TRA~		
+ 
+LANGUAGE ~Simplified Chinese(By Lzw104522773)~
+         ~Schinese~
+         ~SearchGuild/tra/Schinese/setup.TRA~		 
 		 
 //
 //
