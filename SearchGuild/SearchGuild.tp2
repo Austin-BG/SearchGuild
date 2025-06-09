@@ -275,7 +275,7 @@ END
 
 
 //// scripts
-EXTEND_TOP ~AR0700.bcs~ ~%MOD_FOLDER%/scripts/AR0700.baf~
+//EXTEND_TOP ~AR0700.bcs~ ~%MOD_FOLDER%/scripts/AR0700.baf~
 EXTEND_TOP ~AR1002.bcs~ ~%MOD_FOLDER%/scripts/AR1002.baf~
 EXTEND_TOP ~AR1000.bcs~ ~%MOD_FOLDER%/scripts/AR1000.baf~
 EXTEND_TOP ~AR0400.bcs~ ~%MOD_FOLDER%/scripts/AR0400.baf~
