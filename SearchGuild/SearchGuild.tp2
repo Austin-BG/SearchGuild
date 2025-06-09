@@ -1,7 +1,7 @@
 BACKUP ~SearchGuild/backup~
 
 AUTHOR ~Scheele, Austin & Arcanecoast Team~
-VERSION "1.4.2"
+VERSION "1.4.3"
 
 AUTO_TRA ~SearchGuild/tra/%s~
 
@@ -60,7 +60,7 @@ LANGUAGE ~English~
          ~English~
          ~SearchGuild/tra/English/setup.TRA~		
 
-LANGUAGE ~Simplified Chinese(By Lzw104522773)~
+LANGUAGE ~Simplified Chinese (By Lzw104522773)~
          ~Schinese~
          ~SearchGuild/tra/Schinese/setup.TRA~	
 	 
@@ -244,7 +244,8 @@ COPY ~%MOD_FOLDER%/cre/ANMudr.cre~ ~override/ANMudr.cre~
 SAY NAME1 @68
 SAY NAME2 @68
 
-// new v.1.4.2
+
+// new v.1.5
 //COPY ~%MOD_FOLDER%/cre/ANRosy.cre~ ~override/ANRosy.cre~
 //SAY NAME1 @69
 //SAY NAME2 @69
@@ -274,6 +275,7 @@ END
 
 
 //// scripts
+EXTEND_TOP ~AR0700.bcs~ ~%MOD_FOLDER%/scripts/AR0700.baf~
 EXTEND_TOP ~AR1002.bcs~ ~%MOD_FOLDER%/scripts/AR1002.baf~
 EXTEND_TOP ~AR1000.bcs~ ~%MOD_FOLDER%/scripts/AR1000.baf~
 EXTEND_TOP ~AR0400.bcs~ ~%MOD_FOLDER%/scripts/AR0400.baf~
