@@ -36,10 +36,10 @@ CREDITS:
 
 Mod created by Scheele, Austin and the Arcanecoast Team.
 - Scheele – author of the idea and dialog texts
+- Alisia – author of the dialog texts, additions
 - Austin – coding, additions to the dialog texts
 - Gorion – maps of new locations
 - Tipun – technical assistance
-- Alisia – additions
 - Endarire - proofreading of 233 lines of English guild text
 - Art objects:
 nordic__bugbear_by_thatdman, orc_by_michalsalatav2, The Fixer by Smolin
