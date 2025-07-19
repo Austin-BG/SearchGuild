@@ -1,7 +1,7 @@
 BACKUP ~SearchGuild/backup~
 
 AUTHOR ~Scheele, Austin & Arcanecoast Team~
-VERSION "1.4.3"
+VERSION "1.5"
 
 AUTO_TRA ~SearchGuild/tra/%s~
 
@@ -245,10 +245,21 @@ SAY NAME1 @68
 SAY NAME2 @68
 
 
-// new v.1.5
-//COPY ~%MOD_FOLDER%/cre/ANRosy.cre~ ~override/ANRosy.cre~
-//SAY NAME1 @69
-//SAY NAME2 @69
+COPY ~%MOD_FOLDER%/cre/ANRosy.cre~ ~override/ANRosy.cre~
+SAY NAME1 @69
+SAY NAME2 @69
+
+COPY ~%MOD_FOLDER%/cre/ANZarina.cre~ ~override/ANZarina.cre~
+SAY NAME1 @70
+SAY NAME2 @70
+
+COPY ~%MOD_FOLDER%/cre/ANSAIL2.cre~ ~override/ANSAIL2.cre~
+SAY NAME1 @71
+SAY NAME2 @71
+
+COPY ~%MOD_FOLDER%/cre/ANFather.cre~ ~override/ANFather.cre~
+SAY NAME1 @74
+SAY NAME2 @74
 
 ACTION_IF GAME_IS "bg2ee eet" BEGIN
 ACTION_IF IS_INIANIM BEGIN
@@ -275,7 +286,8 @@ END
 
 
 //// scripts
-//EXTEND_TOP ~AR0700.bcs~ ~%MOD_FOLDER%/scripts/AR0700.baf~
+EXTEND_TOP ~AR0700.bcs~ ~%MOD_FOLDER%/scripts/AR0700.baf~
+EXTEND_TOP ~AR0709.bcs~ ~%MOD_FOLDER%/scripts/AR0709.baf~
 EXTEND_TOP ~AR1002.bcs~ ~%MOD_FOLDER%/scripts/AR1002.baf~
 EXTEND_TOP ~AR1000.bcs~ ~%MOD_FOLDER%/scripts/AR1000.baf~
 EXTEND_TOP ~AR0400.bcs~ ~%MOD_FOLDER%/scripts/AR0400.baf~
@@ -283,6 +295,8 @@ EXTEND_TOP ~AR0300.bcs~ ~%MOD_FOLDER%/scripts/AR0300.baf~
 EXTEND_TOP ~AR0301.bcs~ ~%MOD_FOLDER%/scripts/AR0301.baf~
 EXTEND_TOP ~AR0302.bcs~ ~%MOD_FOLDER%/scripts/AR0302.baf~
 EXTEND_TOP ~AR0303.bcs~ ~%MOD_FOLDER%/scripts/AR0303.baf~
+EXTEND_TOP ~AR0313.bcs~ ~%MOD_FOLDER%/scripts/AR0313.baf~
+EXTEND_TOP ~AR0901.bcs~ ~%MOD_FOLDER%/scripts/AR0901.baf~
 EXTEND_TOP ~AR0902.bcs~ ~%MOD_FOLDER%/scripts/AR0902.baf~
 EXTEND_TOP ~edwin.bcs~ ~%MOD_FOLDER%/scripts/edwin.baf~
 COMPILE ~%MOD_FOLDER%/scripts/AN0450.baf~
@@ -387,7 +401,7 @@ COMPILE ~%MOD_FOLDER%/dlg/crossmod/SmilingImp_Xzar.d~ USING ~%MOD_FOLDER%/tra/%L
 END
 
    // If a EE-version is installed, change the journal entries to adapt it 
-ADD_JOURNAL @1000 @1001 @1002 @1003 @1004 @1005 @1006 @1007 @1008 @1009 @1010 @1011 @1012 @1013 @1014 @1015 @1016 @1017 USING ~%MOD_FOLDER%/tra/%LANGUAGE%/setup.tra~ 
+ADD_JOURNAL @1000 @1001 @1002 @1003 @1004 @1005 @1006 @1007 @1008 @1009 @1010 @1011 @1012 @1013 @1014 @1015 @1016 @1017 @1018 @1019 @1020 @1021 @1022 @1023 @1024 @1025 USING ~%MOD_FOLDER%/tra/%LANGUAGE%/setup.tra~ 
 
 // Добавляем вход на новую локацию гильдии
 COPY_EXISTING ~AR0400.are~ ~override~
@@ -537,3 +551,11 @@ SAY NAME1 @57
 SAY NAME2 @57
 SAY UNIDENTIFIED_DESC @57
 SAY DESC @58
+
+//
+
+COPY ~%MOD_FOLDER%/itm/ANrat1.itm~ ~Override/ANrat1.itm~
+SAY NAME1 @72
+SAY NAME2 @72
+SAY UNIDENTIFIED_DESC @72
+SAY DESC @73
