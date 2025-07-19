@@ -2156,9 +2156,9 @@ EXIT
 BEGIN ANcook1
 IF WEIGHT #-12  ~Global("ANSearchGuildKithen","AN0450",2)~ THEN BEGIN ANcook1InGuild
   SAY @843
-IF ~~ THEN DO ~SetGlobal("ANSearchGuildKithen","AN0450",3) SetGlobalTimer("ANNumaOrgotTimer","GLOBAL",TWO_DAYS)~ REPLY @844 GOTO ANcook1InGuild1
-IF ~~ THEN DO ~SetGlobal("ANSearchGuildKithen","AN0450",3) SetGlobalTimer("ANNumaOrgotTimer","GLOBAL",TWO_DAYS)~ REPLY @845 GOTO ANcook1InGuild1
-IF ~~ THEN DO ~SetGlobal("ANSearchGuildKithen","AN0450",3) SetGlobalTimer("ANNumaOrgotTimer","GLOBAL",TWO_DAYS)~ REPLY @846 GOTO ANcook1InGuild1
+IF ~~ THEN DO ~SetGlobal("ANSearchGuildKithen","AN0450",3) SetGlobalTimer("ANSearchGuildFatherTimer","GLOBAL",TWO_DAYS)~ REPLY @844 GOTO ANcook1InGuild1
+IF ~~ THEN DO ~SetGlobal("ANSearchGuildKithen","AN0450",3) SetGlobalTimer("ANSearchGuildFatherTimer","GLOBAL",TWO_DAYS)~ REPLY @845 GOTO ANcook1InGuild1
+IF ~~ THEN DO ~SetGlobal("ANSearchGuildKithen","AN0450",3) SetGlobalTimer("ANSearchGuildFatherTimer","GLOBAL",TWO_DAYS)~ REPLY @846 GOTO ANcook1InGuild1
 END
 
 IF ~~ THEN BEGIN ANcook1InGuild1
