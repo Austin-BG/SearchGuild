@@ -143,6 +143,7 @@ END
 
 // Dog quest
 
+
 CHAIN IF WEIGHT #-12 ~AreaCheck("AN0450") 
 Global("ANSearchGuildOrgot","GLOBAL",0)
 GlobalTimerExpired("ANNumaOrgotTimer","GLOBAL")~ 
@@ -775,3 +776,638 @@ IF WEIGHT #-99 ~AreaCheck("AN0450") Global("ANSearchGuildFrodo","GLOBAL",8)~ THE
 IF ~~ THEN DO ~AddexperienceParty(150) AddJournalEntry(@1017,QUEST_DONE) SetGlobal("ANSearchGuildFrodo","GLOBAL",10) EscapeArea()~ EXIT
 END
 END
+
+// Rosy's Father quest
+BEGIN ANRosy
+
+IF WEIGHT #-70 ~Global("ANSearchGuildFather","GLOBAL",1)~ THEN BEGIN ANRosyFirstTalk
+  SAY @575
+=@336
+IF ~~ THEN DO ~SetGlobal("ANSearchGuildFather","GLOBAL",2)~ REPLY @337 GOTO ANRosyFirstTalk1-1
+IF ~~ THEN DO ~SetGlobal("ANSearchGuildFather","GLOBAL",2)~ REPLY @339 GOTO ANRosyFirstTalk1-2
+IF ~~ THEN DO ~SetGlobal("ANSearchGuildFather","GLOBAL",2)~ REPLY @341 GOTO ANRosyFirstTalk1-3
+IF ~~ THEN DO ~SetGlobal("ANSearchGuildFather","GLOBAL",2)~ REPLY @343 GOTO ANRosyFirstTalk1-4
+IF ~~ THEN DO ~SetGlobal("ANSearchGuildFather","GLOBAL",2)~ REPLY @345 GOTO ANRosyFirstTalk1-5
+END
+
+IF ~~ THEN BEGIN ANRosyFirstTalk1-1
+  SAY @338
+IF ~~ THEN GOTO ANRosyFirstTalk2
+END
+
+IF ~~ THEN BEGIN ANRosyFirstTalk1-2
+  SAY @340
+IF ~~ THEN GOTO ANRosyFirstTalk2
+END
+
+IF ~~ THEN BEGIN ANRosyFirstTalk1-3
+  SAY @342
+IF ~~ THEN GOTO ANRosyFirstTalk2
+END
+
+IF ~~ THEN BEGIN ANRosyFirstTalk1-4
+  SAY @344
+IF ~~ THEN GOTO ANRosyFirstTalk2
+END
+
+IF ~~ THEN BEGIN ANRosyFirstTalk1-5
+  SAY @346
+IF ~~ THEN GOTO ANRosyFirstTalk2
+END
+
+IF ~~ THEN BEGIN ANRosyFirstTalk2
+  SAY @347
+IF ~~ THEN REPLY @348 GOTO ANRosyFirstTalk2-1
+IF ~~ THEN REPLY @354 GOTO ANRosyFirstTalk2-2
+IF ~~ THEN REPLY @358 GOTO ANRosyFirstTalk2-3
+END
+
+IF ~~ THEN BEGIN ANRosyFirstTalk2-1
+  SAY @349
+IF ~~ THEN REPLY @350 GOTO ANRosyFirstTalk2-1-1
+IF ~~ THEN REPLY @352 GOTO ANRosyFirstTalk2-1-2
+END
+
+IF ~~ THEN BEGIN ANRosyFirstTalk2-1-1
+  SAY @351
+IF ~~ THEN REPLY @362 GOTO ANRosyFirstTalk3
+IF ~~ THEN REPLY @363 GOTO ANRosyFirstTalk3
+END
+
+IF ~~ THEN BEGIN ANRosyFirstTalk2-1-2
+  SAY @353
+IF ~~ THEN REPLY @362 GOTO ANRosyFirstTalk3
+IF ~~ THEN REPLY @363 GOTO ANRosyFirstTalk3
+END
+
+IF ~~ THEN BEGIN ANRosyFirstTalk2-2
+  SAY @355
+IF ~~ THEN REPLY @356 GOTO ANRosyFirstTalk2-1-1
+IF ~~ THEN REPLY @357 GOTO ANRosyFirstTalk2-1-2
+END
+
+IF ~~ THEN BEGIN ANRosyFirstTalk2-3
+  SAY @359
+IF ~~ THEN REPLY @360 GOTO ANRosyFirstTalk2-1-1
+IF ~~ THEN REPLY @361 GOTO ANRosyFirstTalk2-1-2
+END
+
+IF ~~ THEN BEGIN ANRosyFirstTalk3
+  SAY @364
+IF ~~ THEN REPLY @365 GOTO ANRosyFirstTalk4
+IF ~~ THEN REPLY @366 GOTO ANRosyFirstTalk4
+IF ~~ THEN REPLY @367 GOTO ANRosyFirstTalk4
+END
+
+IF ~~ THEN BEGIN ANRosyFirstTalk4
+  SAY @368
+  =@369
+IF ~~ THEN REPLY @370 GOTO ANRosyFirstTalk5
+IF ~~ THEN REPLY @371 GOTO ANRosyFirstTalk5
+IF ~~ THEN REPLY @372 GOTO ANRosyFirstTalk5
+END
+
+IF ~~ THEN BEGIN ANRosyFirstTalk5
+  SAY @373
+  =@374
+IF ~Class(Player1,PALADIN)~ THEN REPLY @547 GOTO ANRosyFirstTalk5-2  
+IF ~~ THEN REPLY @375 GOTO ANRosyFirstTalk5-1
+IF ~~ THEN REPLY @378 GOTO ANRosyFirstTalk5-2
+IF ~~ THEN DO ~SetGlobalTimer("ANNumaOrgotTimer","GLOBAL",TWO_DAYS)  SetGlobal("ANSearchGuildFather","GLOBAL",99)~ REPLY @380 GOTO ANRosyFirstTalkEnd1
+IF ~~ THEN DO ~SetGlobalTimer("ANNumaOrgotTimer","GLOBAL",TWO_DAYS)  SetGlobal("ANSearchGuildFather","GLOBAL",99)~ REPLY @548 GOTO ANRosyFirstTalkEnd2
+END
+
+IF ~~ THEN BEGIN ANRosyFirstTalkEnd1
+  SAY @381
+IF ~~ THEN DO ~EscapeArea()~ EXIT
+END
+
+IF ~~ THEN BEGIN ANRosyFirstTalkEnd2
+  SAY @549
+IF ~~ THEN DO ~EscapeArea()~ EXIT
+END
+
+IF ~~ THEN BEGIN ANRosyFirstTalkEnd3
+  SAY @402
+IF ~~ THEN DO ~EscapeArea()~ EXIT
+END
+
+IF ~~ THEN BEGIN ANRosyFirstTalk5-1
+  SAY @376
+IF ~~ THEN REPLY @377 GOTO ANRosyFirstTalk5-2
+IF ~~ THEN DO ~SetGlobalTimer("ANNumaOrgotTimer","GLOBAL",TWO_DAYS) SetGlobal("ANSearchGuildFather","GLOBAL",99)~ REPLY @380 GOTO ANRosyFirstTalkEnd1
+IF ~~ THEN DO ~SetGlobalTimer("ANNumaOrgotTimer","GLOBAL",TWO_DAYS) SetGlobal("ANSearchGuildFather","GLOBAL",99)~ REPLY @548 GOTO ANRosyFirstTalkEnd2
+END
+
+IF ~~ THEN BEGIN ANRosyFirstTalk5-2
+  SAY @379
+IF ~~ THEN REPLY @382 GOTO ANRosyFirstTalk6-1
+IF ~~ THEN REPLY @384 GOTO ANRosyFirstTalk6-2
+IF ~~ THEN REPLY @386 GOTO ANRosyFirstTalk6-3
+IF ~~ THEN REPLY @388 GOTO ANRosyFirstTalk6-4
+END
+
+IF ~~ THEN BEGIN ANRosyFirstTalk6-1
+  SAY @383
+IF ~~ THEN REPLY @384 GOTO ANRosyFirstTalk6-2
+IF ~~ THEN REPLY @386 GOTO ANRosyFirstTalk6-3
+IF ~~ THEN REPLY @388 GOTO ANRosyFirstTalk6-4
+IF ~~ THEN REPLY @390 GOTO ANRosyFirstTalk6-5
+END
+
+IF ~~ THEN BEGIN ANRosyFirstTalk6-2
+  SAY @385
+IF ~~ THEN REPLY @382 GOTO ANRosyFirstTalk6-1
+IF ~~ THEN REPLY @386 GOTO ANRosyFirstTalk6-3
+IF ~~ THEN REPLY @388 GOTO ANRosyFirstTalk6-4
+IF ~~ THEN REPLY @390 GOTO ANRosyFirstTalk6-5
+END
+
+IF ~~ THEN BEGIN ANRosyFirstTalk6-3
+  SAY @387
+IF ~~ THEN REPLY @382 GOTO ANRosyFirstTalk6-1
+IF ~~ THEN REPLY @384 GOTO ANRosyFirstTalk6-2
+IF ~~ THEN REPLY @388 GOTO ANRosyFirstTalk6-4
+IF ~~ THEN REPLY @390 GOTO ANRosyFirstTalk6-5
+END
+
+IF ~~ THEN BEGIN ANRosyFirstTalk6-4
+  SAY @389
+IF ~~ THEN REPLY @382 GOTO ANRosyFirstTalk6-1
+IF ~~ THEN REPLY @384 GOTO ANRosyFirstTalk6-2
+IF ~~ THEN REPLY @386 GOTO ANRosyFirstTalk6-3
+IF ~~ THEN REPLY @390 GOTO ANRosyFirstTalk6-5
+END
+
+IF ~~ THEN BEGIN ANRosyFirstTalk6-5
+  SAY @391
+  =@392
+IF ~~ THEN REPLY @393 GOTO ANRosyFirstTalk7  
+IF ~~ THEN DO ~SetGlobalTimer("ANNumaOrgotTimer","GLOBAL",TWO_DAYS) SetGlobal("ANSearchGuildFather","GLOBAL",99)~ REPLY @401 GOTO ANRosyFirstTalkEnd3
+END
+
+IF ~~ THEN BEGIN ANRosyFirstTalk7
+  SAY @394
+IF ~~ THEN REPLY @395 GOTO ANRosyFirstTalk7-1
+END
+
+IF ~~ THEN BEGIN ANRosyFirstTalk7-1
+  SAY @396
+IF ~~ THEN REPLY @397 GOTO ANRosyFirstTalk7-2
+IF ~~ THEN DO ~SetGlobal("ANSearchGuildFather","GLOBAL",3)~ REPLY @399 GOTO ANRosyFirstTalk7-Wait
+END
+
+IF ~~ THEN BEGIN ANRosyFirstTalk7-2
+  SAY @398
+IF ~~ THEN DO ~SetGlobal("ANSearchGuildFather","GLOBAL",4)~ REPLY @403 GOTO ANRosyFirstTalk8
+END
+
+IF ~~ THEN BEGIN ANRosyFirstTalk7-Wait
+  SAY @400
+IF ~~ THEN EXIT
+END
+
+IF WEIGHT #-99 ~Global("ANSearchGuildFather","GLOBAL",3)~ THEN BEGIN ANRosyFirstTalkWait
+  SAY @550
+IF ~~ THEN REPLY @397 GOTO ANRosyFirstTalk7-2
+IF ~~ THEN REPLY @399 GOTO ANRosyFirstTalk7-Wait
+END
+
+IF ~~ THEN BEGIN ANRosyFirstTalk8
+  SAY @404
+IF ~~ THEN DO ~AddJournalEntry(@1018,QUEST)~ REPLY @405 GOTO ANRosyFirstTalk8-1
+IF ~~ THEN REPLY @407 GOTO ANRosyFirstTalk8-2
+IF ~~ THEN REPLY @409 GOTO ANRosyFirstTalk8-3
+END
+
+IF ~~ THEN BEGIN ANRosyFirstTalk8-1
+  SAY @406
+IF ~~ THEN DO ~EscapeArea()~ EXIT
+END
+
+IF ~~ THEN BEGIN ANRosyFirstTalk8-2
+  SAY @408
+IF ~~ THEN DO ~AddJournalEntry(@1018,QUEST)~ REPLY @405 GOTO ANRosyFirstTalk8-1
+IF ~~ THEN REPLY @409 GOTO ANRosyFirstTalk8-3
+END
+
+IF ~~ THEN BEGIN ANRosyFirstTalk8-3
+  SAY @410
+IF ~~ THEN DO ~AddJournalEntry(@1018,QUEST)~ REPLY @405 GOTO ANRosyFirstTalk8-1 
+IF ~~ THEN REPLY @407 GOTO ANRosyFirstTalk8-2
+END
+
+CHAIN IF WEIGHT #-99 ~Global("ANSearchGuildFather","GLOBAL",4) See("ANRosy")~ 
+THEN SHOP08 ANGalumpTalk
+@411 DO ~SetGlobal("ANSearchGuildFather","GLOBAL",5)~
+== ANRosy @412
+== SHOP08 @413
+== ANRosy @414
+== SHOP08 @415
+== ANRosy @416
+END
+IF ~~ THEN REPLY @417 EXTERN ANRosy ANGalumpTalk1 
+IF ~~ THEN DO ~SetGlobal("ANSearchGuildFather","GLOBAL",99)~ REPLY @419 EXTERN ANRosy ANGalumpTalk2
+
+APPEND ANRosy
+IF ~~ THEN BEGIN ANGalumpTalk1
+  SAY @418
+IF ~~ THEN EXTERN SHOP08 ANGalumpTalk3 
+END
+
+IF ~~ THEN BEGIN ANGalumpTalk2
+  SAY @420
+IF ~~ THEN DO ~EscapeArea()~ EXIT
+END
+
+IF ~~ THEN BEGIN ANGalumpTalk5
+  SAY @432
+IF ~~ THEN DO ~EscapeArea()~ EXIT
+END
+
+IF WEIGHT #-98 ~AreaCheck("AR0709") Global("ANSearchGuildFather","GLOBAL",6)~ THEN BEGIN ANRosyTavern
+  SAY @433
+IF ~~ THEN EXIT
+END
+
+IF WEIGHT #-97 ~AreaCheck("AR0700") Global("ANSearchGuildFather","GLOBAL",4)~ THEN BEGIN ANRosyGalump
+  SAY @573
+IF ~~ THEN EXIT
+END
+
+END
+
+APPEND SHOP08
+IF ~~ THEN BEGIN ANGalumpTalk3 
+  SAY @484
+IF ~CheckStatGT(Player1,8,STR)~ THEN REPLY @421 GOTO ANGalumpTalk4
+IF ~CheckStatGT(Player1,10,STR)~ THEN REPLY @422 GOTO ANGalumpTalk4
+IF ~CheckStatGT(Player1,10,INT)~ THEN REPLY @423 GOTO ANGalumpTalk4
+IF ~CheckStatGT(Player1,10,CHR)~ THEN REPLY @424 GOTO ANGalumpTalk4
+IF ~~ THEN REPLY @425 GOTO ANGalumpTalk4
+END
+
+IF ~~ THEN BEGIN ANGalumpTalk4
+  SAY @426
+=@427
+=@428
+IF ~~ THEN DO ~AddJournalEntry(@1019,QUEST) SetGlobal("ANSearchGuildFather","GLOBAL",6)~ REPLY @429 EXTERN ANRosy ANGalumpTalk5
+IF ~~ THEN DO ~AddJournalEntry(@1019,QUEST) SetGlobal("ANSearchGuildFather","GLOBAL",6)~ REPLY @430 EXTERN ANRosy ANGalumpTalk5
+IF ~~ THEN DO ~AddJournalEntry(@1019,QUEST) SetGlobal("ANSearchGuildFather","GLOBAL",6)~ REPLY @431 EXTERN ANRosy ANGalumpTalk5
+END
+
+END
+
+EXTEND_BOTTOM SEVBAR01 0
+IF ~Global("ANSearchGuildFather","GLOBAL",6)~ THEN REPLY @434 GOTO ANPatriciaTalk1
+IF ~Global("ANSearchGuildFather","GLOBAL",6)~ THEN REPLY @436 GOTO ANPatriciaTalk2
+END
+
+EXTEND_BOTTOM SEVBAR01 1
+IF ~Global("ANSearchGuildFather","GLOBAL",6)~ THEN REPLY @434 GOTO ANPatriciaTalk1
+IF ~Global("ANSearchGuildFather","GLOBAL",6)~ THEN REPLY @436 GOTO ANPatriciaTalk2
+END
+
+EXTEND_BOTTOM SEVBAR01 3
+IF ~Global("ANSearchGuildFather","GLOBAL",6)~ THEN REPLY @434 GOTO ANPatriciaTalk1
+IF ~Global("ANSearchGuildFather","GLOBAL",6)~ THEN REPLY @436 GOTO ANPatriciaTalk2
+END
+
+EXTEND_BOTTOM SEVBAR01 5
+IF ~Global("ANSearchGuildFather","GLOBAL",6)~ THEN REPLY @434 GOTO ANPatriciaTalk1
+IF ~Global("ANSearchGuildFather","GLOBAL",6)~ THEN REPLY @436 GOTO ANPatriciaTalk2
+END
+
+EXTEND_BOTTOM SEVBAR01 7
+IF ~Global("ANSearchGuildFather","GLOBAL",6)~ THEN REPLY @434 GOTO ANPatriciaTalk1
+IF ~Global("ANSearchGuildFather","GLOBAL",6)~ THEN REPLY @436 GOTO ANPatriciaTalk2
+END
+
+EXTEND_BOTTOM SEVBAR01 11
+IF ~Global("ANSearchGuildFather","GLOBAL",6)~ THEN REPLY @434 GOTO ANPatriciaTalk1
+IF ~Global("ANSearchGuildFather","GLOBAL",6)~ THEN REPLY @436 GOTO ANPatriciaTalk2
+END
+
+EXTEND_BOTTOM SEVBAR01 12
+IF ~Global("ANSearchGuildFather","GLOBAL",6)~ THEN REPLY @434 GOTO ANPatriciaTalk1
+IF ~Global("ANSearchGuildFather","GLOBAL",6)~ THEN REPLY @436 GOTO ANPatriciaTalk2
+END
+
+APPEND SEVBAR01
+IF ~~ THEN BEGIN ANPatriciaTalk1
+  SAY @435
+IF ~~ THEN REPLY @438 GOTO ANPatriciaTalk3
+IF ~~ THEN REPLY @439 GOTO ANPatriciaTalk3
+END
+
+IF ~~ THEN BEGIN ANPatriciaTalk2
+  SAY @437
+IF ~~ THEN REPLY @438 GOTO ANPatriciaTalk3
+IF ~~ THEN REPLY @439 GOTO ANPatriciaTalk3
+END
+
+IF ~~ THEN BEGIN ANPatriciaTalk3
+  SAY @440
+IF ~CheckStatGT(Player1,10,INT)~ THEN REPLY @441 GOTO ANPatriciaTalk4-1
+IF ~~ THEN REPLY @442 GOTO ANPatriciaTalk4-2
+END
+
+IF ~~ THEN BEGIN ANPatriciaTalk4-1
+  SAY @443
+IF ~~ THEN REPLY @445 GOTO ANPatriciaTalk5
+IF ~~ THEN REPLY @446 GOTO ANPatriciaTalk5
+IF ~~ THEN REPLY @447 GOTO ANPatriciaTalk5
+END
+
+IF ~~ THEN BEGIN ANPatriciaTalk4-2
+  SAY @444
+IF ~~ THEN REPLY @445 GOTO ANPatriciaTalk5
+IF ~~ THEN REPLY @446 GOTO ANPatriciaTalk5
+IF ~~ THEN REPLY @447 GOTO ANPatriciaTalk5
+END
+
+IF ~~ THEN BEGIN ANPatriciaTalk5
+  SAY @448
+=@449
+IF ~~ THEN DO ~SetGlobal("ANSearchGuildFather","GLOBAL",7)~ EXIT
+END
+
+END
+
+BEGIN ANZarina
+
+CHAIN IF WEIGHT #-2 ~	Global("ANSearchGuildFather","GLOBAL",7) Global("ANZarinaInSevenVales","AR0709",1)~ 
+THEN ANZarina ANZarinaTalk1
+@450 DO ~SetGlobal("ANSearchGuildFather","GLOBAL",8)~
+=@451
+== ANRosy @452
+=@453
+== ANZarina @454
+== ANRosy @455
+== ANZarina @456
+== ANRosy @457
+== ANZarina @458
+== ANRosy @459
+== ANZarina @460
+== ANRosy @461
+== ANZarina @462
+== ANRosy @463
+== ANZarina @464
+== ANRosy @465
+== ANZarina @466
+== ANRosy @467
+== ANZarina @468
+== ANRosy @469
+== ANZarina @470
+== ANRosy @471
+== ANZarina @472
+== ANRosy @473
+== ANZarina @474
+== ANRosy @475
+== ANZarina @476
+== ANRosy @477
+== ANZarina @478
+== ANRosy @479
+== ANZarina @480 DO ~AddJournalEntry(@1020,QUEST)~
+== ANRosy @481 DO ~EscapeAreaMove("AR0607",784,313,13)~
+== ANZarina @482 DO ~EscapeAreaMove("AR0607",722,326,13)~
+EXIT
+
+APPEND ANZarina
+IF WEIGHT #-3 ~GlobalGT("ANSearchGuildFather","GLOBAL",8) !Global("ANSearchGuildFather","GLOBAL",13)~ THEN BEGIN ANZarinaTalkNoQuests
+  SAY @552
+IF ~~ THEN EXIT
+END
+
+IF WEIGHT #-99 ~Global("ANSearchGuildFather","GLOBAL",13)~ THEN BEGIN ANZarinaTalkFinalQuest
+  SAY @546
+IF ~~ THEN EXIT
+END
+
+END
+
+APPEND ANRosy
+IF WEIGHT #-3 ~GlobalGT("ANSearchGuildFather","GLOBAL",8) !Global("ANSearchGuildFather","GLOBAL",13)~ THEN BEGIN ANRosyQuestNoFinish
+  SAY @551
+IF ~Global("ANSearchGuildFather","GLOBAL",98)~ THEN DO ~SetGlobalTimer("ANNumaOrgotTimer","GLOBAL",TWO_DAYS) SetGlobal("ANSearchGuildFather","GLOBAL",99) GiveGoldForce(200)~ REPLY @553 GOTO ANRosyQuestFinalOtkaz
+IF ~~ THEN REPLY @571 GOTO ANRosyQuestNoFinish1
+END
+
+IF WEIGHT #-98 ~Global("ANSearchGuildFather","GLOBAL",13)~ THEN BEGIN ANRosyTalkFinalQuest
+  SAY @544
+=@545
+IF ~~ THEN EXIT
+END
+
+IF ~~ THEN BEGIN ANRosyQuestNoFinish1
+  SAY @572
+IF ~~ THEN EXIT
+END
+
+IF ~~ THEN BEGIN ANRosyQuestFinalOtkaz
+  SAY @554
+IF ~~ THEN DO ~AddJournalEntry(@1025,QUEST_DONE) AddexperienceParty(1000) EscapeArea()~ EXIT
+END
+END
+
+BEGIN ANSAIL2
+
+IF ~Global("ANSearchGuildFather","GLOBAL",8)~ THEN BEGIN ANANSAIL2Talk
+  SAY @483
+  =@484
+IF ~~ THEN REPLY @485 GOTO ANANSAIL2Talk1
+IF ~~ THEN REPLY @486 GOTO ANANSAIL2Talk1
+IF ~~ THEN REPLY @487 GOTO ANANSAIL2Talk1
+END
+
+IF ~~ THEN BEGIN ANANSAIL2Talk1
+  SAY @488
+  =@489  
+IF ~~ THEN REPLY @490 GOTO ANANSAIL2Talk2
+IF ~~ THEN REPLY @491 GOTO ANANSAIL2Talk2
+IF ~~ THEN REPLY @492 GOTO ANANSAIL2Talk2
+END
+
+IF ~~ THEN BEGIN ANANSAIL2Talk2
+  SAY @493
+IF ~~ THEN REPLY @496 GOTO ANANSAIL2Talk3-1
+IF ~~ THEN REPLY @494 GOTO ANANSAIL2Talk3
+IF ~~ THEN REPLY @495 GOTO ANANSAIL2Talk3
+END
+
+IF ~~ THEN BEGIN ANANSAIL2Talk3
+  SAY @497
+IF ~~ THEN REPLY @498 GOTO ANANSAIL2Talk4-1
+IF ~~ THEN REPLY @500 GOTO ANANSAIL2Talk4-2
+IF ~~ THEN REPLY @502 GOTO ANANSAIL2Talk4-3
+IF ~~ THEN REPLY @504 GOTO ANANSAIL2Talk4-4
+END
+
+IF ~~ THEN BEGIN ANANSAIL2Talk3-1
+  SAY @574
+IF ~~ THEN REPLY @498 GOTO ANANSAIL2Talk4-1
+IF ~~ THEN REPLY @500 GOTO ANANSAIL2Talk4-2
+IF ~~ THEN REPLY @502 GOTO ANANSAIL2Talk4-3
+IF ~~ THEN REPLY @504 GOTO ANANSAIL2Talk4-4
+END
+
+IF ~~ THEN BEGIN ANANSAIL2Talk4-1
+  SAY @499
+IF ~~ THEN GOTO ANANSAIL2Talk5
+END
+
+IF ~~ THEN BEGIN ANANSAIL2Talk4-2
+  SAY @501
+IF ~~ THEN GOTO ANANSAIL2Talk5
+END
+
+IF ~~ THEN BEGIN ANANSAIL2Talk4-3
+  SAY @503
+IF ~~ THEN GOTO ANANSAIL2Talk5
+END
+
+IF ~~ THEN BEGIN ANANSAIL2Talk4-4
+  SAY @505
+IF ~~ THEN GOTO ANANSAIL2Talk5
+END
+
+IF ~~ THEN BEGIN ANANSAIL2Talk5
+  SAY @506
+  =@507
+IF ~~ THEN REPLY @508 GOTO ANANSAIL2Talk6
+IF ~~ THEN REPLY @509 GOTO ANANSAIL2Talk6
+IF ~~ THEN REPLY @510 GOTO ANANSAIL2Talk6
+IF ~~ THEN REPLY @511 GOTO ANANSAIL2Talk6
+END
+
+IF ~~ THEN BEGIN ANANSAIL2Talk6
+  SAY @512
+IF ~~ THEN DO ~AddJournalEntry(@1021,QUEST) SetGlobal("ANSearchGuildFather","GLOBAL",9)~ REPLY @513 GOTO ANANSAIL2Talk7
+IF ~~ THEN DO ~AddJournalEntry(@1021,QUEST) SetGlobal("ANSearchGuildFather","GLOBAL",9)~ REPLY @514 GOTO ANANSAIL2Talk7
+IF ~~ THEN DO ~AddJournalEntry(@1021,QUEST) SetGlobal("ANSearchGuildFather","GLOBAL",9)~ REPLY @515 GOTO ANANSAIL2Talk7
+END
+
+IF ~~ THEN BEGIN ANANSAIL2Talk7
+  SAY @516
+IF ~~ THEN DO ~EscapeArea()~ EXIT
+END
+
+
+CHAIN IF WEIGHT #-99 ~Global("ANSearchGuildFather","GLOBAL",9)~ 
+THEN UHINN01 ANRosyQuestVincencoTalk
+@517 DO ~SetGlobal("ANSearchGuildFather","GLOBAL",10)~
+END
+IF ~~ THEN REPLY @518 EXTERN UHINN01 ANRosyQuestVincencoTalk1
+
+APPEND UHINN01
+
+IF ~~ THEN BEGIN ANRosyQuestVincencoTalk1
+  SAY @519
+IF ~~ THEN REPLY @520 GOTO ANRosyQuestVincencoTalk2
+END
+
+IF ~~ THEN BEGIN ANRosyQuestVincencoTalk2
+  SAY @521
+IF ~~ THEN REPLY @522 GOTO ANRosyQuestVincencoTalk3
+END
+
+IF ~~ THEN BEGIN ANRosyQuestVincencoTalk3
+  SAY @523
+=@524
+IF ~~ THEN REPLY @525 GOTO ANRosyQuestVincencoTalk4
+IF ~~ THEN DO ~AddJournalEntry(@1024,QUEST) SetGlobal("ANSearchGuildFather","GLOBAL",98)~ REPLY @569 GOTO ANRosyQuestVincencoTalkEnd
+END
+
+IF ~~ THEN BEGIN ANRosyQuestVincencoTalk4
+  SAY @526
+IF ~~ THEN DO ~AddJournalEntry(@1022,QUEST)~ REPLY @527 GOTO ANRosyQuestVincencoTalk5
+END
+
+IF ~~ THEN BEGIN ANRosyQuestVincencoTalk5
+  SAY @528
+=@529
+IF ~~ THEN DO ~GiveItemCreate("ANrat1",Player1,1,0,0)~ EXIT
+END
+
+IF ~~ THEN BEGIN ANRosyQuestVincencoTalkEnd
+  SAY @570
+IF ~~ THEN EXIT
+END
+
+END
+
+// Talos temple
+EXTEND_BOTTOM TALMISS 0
+IF ~Global("ANSearchGuildFather","GLOBAL",10) PartyHasItem("ANrat1")~ THEN REPLY @530 GOTO ANTALMISSRatTalk
+END
+
+APPEND TALMISS
+IF ~~ THEN BEGIN ANTALMISSRatTalk
+  SAY @567
+IF ~~ THEN EXIT
+END
+END
+
+//Latander temple
+EXTEND_BOTTOM DAWNMAS 0
+IF ~Global("ANSearchGuildFather","GLOBAL",10) PartyHasItem("ANrat1")~ THEN DO ~TakePartyItem("ANrat1")~ REPLY @530 GOTO ANDAWNMASRatTalk
+END
+
+APPEND DAWNMAS
+IF ~~ THEN BEGIN ANDAWNMASRatTalk
+  SAY @531
+IF ~~ THEN DO ~SetGlobal("ANSearchGuildFather","GLOBAL",11)~ EXIT
+END
+END
+
+//Helm temple
+EXTEND_BOTTOM HELMPR 0
+IF ~Global("ANSearchGuildFather","GLOBAL",10) PartyHasItem("ANrat1")~ THEN DO ~TakePartyItem("ANrat1")~ REPLY @530 GOTO ANHELMPRRatTalk
+END
+
+APPEND HELMPR
+IF ~~ THEN BEGIN ANHELMPRRatTalk
+  SAY @568
+IF ~~ THEN DO ~SetGlobal("ANSearchGuildFather","GLOBAL",11)~ EXIT
+END
+END
+
+BEGIN ANFather
+IF ~Global("ANSearchGuildFather","GLOBAL",11)~ THEN BEGIN ANFatherTalk
+  SAY @532
+IF ~~ THEN DO ~SetGlobalTimer("ANNumaOrgotTimer","GLOBAL",TWO_DAYS) SetGlobal("ANSearchGuildFather","GLOBAL",12)~ REPLY @533 GOTO ANFatherTalk1
+IF ~~ THEN DO ~SetGlobalTimer("ANNumaOrgotTimer","GLOBAL",TWO_DAYS) SetGlobal("ANSearchGuildFather","GLOBAL",12)~ REPLY @534 GOTO ANFatherTalk1
+IF ~~ THEN DO ~SetGlobalTimer("ANNumaOrgotTimer","GLOBAL",TWO_DAYS) SetGlobal("ANSearchGuildFather","GLOBAL",12)~ REPLY @535 GOTO ANFatherTalk1
+END
+
+IF ~~ THEN BEGIN ANFatherTalk1
+  SAY @536
+=@537
+IF ~~ THEN DO ~AddJournalEntry(@1023,QUEST_DONE) AddexperienceParty(2000)~ REPLY @538 GOTO ANFatherTalk2
+IF ~~ THEN DO ~AddJournalEntry(@1023,QUEST_DONE) AddexperienceParty(2000)~ REPLY @539 GOTO ANFatherTalk2
+IF ~~ THEN DO ~AddJournalEntry(@1023,QUEST_DONE) AddexperienceParty(2000)~ REPLY @540 GOTO ANFatherTalk2
+END
+
+IF ~~ THEN BEGIN ANFatherTalk2
+  SAY @541
+=@542
+IF ~~ THEN DO ~GiveGoldForce(500) EscapeArea()~ EXIT
+END
+
+CHAIN IF WEIGHT #-99 ~Global("ANSearchGuildFather","GLOBAL",12) OR(2) Global("ANSearchGuildFatherExists","AR0902",2) Global("ANSearchGuildFatherExists","AR0901",2)~ 
+THEN PLAYER1 ANRosyQuestFinalTalk
+@543 DO ~SetGlobal("ANSearchGuildFather","GLOBAL",13) SetGlobal("ANSearchGuildFatherExists","AR0901",3) SetGlobal("ANSearchGuildFatherExists","AR0902",3)~
+== VALYGARJ IF ~InParty("Valygar") !StateCheck("Valygar",CD_STATE_NOTVALID)~ THEN @555
+== JAHEIRAJ IF ~InParty("Jaheira") !StateCheck("Jaheira",CD_STATE_NOTVALID)~ THEN @556
+== KELDORJ IF ~InParty("Keldorn") !StateCheck("Keldorn",CD_STATE_NOTVALID)~ THEN @557
+== MAZZYJ IF ~InParty("Mazzy") !StateCheck("Mazzy",CD_STATE_NOTVALID) OR(2) !InParty("Keldorn") StateCheck("Keldorn",CD_STATE_NOTVALID)~ THEN @557
+== HAERDAJ IF ~InParty("HaerDalis") !StateCheck("HaerDalis",CD_STATE_NOTVALID)~ THEN @558
+== ANOMENJ IF ~InParty("Anomen") !StateCheck("Anomen",CD_STATE_NOTVALID)~ THEN @559
+== IF_FILE_EXISTS 7XGarJ IF ~InParty("7XGAR") !StateCheck("7XGAR",CD_STATE_NOTVALID)~ THEN @560
+== IF_FILE_EXISTS 7XTiaxJ IF ~InParty("7XTIAX") !StateCheck("7XTIAX",CD_STATE_NOTVALID)~ THEN @561
+== AERIEJ IF ~InParty("Aerie") !StateCheck("Aerie",CD_STATE_NOTVALID)~ THEN @562
+== EDWINJ IF ~InParty("Edwin") !StateCheck("Edwin",CD_STATE_NOTVALID)~ THEN @564
+== IF_FILE_EXISTS 7XXZARJ IF ~InParty("7XXZAR") !StateCheck("7XXZAR",CD_STATE_NOTVALID)~ THEN @565
+== IF_FILE_EXISTS 7XsharJ IF ~InParty("7XSHAR") !StateCheck("7XSHAR",CD_STATE_NOTVALID)~ THEN @566
+== KORGANJ IF ~InParty("Korgan") !StateCheck("Korgan",CD_STATE_NOTVALID)~ THEN @563
+EXIT
