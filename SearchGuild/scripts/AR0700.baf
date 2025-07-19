@@ -1,0 +1,9 @@
+//  вест о пропавшем отце
+IF
+	Global("ANSearchGuildFather","GLOBAL",4)
+	Global("ANRosyInPromenade","AR0700",0)
+THEN
+	RESPONSE #100
+		CreateCreature("ANRosy",[3272.296],0) 
+		SetGlobal("ANRosyInPromenade","AR0700",1)	
+END

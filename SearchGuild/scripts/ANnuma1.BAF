@@ -37,9 +37,13 @@ THEN
 	StartDialogNoSet([PC])
 END
 
+
+// Dog quest
 IF
 AreaCheck("AN0450")
-Global("ANSearchGuildKithen","AN0450",4)
+OR(2)
+Global("ANSearchGuildFather","GLOBAL",13)
+Global("ANSearchGuildFather","GLOBAL",99)
 Global("ANSearchGuildOrgot","GLOBAL",0)
 GlobalTimerExpired("ANNumaOrgotTimer","GLOBAL")
 See([PC])

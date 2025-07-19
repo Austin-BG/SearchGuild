@@ -1,3 +1,4 @@
+// Orgot quest
 IF
 Global("ANSearchGuildOrgot","GLOBAL",2)
 Global("ANOrgotExists","AR0902",0)
@@ -47,4 +48,27 @@ Dead("ANOrgot")
 THEN
 	RESPONSE #100
 ActionOverride("ANLATKNI",EscapeArea())
+END
+
+// Rosy's father quest
+IF
+Global("ANSearchGuildFather","GLOBAL",11)
+Global("ANSearchGuildFatherExists","AR0902",0)
+!Exists("ANFather")
+THEN
+	RESPONSE #100
+		SetGlobal("ANSearchGuildFatherExists","AR0902",1)
+        CreateCreature("ANFather",[1419.1591],7) 
+		ActionOverride("ANFather",StartDialogNoSet([PC]))
+END
+
+IF
+Global("ANSearchGuildFather","GLOBAL",12)
+Global("ANSearchGuildFatherExists","AR0902",1)
+THEN
+	RESPONSE #100
+	ActionOverride(Player1,SetDialog("PLAYER1"))
+	SetGlobal("ANSearchGuildFatherExists","AR0902",2)
+	Wait(1)
+	ActionOverride(Player1,StartDialogNoSet(Player1))
 END

@@ -1,0 +1,28 @@
+// Rosy's quest
+IF
+	Global("ANSearchGuildFather","GLOBAL",6)
+	Global("ANRosyInSevenVales","AR0709",0)
+THEN
+	RESPONSE #100
+		CreateCreature("ANRosy",[679.611],0) 
+		SetGlobal("ANRosyInSevenVales","AR0709",1)
+END
+
+IF
+	Global("ANSearchGuildFather","GLOBAL",7)
+	Global("ANZarinaInSevenVales","AR0709",0)
+THEN
+	RESPONSE #100
+		CreateCreature("ANZarina",[847.558],0) 
+		Wait(1)
+		SetGlobal("ANZarinaInSevenVales","AR0709",1)
+END
+
+IF
+	Global("ANSearchGuildFather","GLOBAL",7)
+	Exists("ANZarina")
+	Global("ANZarinaInSevenVales","AR0709",1)
+THEN
+	RESPONSE #100
+    ActionOverride("ANZarina",StartDialogNoSet([PC]))
+END

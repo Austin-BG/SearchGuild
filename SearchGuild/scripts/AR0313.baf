@@ -1,0 +1,11 @@
+// Rosy quest
+IF
+	GlobalGT("ANSearchGuildFather","GLOBAL",7)
+	!Exists("ANRosy")
+	Global("ANRosyInSeaBounty","AR0313",0)
+THEN
+	RESPONSE #100
+		CreateCreature("ANRosy",[613.325],0) 
+		CreateCreature("ANZarina",[760.333],0) 
+		SetGlobal("ANRosyInSeaBounty","AR0313",1)	
+END

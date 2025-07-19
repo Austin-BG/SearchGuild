@@ -374,3 +374,14 @@ THEN
 		SetGlobal("ANSearchGuildFrodo","GLOBAL",8)
 		ActionOverride("ANFrodo",StartDialogNoSet([PC]))
 END
+
+//  вест о пропавшем отце
+IF
+	Global("ANSearchGuildFather","GLOBAL",0)
+	GlobalTimerExpired("ANSearchGuildFatherTimer","GLOBAL")
+THEN
+	RESPONSE #100
+		CreateCreature("ANRosy",[1415.330],0) 
+		SetGlobal("ANSearchGuildFather","GLOBAL",1)		
+		ActionOverride("ANRosy",StartDialogNoSet([PC]))
+END

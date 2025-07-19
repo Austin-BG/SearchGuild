@@ -33,3 +33,14 @@ THEN
 		Wait(1)
 		EndCutSceneMode()
 END
+
+// Rosy's father quest
+IF
+Global("ANSearchGuildFather","GLOBAL",8)
+Global("ANSearchGuildSailorExists","AR0300",0)
+!Exists("ANSAIL2")
+THEN
+	RESPONSE #100
+		SetGlobal("ANSearchGuildSailorExists","AR0300",1)
+        CreateCreature("ANSAIL2",[4429.2222],0) 
+END
