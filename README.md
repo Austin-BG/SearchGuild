@@ -6,8 +6,7 @@ What awaits you is the following:
 - new area with two floors (maps were created by Gorion);
 - a new stronghold that will generate income;
 - new non-joinable NPCs;
-- one long quest to get a guild;
-- small quests and incidents in the guild itself (to get some of them, you need to return to the building later);
+- two big quests and a few small quests and incidents in the guild itself (to get some of them, you need to return to the building later);
 - a small episode in ToB, if the guild was obtained in SoA.;
 - several new items (mostly books, notes and things needed for the plot or just for immersion in history)
 - if the PC owns a detective guild, then Lieutenant Aegisfield will draw attention to this in the first dialogue, asking for help in investigating the murders.
