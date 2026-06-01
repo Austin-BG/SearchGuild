@@ -1,7 +1,7 @@
 BACKUP ~SearchGuild/backup~
 
 AUTHOR ~Scheele, Alisia, Austin & Arcanecoast Team~
-VERSION "1.5.1"
+VERSION "1.5.2"
 
 AUTO_TRA ~SearchGuild/tra/%s~
 
@@ -122,6 +122,9 @@ SAY 0x179c @49
 SAY 0x1838 @50
 SAY 0x17d0 @51
 SAY 0x1804 @52
+
+COPY_EXISTING ~AN0451.are~ ~override~
+SAY 0x1344 @75
 
 ACTION_IF GAME_IS "bg2ee eet" BEGIN
 	ACTION_FOR_EACH tis_name_all IN AN0450 AN0451 AN0136 BEGIN //список нужных тис-файлов
