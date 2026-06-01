@@ -520,6 +520,7 @@ END
 
 IF ~~ THEN BEGIN ANnordikGuildExcursion6_2
   SAY @190
+=@889
 IF ~~ THEN EXIT
 END
 
