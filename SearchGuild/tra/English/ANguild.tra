@@ -919,3 +919,6 @@
 
 // Supplement to the dialogue with Lieutenant Egisfield
 @888 = ~Although, as I heard, you recently became the head of the detective guild? Then, maybe you can find out something.~
+
+// Numa
+@889 = ~The Guild keeps evidence from crimes in their basement if nobody claims it. The city pays a little money to keep it there. If the owner doesn’t pick it up within six months after the trial, the Guild takes them. Most of this evidence in the basement is just old, broken, or useless stuff.~
