@@ -31,6 +31,7 @@ END
         ACTION_DEFINE_ARRAY ANreload BEGIN setup END
 		ACTION_DEFINE_ASSOCIATIVE_ARRAY charset_table BEGIN
    ~english~     => ~CP1252~
+   ~french~      => ~CP1252~
    ~russian~     => ~CP1251~
    ~schinese~    => ~CP936~
 	END
@@ -58,11 +59,15 @@ LANGUAGE ~Russian~
 		 
 LANGUAGE ~English~
          ~English~
-         ~SearchGuild/tra/English/setup.TRA~		
+         ~SearchGuild/tra/English/setup.TRA~
 
 LANGUAGE ~Simplified Chinese (By Lzw104522773)~
          ~Schinese~
-         ~SearchGuild/tra/Schinese/setup.TRA~	
+         ~SearchGuild/tra/Schinese/setup.TRA~
+
+LANGUAGE ~French (By Deratiseur)~
+         ~French~
+         ~SearchGuild/tra/French/setup.TRA~	
 	 
 		 
 //

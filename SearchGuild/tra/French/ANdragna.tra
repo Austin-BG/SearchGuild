@@ -1,0 +1,205 @@
+// Drangonlona
+
+// Torture
+
+@0 = ~Qu'est-ce que cet orque a fait ?~
+@1 = ~*Hostile* Cette salope débile a essayé de nous rouler. Maintenant dégage ! Et mêle-toi de tes affaires, étranger, ou tu vas avoir des ennuis !~
+@2 = ~*Yyyyyyyyyoaa !*~
+@3 = ~*Vous remarquez que la langue de la voleuse a été coupée.*~
+@4 = ~Dégage et cause pas trop.~
+@5 = ~*Vous ne voulez pas déclencher un conflit en territoire étranger, alors vous cessez de poser des questions.*~
+
+// Release
+@6 = ~Khr-r ! *L'orque s'étouffe dans une quinte de toux sanglante.*~
+@7 = ~Comment ça va ? Tu peux bouger ?~
+@8 = ~*Vous lui tendez la main pour l'aider à se relever.* Ils t'ont vraiment amochée. Tu peux bouger ?~
+@9 = ~*La laisser là et vous éloigner.*~
+@10 = ~*Elle se relève péniblement.* Je crois que les os ne sont pas cassés. Mais qu'est-ce qui se passe, bon sang ?! Tu as attaqué Mae'Var !?~
+@11 = ~Je vais démanteler sa guilde. Tu ne l'aimes visiblement pas, alors si tu peux m'aider, tant mieux. Sinon, pars.~
+@12 = ~Ça ne te regarde pas. Fiche le camp d'ici, maintenant !~
+@13 = ~Je préfère mourir que rater ma chance de me venger de ces salauds ! Kha-rgh ! Laisse-moi juste une seconde pour récupérer !~
+@14 = ~J'espère que tu réussiras à tous les tuer !~
+@15 = ~Attends, il faut que je te soigne avant le combat.~
+@16 = ~Il te faudra un équipement correct pour te battre. Tiens.~
+@17 = ~Comment tu t'appelles ?~
+@18 = ~Je m'appelle Drangolona.~
+@19 = ~Moi, c'est <CHARNAME>. Quand on descendra, tu me couvriras depuis l'arrière et tu veilleras à ce qu'on ne me tire pas dessus. Marché conclu ?~
+@20 = ~*Elle vérifie la corde de son arc.* Allons-y !~
+
+// Misc
+@21 = ~Bien. Mae'Var est mort, mais dommage qu'il n'ait pas souffert davantage. Si certains de ses rats ont survécu, ils vont bientôt prendre la fuite. Il faut que je parte moi aussi, <CHARNAME>.~
+@22 = ~Qu'est-ce que tu veux ici ?!~
+@23 = ~*Partir*~
+@24 = ~*L'orque enfile immédiatement son armure, prend une arme puis boit une potion de soins.*~
+@25 = ~Allons tuer Mae'Var !~
+@26 = ~*Vous soignez l'orque. Elle enfile son armure et ramasse son arme !*~
+@27 = ~Allez, allons nous battre !~
+@28 = ~L'orque récupère son armure et ses armes sur un cadavre voisin, puis boit une potion de soins.~
+@29 = ~Tu as un nom, l'orque ?~
+@30 = ~Il faut bien que je sache comment t'appeler. Dis-moi ton nom.~
+@31 = ~Quand on descendra, tu me couvriras depuis l'arrière.~
+@32 = ~N'essaie pas de me trahir, Drangolona. Je ne fais pas confiance aux orques et je resterai sur mes gardes.~
+@33 = ~Prends soin de toi.~
+@34 = ~Fiche le camp.~
+@35 = ~*L'attaquer.* À ton tour maintenant, engeance !~
+@36 = ~Tu sais quoi ? J'ai changé d'avis. Je préfère te tuer ! *L'attaquer.*~
+
+@37 = ~Mae'Var est déjà mort. Tu es libre d'aller où tu veux.~
+@38 = ~Bien joué, ce salaud de Mae'Var a eu ce qu'il méritait. Dommage qu'il n'ait pas souffert longtemps. Je m'en vais. *La demi-orque se traîne vers la sortie.*~
+
+// In the guild
+@39 = ~*Vous apercevez soudain devant vous une demi-orque dont le visage vous semble familier. Elle a un regard étrange et absent, comme après avoir consommé de la " lotus noire "...*~
+@40 = ~Je crois reconnaître ton visage. Tu es cette orque de la guilde de Mae'Var... Drangolona, c'est ça ? Comment es-tu arrivée ici ?~
+@41 = ~Hé, ce n'est pas toi qu'on a vue dans la guilde de Mae'Var ? Comment es-tu arrivée ici ?~
+@42 = ~Je t'ai déjà vue quelque part, mais je ne me souviens plus où. Peu importe. Qu'est-ce que tu veux ici ?~ ~Je t'ai déjà vue quelque part, mais je ne me souviens plus où. Peu importe. Qu'est-ce que tu veux ici ?~
+@43 = ~Fiche le camp d'ici, l'orque, ou j'appelle les gardes !~
+@44 = ~Pas besoin de gardes ! *La demi-orque se dirige avec peine vers la sortie, visiblement à contrecœur.*... Je m'en vais.~
+@45 = ~Je... je n'ai nulle part où aller. Je vivais avec les voleurs, maintenant ils sont morts. Mais j'étais déjà venue ici et j'avais rencontré le mage qui dirigeait cette guilde... Je crois qu'il s'appelait... Abilard ou Aludard... je ne sais plus, et je m'en moque. Alors je me suis faufilée en bas, en pensant pouvoir me reposer ici un moment.~
+@46 = ~Si tu me laisses rester ici, je promets d'aider. Si tu as besoin qu'on vole quelque chose, ou... je peux être utile.~
+@47 = ~D'accord, reste. Mais tu vivras au sous-sol et tu ne te montreras pas à nos clients. Ça ferait... mauvais genre pour notre réputation.~
+@48 = ~Non. Ça se voit que tu touches à la " lotus noire ". Et je ne fais pas confiance aux drogués.~
+
+// BEFORE THE DECISION
+// Keldorn
+@49 = ~Son cœur est sombre et son passé aussi, c'est évident. Si nous l'aidons, qu'est-ce qui garantit qu'elle ne se remettra pas à faire le mal ?~
+
+// Montaron
+@50 = ~Hé hé, ses symptômes ressemblent à ceux qu'on observe après la " lotus ". Elle doit en consommer depuis longtemps.~
+
+// Nalia - Korgan
+@51 = ~Peut-être devrions-nous quand même l'aider. Payer une place dans un refuge, ou des soins au temple... enfin, je peux aider avec mon propre argent...~
+@52 = ~Alors maintenant, tu veux aider une orque qui souffre ?! Eh bien, je vais te dire un truc, fillette : j'ai du flair pour ces choses-là ; aide-la et elle te remerciera d'un couteau dans le dos.~
+@53 = ~*Compatissante* Elle a l'air tellement brisée...~
+@54 = ~*Le nain commence à s'énerver.* Arrrgh ! Tu m'écoutes au moins, femme ?!! Ne laisse pas ta stupide pitié prendre le dessus ! Garde-la pour ceux qui la méritent vraiment, pas pour une putain d'orque !!~
+
+// Dorn
+@55 = ~Je pense qu'on devrait lui laisser une chance. Les orques sont de bons combattants et peuvent devenir des compagnons loyaux si l'on gagne leur confiance. Et puis, ce n'est pas vraiment une orque. Elle a du sang humain.~
+
+// Jaheira
+@56 = ~Je ne suis pas sûr que laisser cette orque ici soit une décision très sage, <CHARNAME>. Mais c'est ton choix.~
+
+// Anomen
+@57 = ~C'est une voleuse et une droguée, c'est évident. Je pense qu'elle nous trahira à la première occasion et retombera dans ses vieilles habitudes.~
+
+// Anomen CN
+@58 = ~Je me moque un peu de la guilde. Je vote " oui ", pourquoi pas ?~
+
+// Viconia
+@59 = ~Je suis contre. Tu crois vraiment qu'on peut lui faire confiance ? Plus j'en apprends sur les rivvins, plus je suis stupéfaite que vous ayez réussi à survivre et à peupler la surface.~
+
+// Mazzy
+@60 = ~Je ne lui fais pas confiance, c'est tout. J'ai déjà combattu des orques : c'est un peuple vil et cruel. Elle est pareille. Je suis contre.~
+
+// Minsc
+@61 = ~Le vote de Bouh compte-t-il ? Nous sommes contre. Elle est peut-être bonne combattante, mais est-ce que son épée nous servira ? Bouh et moi pensons que nous avons seulement besoin de compagnons fiables, sur lesquels on peut compter au combat.~
+
+// Imoen
+@62 = ~Je le regretterai peut-être, mais je pense que ça vaut la peine de lui laisser une chance.~
+
+// Edwin
+@63 = ~Je suis contre. Je ne vois pas l'intérêt d'avoir des orques sans cervelle dans la guilde.~
+
+// Valygar
+@64 = ~Les orques n'ont jamais été les bienvenus dans ma forêt. Ils abattaient et brûlaient des arbres centenaires, tuaient des animaux juste pour s'amuser. Je suis contre l'idée de garder cette demi-orque. Tu ne devrais pas faire affaire avec des gens comme elle.~
+
+// Yoshimo
+@65 = ~Je ne me prononcerai pas. J'en sais trop peu sur elle pour prendre la bonne décision.~
+
+// Cernd
+@66 = ~Je préfère m'abstenir.~
+
+// Haerdalis
+@67 = ~Je pense que nous devrions l'accepter. Elle a traversé beaucoup d'épreuves et elle a survécu. Ce n'est peut-être pas un hasard, et si sa route a croisé la nôtre, c'est peut-être pour une raison.~
+
+// Jan
+@68 = ~Je ne sais pas. Mais j'aime bien quand il y a plus de monde et que j'ai quelqu'un sur qui tester mes inventions. C'est décidé : si elle accepte de porter ma toute nouvelle armure ignifugée... *fait un clin d'œil à l'orque* C'est si difficile de trouver des volontaires pour les expériences.~
+
+// Aerie
+@69 = ~Je... je ne sais pas, <CHARNAME>. J'ai du mal à être près de Drangolona, et je... je ne lui fais pas vraiment confiance. Et pourtant, elle a tellement souffert. Mais... non, je n'arrive pas à me décider.~
+
+// Hexxat
+@70 = ~Eh bien, si on peut même faire confiance à certains vampires, comme tu l'as déjà constaté, en quoi est-elle pire ?~
+
+// Wilson
+@71 = ~*L'ours renifle Drangolona puis souffle d'un air approbateur. Il a un bon instinct pour juger l'âme et le caractère, son avis mérite donc lui aussi d'être pris en compte.*~
+
+// Neera
+@72 = ~Ce serait bien de voir d'abord ce que tu vaux avant de t'engager. Mais puisque les circonstances ont fait que Beshaba t'a embrassée... très bien, soit. Je vais dire " oui ", mais tu dois encore prouver ton utilité.~
+
+// Rasaad
+@73 = ~J'aimerais voter contre, mais je vais m'abstenir. Il est trop facile de juger les autres quand on est soi-même vertueux. Peut-être que cette orque quittera les chemins du mal, je n'en sais rien.~
+
+// Yeslick
+@74 = ~Je ne peux pas te faire confiance, parce que tu as toujours trahi tes employeurs. Tu es comme une poutre pourrie qui finira tôt ou tard par faire s'effondrer l'arche. Ce serait donc une grave erreur de traiter avec toi.~
+
+// Branwen
+@75 = ~Nous pourrions utiliser quelques combattants supplémentaires, nous ne sommes pas nombreux. D'un autre côté, ton passé, ma chère, n'inspire pas vraiment l'optimisme. Je crois donc que je vais m'abstenir.~
+
+// Montaron
+@76 = ~Si cette demi-orque a décidé de se trouver un travail plus honnête, qui suis-je pour empêcher l'arrivée d'un nouveau membre respectable de la société, hé hé ? Et puis, j'aurai une nouvelle cliente pour le lotus noir... ! Je plaisante, hé.~
+
+// Xzar
+@77 = ~S'il est déjà deux heures, j'aimerais déjeuner. Ensuite, je devrai relire un long sort particulièrement fastidieux...~
+
+// Alora
+@78 = ~Je pense que nous devrions cesser d'avoir peur que le bien nous soit rendu par le mal et apprendre à faire davantage confiance aux autres. Au fond, Drangolona est une bonne... orque. Je la crois et je vote pour.~
+@79 = ~*La demi-orque écoute le discours d'Alora avec surprise, puis renifle avec dédain.*~
+
+// Ajantis
+@80 = ~C'est une créature malfaisante et corrompue. En tant que paladin, mon devoir est de combattre les êtres de son espèce. Naturellement, je vote contre.~
+
+// Coran
+@81 = ~Le choix est difficile. Mais je voterai pour, malgré sa race et son passé. Puisque nous avons entrepris de l'aider, nous ne devons pas l'abandonner à mi-chemin. À nos côtés, elle aura une chance de tout recommencer.~
+@82 = ~*La demi-orque regarde l'elfe avec émotion puis, après l'avoir écouté jusqu'au bout, baisse les yeux. Le bref discours de Coran semble l'avoir profondément touchée.*~
+
+// Xan
+@83 = ~*soupire* <CHARNAME>, pourquoi cette discussion inutile ? Tant d'agitation... tant de mots superflus. Si tu donnes de l'espoir à cette créature maintenant, il se révélera illusoire. Avec nous ou sans nous, cette... femme finira de toute façon... comme nous tous.~
+
+// Safana
+@84 = ~Eh bien, ce sera non. Je n'ai aucune envie de voyager en sa compagnie.~
+
+// Shar-Teel
+@85 = ~Elle en a vraiment bavé, et maintenant elle a besoin qu'on l'aide, pas qu'on l'enfonce.~
+
+// Garrick
+@86 = ~Oh. Parler avec cette dame ne m'inspire guère de chansons joyeuses. Plutôt une ballade remplie d'horreurs de toutes sortes. Je ne peux donc pas dire que je rêve de l'avoir dans notre compagnie. Mais... si elle s'en va maintenant, elle mourra probablement, et ma conscience ne me laissera jamais oublier que j'ai fait partie de ceux qui l'ont chassée. Je vote donc " oui ".~
+
+// Tiax
+@87 = ~Ce n'est qu'une droguée minable, indigne même de nettoyer les bottes de Tiax ! Mettez-la dehors !!!~
+
+// IF IT IS DECIDED TO ACCEPT DRANGOLON
+// Dorn
+@88 = ~C'est la bonne décision. Elle nous sera utile plus tard. Nous sommes peu nombreux, et une épée de plus ne sera pas de trop.~
+
+// Korgan, Nalia
+@89 = ~*Le nain crache par terre, manifestement mécontent de votre décision.* Stupide. Quand elle sera remise, la première chose qu'elle fera sera de nous dévaliser comme ses amis avant de s'enfuir. J'aimerais espérer qu'elle crèvera ici, mais l'herbe n'agit pas ainsi.~
+@90 = ~C'est très humain de ta part, <CHARNAME>. Il me semble que les orques aussi sont capables de gratitude et d'amitié, comme toutes les autres races.~
+@91 = ~*Avec un ricanement* " Gratitude et amitié. " Répète ça quand ils t'attraperont ! Ils s'amuseront avec toi avant de te couper la tête. Ou ils te réduiront en esclavage pour que tu leur mettes au monde de petits rejetons verts chaque année. Tu resteras assise dans une fosse sombre, couverte de terre et de merde. Dieux, les humains sans cervelle n'apprennent jamais !~
+@92 = ~Pourquoi faut-il toujours que tu dises des choses aussi dégoûtantes ?! Je ne veux pas t'écouter ! Et moi je pense qu'on devrait lui laisser une chance, tout le monde en mérite une !~
+@93 = ~Tu n'es qu'une gamine riche et gâtée. Ouvre les yeux : le monde est TRÈS différent de tes idées stupides !~
+
+// IF IT'S DECIDED NOT TO ACCEPT DRANGOLON
+// Korgan, Dorn
+@94 = ~Eh bien voilà ! Un chat noir ne devient pas blanc, et une orque ne devient pas une camarade.~
+@95 = ~*grogne* Je te préviens, nain ! Tant que je serai là, tu ne diras plus un mot contre les orques, sinon ta langue t'en coûtera cher !~
+@96 = ~Ha ! Je parlerai des orques et des autres raclures autant que je veux, et personne ne me fera taire. T'es un bon bretteur, Dorn, et utile au combat, je l'admets. Mais si tu comptes défendre chaque ordure d'orque qu'on croise, tu ferais peut-être mieux de quitter le groupe, hein ?~
+
+// Guild PID
+@97 = ~L'année dernière était merdique. C'est ce que je pensais, jusqu'à ce que celle-ci arrive.~
+@98 = ~Je savais bien que travailler pour cette guilde était une perte de temps !~
+@99 = ~Quoi encore ?!~
+
+// Escape
+@100 = ~Bonjour, mon<PRO_LADYLORD>. J'ai de mauvaises nouvelles. Cette orque, Drangolona, s'est enfuie de la guilde... mais ce n'est pas le pire. Le pire, c'est qu'elle a forcé le coffre de la guilde et volé tout ce qui s'y trouvait : 500 pièces. C'étaient les revenus de la guilde, que je comptais vous remettre.~
+@101 = ~Sale créature ! Je vous avais prévenus que ça arriverait, mais personne ne m'a écouté !~
+@102 = ~Il fallait s'y attendre. On ne peut pas faire confiance aux drogués.~
+@103 = ~Eh bien, ça me servira de leçon. Faire trop facilement confiance ne mène jamais à rien de bon.~
+@104 = ~Apparemment, l'envie de drogue finit toujours par l'emporter sur la raison. C'est triste.~
+@105 = ~Cette salope, je la tuerai si je la retrouve !~
+@106 = ~Après tout, nous sommes une guilde de détectives, alors nous allons essayer de la retrouver, mon<PRO_LADYLORD>. Mais j'ai peur qu'elle ait déjà dépensé l'argent d'ici là et qu'il n'y ait plus rien à récupérer.~
+
+@107 = ~*L'orque s'en va en boitant légèrement.*~
+@108 = ~*L'orque serre les dents et vous attaque.*~
+@109 = ~*Vous décidez de garder l'orque dans la guilde. Vous n'êtes pas certain de prendre la bonne décision, mais tout le monde mérite une chance, non ?*~
+@110 = ~*Vous décidez de chasser l'orque. On ne peut pas faire confiance aux gens comme elle.*~
+@111 = ~Merci... *Drangolona prononce ces mots avec difficulté, comme si elle avait honte de dire quelque chose de gentil.*~

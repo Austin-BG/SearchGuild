@@ -1,0 +1,98 @@
+// Rushdie
+@0 = ~Je vous en prie, rangez votre arme !! Par Baelros, je vous jure que je ne vous veux aucun mal !~
+@1 = ~(Au début, vous ne savez même pas si vous l'imaginez ou non, mais le faible appel se répète encore et encore dans votre esprit, ne laissant aucun doute : une présence psionique se trouve quelque part tout près.)~
+@2 = ~(En regardant de plus près, vous distinguez à peine la gelée, presque confondue avec le sol de la cave. Nul doute que la faible voix dans votre tête vient d'elle.)~
+@3 = ~Je vais quitter cette cave immédiatement, je ne voulais même pas être ici !~
+@4 = ~*Essayer d'attaquer la gelée*~
+@5 = ~*Continuer à explorer la cave en ignorant l'étrange gelée moutarde*~
+@6 = ~*Ranger votre arme et continuer à explorer la cave en ignorant l'étrange gelée moutarde*~
+@7 = ~Qui que vous soyez, je vais vous laisser partir, mais ne revenez pas ici !~
+@8 = ~Qui êtes-vous ? *Vous posez la question à voix haute, puis la répétez mentalement.*~
+@9 = ~(La gelée se sépare en deux moitiés et s'enfuit lâchement par une petite fissure dans le mur.)~
+@10 = ~(La gelée vous observe un moment puis, apparemment peu désireuse de tenter davantage sa chance, recule prudemment, se divisant en deux avant de s'écouler par une petite fissure du mur.)~
+@11 = ~(La gelée vous observe un instant, puis recule prudemment vers la fissure du mur, prête à prendre la fuite à tout moment.)~
+@12 = ~Oh, merci, <PRO_LADYLORD> ! Considérez que je suis déjà parti. *Scindée en deux, la gelée recule et s'écoule par une petite fissure du mur.*~
+@13 = ~Est-ce que je dois tuer la gelée ?~  
+@14 = ~Attends. Laisse-le répondre d'abord.~
+@15 = ~*La gelée laisse échapper un petit rire nerveux et tremble d'incertitude.* Je... je suis une gelée moutarde, comme vous pouvez le voir. Je sais, je sais, mon apparence est un peu inhabituelle. Mais il n'y a pas si longtemps, j'étais encore un humain avec des bras et des jambes comme tout le monde. Je me suis changé en gelée pour m'échapper d'une base de trafiquants d'esclaves.~
+@16 = ~Je m'habitue encore à ma nouvelle forme. Je me suis dit que je pourrais reprendre des forces dans cette merveilleuse cave humide, comme on dit. Je peux vous assurer que les rats d'ici sont très nourrissants, hé hé.~
+@17 = ~Mon nom complet est Rushdi al-Ketlal ibn Sahdi. Mais cela n'a plus guère d'importance. Vous pouvez m'appeler Rushdi. Inutile de me parler à voix haute, il vous suffit de penser.~
+@18 = ~Vous savez lire dans les pensées ?~
+@19 = ~Seulement les pensées qui me sont adressées, lorsque vous voulez me " parler ".~
+@20 = ~*Vous concentrez vos pensées et, au bout d'un moment, constatez avec surprise que ce dialogue mental qui vous était encore inconnu vous paraît désormais presque naturel.* Je m'appelle <CHARNAME>. Je suis ici pour affaires, dans cette guilde de détectives où tu t'es introduit.~
+@21 = ~Je m'appelle <CHARNAME>. Je suis ici pour affaires, dans cette guilde de détectives où tu t'es introduit.~
+@22 = ~Enchanté, <CHARNAME>. Je vous assure que je partirai immédiatement si vous le souhaitez.~
+@23 = ~Oui, tu peux partir.~
+@24 = ~J'en ai assez de toi, fiche le camp.~
+@25 = ~Attends. Réponds d'abord à quelques questions.~
+@26 = ~Je vous écoute, <PRO_LADYLORD>.~
+@27 = ~Hmm. Comment êtes-vous tombé entre les mains des trafiquants d'esclaves ?~
+@28 = ~Vous dites vous être changé en gelée. Il n'y avait aucun autre moyen de vous échapper ?~
+@29 = ~Comment comptez-vous retrouver un corps humain ?~
+@30 = ~Je n'ai plus de questions pour le moment.~
+@31 = ~C'est une histoire classique de folie et de passion humaines. Autrefois, je faisais du commerce avec Maztica. Si l'on est prêt à prendre des risques et qu'on possède un navire rapide, cela peut rapporter gros. Le " Quetzal " — mon navire ; il transportait 11 000 livres de cargaison ! — est revenu sain et sauf à Athkatla, et il m'a rapporté BEAUCOUP d'argent. J'ai même été invité à rejoindre la Guilde des marchands d'outre-mer, les " Ashrin dorés " en personne, et j'ai appris comment les professionnels font fortune. Hé hé !~
+@32 = ~Et qu'est-ce qui a fait tourner les choses au vinaigre ? Un ouragan a coulé votre navire ?~
+@33 = ~D'accord, j'ai compris. Inutile d'entrer davantage dans les détails. J'ai encore quelques questions.~
+@34 = ~Je m'ennuie déjà. Je ne veux même pas savoir ce qui s'est passé ensuite. Je vous serais reconnaissant de quitter les lieux.~ 
+@35 = ~Non... il y a pire que les ouragans. J'ai commencé à jouer... oh, énormément ; je ne me rendais même pas compte de ce dans quoi je m'engageais. Au début j'ai eu de la chance, mais vous savez ce qu'on dit : " Tymora donne et Tymora reprend. "~ 
+@36 = ~Bientôt, il ne me resta plus rien. La maison, le navire, l'or, tout ce que je possédais... envolé à cause de mes dettes. Ma femme m'a quitté... mais j'ai continué à jouer. Quand je n'eus plus rien, je mis ma propre vie en jeu et je perdis encore. Ce n'est qu'une fois chargé de chaînes que je sortis enfin de ma folie.~ 
+@37 = ~Non, les esclavagistes savent ce qu'ils font et rares sont ceux qui leur échappent. J'ai eu la chance qu'ils ne trouvent pas le parchemin. Il était caché dans une palourde que j'avais avalée, et il m'a fallu longtemps pour la récupérer, hé hé hé... ensuite, j'ai prononcé un mot spécial au-dessus de la coquille pour faire apparaître le parchemin. Il ne me restait plus qu'à réciter le sort.~ 
+@38 = ~Je ne compte pas le faire. Cela me convient très bien ainsi. Qu'est-ce qui m'attend sous forme humaine ? Ma famille et mes amis se sont détournés de moi, même si je ne leur en veux pas : ma santé décline et je suis un mendiant. Et mes dettes ? Je dois de l'argent au Conseil de la cité, aux Voleurs de l'Ombre, aux Calishites et les dieux seuls savent à qui d'autre encore !~ 
+@39 = ~La nouvelle banque de la Promenade de Waukyne m'a envoyé un collecteur de dettes, un demi-orque nommé Jackal, qui m'a torturé au feu et coupé une oreille, ce salaud ! Pour une dette de mille pièces ! Si les trafiquants d'esclaves n'étaient pas venus me chercher, il m'aurait coupé le nez comme il l'avait menacé !~ 
+@40 = ~Comme vous pouvez le constater, mon<PRO_LADYLORD>, je n'ai aucune raison de redevenir humain. Mon nouveau corps me servira longtemps et j'ai déjà appris à trouver moi-même ma nourriture. Le plus important, c'est que j'ai conservé mon esprit.~ 
+@41 = ~Comme vous voudrez, mon<PRO_LADYLORD>. Y a-t-il autre chose que vous souhaitiez savoir ?~ 
+@42 = ~Vous voulez ramper dans les caves et manger des rats ? C'est ça, une vie ?~ 
+@43 = ~Mais qu'avez-vous l'intention de faire ensuite ?~ 
+@44 = ~Je crois que c'est tout, j'en sais assez.~
+@45 = ~Voilà, je crois que c'est tout. Je ne vais pas vous retenir plus longtemps. Vous pouvez quitter la cave.~ 
+@46 = ~Oui, ce n'est pas ce dont je rêvais, mais c'est une vie. Je préfère être un misérable ver vivant qu'un cadavre, même si j'avais pu être une liche !~ 
+@47 = ~Je me débrouillerai, merci de vous en soucier. *J'ai repéré une jolie petite chienne errante dans une ruelle. Je crois que je vais la manger cette nuit.*~ 
+@48 = ~À votre service, monsieur.~ ~À votre service, madame.~
+@49 = ~Écoute, cette guilde va bientôt avoir besoin de combattants. Même quelqu'un... hum... d'inhabituel comme toi pourrait nous être utile. Nous nous occuperons de toi, mais garde l'œil ouvert pour repérer d'autres gelées ou toute menace contre la guilde. Qu'en dis-tu ?~ 
+@50 = ~Comme vous voudrez. Vous pouvez quitter la cave.~
+@51 = ~Je n'ai pas beaucoup d'endroits où aller à Athkatla, alors j'accepte, mon<PRO_LADYLORD>. Je veux bien monter la garde dans ce sous-sol.~ 
+@52 = ~C'est une offre tentante, mais je crains de ne pas être un grand combattant. Je ne ferais vraiment pas un bon garde. Avec votre permission, je vais simplement ramper hors d'ici et ne plus jamais vous déranger.~ 
+
+// Reactions
+@53 = ~(En vous retournant, vous vous rendez compte que vos compagnons entendent eux aussi cette voix.)~
+@54 = ~Une gelée qui parle et qui peut en plus transmettre ses pensées à distance ? Oui, on n'en voit pas tous les jours. Voilà une histoire à raconter aux voisins ! C'est encore plus intéressant que celle du chien parlant de tante Petunia qui se plaignait du temps boueux. Enfin, c'était la tante qui se plaignait, pas le chien. Le chien adorait se promener sous la pluie, mais par forte chaleur il en perdait même l'appétit.~ 
+@55 = ~<CHARNAME>, il y a quelque chose qui cloche. On dirait que quelqu'un a jeté un sort à cette créature pour la transformer en gelée.~ 
+@56 = ~Oui, il y a clairement de la magie là-dessous. Cette chose est enchantée, je le sens.~
+@57 = ~Une gelée ordinaire nous attaque toujours dès qu'elle nous voit. Celle-ci semble pacifique.~
+@58 = ~Tuez vite cette saleté ! Elle ne nous trompera pas.~
+@59 = ~<CHARNAME>, tu te souviens quand j'ai été ensorcelée et que j'avais l'apparence d'un ogre ? J-je crois que c'est la même chose ici. Écoutons-le.~
+@60 = ~Quelle malheureuse créature. Peut-être pouvons-nous faire quelque chose pour l'aider.~
+@61 = ~<CHARNAME>, prudence. Il peut s'agir d'une illusion.~
+@62 = ~Hmm, cette chose parle et utilise la psionique. Intéressant, très intéressant.~ 
+@63 = ~Quelle chose répugnante !~ 
+@64 = ~Tiax t'ordonne de tuer cette chose !!!!~ [TIAXM]
+@65 = ~<CHARNAME>, cette gelée pourrait fournir plein de gelée à vendre ! Écrabouille-la !~
+@66 = ~Bouh dit à Minsc d'écouter cette créature. La gelée n'est pas ce qu'elle paraît.~
+@67 = ~<CHARNAME>, ne te précipite pas pour attaquer. Nous devons comprendre la situation.~
+@68 = ~Cette créature... est incroyablement pitoyable. Mais cela ne veut pas dire qu'elle soit dangereuse. Laissons-la et occupons-nous d'autre chose.~ [FALDO17]
+@69 = ~Il fut un temps où Kalah m'avait moi-même transformée en gelée et... c'est très difficile d'être une gelée qui parle. Surtout quand on est intelligente et instruite ! Je connais très bien ça, oui.~
+@70 = ~Quel imbécile tu fais, Tiax ! Il fut un temps où Kalah m'avait moi-même transformée en gelée et, euh... c'est très difficile d'être une gelée qui parle. Surtout quand on est intelligente et instruite ! Je connais très bien ça, oui.~
+@71 = ~Attendez... maintenant, on parle aux gelées ? Je... je ne veux pas être impoli, mais... comment éviter de salir nos vêtements ? Et est-ce qu'on doit, euh... complimenter sa gélatinosité ? Je crois que je vais juste rester en retrait et attendre. Ou quelque chose comme ça.~
+@72 = ~Écoutons cette créature. Il ne faut pas juger les gens sur leur apparence. C'est comme juger un livre à sa couverture.~
+@73 = ~Et si cette gelée était une princesse ensorcelée ? Et qu'il fallait l'embrasser pour rompre le charme ? Moi, je ne le ferai pas.~
+@74 = ~Viens par ici, mon pote ! Justement, j'avais besoin d'un peu de gelée pour une petite expérience ! Hé hé !~ [XZAR18]
+@75 = ~Éloigne-toi de moi, fou ! Je parlerai à ton chef, pas à toi !~
+
+// If the MC refused Drangolona
+@76 = ~Décision sage, mon<PRO_LADYLORD> ! Seul un imbécile ferait confiance à ces sales orques !~
+
+// PID 1-2
+@77 = ~(Rushdi garde le silence et ondule légèrement devant vous.)~
+@78 = ~J'ai besoin que tu explores la partie souterraine d'Athkatla sous le Quartier des Temples : égouts, canalisations, tout ça. Tu peux t'en charger ?~
+@79 = ~Bien sûr, mon<PRO_LADYLORD>, j'y suis déjà allé. Donnez-moi une journée et vous aurez les détails.~
+@80 = ~(Rushdi quitte la guilde et part accomplir sa mission.)~
+@81 = ~Alors, tu as découvert quelque chose ?~
+@82 = ~Pas grand-chose. Je n'ai pas osé ramper dans les vieux tunnels, j'ai eu peur. Rien de bon ne vous attend là-dessous, mon<PRO_LADYLORD> : c'est un endroit sombre et lugubre. En plus, il y a beaucoup de gobelins, et je crois avoir entendu des kobolds. Je ne peux pas l'affirmer, mais il pourrait y avoir un autre receleur qui opère dans le secteur. En revanche, je ne sais pas si cet individu est réellement impliqué dans le vol des marchandises.~
+@83 = ~Merci, Rushdi. Tu as bien travaillé, tu peux te reposer maintenant.~
+
+// Extras
+@88 = ~(Vous essayez de réveiller Rushdi, sans succès. On dirait que la gelée vient de faire un copieux repas aux dépens d'un autre malheureux habitant des égouts et qu'elle se repose maintenant paisiblement.)~
+@89 = ~(La gelée recule et s'écoule par une petite fissure du mur.)~
+@90 = ~*Partir*~
+@91 = ~Tu n'as rien découvert d'utile. Quelle perte de temps !~
+@92 = ~(Rushdi garde le silence et semble quelque peu vexé, même si vous-même ne sauriez dire pourquoi vous êtes arrivé à cette conclusion.)~

@@ -1,0 +1,924 @@
+// Meeting
+@0 = ~*Sous vos yeux, un énorme gobelours se débat furieusement pour échapper aux gardes. Dès que son unique œil vous aperçoit, sa mâchoire s'affaisse. Se dégageant de l'étreinte des gardes, le gobelours s'adresse directement à vous, mêlant rugissements et paroles à peine compréhensibles.*~
+@1 = ~Écoute moi, <CHARNAME> ! Moi connaître toi ! Aide moi !~ [BUGBR03A] 
+@2 = ~Qui es-tu et comment connais-tu mon nom ?~
+@3 = ~Éloigne-toi de moi, monstre !~
+@4 = ~Rah, rah ! Ennuis ! Moi partir alors. Faut trouver or pour guilde !~ [BUGBR01A]
+@5 = ~Moi s'appeler Nordic ! Et toi <CHARNAME>. Moi vu combat sur Prrro-menade. Aide moi ! Ces bâtarrds veulent prendre ma guilde !~
+@6 = ~Eh bien... Et alors ?~
+@7 = ~Attends que moi tout raconter. Quand Maître disparu, plus rien pour payer. Rien pour manger ! Moi venu demander délai, mais eux pas vouloir. Eux veulent prendre Guilde pour eux ! R-r-r !~
+@8 = ~Du calme ! Encore un mot comme ça et tu dégages d'ici.~
+@9 = ~C'est quel genre de guilde, exactement ? Tu peux m'expliquer ?~
+@10 = ~*À ces mots, le gobelours gonfle les joues d'un air important, incline la tête et déclame solennellement.* La prremière en Amn, Guilde des détectives d'Athkatla, fondée par mon Maître — l'arrchimage et sage, Magister Adelard le Vagabond !~
+@11 = ~Hmm. Excellent ! Tu as tout dit sans une seule erreur, et tu as presque réussi à ne pas grogner. Presque.~
+@12 = ~*Nordic sourit fièrement jusqu'aux oreilles, rendant son museau couvert de cicatrices encore plus effrayant.* Moi apprrendre et s'entraîner... longtemps.~
+@13 = ~Bon, ton histoire semble intéressante, mais réponds-moi : qu'est-il arrivé à ton maître, et pourquoi demandes-tu l'aide d'un inconnu ?~
+@14 = ~Euh ! Quoi toi dire ? *Le gobelours baisse la tête et grogne tristement.* Maîtrrre avait mission de rr-retrouver quelqu'un, puis lui disparu. Moi chercher partout et pas trouver. Moi pense lui mort ! Puis papiers commencer arriver, dette ! Faut rr-payer, et moi pas avoir or.~
+@15 = ~*L'œil unique de Nordic s'illumine d'espoir lorsqu'il relève la tête.* Moi connaître toi. Toi être Héros de la Porte de Baldur, aventur-rier ! Moi entendu toi sauver ville entière ! Toi pouvoir aider !~ ~*L'œil unique de Nordic s'illumine d'espoir lorsqu'il relève la tête.* Moi connaître toi. Toi être Prrotectrice de la Porte de Baldur, aventur-rière ! Moi entendu toi sauver ville entière ! Toi pouvoir aider !~
+@16 = ~J'aide constamment quelqu'un, alors autant ne pas rompre avec la tradition. Que dois-je faire ?~
+@17 = ~J'ai déjà beaucoup de problèmes en ce moment et pas le temps de sauver une guilde inconnue. Désolé, enfin... pas vraiment.~
+@18 = ~Qu'est-ce que ça peut te faire ? Ton maître a disparu, peut-être même qu'il est mort. Pars vivre ta vie. Tu es un gobelours libre maintenant, et un être libre se juge à ce qu'il fait aujourd'hui.~
+@19 = ~H-r ?! Donner guilde à... à ceux-là ?! Moi servir fidèlement mon Maître, Adelard créer Guilde ! C'est son AFFAIRE ! Moi pas trahir, pas abandonner, pas oublier ! *Avec un grognement furieux, Nordic lance un regard noir au fonctionnaire qui vous observe d'un air nerveux et fatigué.*~
+@20 = ~Je ne sais pas qui vous êtes, <PRO_SIRMAAM>, mais il n'y a rien à discuter. Le propriétaire et directeur de ce bureau d'enquêtes a disparu, à ma connaissance, et aucun impôt sur les revenus n'a été payé depuis un an. Il a laissé derrière lui des dettes et ce gobelours sur les bras.~
+@21 = ~Exactement : cinq cents pièces, et il faut également renouveler le bail pour les trois prochaines années, car le terrain sur lequel se trouve le bâtiment de la guilde appartient à Athkatla et doit être loué en bonne et due forme. Cela fait encore deux mille pièces, soit exactement deux mille cinq cents pièces d'or au total.~
+@22 = ~Mais ce n'est pas tout. *Il prend une profonde inspiration puis hausse la voix jusqu'à crier !* Il faut LE CHEF DE LA GUILDE pour conclure un nouveau contrat avec la cité ! TU M'ENTENDS, GOBELOURS ?! IL ME FAUT ADELARD !~
+@23 = ~Pfiou ! Excusez-moi, mais ce... ce visiteur est insupportable. C'est la cinquième fois qu'il vient ici, en grognant, en menaçant et en exigeant un délai. Mais retarder les paiements ne changera RIEN ! Cette guilde sera dissoute si le propriétaire ne règle pas la dette dans les deux prochaines semaines et ne signe pas un nouveau bail. C'est la loi !~
+@24 = ~D'accord, je comprends. Je vais prendre un peu de recul, il faut que je parle à ce gobelours.~
+@25 = ~Comme vous voudrez.~
+@26 = ~Viens avec moi.~
+@27 = ~*Vous décidez simplement de passer votre chemin. Vous avez déjà vos propres soucis, et les gobelours qui grognent n'en font pas partie.*~
+@28 = ~Je me demande combien de fois j'ai entendu le mot " aide " au cours de mes voyages. Enfin bref, qui es-tu et comment me connais-tu ?~
+@29 = ~Pourquoi es-tu si grossier ? Peut-être qu'ils sont dans leur droit.~
+@30 = ~Ta guilde ? Sérieusement ? Que fait exactement cette prétendue guilde ?~
+@31 = ~Je veux dire... essayons simplement d'être, euh, civilisés. Mais j'aimerais savoir quel genre de guilde c'est.~
+@32 = ~Ah, donc cette guilde a tout de même un maître en plus de toi ! C'est déjà mieux.~
+@33 = ~Je n'en peux plus. Je plains les hommes de loi qui devront encore avoir affaire à toi. Je m'en vais.~
+@34 = ~Une guilde de détectives ? Hmm... Je ne sais même pas à quoi je m'attendais, mais certainement pas à ça.~
+@35 = ~C'est n'importe quoi. Je ne fais que perdre mon temps ici. Je m'en vais.~
+@36 = ~Sauver ta guilde ? Quoi de plus passionnant ? Non merci. Je préfère discuter avec un hamster.~
+
+// Conversation on the street
+@37 = ~*Vous quittez la Maison du Gouvernement avec Nordic, le gobelours vous suivant avec empressement. Dans une ruelle sombre, à l'abri des témoins, vous reprenez votre conversation interrompue.*~
+@38 = ~Bon, passons aux choses sérieuses. Je veux que tu m'expliques clairement et dans l'ordre à quoi j'ai affaire.~
+@39 = ~Nous sommes seuls ici et personne ne nous interrompra. Prends ton temps et explique-moi tout correctement.~
+@40 = ~Euh ! Mais d'abord, moi poser question aussi. Toi être magicien, oui ?~ ~Euh ! Mais d'abord, moi poser question aussi. Toi être magicienne, oui ?~
+@41 = ~Je suis parfaitement conscient de mes aptitudes magiques. Pourquoi cette question ?~
+@42 = ~Quel rapport avec tout ça ?~
+@43 = ~Désolé, mon vieux, mais je n'aime pas parler de moi. Je me souviens d'une époque où toute réponse à une question du genre " Tu t'appelles <CHARNAME> ? ", " Tu viens de Château-Suif ? ", " Tu es l'enfant de Gorion ? " était suivie d'une tentative pour me tuer. Alors désolé.~
+@44 = ~C'est juste que moi très content. Maître aussi être magicien, très puissant. Moi respecter mages. Eux très intelligents.~
+@45 = ~Bien noté, mais venons-en au fait.~
+@46 = ~Mais d'abord, moi poser question. Toi être paladin, oui ?~
+@47 = ~Oui, je sers la Lumière dans la mesure de mes forces. Mais pourquoi cette question ?~
+@48 = ~C'est très bien, moi très-très content que toi paladin. Mon Maître racontait sur eux, comment eux combattre mal.~
+@49 = ~Mais d'abord, moi poser question aussi. Toi être prêtre errant, oui ?~
+@50 = ~Oui, je vénère ma divinité et je manie la magie sacrée. Mais pourquoi cette question ?~
+@51 = ~Bien que toi prrêtre. Mon Maître racontait sur eux, disait bande de guerre sans prêtre vaut rien. Moi penser prêtre être rr-fiable.~
+@52 = ~Mais d'abord, moi poser question. Toi être barde, oui ?~
+@53 = ~Ma profession est la musique et la poésie, domaines pour lesquels j'ai du talent. Pourquoi cette question ?~
+@54 = ~On est vraiment obligés d'en parler ?~
+@55 = ~C'est un honneur pour moi de créer de l'art véritable.~
+@56 = ~Euh ! Moi penser, mauvais que toi barde... pas sûr. Mieux réfléchir avec tête que jouer flûte et amuser badauds, Maître disait, et moi d'accord.~
+@57 = ~Donc tu n'aimes pas les bardes. Et alors ? Je m'amuse beaucoup ainsi et personne d'autre ne s'en plaint.~
+@58 = ~Ta vision des bardes est... particulière. N'as-tu jamais entendu l'histoire d'une petite troupe qui défendit vaillamment son pays contre des forces supérieures, portée par le chant héroïque d'un barde intrépide ? Ou celle d'un récit bien choisi qui rendit courage à des hommes abattus ? Notre travail exige lui aussi de sérieux efforts intellectuels.~
+@59 = ~Je ne souhaite pas m'associer à une guilde dont les membres ont une vision du monde aussi erronée et limitée. Peut-être vaut-il mieux que je ne vous aide pas non plus. Adieu, Nordic, et bonne chance.~
+@60 = ~Non, attends, pas vexer, moi prêt coopérer ! Moi devoir s'habituer maintenant que choses changées. Moi plus parler de ça.~
+@61 = ~Oublie, conversation inutile. Désolé. Moi partir !~
+@62 = ~Très bien, passons à autre chose. Puis-je te poser des questions sur ta guilde ?~
+@63 = ~Mais d'abord, moi poser question aussi. Toi être voleur, oui ?~
+@64 = ~Ça pose un problème, mon vieux ?~
+@65 = ~Quel rapport avec tout ça ?~
+@66 = ~Moi penser être voleur, c'est mauvais, mauvais métier. Mieux gagner avec tête que voler, moi penser. Et moi aussi penser toi appartenir à guilde, obéir chef des voleurs.~
+@67 = ~Donc tu n'aimes pas les voleurs. Mais je n'ai jamais rien volé. Mon travail consiste à recueillir des informations, rester dans l'ombre, faire de la reconnaissance et poser des pièges. Et je n'appartiens à aucune guilde de voleurs. Je travaille pour mon propre compte.~
+@68 = ~Ça ne te regarde pas ce que je fais. Occupe-toi de tes affaires !~
+@69 = ~Hmm... vous enquêtiez sur des affaires, vous recherchiez des criminels, c'est bien ça ? Tu ne crois pas que personne ne comprendrait mieux leurs motivations et leurs manœuvres cachées que quelqu'un qui... " connaît " les coulisses de ce milieu ? Si tu veux que ta guilde ne se contente pas d'EXISTER, mais qu'elle TRAVAILLE, et qu'elle travaille bien, alors je suis exactement la personne qu'il te faut pour t'aider et te conseiller.~
+@70 = ~C'est bizarre. Je croyais que tu voulais sauver ta guilde, mon vieux. Et pourtant tu fais le difficile ! Je n'aime pas traiter avec quelqu'un comme toi. Je préfère continuer mon chemin.~
+@71 = ~Bien sûr, pose tout ce que toi vouloir. Moi dire tout ce que savoir.~
+@72 = ~Moi comprendre ! Moi te croire.~
+@73 = ~Donc ton maître, le chef de la guilde, a simplement disparu du jour au lendemain ?~
+@74 = ~Adelard. Parle-moi de lui.~
+@75 = ~Comment TOI, tu t'es retrouvé avec Adelard ? Raconte-moi ton histoire.~
+@76 = ~Joli nom : la Guilde des détectives. Tu peux m'expliquer précisément quel est son rôle ?~
+@77 = ~Combien de membres compte ta guilde ?~
+@78 = ~Où se trouve la Guilde des détectives ?~
+@79 = ~Que peux-tu m'offrir en échange de mon aide ?~
+@80 = ~J'ai changé d'avis. Je poserai mes questions plus tard.~
+@81 = ~*Nordic soupire tristement.* Huh... Adelarrd pas seulement mon Maître, lui mon ami. Lui m'a pris dans guilde, pris soin de moi, éduqué moi... appris grammairrre. Maintenant lui disparu et moi pas pouvoir trouver !~
+@82 = ~Venons-en au fait.~
+@83 = ~C'est toujours triste de perdre des amis. Il n'a laissé aucune piste ?~
+@84 = ~Moi m'égare, oui. Quelque chose existe ! Avant partir, Maître parler d'un endroit ou nom. Lui dire " Kassia ". Peut-être lui chercher quelqu'un. Moi jamais rencontrer personne avec ce nom.~
+@85 = ~Maître rien dire d'autre. Lui sortir dans nuit, prêt pour combat, moi sûr. Lui préparer parchemins et potions, prendre son bâton le plus puissant. Moi demander venir avec lui, mais Maître refuser. Maître idiot, trop sûr de lui. Lui dire moi garder guilde et partir. Moi rester. Ugh !~
+@86 = ~*Le gobelours se tait, se détourne, et un long silence pesant s'installe entre vous.*~
+@87 = ~Hmm, je vois. Et combien de temps s'est écoulé depuis cette nuit, Nordic ?~
+@88 = ~Moi compter, faire marques sur massue. Six mois. Tous les jours, moi chercher Maître dans ville, mais aucune trace. Ville très grande. Et moi seulement chercher la nuit, jour gardes chassent moi. Tout le monde regarder moi comme monstre, mais moi pas ! Moi gobelours... civilisé, pas comme autres ! Moi lire livres et rr-rôtir viande, pas manger crue !~
+@89 = ~Bien que certains gardes me connaissent... Et l'autre nuit, deux voleurs dans Docks approcher moi, demander or. Moi pas battre eux... trop fort, mais leurs amis venir aider. Maintenant moi plus pouvoir entrer Docks.~
+@90 = ~Je vois. Puis-je te poser une autre question ?~
+@91 = ~Je crois que c'est tout pour le moment.~
+@92 = ~Maître être puissant mage et grand penseur. Lui défier monde criminel d'Athkatla ! Avec son in-intelligence, lui pouvoir rr-résoudre affaires très difficiles, attraper dangereux méchants !~
+@93 = ~Oh, waouh. Pas mal, pas mal, mon vieux.~
+@94 = ~*Vous souriez.* De l'intelligence, dis-tu ? Continue, Nordic.~
+@95 = ~Maître attraper criminels avec tête. Moi aussi appris rr-respecter intelligence, commencer aimer lire romans policiers. Moi déjà lu toute étagère, Maître acheter livres pour moi et beaucoup rire. Comme ça moi apprendre à lire.~
+@96 = ~Moi né esclave, dans grande ville sombre des elfes noirs appelée Menzoberr-r-ranzan. Moi pas se souvenir parents, petits être pris tout de suite et appris à combattre. Puis moi acheté par Maison Feng Tlabbarr, et moi devoir combattre pour eux. Pas choix.~
+@97 = ~Mais moi jamais être comme drrows mauvais et pourris !~
+@98 = ~Ferme-la, gobelours, ou je t'arrache la langue !~
+@99 = ~*Le lourd regard du gobelours se pose sur Viconia, sans la moindre peur, seulement chargé de colère. Nordic semble prêt à se jeter sur la drow, et seule votre présence paraît encore le retenir.*~
+@100 = ~Toi personne pour donner ordres à moi ! Moi écouter seulement Maître, pas drrow sanglante !~
+@101 = ~Iblis ! Donne-moi seulement une raison !~
+@102 = ~R-rar ! Alors battre, serpent noir ! Moi taper toi avec massue ! Écraser ta tête !! Prends arme et affronte moi !~ [BUGBR02A]
+@103 = ~Arrêtez ça TOUT DE SUITE ! Vous avez tous les deux quitté l'Ombreterre, alors cette vieille querelle est terminée. Séparez-vous !~
+@104 = ~Malgré son caractère peu amical, Viconia n'est pas l'une des drows de Menzoberranzan que tu as connues. Elle voyage avec moi, combat à mes côtés et soigne nos blessures et nos maladies. Sans elle, les choses seraient bien plus difficiles. Ne te bats pas avec elle, Nordic. Tu te souviens que tu es un gobelours civilisé ?~
+@105 = ~Viconia, tu es une femme intelligente, fais preuve d'un peu de retenue. Tu vois bien que ce pauvre garçon a passé un mauvais moment avec les tiens. Évidemment qu'il leur en veut. Ce n'est pas le moment de te battre avec lui !~
+@106 = ~Toi, <CHARNAME>, tu te promènes avec ce *rothe* ! Le fait que tu fréquentes une telle créature montre soit une confiance exceptionnelle, soit une idiotie exceptionnelle. Je vais me contenter d'attendre et d'observer.~
+@107 = ~Écoute, Nordic ! Quoi que tu en dises, Viconia est la femme que j'aime. Tu ferais mieux de ne pas l'insulter.~
+@108 = ~Vous voulez vous battre ? Allez-y ! Ça fera un spectacle amusant !~
+@109 = ~Tu sais, Nordic, tes manières commencent sérieusement à me déplaire. Je ne pense pas que nous allons travailler ensemble. Notre accord est annulé. Adieu.~
+@110 = ~*Au bout d'un moment, Nordic et Viconia s'écartent l'un de l'autre. Nordic le fait à contrecœur en lançant un regard noir à Viconia. Celle-ci sourit fièrement, passant son regard de Nordic à vous.*~
+@111 = ~Je te reparlerai plus tard, gobelours !~
+@112 = ~R-rar ! Toi parler quand moi couper ta tête sanglante de tes épaules !~ [BUGBR02A]
+@113 = ~*Vous poussez un profond soupir.* Continue ton histoire.~
+@114 = ~Moi très en colère MAINTENANT ! Euh... moi parler Ombreterre, oui ? Un jour, bagarre dans garnison de Maison, et nous gobelours décider donner leçon aux gobelins. Moi battre à mort douzaine gobelins et un hob qui vouloir frapper par derrière. Jour glorieux ! Mon père et grand-père tuer gobelins, et moi aussi tuer beaucoup gobelins. Mais pour ça drrows condamner moi et deux des miens à exécution, pour faire peur aux autres gobelours.~
+@115 = ~Maître commercer alors avec Feng Tlabbarr. Lui racheter moi et frères, sauver nous de mort. Donner pour nous *le gobelours commence à compter sur ses gros doigts velus.* trois cents... quatre cents... cinq cents pièces — beaucoup beaucoup d'or ! Moi jamais voir autant.~
+@116 = ~Dès que Maître finir affaires avec drrows, lui charger provisions sur nous et nous commencer retour. Dans col de montagne dont moi pas connaître nom, gobelins attaquer. Beaucoup gobelins et hobs avec eux, contre seulement quatre : nous gobelours et Maître. Mais nous bien combattre, tuer cent gobelins, et finalement eux fuir. Lâches ! Hag et Balzerro morts dans combat, Adelarrd lui-même blessé par flèche courte.~
+@117 = ~*Nordic semble satisfait de l'impression que son récit produit sur vous. Il poursuit joyeusement son histoire héroïque en rugissant.*~
+@118 = ~Adelarrd soigner jambe, mais lui pas pouvoir continuer. Difficile marcher montagne en hiver même sans blessure. Moi devoir abandonner bagages, prendre Maître sur dos et porter lui. Quand douleur jambe partir, lui beaucoup rire de moi, appeler moi Ours-Cible.~
+@119 = ~L'Ours-Cible ?~
+@120 = ~*Nordic paraît visiblement embarrassé.* Même avant escarmouche avec gobelins, Maître lancer éclairs sur moi, rr-tester magie. Et ensuite, dans bataille, moi être cible archers gobelins, tout moi couvert de flèches. Moi grand, eux jamais rater moi avant moi approcher, et c'est là moi perdre œil. Mais aucun de leurs archers moches s'échapper vivant !~
+@121 = ~Maître et moi, nous pas rencontrer autre bande gobelins, traverser montagne, descendre vallée, où petites gens aider nous. Ensuite nous arriver Athkatla, où Maître fonder guilde et donner nom Nordic à moi. C'était il y a quatre ans. Et histoire finie.~
+@122 = ~Et quel était ton ancien nom ? Tu n'en avais pas ?~
+@123 = ~Merci pour l'histoire. Laisse-moi te poser autre chose.~
+@124 = ~Ugh. Oui, avoir. Mais ce nom plus besoin... ancienne vie moi pas bonne. Maître donner autre sens à vie moi, prendre moi dans Guilde. Moi maintenant lié à elle !~
+@125 = ~Je comprends mieux pourquoi cette guilde compte autant pour toi. Mais laisse-moi encore te poser quelques questions.~
+@126 = ~RRAAARR !!!~ [BUGBR02A]
+@127 = ~Guilde faire enquêtes. Nous rechercher méchants rusés — meurtriers, violeurs, faussaires argent et or, sorciers mauvais, et autres qui cassent loi.~
+@128 = ~Et depuis fondation guilde, Maître aider garde. Moi pas bien comprendre ce que Maître a dit une fois. " Nous servons le Conseil des Cinq... "~
+@129 = ~Alors qu'est-ce qui distingue votre guilde des chasseurs de primes ?~
+@130 = ~*Nordic renifle avec mépris.* De ces... qui s'appellent Venators ? Maître enquête affaires compliquées : héritages confus, lignées obscures, étrange magie du temps ; moi mal à tête rien que penser. Maître parfois expliquer, et moi hocher tête, faire semblant comprendre.~
+@131 = ~Malgré tout, je ne vois pas à quoi tout cela vous sert.~
+@132 = ~Moi aimer, chaque jour quelque chose nouveau ! Moi voir beaucoup choses : gens disparaître dans portails, magie secrète, parchemins des Abysses ! Nous aider gens, suivre pistes, trouver vérité, et être payés.~
+@133 = ~Moi... seul.~
+@134 = ~Tu veux dire que tu es à toi seul toute la guilde ? Où sont passés les autres ?~
+@135 = ~Et il n'y a PERSONNE d'autre ? Je comprends mieux pourquoi les choses vont mal !~
+@136 = ~Il y avait aussi halfelin pour livraisons et cuisinier. Quand plus argent et Adelarrd disparu, eux quitter guilde. Maintenant juste moi.~
+@137 = ~Hmm, mauvaise nouvelle. Voilà pourquoi ce fonctionnaire méprisait autant cette guilde.~
+@138 = ~Oui... Lui savoir que personne ici. Seulement moi.~
+@139 = ~Guilde être dans Bas-Quartiers, près Couronne de Cuivre.~
+@140 = ~Bon, ça explique le loyer peu élevé. Mais les Bas-Quartiers ne sont tout de même pas l'endroit idéal pour une guilde, si ?~
+@141 = ~Il n'y a vraiment pas de meilleur endroit ? Les habitants des Bas-Quartiers n'ont sûrement pas les moyens de payer vos services.~
+@142 = ~Oui, toi dire vrai... Bas-Quartiers déferler comme vague. Logements pas chers et trop de mendiants partout. Gens là-bas méchants, survivre comme peuvent : voler, tromper, mendier, pas mieux que gobelins de Ville Drow. Toi voir, guilde dernier endroit digne là-bas.~
+@143 = ~Prends Guilde ! Toi être maître digne, moi sûr. Et moi penser toi pouvoir retrouver mon Maître.~
+@144 = ~Un gobelours qui m'offre une guilde ? Ça n'arrive pas tous les jours ! Continue. Les choses peuvent difficilement devenir plus étranges.~
+@145 = ~C'est une plaisanterie ? Pourquoi est-ce que je me donnerais tout ce mal ?~
+@146 = ~Moi offre sérieuse. Guilde bonne paye, beaucoup or, beaucoup opporrrtunités.~
+@147 = ~Argent et possibilités... Voilà qui mérite réflexion. Mais que se passera-t-il si nous retrouvons Adelard ?~
+@148 = ~Alors mon Maître récompenser toi généreusement, moi certain !~
+@149 = ~Moi répondre à tout ce que toi demander. Quoi encore vouloir savoir ?~
+@150 = ~Il me faut du temps pour réfléchir à ton offre. Et ça ne ferait pas de mal de jeter un coup d'œil à la guilde.~
+@151 = ~Désolé, mais je dois refuser. Je ne peux pas m'occuper de cette guilde pour le moment. Sans rancune, gros bras.~
+@152 = ~Moi... comprendre. Mais alors moi devoir partir, chercher argent !~
+@153 = ~Je vais t'accompagner jusqu'à la guilde, suis-moi.~
+
+// The Guild
+@154 = ~*Devant vous se dresse un joli bâtiment de pierre à deux étages surmonté d'un dôme, qui tranche nettement avec les masures délabrées des alentours.*~
+@155 = ~Alors c'est ça, la Guilde des détectives ?~
+@156 = ~Oui, meilleur bâtiment ici. Adelard acheter à bibliothèque — gens du coin pas aimer lire. Moi penser livres donnés à Bibliothèque de Lazarre. Entre, moi montrer tout !~
+@157 = ~Il y a hall, salle à manger et salle réunion. Mais moi pas manger ici. Moi aimer manger cuisine.~
+@158 = ~Il y a une boîte aux lettres près du canapé. *Nordic regarde la boîte avec colère.* Ooh, lettres parler de dette.~
+@159 = ~*Le gobelours soupire avec nostalgie.* Bureau de Maître. Toutes choses être à leur place, exactement comme quand lui partir.~
+@160 = ~Il y a aussi armoire pour papiers importants et trésor guilde à côté. Armoire fermée avec serrure spéciale à code. Serrure et armoire pas pouvoir casser, magie protéger. Et piège sur tiroir à argent, moi voir Maître le poser lui-même.~
+@161 = ~Donc l'armoire contient les documents de la guilde, c'est bien ça ?~
+@162 = ~Le trésor de la guilde ? Combien d'or y a-t-il là-dedans ?~
+@163 = ~Oui, grand parchemin épais avec sceau d'herbe, papier très important.~
+@164 = ~Tu as une idée pour ouvrir l'armoire ?~
+@165 = ~Il y a un parchemin dans bureau, mystérieux. Moi voir Maître le sortir plusieurs fois puis revenir ouvrir armoire. Eux sûrement liés.~
+@166 = ~Je vois.~
+@167 = ~Moi penser qu'il reste peu d'or. Argent dépensé pour nouvelle robe de Maître, oui, brillante et magique ! Si toi décider forcer bureau, prudence ! Moi penser piège dangereux. Mon Maître pas aimer voleurs.~
+@168 = ~Ici salon et bibliothèque. Ici pouvoir se reposer et réfléchir en silence. Moi désolé pour poils sur canapé.~
+@169 = ~Dans bibliothèque être mes livres préférés. Moi plus savoir combien de fois les lire ! Un sur Voleur de Corps. Livre effrayant ! Moi mal dormir après ! Aussi un sur mystérieux tueur des Docks. Une suite sortie récemment, mais moi pas avoir argent pour acheter. Il y a autres histoires de différents endroits, mais elles ennuyeuses.~
+@170 = ~Ici pour cuisiner. Avant, nous avoir bonne cuisinière, femme gentille qui me nourrissait. Mais quand argent fini, elle devoir partir travailler ailleurs.~
+@171 = ~Peut-être qu'on devrait engager un nouveau cuisinier.~
+@172 = ~Moi penser pas si simple. Il faut quelqu'un, membre de Guilde, qui aime pas trop parler.~
+@173 = ~Tu as raison. Nous réfléchirons à engager un cuisinier plus tard, une fois le problème principal de la dette résolu.~
+@174 = ~Moi savoir cuisiner, mmm... viande.~
+@175 = ~C'est labor-ratoire où faire trucs magiques. Moi pas très bon avec ça.~
+@176 = ~Et ce laboratoire ? Ça te conviendrait ? Il me paraît plutôt grand.~
+@177 = ~Tu appelles ça grand ? En Thay, mon armoire à parchemins était plus grande que cette pièce et elle ne puait pas le poil ! Mais puisqu'il n'y a rien de mieux... je vais m'installer ici. N'oublie pas que ce n'est qu'une solution temporaire jusqu'à ce que tu me trouves des appartements dignes d'un mage de mon envergure ! (N'attends pas d'une bête qu'elle fasse le travail d'un homme.)~
+@178 = ~Bien sûr, Edwin. En attendant, rends-moi service et fais une liste de tout ce dont tu as besoin pour travailler. Nordic, qu'y a-t-il au deuxième étage ?~
+@179 = ~Qu'y a-t-il au deuxième étage ? Je vois que l'escalier est cassé.~
+@180 = ~Là-haut seulement bric-à-brac. Étage inhabité depuis moitié d'année. Avant escaliers casser, moi monter une fois, euh... beaucoup fois et casser os du squelette de salamandre que Maître avait rapporté. Presque démonter... oh, pas ça ! Démanteler ! Presque squelette entier.~
+@181 = ~Pourquoi ?~
+@182 = ~Moi déjà dire : Maître disparu, plus argent, et moi très faim. Os de salamandre précieux — petites pièces servent à faire billes enflammées pour frondes, os broyés finement utilisés pour flèches de feu. Moi vendre os à aventuriers, eux tout expliquer en détail. Sans cet argent, moi mourir !~
+@183 = ~Laisse-moi deviner : ensuite l'escalier s'est effondré sous ton poids, c'est ça ?~
+@184 = ~*Nordic grogne avec colère !* Escaliers... euh... escaliers vieux, très vieux, pourrris. Moi signaler à Maître une fois, mais lui dire pas déranger.~
+@185 = ~Bon, peu importe. Nous avons d'autres choses à régler.~
+@186 = ~Il y a chambre d'amis et cheminée. Il n'y a plus bûches. Moi pas faire feu depuis longtemps.~
+@187 = ~Dans quelle pièce t'es-tu installé ?~
+@188 = ~*Le gobelours se gratte la tête avec inquiétude.* Moi toujours vivre sous-sol. Mais maintenant gelée là. Moi devoir monter étage.~
+@189 = ~De la gelée, tu dis ? Quelle quantité ?~
+@190 = ~Moi en tuer quelques-unes, mais encore beaucoup. Tout travail d'un mage errant. Narrrca ! Narrcilissa... moi pas savoir dire son nom. Moi très mal faire de le laisser dormir ici ! Pire encore, moi faire tomber clé magique du bureau de Maître en bas.~
+@191 = ~(Vous terminez votre inspection de la guilde. Il vous faut maintenant décider de la suite.)~
+@192 = ~(Vous regardez vos compagnons. Peut-être devriez-vous leur demander leur avis ?)~
+
+// Edwin
+@193 = ~*Le Magicien Rouge examine la guilde avec méfiance. Mais la prudence de son visage cède bientôt la place au mépris.* Je le savais ! Comment peut-on appeler cette misérable chose une guilde, je l'ignore. Mes talents méritent un cadre bien meilleur que cette ruine ! (Prudence, Odesseiron ! Tu veux qu'ils aient besoin de toi !)~
+@194 = ~J'en ai assez de t'entendre te plaindre. Arrête ou va-t'en.~
+@195 = ~Cet endroit est miteux, pitoyable, insignifiant et condamné — quel que soit le nom que tu veuilles donner à cette " guilde ". Nous pourrions avoir quelque chose de valable, et à la place je me retrouve avec... ça !~
+@196 = ~Miteux, pitoyable, insignifiant, appelle cette " guilde " comme tu veux. Nous pourrions avoir quelque chose de valable, comme cette gigantesque sphère magique des Bas-Quartiers ! Mais non, à la place je me retrouve avec... ça !~
+@197 = ~Je suis d'accord, cet endroit a connu des jours meilleurs, mais nous devons faire avec ce que nous avons. Nous n'avons encore aucun autre refuge sûr à Athkatla.~
+@198 = ~Fiable ?! C'est un miracle que le toit de cette ruine ne se soit pas déjà effondré sur nous tous !~
+@199 = ~Allons, Edwin ! Le bâtiment est assez solide pour survivre encore quelques années à tes râleries. Bien sûr, si tout se passe bien, je te réserverai une pièce pour ton laboratoire personnel, où tu pourras poursuivre tes recherches magiques sans être dérangé.~
+@200 = ~Hmm. J'accepte tes conditions pour l'instant, puisque tu es si sûr de toi, mais ce laboratoire a intérêt à être une GRANDE pièce ! Mae'Var m'avait accordé tout un étage pour mes travaux ! (Quand pourrai-je enfin être isolé de ces simiens ?!)~
+
+// Viconia
+@201 = ~Je n'arrive pas à y croire ! Tu m'as humiliée devant ce maudit gobelours, et pour quoi ? Pour t'offrir une guilde minable de troisième ordre !~
+@202 = ~Je suis désolé de t'avoir blessée, Viconia, mais tu n'es plus dans l'Ombreterre. Quant à la guilde, je pense que c'est une bonne option, à condition de bien s'y prendre. Il faudra investir, mais je suis certain que cela nous rapportera.~
+@203 = ~Mêle-toi de tes affaires, Viconia. C'est moi qui décide de ce qui est le mieux pour nous.~
+@204 = ~*La drow vous coupe !* Bien s'y prendre ?! Dis-moi ce qui t'a empêché de saisir une véritable occasion au lieu de cette... cette... sous-guilde ! *Elle paraît bouleversée, comme incapable d'exprimer correctement toute son exaspération !*~
+@205 = ~*Vous lui souriez.* J'espère qu'avec ton aide nous saurons tirer le meilleur parti de cette occasion.~
+@206 = ~Tu peux enterrer tes espoirs idiots dès maintenant, jaluk. Nous croupirons ici avec cette " guilde ", dans la pauvreté et l'oubli, jusqu'à la prochaine manifestation de Lolth sur ce plan matériel !~
+@207 = ~Je n'y vois aucun espoir ! *Le ton de Viconia devient sarcastique.* De toute façon, les imbéciles n'écoutent jamais personne et finissent avec le crâne fracassé !~
+
+// Imoen, Nordic
+@208 = ~Il y a beaucoup de poussière ici. Tout a l'air abandonné depuis longtemps.~ 
+@209 = ~Pour être honnête... je ne peux pas dire que je sois impressionnée. Il y a trop de poussière, de toiles d'araignée, et c'est humide. Brrr. Mais bon, toi et moi avons déjà connu pire. Je pense qu'on devrait tenter l'aventure avec cette guilde. J'en suis.~
+@210 = ~Très bien. J'espère qu'on pourra transformer cette citrouille en carrosse, si l'expression est bien celle-là. En attendant, on devrait au moins passer la serpillière.~
+@211 = ~Moi devoir faire ? Moi laver sol avant — une fois par mois.~
+@212 = ~Oui. Fais-le.~
+
+// Jaheira
+@213 = ~Je suis désolée, mais notre amitié compte trop pour moi pour que je te dise seulement ce que tu veux entendre, <CHARNAME>. Je ne vois rien de valable ici, et je ne comprends même pas pourquoi tu t'en préoccupes. Nous avons plus important à faire, comme retrouver Imoen et régler son compte à Irenicus.~
+@214 = ~Peut-être devrais-tu d'abord t'occuper d'eux, et seulement ensuite continuer à jouer avec cette " guilde " ?~
+@215 = ~Je pense que la guerre contre Irenicus va durer, et il nous faudra bien un refuge quelque part. Je ne croule pas sous les contacts à Athkatla, et j'aimerais avoir un endroit à nous plutôt que de dormir dans des auberges ou de nous cacher. Je dis qu'on s'occupe de la Guilde des détectives. C'est petit, mais c'est un bon abri et un moyen de gagner quelques pièces tout en aidant les gens. Ce n'est pas un peu la devise des Ménestrels, ça ?~
+@216 = ~Je suis désolée, mais notre amitié compte trop pour moi pour que je te dise seulement ce que tu veux entendre, <CHARNAME>. Je ne vois rien de valable ici, et je ne comprends même pas pourquoi tu t'en préoccupes. Nous avons plus important à faire, comme vaincre Irenicus.~
+@217 = ~Pour atteindre nos objectifs, il nous faut de l'argent, et la guilde peut générer des revenus.~
+@218 = ~Comme tu voudras. Je te dis simplement ce que j'en pense. J'espère que tu choisiras la bonne voie pour nous.~
+
+// Minsc
+@219 = ~Minsc n'a pas vraiment compris ce qu'était cette guilde, mais il fait confiance à ton instinct. Et puis, le fait que la guilde trouve les méchants et leur botte le derrière, ça, ça nous plaît.~
+@220 = ~N'est-ce pas, Bouh ?~ [GAM_48]
+
+// Edwin
+@221 = ~Oui, oui, prends cette guilde. Je parie qu'on va finir avec une tanière de dragon pleine d'or et tout le reste. On ne pourrait pas simplement mettre fin à ce cirque ?! (Quel dépotoir rouillé, délabré et abandonné !)~
+@222 = ~Cette guilde va nous faire passer pour les plus pauvres d'Athkatla ! Mais puisque vous autres singes avez insisté sur le fait que cela en valait la peine, soit ! (Pourquoi suis-je entouré d'une telle folie et d'une telle idiotie ?!)~
+
+// Cernd
+@223 = ~Il pourrait être intéressant d'envisager la création d'une guilde de recherches, l'idée a du potentiel. Les humains recherchent sans cesse toutes sortes de choses : richesse, plaisir, connaissance de soi, spiritualité ou d'autres personnes.~
+@224 = ~Cernd, je ne m'attendais pas à des encouragements de ta part. Cela paraît étrange, voire contradictoire, pour un druide aussi préoccupé par la nature que toi de vivre dans une grande ville bruyante au lieu de protéger les forêts et d'écouter les oiseaux. Est-ce vraiment le genre de travail qui te conviendrait ?~
+@225 = ~Je ne répéterai pas les erreurs des Druides de l'Ombre ni celles des vengeurs naturalistes extrémistes. Je ne tournerai pas le dos à mes semblables, car eux aussi font partie de la nature, même s'ils n'en sont pas la meilleure part.~
+@226 = ~L'humanité n'a pas pleinement compris son lien avec la nature parce qu'elle s'en est trop éloignée. Même la vérité la plus simple — que détruire la nature entraînerait la destruction des humains comme des autres races — lui échappe.~
+@227 = ~C'est pourquoi je ne tourne plus le dos aux villes et aux foules. Au contraire, je garde les yeux ouverts et m'efforce d'instruire les gens, de les guider vers la préservation de la nature. Voilà pourquoi notre travail commun peut aussi profiter à la Nature.~
+@228 = ~Je ne sais pas comment tu as réussi à relier l'équilibre naturel et l'enquête privée, mais j'ai l'impression qu'il y a vraiment une logique dans ce que tu dis.~
+
+// Alora
+@229 = ~Je trouve ça génial de suivre une piste, résoudre des crimes et prendre les méchants la main dans le sac !~
+@230 = ~Oh, attends une seconde... ton Maître n'enquêtait pas sur de petits, minuscules, hum... " emprunts " faits à des marchands beaucoup trop riches et gonflés d'importance, si ?~
+@231 = ~*Le gobelours sourit devant le compliment.* Non, petite dame ! Mon Maître et moi attraper surtout gros méchants, oui, et les livrrer aux mains de justice !~
+@232 = ~Merveilleux, merveilleux, merveilleux ! Dans ce cas, nous devons aider ce digne et formidable gobelours ! *Elle vous attrape la main.* On peut le faire, pas vrai ?~
+@233 = ~*Vous soupirez.* Lâche ma main, Alora, s'il te plaît.~
+
+// Making a decision
+@234 = ~Moi tout dire ce que toi vouloir savoir. Toi voir Guilde. Quoi toi décider ?~
+@235 = ~Eh bien, je crois que je marche. Voyons si nous pouvons résoudre ce problème de dette.~
+@236 = ~*Le gobelours vous fixe un instant, incrédule, puis manque de bondir de joie, faisant grincer sauvagement le vieux plancher.* Vrrraiment ?!~
+@237 = ~Moi pas penser toi accepter. Et toi embaucher Nordic ? Moi bon, moi aimer guilde et rr-recherche !~
+@238 = ~Considère-toi embauché, mon vieux, même si ce n'est pas moi qui dirige cette guilde. Tu l'as servie avec une grande loyauté : ton maître serait fier de toi. Cela dit, je ne peux pas garantir que nous arriverons à sortir ce bateau du fond, si tu vois ce que je veux dire.~
+@239 = ~Youpi ! Tu verras, ça ira bien avec nous. On va sauver ta guilde, Nordy !~
+@240 = ~*Nordic vous serre joyeusement la main.* Moi travailler bien, Maître, toi pas regretter !~ ~*Nordic vous serre joyeusement la main.* Moi travailler bien, Maîtresse, toi pas regretter !~
+@241 = ~Mais maintenant il faut se dépêcher, récupérer la clé dans le sous-sol.~
+@242 = ~*Vous vous demandez quand votre bras retrouvera sa circulation tandis que le gobelours ouvre la trappe de la cave.*~
+@243 = ~Reste ici. Il n'y a de toute façon aucun autre employé, et quelqu'un doit s'occuper des affaires.~
+@244 = ~Non, désolé, mais je ne suis pas prêt à reprendre cette guilde.~
+@245 = ~*Nordic vous regarde avec tristesse.* Peut-être toi changer avis... vraiment aucune chance ?~
+@246 = ~Désolé, mon vieux. Nous devons partir.~
+@247 = ~Pour être franc, je ne suis pas du tout certain de pouvoir sauver la guilde, ni même que ça en vaille la peine.~
+@248 = ~Moi savoir que ça vaut peine, moi essayer très fort — dis juste quoi faire. *Les petits yeux de Nordic prennent une expression suppliante.* Moi être bon, moi servir toi fidèlement.~
+@249 = ~Très bien, très bien — tu as gagné. Essayons de sortir de cette dette.~
+
+// Tiax
+@250 = ~Je pense que cette guilde pourrait être utile ! Sous le règne de Tiax, il aura besoin d'inquisiteurs pour traquer les conspirateurs, les torturer et les fouetter sur les places publiques !~ [TIAX2]
+@251 = ~Sois fier, gobelours : tu as l'honneur de servir le Grand Tiax ! Et voici ta première mission : retrouve ma vieille pipe, elle a disparu !~
+@252 = ~Moi pas connaître toi, petit ! Moi servir seulement mon Maître, et toi pas lui !~
+@253 = ~Tous les habitants de Toril obéiront à l'Élu de Cyric s'ils veulent éviter d'horribles châtiments. Et toi aussi, tu t'y habitueras et deviendras un serviteur obéissant, sale bête !~ [TIAXM]
+
+@254 = ~Houuuurrrrrra !~
+
+//Kagain
+@255 = ~Y a énormément d'argent à investir pour faire tourner cette affaire ! Et aucune garantie que les profits rembourseront tout ça, alors moi j'suis contre !~ [KAGAN36]
+
+// Safana
+@256 = ~Tu es sérieux à l'idée de lancer ta propre affaire dans la Cité des Pièces, <CHARNMANE> ? Mais tu ne vas pas rester ici longtemps, alors à quoi bon ?~ [SAFANAJ]
+
+//Xzar
+@257 = ~Oh, j'adore ce bâtiment, surtout parce qu'il est dans les Bas-Quartiers, où même les gardes ne s'aventurent pas. Et il y a un sous-sol ! Endroit parfait pour trouver de nouveaux lapins, ahahahaha !!! C'est encore mieux que ma villa sur la plage — on en parle déjà en ville. Prends-la, <CHARNAME> !~ [XZAR3]
+
+// PID
+@258 = ~Maître, dépêche toi, s'il te plaît !~ ~Maîtresse, dépêche toi, s'il te plaît !~
+@259 = ~Parle-moi encore de la guilde.~
+@260 = ~Très bien, revenons aux choses sérieuses.~
+@261 = ~Moi penser avoir déjà tout dit. Petite guilde, Maître acheter bâtiment à prix barr-réduit et fonder en hiver soixante-cinq. Aucune autre guilde comme ça en Amn, mais voleurs prennent certains de nos clients ! Eux pas aimer concurrence.~
+
+//Adelard's desk and cabinet
+@262 = ~*Le parchemin porte le dessin d'une jeune femme séduisante assise à une table, une tasse de café à la main. Au-dessous est inscrit : " Ma chère Elizabeth... "*~
+@263 = ~*soupire* Maîtresse... La femme de Maître morte en couches bien avant fondation Guilde. Enfant pas survivre non plus. Maître très blessé par ça, longtemps triste, puis quitter Eauprofonde...~
+@264 = ~Maître la peindre dans café... endroit comme boutique à café où gens viennent manger vite, oui... mais pas servir viande, gens juste venir parler. C'est là lui rencontrer elle et après eux se marier.~
+@265 = ~Regarde, la tasse qu'elle tient porte le nombre 13. ... Si c'est une date, deux chiffres manquent exprès. Mais la serrure a six chiffres, donc il y a probablement aussi un mois dans le code.~
+@266 = ~Dis-moi, Nordic, sais-tu quand la femme d'Adelard est morte ?~
+@267 = ~Oui, Maître, c'était au prrintemps 1363. Toi penser c'est code ?~ ~Oui, Maîtresse, c'était au prrintemps 1363. Toi penser c'est code ?~
+@268 = ~Voyons voir, c'est peut-être ainsi qu'on ouvrira cette serrure à combinaison. Quoi qu'il en soit, si nous ne récupérons pas les documents dans l'armoire, nous n'irons pas plus loin.~
+@269 = ~Devant vous se trouve une serrure mécanique à code. Elle est protégée par des symboles magiques. Il faut un code à 6 chiffres pour l'ouvrir.~
+@270 = ~Tourner le premier chiffre.~
+@271 = ~0~
+@272 = ~1~
+@273 = ~2~
+@274 = ~3~
+@275 = ~4~
+@276 = ~5~
+@277 = ~6~
+@278 = ~7~
+@279 = ~8~
+@280 = ~9~
+@281 = ~Tourner le deuxième chiffre.~
+@282 = ~Tourner le troisième chiffre.~
+@283 = ~Tourner le quatrième chiffre.~
+@284 = ~Tourner le cinquième chiffre.~
+@285 = ~Tourner le sixième chiffre.~
+@286 = ~*Vous tournez le dernier chiffre et attendez le résultat...*~
+@287 = ~*Rien ne se passe. Quelque chose ne va pas.*~
+@288 = ~*Clic ! La serrure s'ouvre !*~
+@289 = ~...~
+@290 = ~*Laisser l'armoire tranquille.*~
+@291 = ~Moi attendre un peu dans bureau Maître. Quand toi aller sous-sol, moi venir aussi.~
+
+// Success or failure
+@292 = ~Très bien, nous avons les documents ! À ton avis, que devons-nous faire maintenant ? Peut-être trouver quelqu'un qui connaît la législation des guildes.~
+@293 = ~Moi penser très bonne idée !! Un jour Maître engager ces professeurs pour apprendre moi à écrire. Moi écrire pas très bien. Euh... Moi voir eux dans Quartier du Gouvernement près hôtel de ville. Eux s'appeler conseillers, moi penser.~
+@294 = ~Alors allons au Quartier du Gouvernement.~
+@295 = ~Oh, et autre chose : il y a deux autres noms sur la liste de la guilde en plus du tien, Clefast et Andel. Qui sont-ils ?~
+@296 = ~Andel être ancien coursier, halfelin. Lui travailler longtemps avec nous, oui, mais quand Maître disparu, lui partir. Moi pas lui en vouloir, lui avoir famille.~
+@297 = ~Qui être Clefast, moi pas savoir.~
+@298 = ~*Nordic soulève Alora sur ses puissantes épaules velues et avance d'un pas résolu.*~
+@299 = ~Accroche-toi bien, petite dame.~
+@300 = ~Hé ! En avant toute !~
+@301 = ~Oui, reste pas beaucoup temps, Maître !~ ~Oui, reste pas beaucoup temps, Maîtresse !~ 
+@302 = ~Au fait, ne m'appelle pas maître, Nordic. Appelle-moi par mon prénom.~ ~Au fait, ne m'appelle pas maîtresse, Nordic. Appelle-moi par mon prénom.~
+@303 = ~Oui, dépêchons-nous.~
+@304 = ~Oui, Maître. Comme toi vouloir.~ ~Oui, Maîtresse. Comme toi vouloir.~
+@305 = ~Très bien, allons chercher ces conseillers.~
+@306 = ~*grogne tristement* Nous trop tard. Guilde finie. Moi remercier pour aide. Moi partir.~
+
+// Additions for the MC druid
+@307 = ~Mais d'abord, moi poser question aussi. Toi être druide errant, oui ?~
+@308 = ~Oui, je protège la nature et je suis doté de magie sacrée. Mais pourquoi cette question ?~
+@309 = ~Bien que toi druide. Mon Maître racontait sur eux, lui disait bande de guerre sans prêtre vaut rien. Moi penser druide être rr-fiable.~
+@310 = ~D'accord, ça fait plaisir à entendre, mais pouvons-nous revenir à la guilde ?~
+
+@311 = ~Maître, prépare-toi au combat. Il y a beaucoup gelée en bas.~ ~Maîtresse, prépare-toi au combat. Il y a beaucoup gelée en bas.~
+@312 = ~*Vous prenez dans l'armoire les documents de l'ancien chef de guilde et les étudiez.*~
+@313 = ~Oh, allons, Edwin. C'est un endroit tout à fait normal.~
+@314 = ~C'est un miracle que le toit de cette ruine ne se soit pas déjà effondré sur nous tous !~
+@315 = ~Laisse-moi tranquille, Edwin ! C'est moi qui prends les décisions ici.~
+@316 = ~Hmpf. (Quelle grossièreté, quelle arrogance. Pourquoi est-ce que je le supporte encore ?)~
+@317 = ~Mais ici tu auras un grand bureau où tu pourras fabriquer des parchemins.~
+@318 = ~Je travaille encore sur le parchemin, reviens plus tard !~
+
+// Counsellors
+@319 = ~Aide à l'enregistrement des héritages ! Litiges ! K-heh, k-heh, maudite poussière !~
+@320 = ~Je cherche un conseiller de guilde.~
+@321 = ~Bonjour. Y a-t-il quelqu'un ici que je pourrais consulter au sujet d'une guilde ?~
+@322 = ~Oh, je comprends parfaitement à quel point vous êtes tous importants et occupés ! Mais ce dont j'ai vraiment besoin, c'est d'un conseiller en affaires de guilde... ou d'un juriste, comme vous voudrez.~
+@323 = ~Ça fait un sacré paquet de paperasse, hein ? Pourquoi se compliquer autant la vie ? Enfin bref. Je veux parler d'affaires de guilde.~
+@324 = ~Oh, waouh ! Vous avez tous l'air très importants et occupés ici ! Mais ce qu'il me faut vraiment, c'est un conseiller en affaires de guilde.~
+@325 = ~*d'un ton bilieux* Quoi, citoyen ? Je m'occupe de successions et je n'ai pas gagné un sou aujourd'hui. Allez voir Numa, ce fainéant était ici aujourd'hui.~
+@326 = ~Alors il vous faut Numa. Il traînait quelque part par ici.~
+@327 = ~Moi, j'aide les couples à divorcer. Vous savez, la vie est dure pour les femmes en Amn. Toutes les lois sont faites pour les maintenir prisonnières du mariage !~
+@328 = ~Mais bien sûr, il faut aussi que je traite avec les maris... du moins ceux qui ont déjà entendu parler des droits des femmes.~
+@329 = ~On m'a dit de parler au conseiller Numa.~
+@330 = ~J'entends parler d'un certain Numa.~
+@331 = ~À propos d'une guilde... il y a une affaire...~
+@332 = ~Que puis-je faire pour vous ?~
+@333 = ~Alors je suis votre homme. Permettez-moi de me présenter : Numa Beth-Din, conseiller de guilde. Vous trouverez davantage d'informations sur moi au Collège des conseillers ou à la Maison du Gouvernement. Voilà dix ans que je conseille des guildes, dont les cinq dernières années à Athkatla.~
+@334 = ~Des milliers de procès résolus avec succès et des myriades de clients reconnaissants ! Et tout cela pour un tarif très modeste : pour seulement deux cents pièces, vous aurez réponse à toutes vos questions sur les guildes — impôt sur le revenu et autres taxes, litiges, hiérarchie des guildes et élection des maîtres, bref, tout ce que vous voulez savoir ! Je peux aussi représenter vos intérêts devant un tribunal si nécessaire.~
+@335 = ~Très bien. Je veux sauver une guilde. Combien coûtera votre embauche ?~
+@336 = ~Salut, conseiller Numa ! Je vous contacte parce que j'ai un petit souci avec une certaine petite guilde. Ça pourrait bien être votre spécialité !~
+@337 = ~J'ai une affaire juridique sur les bras. J'essaie de sauver une guilde. Vous pouvez m'aider ?~
+@338 = ~Oh, vous êtes un homme sérieux, à ce que je vois ! C'est exactement ce qu'il me faut. Je viens à propos d'une petite guilde qu'il faut protéger.~
+@339 = ~Je ne suis pas encore décidé, mais je vous le ferai savoir dès que possible.~
+@340 = ~Comme vous voudrez.~
+@341 = ~Encore vous. Que puis-je faire pour vous ?~
+@342 = ~Bonjour ! Je cherche un conseiller de guilde.~
+@343 = ~J'ai besoin d'aide pour une guilde bien précise. Je pense que cette affaire relève de votre domaine.~
+@344 = ~Je veux protéger une guilde. Combien coûtera votre embauche ?~
+@345 = ~Mais avant tout, puis-je savoir à qui j'ai l'honneur ?~
+@346 = ~Je m'appelle <CHARNAME>. Je représente la Guilde des détectives.~
+@347 = ~Veuillez m'excuser de ne pas m'être présenté plus tôt. Je m'appelle <CHARNAME>, et je vous serais reconnaissant pour tout conseil que vous pourriez me donner concernant la Guilde des détectives.~
+@348 = ~<CHARNAME>. Guilde des détectives.~
+@349 = ~Quand commenceront-ils donc à reconnaître mon visage à Athkatla ? Je suis <CHARNAME>, héros de la Porte de Baldur, et j'ai affaire avec vous au sujet de la Guilde des détectives.~ ~Quand commenceront-ils donc à reconnaître mon visage à Athkatla ? Je suis <CHARNAME>, protectrice de la Porte de Baldur, et j'ai affaire avec vous au sujet de la Guilde des détectives.~
+@350 = ~Oh oui, je me souviens de cette charmante petite guilde des Bas-Quartiers ! C'est l'une des trois guildes du secteur, avec les Éboueurs et les Aiguiseurs, si je ne me trompe pas. J'ai beaucoup entendu parler de vous, mais à vrai dire je n'avais encore jamais eu le plaisir de rencontrer l'un de vos membres.~
+@351 = ~Mais avant de passer aux affaires, permettez-moi de voir un document officiel, si je puis me permettre, monsieur, hm... quelque chose qui prouve votre affiliation à la Guilde des détectives.~
+@352 = ~*Vous tendez les documents de la guilde au conseiller.* Cela conviendra ?~
+@353 = ~Oh, ne vous inquiétez pas, j'ai justement le document nécessaire sur moi. *Vous tendez les papiers de la guilde au conseiller.*~
+@354 = ~Des papiers, des papiers, toujours des papiers... Où est le bon vieux temps où un bon coup de poing réglait tout... enfin, peu importe. Regardez ça, ça conviendra ?~
+@355 = ~Merde, on dirait qu'on a laissé les documents à la guilde !~
+@356 = ~Je n'ai pas de temps à perdre avec ces absurdités ! Soit vous baissez votre prix, soit j'engage un autre conseiller !~
+@357 = ~*Numa parcourt rapidement le document.* Waouh ! Les Statuts du Conseil des Six, et ils semblent authentiques. À ce que je vois, le maître de guilde vous fait suffisamment confiance pour vous remettre des documents d'une telle valeur.~
+@358 = ~En fait, les problèmes de la guilde ont commencé avec sa disparition.~
+@359 = ~Comment osez-vous douter de moi ! Ces papiers sont parfaitement en règle. Mais le maître de guilde a disparu.~
+@360 = ~Le maître de guilde n'a rien à voir avec ça. Mais la guilde est en difficulté et on m'a demandé de l'aider.~
+@361 = ~Eh bien, ce n'est pas un chef de guilde qui m'a remis les papiers. Il est un peu... disons... absent du tableau... en fait, il a disparu. C'est pour ça que la guilde est dans un tel état. Mais les papiers ne sont pas volés, rassurez-vous.~
+@362 = ~Très bien, ces documents me suffisent. Vous dites donc que votre guilde est en difficulté ?~
+@363 = ~Le Conseil municipal veut saisir la guilde pour dettes. Le chef de la guilde, le mage Adelard, a disparu et la guilde elle-même risque de fermer aujourd'hui si nous ne faisons rien. Au total, elle doit deux mille cinq cents pièces d'or.~
+@364 = ~Oh, il y a toute une histoire là derrière ! La guilde a failli être saisie pour dettes au pauvre gobelours parce que son maître, le mage Adelard, a disparu. Il faut trouver une solution ou la guilde est perdue. Au total, elle doit deux mille cinq cents pièces d'or.~
+@365 = ~Je vois. Eh bien, l'affaire est compliquée, mais rien n'est impossible. Comme je l'ai dit, mes tarifs restent toujours raisonnables. Je pense demander deux cents pièces d'or pour mon travail.~
+@366 = ~Je dois aussi savoir si vous avez l'or nécessaire pour régler les dettes de la guilde. Préparez-vous également à des dépenses imprévues. Il faudra agir vite — après tout, nous sommes en Amn. Cela vous fait donc 2700 pièces d'or au total.~
+@367 = ~Marché conclu !~
+@368 = ~Euh... ça fait beaucoup d'argent. Mais d'accord, j'accepte !~
+@369 = ~Je n'ai pas autant d'argent pour le moment.~
+@370 = ~Pourquoi est-ce si cher ? Je croyais que vos tarifs étaient modestes !~
+@371 = ~Vous avez l'air de bien savoir gagner votre vie ! Et si vous nous faisiez une remise ?~
+@372 = ~<CHARNAME>, ça sent l'arnaque — paie surtout pas. Cette guilde minable vaut pas dix pièces, et ce vaurien veut nous prendre pour des pigeons et faire fortune sur notre dos !~
+@373 = ~Je comprends, ce n'est pas grave. Vous pourrez toujours revenir quand vous aurez réuni la somme nécessaire.~
+@374 = ~Alors, revenons à votre affaire ?~
+@375 = ~Oui, j'ai réussi à réunir l'argent qu'il vous faut.~
+@376 = ~J'ai l'or nécessaire.~
+@377 = ~Parfait. Commençons.~
+@378 = ~Pas encore. Je n'ai pas encore l'argent.~
+@379 = ~Je comprends, ce n'est pas grave. Vous pourrez toujours revenir quand vous aurez réuni la somme nécessaire.~
+@380 = ~Je vois que vous êtes revenu.~
+@381 = ~Euh... je suis désolé, mais je ne peux pas baisser le prix de mes services.~
+@382 = ~Je vais vous payer ce que vous valez. Voici l'argent.~
+@383 = ~Ça fait énormément d'argent ! Ça me fend le cœur ! Mais soit. Tenez. Passons aux choses sérieuses.~
+@384 = ~Je ne souhaite pas vous engager À CE prix.~
+@385 = ~Je ne vais pas continuer à dépenser de l'or alors que je n'en ai pas autant. Désolé pour le dérangement, mais je dois partir.~
+@386 = ~Pour ce prix-là, je peux construire une nouvelle guilde de zéro ! Je ne vous paierai rien.~
+@387 = ~Dans ce cas, j'ai bien peur de ne pas pouvoir vous aider. Maintenant, si vous permettez, j'ai d'autres affaires à régler.~
+@388 = ~Toi rr-ruiner guilde si toi pas utiliser tête ! Qu'est-ce qu'on fait maintenant ?!~
+@389 = ~Ne t'inquiète pas, nous engagerons simplement un autre conseiller.~
+@390 = ~Seul un imbécile poserait cette question. Tu veux que je jette autant d'argent par les fenêtres ? Nous trouverons un autre conseiller moins cher.~
+@391 = ~Écoute, je suis désolé pour ce qui est arrivé à ta guilde, mais j'en ai assez de cette " charité ". Je suis sûr que quelqu'un de plus riche acceptera de t'aider. Pour moi, c'est terminé.~
+@392 = ~Gobelours, j'en ai assez de toi. Adieu.~
+@393 = ~Nous n'avons pas le temps de chercher quelqu'un d'autre. Engage celui-là ! Ça se voit à lui. *Le gobelours pointe du doigt le ventre bien rebondi de Numa.* Cet homme mange beaucoup, donc lui connaître son métier, et bien le connaître.~
+@394 = ~Hmm... je crois que tu n'as peut-être pas tort.~
+@395 = ~Ha ha ! Raisonnement solide. Très bien, considère que tu m'as per-r-rsuadé ! *Vous imitez le grondement d'un gobelours.*~
+@396 = ~N'hésitez pas à revenir me voir si vous avez de nouveau besoin de mes services.~
+@397 = ~*tristement* Ma guilde finie. Moi partir.~
+@398 = ~Bon, venons-en au fait. Vous représentez la Guilde des détectives, dont le chef a disparu depuis six mois. La guilde rencontre actuellement de sérieux problèmes à cause d'impôts impayés et du non-renouvellement du bail. Je veux être certain d'avoir bien compris.~
+@399 = ~On dirait bien. Vous avez parfaitement résumé la situation.~
+@400 = ~Vous avez parfaitement raison. La situation est exactement celle que vous décrivez.~
+@401 = ~Oui, c'est exact. Je ne comprends toujours pas pourquoi je me mêle de tout ça.~
+@402 = ~Oui, c'est ça. Vous êtes plutôt malin.~
+@403 = ~Nous pourrions peut-être commencer par conclure un nouveau bail avec la cité. C'est assez inhabituel, car normalement on se contente de prolonger le contrat. Dans votre cas, cela peut signifier que quelqu'un connaît la situation de la guilde et souhaite mettre la main sur le terrain et le bâtiment. Il est possible qu'une personne — ou plusieurs — cherche à racheter votre guilde pour presque rien. Peut-être pourriez-vous m'éclairer sur son identité ?~
+@404 = ~*d'un ton assuré* Ce sont les Voleurs de l'Ombre. Aucun doute. Ce sont nos concurrents directs.~
+@405 = ~Je n'en sais pas plus que vous, mais il est clair qu'un fonctionnaire est mêlé à tout ça.~
+@406 = ~Peu importe qui ils sont, ils seront vaincus.~
+@407 = ~Non, je ne sais pas. J'aimerais connaître votre avis.~
+@408 = ~Je suis d'accord, mais tant que nous ne savons pas qui sont ces gens, cette conversation ne mène nulle part. Laissons cela de côté pour le moment et passons à autre chose.~
+@409 = ~Non, malheureusement, je l'ignore. Sans noms précis, tout cela n'est que spéculation. Laissons donc cette question de côté et avançons, d'accord ?~
+@410 = ~Peut-être. Et ce n'est pas rassurant vu leur puissance. Mais tant que nous ne savons pas qui ils sont, ces suppositions ne servent pas à grand-chose, vous ne trouvez pas ? Laissons cette question de côté pour l'instant.~
+@411 = ~Le deuxième point — et le plus important — est la disparition inexpliquée du chef de la guilde. Qu'avez-vous fait à ce sujet ?~
+@412 = ~Moi chercher partout en ville, mais pas trouver. Puis moi aller aux gardes, mais eux chasser moi. Ensuite un d'eux quand même écouter.~
+@413 = ~Bien ! Très bien, monsieur le Gobelours ! Vous souvenez-vous de son nom ? Je parle du garde qui vous a aidé.~
+@414 = ~*Le gobelours renifle avec concentration en cherchant dans sa mémoire.* Lui être... Khomath ou Kemeh.~
+@415 = ~Lieutenant Khemed ?~
+@416 = ~Oui, c'est ce nom !~
+@417 = ~Au moins, voilà une piste. Le lieutenant Khemed s'occupe des personnes disparues à Athkatla. Je l'ai vu près de la prison l'autre jour.~
+@418 = ~Alors, que proposez-vous ?~
+@419 = ~Et comment pourrait-il nous aider ? Vous pensez qu'il retrouvera Adelard ?~
+@420 = ~Nous sommes obligés de traiter avec la garde ?~
+@421 = ~Nous devons lui parler. Si Adelard — ou son corps — a été retrouvé, il nous le dira. Pourrez-vous identifier le corps du maître de guilde si nécessaire ?~
+@422 = ~Moi, non. Je ne l'ai jamais vu de ma vie. *Vous désignez Nordic d'un signe de tête.* Lui, il pourra.~
+@423 = ~Non, bien sûr que non. Nous ne nous connaissions pas.~
+@424 = ~Puis-je vous demander comment vous avez réussi à entrer dans la guilde sans jamais avoir vu son chef ?~
+@425 = ~Ça me regarde, mêlez-vous de vos affaires.~
+@426 = ~C'est ce gobelours qui m'a embarqué dans cette histoire. Et ne m'en demandez pas davantage. Je ne sais même pas pourquoi on s'est fourrés là-dedans.~
+@427 = ~Je n'ai pas besoin de chercher les aventures, elles me trouvent toutes seules. Cette fois, c'est ce gobelours. Il m'a demandé de sauver sa guilde.~
+@428 = ~Bien entendu. Les souhaits de l'employeur font loi. Allons parler à Khemed.~
+@429 = ~Cette affaire devient assez intrigante. Cependant, je pense qu'il serait utile de parler à Khemed maintenant.~
+@430 = ~Nous devoir parler aux conseillers, Maître !~ ~Nous devoir parler aux conseillers, Maîtresse !~
+
+// Khemed
+@431 = ~Khemed ! Ça fait longtemps que je ne t'ai pas vu. Je n'aurais pas dû négliger mes vieux amis aussi longtemps.~
+@432 = ~*Un sourire en coin apparaît sur le visage du lieutenant lorsqu'il voit Numa.* Tu n'es pas mon ami, Sembien. Et tu m'as vu ici même hier sans t'approcher. Tu ne m'as même pas salué une seule fois de tout le mois. Qu'est-ce que tu veux, gros renard ?~
+@433 = ~*Numa affiche un sourire amical.* Content de te voir aussi. Mais puisque tu veux aller droit au but, j'aimerais te parler d'une personne disparue.~
+@434 = ~Oh, bon sang ! Très bien, allons-y. Sexe, race, âge, poids, taille, apparence, profession, famille de la personne disparue. Ensuite, signes particuliers : membres manquants, yeux, doigts, dents ? Et n'oubliez pas les tatouages et brûlures, s'il y en a.~
+@435 = ~Puis : quand et dans quelles circonstances la personne a-t-elle été vue pour la dernière fois ? A-t-elle eu des problèmes avec la justice ou des dettes impayées ? Enfin, avait-elle des ennemis ?~
+@436 = ~Vous avez bien mémorisé tout ce que je viens d'énumérer, citoyen ? Oui ? Très bien. Écrivez tout sur un parchemin et remettez-le-moi. Et n'imaginez pas que les gardes de notre glorieuse cité vont courir tête baissée à la recherche d'un vagabond sans abri des Bas-Quartiers.~
+@437 = ~*Le gobelours regarde Khemed d'un air de défi.* Moi parler avec toi il y a mois. Toi écrire histoire moi, dire moi attendre. Moi attendre très longtemps, puis revenir, mais soldats à toi chasser moi. Toi trouver Maître Adelard ?~
+@438 = ~Hé, le monstre ! Je me souviens de toi. Tu cherchais ton patron, Adelard, c'est ça ? Donc c'est bien lui que tu cherches. Il dirigeait cette petite guilde — je me souviens que la garde devait parfois coopérer avec lui. Tout ça pour cette vieille garce qu'on appelle Dame Justice, hé hé !~
+@439 = ~Toi trouver mon Maître ?~
+@440 = ~Non. J'ai vérifié la prison et la morgue, et je n'ai trouvé personne correspondant à la description que tu avais donnée. J'ai vérifié de nouveau deux mois plus tard, même résultat.~
+@441 = ~Tu as pris la déposition de ce gobelours ? Je veux dire, tu as consigné son témoignage sur un parchemin ?~
+@442 = ~Oui, probablement... enfin, non, je ne sais pas. Honnêtement, je ne m'en souviens plus. Il faudra que je retourne à la garnison pour vérifier le dossier. Mais où veux-tu en venir, vieux renard ?~
+@443 = ~Je suis certain que ce parchemin existe, dûment tamponné et daté, connaissant ton sens de l'ordre. Lieutenant, veuillez patienter ici un instant. Je reviens très vite.~
+
+// Numa
+@444 = ~*Numa vous entraîne à l'écart et commence à vous expliquer son plan à voix basse.*~
+@445 = ~Je vous serais reconnaissant de m'en dire un peu plus sur vous. Bien entendu, une réponse générale suffira.~
+@446 = ~J'ai été envoyé en mission diplomatique de la Porte de Baldur vers l'Amn.~
+@447 = ~Je suis un simple marchand du Cormyr, ici pour affaires.~ ~Je suis une simple vivandière du Cormyr, ici pour affaires.~
+@448 = ~Je suis un aventurier de la Côte des Épées. C'est tout ce que vous avez besoin de savoir.~
+@449 = ~Je viens de la Porte de Baldur et je voyage pour découvrir le monde.~
+@450 = ~Je suis l'Enfant de Bhaal, le dieu maléfique du Meurtre !~
+@451 = ~En réalité, dans les terres au nord de l'Amn, on me connaît comme le héros de la Porte de Baldur.~ ~En réalité, dans les terres au nord de l'Amn, on me connaît comme la protectrice de la Porte de Baldur.~
+@452 = ~Bonne plaisanterie ! Je vais la noter. Maintenant, soyez sérieux, s'il vous plaît.~
+@453 = ~Excellent. J'ai une autre question. Êtes-vous un ennemi de l'Amn ? Fuyez-vous la justice ici ou dans d'autres contrées ? Dites-moi la vérité. Je ne révélerai pas vos secrets, mais j'ai besoin de savoir si je peux vous aider.~
+@454 = ~NON, je ne suis pas un hors-la-loi. Pourquoi me posez-vous ce genre de questions ?~
+@455 = ~Voilà des années que j'apporte le bien et la lumière autour de moi. Même si les choses ne se passent pas toujours comme je le voudrais...~
+@456 = ~J'ai commis des erreurs, mais je ne compte pas fuir la justice. Je n'ai jamais été hors-la-loi par le passé. Ce n'est pas moi.~
+@457 = ~Je me suis donné pour mission de rester à l'écart du cirque politique et de toutes les saletés qui vont avec. Et cela vaut aussi pour le crime.~
+@458 = ~Soyons clairs : je ne suis pas un ennemi du Sud. J'ai empêché la guerre imminente entre l'Amn et la Porte de Baldur.~
+@459 = ~Écoutez-moi bien. Je suis certain que nous ne retrouverons pas Adelard en deux semaines. Je doute même que nous le retrouvions un jour. À ce propos, pourquoi votre guilde n'a-t-elle pas organisé de recherches à grande échelle ?~
+@460 = ~Le problème, c'est que toute la guilde est devant vous, ni plus ni moins.~
+@461 = ~Malheureusement, Nordic et moi en sommes incapables. Autrement dit, nous ne sommes que deux et nous représentons toute la guilde.~
+@462 = ~Vous et le gobelours, vous êtes toute la guilde ? C'est une plaisanterie ?~
+@463 = ~Adelard n'avait pas besoin de beaucoup d'agents ; il était très bon pour enquêter seul. Nordic m'a dit qu'il y avait encore deux ou trois personnes, mais elles sont parties quand le mage a disparu.~
+@464 = ~Eh bien, il se trouve que...~
+@465 = ~Un gobelours... c'est un gobelours. Mais moi, je vaux dix hommes, souvenez-vous-en. Cela dit, un assistant ne serait pas de trop. Ou même deux.~
+@466 = ~Je comprends. C'est un problème important, mais pas fatal. Vous pourrez toujours recruter de nouveaux membres, même si les candidats ne sont pas de première qualité. L'essentiel, maintenant, est de trouver un nouveau chef de guilde capable de signer un contrat avec la cité.~
+@467 = ~Où trouver un nouveau maître de guilde ?~
+@468 = ~Hmm... un nouveau chef... Intéressant.~
+@469 = ~*Numa vous observe en silence.*~
+@470 = ~Vous voulez dire... moi ?! Mais comment... ?~
+@471 = ~Oui, je vois où vous voulez en venir. Mais...~
+@472 = ~Vos pensées vont dans la bonne direction, Numa. Mais tout de même...~
+@473 = ~*Le conseiller vous coupe fermement.* Ne vous inquiétez pas, je m'occupe de tout. Je suis ici pour vous accompagner à chaque étape. Répondez simplement à ceci : que penseriez-vous de diriger la guilde ? Avez-vous envisagé cette possibilité ? C'est une décision difficile, mais je pense que c'est le seul moyen de sauver cette guilde.~
+@474 = ~Mais si Adelard est retrouvé ? Que se passera-t-il alors ?~
+@475 = ~À quoi bon rejoindre cette guilde si je n'en prends pas la tête ? Soit. Mais je suis sûr qu'on peut encore retrouver Adelard. Et dans ce cas ?~
+@476 = ~Je n'ai vraiment pas envie de prendre ça sur moi, mais puisque nous en sommes là... nous sommes censés rechercher Adelard, non ? Et si jamais nous le retrouvons, qu'est-ce qu'on fera ?~
+@477 = ~*Numa vous adresse un clin d'œil cajoleur.* Si vous souhaitez abandonner votre poste, vous pourrez le faire à tout moment. Ou vous pouvez envisager de rester maître de guilde plus longtemps, très lo-o-ongtemps, si vous voyez ce que je veux dire. Prenez le temps de réfléchir avant de répondre.~
+@478 = ~Quoi que vous fassiez à Athkatla, être chef de guilde vous ouvrira bien des portes ! Je voulais simplement préciser que mes conseils viennent de ma propre expérience, si je puis me permettre, monsieur. J'ai commencé dans cette ville exactement comme vous.~ ~Quoi que vous fassiez à Athkatla, être chef de guilde vous ouvrira bien des portes ! Je voulais simplement préciser que mes conseils viennent de ma propre expérience, si je puis me permettre, madame. J'ai commencé dans cette ville exactement comme vous.~
+@479 = ~Dans ma jeunesse, il m'est souvent arrivé de devoir manger moins pendant plusieurs jours et dormir dans la rue avant que les choses ne s'améliorent. La chance vous tombe entre les mains ; à votre place, je ferais l'effort de l'attraper par la queue. Heureusement, il suffira peut-être d'un petit effort dans la bonne direction, rien d'insurmontable.~
+@480 = ~Pourriez-vous m'expliquer ce qu'on attendra de moi en tant que chef de guilde ?~
+@481 = ~Et en quoi consistent ces " petits efforts " ? Que devrais-je faire dans la guilde ?~
+@482 = ~En résumé, quelles seraient mes obligations comme maître de guilde ?~
+@483 = ~Vos tâches seront relativement simples : diriger la guilde, prendre les décisions et gagner de l'argent pour vous-même et pour la guilde. Il y aura cependant des responsabilités plus complexes, notamment vous occuper de votre personnel.~
+@484 = ~En bref, ce sont les mêmes responsabilités que celles d'un chef de bande de mercenaires. J'espère que vous ne pensiez pas que j'ignorais votre véritable activité. C'est une bonne chose que vous ayez déjà une expérience comparable.~
+@485 = ~*Le gobelours grogne pour vous encourager.* Toi pouvoir faire. Moi être heureux servir toi !~
+
+// NPC-reactions
+@487 = ~*Vous adresse un bref signe de tête.* Fais-le. Prends la tête de cette guilde.~
+@489 = ~Fais comme tu l'entends. Je m'abstiendrai de critiquer.~
+@491 = ~*La prêtresse drow se détourne silencieusement et grogne avec mépris ; manifestement, elle approuve à peine votre idée.*~
+@493 = ~J-je crois que ça va être très intéressant !~
+@495 = ~C'est étrange, mais tu sais probablement ce que tu fais.~
+
+// Numa
+@496 = ~Très bien. Je vais prendre la tête de la guilde puisqu'il n'y a pas d'autre solution.~
+@497 = ~Il était évident dès le départ que j'allais diriger. Aucun problème.~
+@498 = ~J'ai déjà eu encore moins de chance avec... oh, peu importe. Je prends la guilde.~
+@499 = ~Waouh, ma propre guilde de détectives ! Je serai ravi d'en devenir le maître !~
+@500 = ~*Le gobelours grogne joyeusement et lance sa morgenstern en l'air.* Rr-rar !~ [BUGBR03A]
+@501 = ~*Le conseiller se frotte les mains.* Bravo ! Si vous ne vous lancez jamais de défis, vous perdrez la main. Cette affaire est la plus importante que j'aie eue depuis longtemps, et nous ne sommes plus qu'à un pas du succès.~
+@502 = ~Alors, maintenant, Numa ?~
+@503 = ~Tout ça est très bien, mais j'aimerais connaître la suite du plan.~
+@504 = ~Je partage votre enthousiasme. Que devons-nous faire maintenant ?~
+@505 = ~C'est très simple : il nous faut une procédure juridique de routine. Nous devons faire déclarer Adelard légalement mort. Et Khemed va nous y aider. Attendez ici.~
+@506 = ~Malgré tout, je refuse. Je n'ai pas besoin de cette guilde.~
+@507 = ~Je n'ai encore rien commencé et j'ai déjà la tête qui tourne... Non, ce n'est pas pour moi.~ 
+@508 = ~Attendez. Pourquoi est-ce que je fais ça ? Il est temps d'arrêter.~
+@509 = ~Avez-vous bien réfléchi à cette décision ?~
+@510 = ~Oui, parfaitement. Ma réponse est non.~
+@511 = ~Je n'ai pas l'habitude de parler sans réfléchir.~
+@512 = ~Je vais encore y penser un peu. M-m-mm... Non, je ne veux pas diriger cette guilde.~
+@513 = ~Je répète : je ne veux pas de cette guilde.~
+@514 = ~C'est votre choix. Dans ce cas, je ne peux rien faire pour empêcher la dissolution de la Guilde des détectives. Mon travail s'arrête ici. Voici votre argent, moins le prix de mes services. Bonne journée.~
+@515 = ~Maître... qu'est-ce qui se passe ? Toi pas vouloir sauver Guilde ?~ ~Maîtresse... qu'est-ce qui se passe ? Toi pas vouloir sauver Guilde ?~
+@516 = ~J'ai peur de ne pas pouvoir m'occuper de la guilde en ce moment. Je suis vraiment désolé, Nordic.~
+@517 = ~Je suis désolé, je n'aurais jamais dû me mêler de tout ça.~
+@518 = ~Nordic, je ne suis pas ton Maître. Arrêtons ce petit jeu.~ ~Nordic, je ne suis pas ta Maîtresse. Arrêtons ce petit jeu.~
+@519 = ~Où moi aller maintenant ?~
+@520 = ~*Sans dire au revoir, le gobelours s'en va. La perte de la guilde lui porte manifestement un coup terrible.*~
+@521 = ~Alors, quelle est votre décision ? Vous prenez les rênes de la guilde ou non ? Décidez-vous !~
+
+// NPC-reaction
+@523 = ~Je trouve l'idée intéressante !~
+@525 = ~Tu connais mon avis, je ne vais pas me répéter.~
+@527 = ~Je pense que rechercher des criminels est une bonne chose. Évite simplement les Mages Cagoulés.~
+@529 = ~C'est l'idée la plus ridicule que j'aie jamais entendue. Enfin, fais ce que tu veux.~
+@531 = ~C'est ta décision, je ne suis pas un bon conseiller. Fais simplement ce que ton cœur et ton âme te disent. Ainsi, tu ne te tromperas jamais.~
+@533 = ~Ouaf-rrr ! *grogne doucement en signe d'approbation*~
+@534 = ~Vous êtes, euh... en train de parler à un ours ? Oh, peu importe, ça ne me regarde pas.~
+@536 = ~S'il y a une cave avec un bon tonneau de vin, j'en suis !~
+@538 = ~Cette guilde a un joli sous-sol où je pourrai tracer de merveilleux pentagrammes... et les murs sont épais, personne n'entendra rien dehors. Alors vas-y, je trouverai bien de quoi m'occuper là-dedans !~
+@540 = ~Si ça peut nous rapporter des pièces et des artefacts rares, j'en suis !~
+@542 = ~*Baissant la voix* On peut faire beaucoup de choses avec cette guilde, parce que les gardes soupçonneront difficilement des détectives. Si tu as un cerveau, tu peux trouver un avantage partout !~
+@544 = ~D'ordinaire, ce genre d'organisation suit les épouses à la demande de leurs maris. Elles espionnent les amants malheureux et empêchent les gens passionnés de profiter de la vie. C'est affreux. Mais si tu ne comptes pas faire ce genre de travail, ça me va.~
+@546 = ~Bien sûr, vas-y ! Grâce à cette guilde, nous pourrons découvrir les secrets de nombreux nobles du coin, comme l'endroit où ils cachent leurs bijoux et leurs petits péchés. Ça facilitera notre *travail* avec eux.~
+@548 = ~À mon avis, c'est une activité honorable, puisque cela permet d'aider les gardes à rechercher les criminels.~
+@550 = ~Bien sûr, son avis est tellement " important " pour nous ! Hmpf !~
+@551 = ~La Guilde pourra servir au règne de Tiax pour traquer les rebelles mécontents et les torturer sauvagement jusqu'à ce qu'ils reconnaissent que Tiax est le plus grand et le plus miséricordieux des souverains !!!~ [TIAX2]
+@553 = ~En théorie, je pense que c'est une bonne idée, mais seulement si tu établis un vrai plan. Je peux t'aider pour ça. À Athkatla, il y a constamment des crimes et des disparitions. La Guilde des détectives ne manquera donc pas de travail.~
+@555 = ~Ça ne m'intéresse pas. Si tu veux le faire, fais-le. Sinon, aucun problème.~
+@557 = ~J'aurais préféré rejoindre une guilde de guerriers. C'est une activité plus honorable. Mais fais comme tu veux.~
+@559 = ~Si tu penses que nous aurons le temps de faire tout ça, je n'y vois pas d'inconvénient. Peut-être que de cette façon nous pourrons même aider quelqu'un et servir une noble cause.~
+@561 = ~Je pense que cela nous donnera de nouveaux éléments pour un livre sur mes aventures ! Recherches palpitantes de criminels et d'artefacts, filatures de meurtriers, larmes dans les yeux de clients reconnaissants... Ah, je vois déjà tout ça !~
+@563 = ~Laisse-moi réfléchir... Hmm, ça pourrait être intéressant, non ? Oh, et il nous faudra... des uniformes sombres, c'est ça ? Je nous vois déjà résoudre toutes sortes de mystères et explorer les sombres secrets d'Athkatla.~
+@565 = ~Si tu as l'enthousiasme et l'envie, vas-y ! Je ne peux pas dire que je sois ravi, mais tu peux compter sur mon aide.~
+@567 = ~C'est toi qui commandes, alors vas-y ! Deekin restera avec toi.~
+@569 = ~Je ne vois aucune raison de perdre du temps avec ça. De toute façon, tout est temporaire. Cette guilde et cette ville disparaîtront un jour. Et les habitants ne sont que des grains de sable dans l'horloge du temps, tout comme leurs petits problèmes.~
+@571 = ~J-je ne peux pas te dire quoi faire. Tu sais, j'appartiens à une autre organisation... euh.~
+
+// Numa
+@572 = ~*Le conseiller retourne auprès de Khemed, et une discussion animée éclate aussitôt entre eux, accompagnée de gestes violents et de jurons. Finalement, après avoir mutuellement pris tous les dieux à témoin, les deux hommes concluent l'accord d'une poignée de main. Le lieutenant se met alors à écrire quelque chose sur le dos d'un soldat. On dirait que les efforts de Numa ont permis de conclure cette *affaire*.*~
+@573 = ~Tout est réglé. Ce document est l'acte officiel confirmant la mort d'Adelard le Vagabond, disparu il y a six mois.~
+@574 = ~*grogne tristement* Maître !~
+@575 = ~Sans l'intervention de Nordic auprès de la garde, nous aurions échoué. Et maintenant, notre bataille est presque gagnée !~
+@576 = ~Il faut à présent vous élire, <CHARNAME>, à la tête de la guilde. Le maître de guilde est élu par un vote public des membres. Selon la loi sur les petites guildes, si ma mémoire est bonne, il faut au moins quatre membres-électeurs, y compris le chef de guilde.~
+@577 = ~Avec vos compagnons, nous avons maintenant tous les votes nécessaires. Veuillez inscrire vos noms et signer ici.~
+@578 = ~Il est mal de falsifier une élection, mais il faut le faire. Je remplirai les noms manquants.~
+@579 = ~*Il roule le parchemin.* Bien, voilà. Maintenant, où est le sceau officiel de la guilde ?~
+@580 = ~Moi voir dans armoire papiers importants.~
+@581 = ~Alors allons chercher le sceau de la guilde. Ensuite nous irons à la Maison du Gouvernement. Dépêchons-nous, il faut arriver avant la fermeture.~
+@582 = ~*Numa appose le sceau sur le parchemin et le rend à Nordic.* Voilà, je pense que nous sommes prêts. Plus qu'une étape.~
+@583 = ~Laquelle ?~
+@584 = ~HOURRA — enfin la dernière étape !~
+@585 = ~J'ai hâte que tout ça soit terminé.~
+@586 = ~Merci, Numa. Alors que faisons-nous maintenant ?~
+@587 = ~Nous allons déposer les papiers et payer la dette. Ensuite, nous ferons valoir nos droits sur la guilde. Les fonctionnaires vérifieront les registres des criminels, mais cela ne prendra que quelques minutes. Puis vous prêterez serment et deviendrez citoyen d'Amn. Soyons clairs : vous n'êtes pas d'ici, et les étrangers n'ont pas le droit de diriger une guilde amnienne. Enfin, en tant que nouveau chef de guilde, vous signerez avec la cité le renouvellement du bail.~
+@588 = ~Très bien. Finissons ce que nous avons commencé. Allons-y.~
+@589 = ~Et encore une fois je me demande pourquoi nous nous sommes mêlés de ces absurdités. Mais maintenant que nous en sommes là... allons-y.~
+@590 = ~La citoyenneté amnienne ? Pas mal. Très bien, allons-y.~
+@591 = ~La citoyenneté amnienne ? Qu'est-ce que j'en ferais ? Mais puisque c'est ainsi que ça fonctionne... allons-y.~
+
+// Official 
+@592 = ~*En voyant Nordic* Par les dieux ! Encore toi !~
+@593 = ~Nous sommes ici pour présenter les documents relatifs à l'élection d'un nouveau chef de la Guilde des détectives !~
+@594 = ~Numa ? De quelle élection parles-tu ? Cette guilde est à l'agonie. Ce soir, nous transférerons ses biens au trésor de la cité.~
+@595 = ~*Votre conseiller remet le parchemin au fonctionnaire.* J'ai bien peur que cela n'arrive pas. Adelard n'est plus simplement porté disparu : il a été officiellement déclaré mort. Voici le rapport de la Garde de la cité. Tout a été fait dans le délai légal de six mois suivant sa disparition.~
+@596 = ~*Stupéfait* Le document est authentique. Mais je ne comprends pas. Il n'y avait personne dans cette guilde à part le gobelours. D'où sort ce nouveau chef ?!~
+@597 = ~*Vous avancez d'un pas.* Je m'appelle <CHARNAME>. J'ai été élu aujourd'hui à l'unanimité comme nouveau chef de la guilde. Voici le document qui le prouve.~
+@598 = ~*Vous écoutez en silence sans intervenir.*~
+@599 = ~*Le conseiller acquiesce et pose un autre parchemin sur le bureau du fonctionnaire.*~
+@600 = ~Le chef de la Guilde des détectives a été élu aujourd'hui. *Il vous désigne d'un signe de tête.* Le voici. Et ce document confirme la validité de son élection.~
+@601 = ~Vous ? Je crois vous avoir vu ici ce matin, en train d'emmener le gobelours. Vous êtes donc le nouveau chef de guilde ?~
+@602 = ~C'est exact. Je suis prêt à régler la dette et à conclure avec la cité un nouveau contrat de location directe.~
+@603 = ~Je paie toujours mes dettes à temps.~
+@604 = ~*Le conseiller pose silencieusement le sac d'or sur la table et recule d'un pas.*~
+@605 = ~Voyons... " Contrat de location résidentielle et commerciale "... sans sous-location — cette restriction étant étendue en cas de propriété commune... Compte tenu des nouvelles circonstances, il semble préférable de préparer votre reconnaissance officielle par les autorités d'Amn comme chef de guilde. Nous devrons toutefois examiner votre passé afin de nous assurer que vous n'êtes pas un ennemi de l'Amn.~
+@606 = ~Pardon de vous interrompre, mais j'ai déjà tout expliqué au nouveau maître de guilde. Allons droit au but !~
+@607 = ~Oui, oui, bien sûr, je comprends. Merci pour cette précision. Si votre biographie nous convient, nous ferons notre possible pour écourter la procédure.~
+@608 = ~*Durant l'heure suivante, un haut fonctionnaire et trois collègues parcourent à la hâte d'énormes registres remplis de noms d'espions, de hors-la-loi et d'ennemis de l'Amn, tandis qu'un jeune fonctionnaire prépare les robes noires cérémonielles et mesure votre doigt. Une fois les préparatifs terminés, vous prêtez solennellement serment comme chef de guilde et citoyen d'Amn.*~
+@609 = ~Jurez-vous de respecter les règles et les lois de l'Amn tant que vous dirigerez cette guilde ?~
+@610 = ~Je le jure.~
+@611 = ~Jurez-vous de ne pas comploter contre le Conseil des Six et d'exécuter promptement ses ordres ?~
+@612 = ~Jurez-vous...~
+@613 = ~*Après une longue cérémonie et un nombre impressionnant de serments, on vous remet le symbole de votre autorité, l'Anneau du maître. Vous pouvez enfin quitter la Maison du Gouvernement en qualité de nouveau chef légitime de la Guilde des détectives.*~
+
+// Numa (checks passed successfully)
+@614 = ~Je ne vous dis pas adieu. Je reviendrai bientôt, et nous aurons de quoi parler.~
+@615 = ~Je vous recevrai toujours avec plaisir. Je tiens encore à vous remercier pour vos efforts. Sans vous, nous n'y serions certainement pas arrivés.~
+@616 = ~Merci d'avoir autant aidé Nordic et moi !~
+@617 = ~Sans vous, les choses auraient tourné autrement. Merci !~
+@618 = ~Nous avons tous fait du bon travail. Maintenant, si vous permettez, je dois retourner travailler.~
+
+// Nordic
+@622 = ~*Le gobelours paraît très heureux.*~
+@623 = ~Alors, Nordic, tu es content ?~
+@624 = ~Eh bien, Nordic, ta précieuse guilde va désormais vivre et prospérer. Il faudra encore voir ce qu'il en est de l'héritage d'Adelard pour que le bâtiment nous appartienne vraiment.~
+@625 = ~Tu m'as finalement fait accepter ce travail... Mais tant qu'à faire, essayons de tirer le meilleur parti de cette guilde. Au fait, tu es désormais Détective principal, mon vieux. Je veux dire " partenaire ", bien sûr.~
+@626 = ~La situation est un peu chaotique. Mais toi, tu as l'air heureux.~ 
+@627 = ~Moi toujours pas croire, Maître. Merci !! Moi penser guilde allait finir. Mais avec toi, guilde vivre. Moi désolé avoir douté de toi !~ ~Moi toujours pas croire, Maîtresse. Merci !! Moi penser guilde allait finir. Mais avec toi, guilde vivre. Moi désolé avoir douté de toi !~
+@628 = ~Je n'étais pas sûr de devoir m'en mêler moi-même, mais j'y suis. La décision est prise. Nous avons la guilde, alors sujet clos.~ 
+@629 = ~Ne doute plus jamais de moi, s'il te plaît.~
+@630 = ~J'espère qu'il est clair que tu n'avais jamais aucune raison de douter de moi.~
+@631 = ~Moi aussi, j'ai toujours des doutes. Il ne faut jamais considérer les choses comme acquises ni nourrir de trop grands espoirs. Mais pour le moment, ça semble plutôt bien se passer...~
+@632 = ~Oui, mon vieux, maintenant je suis ton maître. Ne l'oublie pas.~ ~Oui, mon vieux, maintenant je suis ta maîtresse. Ne l'oublie pas.~
+@633 = ~*Rugit joyeusement* Oui, Maître. Voilà, moi retourner guilde !~ ~*Rugit joyeusement* Oui, Maîtresse. Voilà, moi retourner guilde !~
+
+// NPC reactions (failure)
+@634 = ~Grâce à Shar, nous ne risquons plus de finir nos jours dans cette misérable " guilde ". J'espère qu'à l'avenir tu ne gaspilleras plus NOTRE temps avec ce genre d'absurdités.~
+@635 = ~Oh, c-c'est dommage. Ça m'intéressait beaucoup.~
+@636 = ~Eh bien voilà ! Je rêvais déjà d'histoires encore plus saisissantes...~
+@637 = ~Et pourquoi ça ne m'étonne pas ? À quoi bon commencer quelque chose qui était voué à l'échec dès le départ ?~
+@638 = ~Hmmm... pour être honnête, je suis un peu désolé. C'était une manière assez originale de faire le bien.~
+@639 = ~Tu en as assez, <CHARNAME> ? Allons faire quelque chose d'utile.~
+@640 = ~Dommage. Avec cette guilde, nous aurions pu aider beaucoup de citoyens.~
+@641 = ~Tout le monde n'est pas fait pour ce genre de travail, il faut des talents particuliers. Désolé que tu n'aies pas réussi.~
+@642 = ~Eh bien, le grand Tiax n'aura pas sa guilde à cause de vous autres incapables !!!! Quoique... peu importe, il a de plus grandes choses à accomplir !~
+@643 = ~Enfin fini, cette perte de temps !~
+@644 = ~Voilà ce qui arrive quand on planifie mal !~
+
+// Extras
+@667 = ~Peut-être qu'avec cette guilde nous pourrons apprendre quelque chose sur Imoen et Irenicus.~
+@668 = ~Peut-être qu'avec cette guilde nous pourrons apprendre quelque chose sur Irenicus.~
+@669 = ~Entrez, mesdames et messieurs.~
+@670 = ~Si vous avez perdu quelque chose ou quelqu'un, je vous conseille la Maison des détectives d'Adelard le Vagabond, ici même dans les Bas-Quartiers, à l'ouest de la Couronne de Cuivre. On dit qu'ils peuvent tout retrouver, même sous terre.~
+@671 = ~Dis-moi ce qui t'a empêché de saisir une vraie occasion au lieu de prendre cette... cette... *la drow bute sur ses mots, incapable de trouver une insulte assez méprisante* sous-guilde ?!~
+@672 = ~Ton opinion compte pour moi, Jaheira, mais j'ai aussi la mienne.~
+@673 = ~C'est à moi d'en décider, Jaheira.~
+
+//Korgan
+@674 = ~Pour parler franchement, cette guilde est pitoyable. Des guerriers comme nous ne devraient pas s'occuper de telles sottises. Bon sang, nous pourrions prendre possession d'un château entier, par exemple ! Regarde-moi ça : il n'y a même pas de bar !~
+@675 = ~Il y a tonneau de vin dans cave, nain. Tout plein.~
+@676 = ~Ho ho, très bien !! Où tu dis qu'il est ?~
+@677 = ~A-rr. Juste à côté escaliers... bon vin. Des halfelins nous l'apporter de Sembie.~
+@678 = ~*Le nain se frotte les mains avec satisfaction.* Parfait, on descend ce soir, hein, Nordic ? Hrrrr, cette demi-guilde a peut-être du bon, finalement !~
+@679 = ~Pour parler franchement, cette guilde est un désastre. Il n'y aura ni argent, ni gloire, ni... alcool ici. Bon sang, il n'y a même pas de bar !~
+
+// Cross-mods reactions
+// The Beaurin Legacy
+@680 = ~Qu'en dis-tu, Minyae ? On reprend cette guilde ?~ 
+@681 = ~Tu veux que je décide à ta place ? Hors de question ! Si tu veux être un vrai chef, tu dois prendre ce genre de décisions toi-même.~
+// Silver Star
+@682 = ~Dis quelque chose, Étoile d'Argent.~
+@683 = ~J'ai fait un rêve il y a quelque temps. Une fille y pleurait des larmes de sang. Elle se tenait au milieu d'une pièce exactement comme celle-ci, dans la guilde ! Refuse, <CHARNAME> !~
+@684 = ~Ahh, Maman, dis à <PRO_HIMHER> de ne pas prendre cette guilde ! Je n'aime pas cet endroit !~
+// Rjali NPC
+@685 = ~Qu'en penses-tu, Rjali ?~
+@686 = ~Grâce à cette guilde, nous pouvons retrouver des gens disparus et gagner de l'argent en même temps. L'idée est bonne, mais je commencerais par nettoyer : cette poussière me donne envie d'éternuer !~
+// Varshoon
+@687 = ~Varshoon, tu crois que je devrais diriger cette guilde ?~
+@688 = ~*Je ne suis pas ton instructeur, sang-chaud. Fais ce que tu veux. Ta décision sur ce sujet m'indiffère.*~
+// Yvette
+@689 = ~J'aimerais avoir ton avis, Yvette. Que penses-tu de cette guilde ?~
+@690 = ~Il y a beaucoup de poussière, de vieux livres et de documents, mais le bâtiment est joli. Je n'ai pas vraiment de conseil à te donner, mais je suis sûre que tu feras le bon choix, <CHARNAME>.~
+// Gavin
+@691 = ~Qu'en penses-tu, Gavin ? Cette guilde te plaît ?~
+@692 = ~Je suis prêtre, <CHARNAME>, et je ne connais pas grand-chose au droit. Mais je suis certain qu'on peut agir honorablement et aider les gens dans n'importe quel domaine, et la Guilde des détectives ne fait pas exception.~
+
+//
+//
+//
+
+// Edwin (guild office)
+@700 = ~Edwin, nous avons désespérément besoin de soutien magique. Aurais-tu l'obligeance d'aller à la guilde et de préparer des parchemins de sorts pour nous ?~
+@701 = ~*renifle* Bien sûr que je peux effectuer un travail aussi simple. Si tu comprenais quoi que ce soit aux arts magiques, tu saurais que pour MOI, c'est un jeu d'enfant. (Ces primates sans cervelle ne sauront jamais apprécier mes efforts !)~
+@702 = ~J'ai fabriqué un parchemin, ce qui, comme prévu, n'a présenté aucune difficulté. J'espère maintenant que tu ne m'arraches pas à mes recherches magiques pour rien.~
+@703 = ~Beau travail, Edwin. J'aimerais que tu reviennes dans le groupe.~
+@704 = ~Vous autres singes ne tiendriez pas longtemps sans l'aide d'un mage de premier ordre, et vous le savez.~
+@705 = ~Merci pour les parchemins. Reste ici pour le moment, s'il te plaît.~
+@706 = ~*Soupire* Alors pars. Ne me fais pas perdre mon temps avec tes absurdités.~
+
+// Nordic in the guild
+@707 = ~*Devant vous se tient Nordic, sympathique résident de la Guilde des détectives, passionné par les rr-enquêtes, les détectives, la Guilde elle-même et surtout par vous, son Maître.*~ ~*Devant vous se tient Nordic, sympathique résidente — et détective, bien sûr — de la Guilde des détectives, passionné par les rr-enquêtes, les détectives, la Guilde elle-même et surtout par vous, sa Maîtresse.*~
+@708 = ~Des nouvelles, Nordic ?~
+@709 = ~Passe le balai aujourd'hui, c'est sale !~
+@710 = ~*Partir*~
+@711 = ~Rien nouveau, Maître.~
+@712 = ~Petit homme venu ici. Moi content, penser qu'il y aurait travail, parce que moi m'ennuyer. Mais gnome voulait chercher personne, lui voulait vendre chou. Moi lui dire partir. Nordic pas aimer chou.~
+@713 = ~Tu n'aimes pas le chou ? Grave erreur. Tu as déjà goûté de la viande cuite dans une feuille de chou ? Je suis sûr que ça te plairait.~
+@714 = ~Nordic entendre que mendiants se faire tuer dans Quartier du Pont. Moi lire livre et livre dire tous meurtriers avoir motif. C'est quoi motif ici ? Moi pas savoir.~
+@715 = ~Homme en cape rouge — nom Edwin — faire beaucoup bruit dans laboratoire hier, casser beaucoup bocaux. Nordic avoir peur homme en cape. Lui sorcier et pouvoir brûler guilde.~
+@716 = ~Pendant toi absent, Maître, gros homme venir, dire avoir perdu ses... euh... *Le gobelours se gratte la tête en cherchant le mot juste.* boutons de manchette ! Moi pas savoir quoi c'est. Moi penser ça existe pas et gros homme vouloir faire blague à Nordic ?~ ~Pendant toi absente, Maîtresse, gros homme venir, dire avoir perdu ses... euh... *Le gobelours se gratte la tête en cherchant le mot juste.* boutons de manchette ! Moi pas savoir quoi c'est. Moi penser ça existe pas et gros homme vouloir faire blague à Nordic ?~
+@717 = ~*Soupire* À votre service, Maître.~
+@718 = ~Des nouvelles ?~
+@719 = ~Maître recevra robe de mage en 1358... ah, ou peut-être 1357, moi plus savoir exactement. Et lui décider se marier en 1359.~
+
+// Numa in the guild
+// Introductory dialogue
+@729 = ~Bonjour, <CHARNAME>.~
+@730 = ~J'ai décidé de passer vous voir pour une affaire personnelle. Comment trouvez-vous la Guilde des détectives ?~
+@731 = ~Je m'y habitue lentement. Comme vous vous en souvenez peut-être, je n'avais pas cherché ce travail.~ ~Je m'y habitue lentement. Comme vous vous en souvenez peut-être, je n'avais pas cherché ce travail.~
+@732 = ~Je ne sais toujours pas pourquoi je me suis mêlé de cette histoire. J'espère que ça finira par rapporter quelque chose.~ ~Je ne sais toujours pas pourquoi je me suis mêlée de cette histoire. J'espère que ça finira par rapporter quelque chose.~
+@733 = ~Cette guilde est un foutoir complet. Un vrai foutoir. Je regrette déjà de m'être lancé dans cette aventure.~ ~Ce n'est qu'un dépotoir, pas une guilde. Un chaos complet. Je regrette déjà de m'être lancée dans cette aventure.~
+@734 = ~Vous savez ce qu'on dit : celui qui commence avec confiance finira dans le doute ; celui qui commence son chemin dans le doute finira avec confiance. Je suis sûr que vous vous y habituerez vite.~
+@735 = ~*Regarde autour de lui.* Cela faisait longtemps que je n'étais pas venu ici. Saviez-vous que ce bâtiment appartenait autrefois à une bibliothèque, avant sa faillite ? Tous les livres qui avaient survécu ont été vendus pour presque rien à la Bibliothèque de Lazarre. Les habitants des Bas-Quartiers n'aiment guère lire.~
+@736 = ~Gros homme dire vrai : bâtiment autrefois dépôt de connaissance. Puis eux perdre bénédiction d'Oghma et tout tomber, rester abandonné longtemps. Ensuite Maître acheter.~
+@737 = ~Merci pour la leçon d'histoire. Alors, qu'est-ce qui vous amène ?~
+@738 = ~En fait, nous sommes pressés. Que voulez-vous ?~
+@739 = ~Parfait, allons droit au but. Je souhaite rejoindre votre guilde et en devenir l'administrateur. Je pense pouvoir vous être utile à ce poste, puisque, si je ne me trompe pas, la guilde n'en a toujours pas.~
+@740 = ~C'est vrai que nous n'avons pas d'administrateur. Mais pourquoi vouloir ce poste ? J'avais l'impression que vos affaires marchaient bien.~
+@741 = ~Qu'espérez-vous y gagner ?~
+@742 = ~Pour répondre, je dois vous expliquer certaines particularités des affaires à Athkatla. Ici, les gens essaient dès que possible de former des groupes, collèges, cartels, guildes, appelez ça comme vous voudrez, afin de gagner davantage en unissant leurs efforts. En clair, on ne va pas loin tout seul, et j'ai depuis longtemps atteint mon plafond. Un poste d'administrateur dans votre organisation serait une grande étape dans ma carrière. Et même si la guilde reste modeste pour le moment, je suis certain qu'elle se renforcera avec le temps.~
+@743 = ~Par exemple, un simple marchand doit remplir de nombreuses conditions, parfois très difficiles, pour entrer dans une guilde marchande : acquérir de l'expérience, nouer des relations, obtenir des garanties, se faire un nom. Et seulement ensuite, après avoir payé une somme considérable, peut-il tenter d'entrer. Plus la guilde est riche, plus il est profitable d'en être membre et plus il est difficile d'y accéder.~
+@744 = ~Je ne comprends toujours pas. Pourquoi avoir besoin de notre guilde alors qu'il existe, par exemple, celle qui commerce avec Maztica, ou d'autres encore plus riches et puissantes ?~
+@745 = ~Pourquoi cet intérêt pour la Guilde des détectives plutôt qu'une autre ?~
+@746 = ~Bien sûr, j'aurais pu essayer de travailler avec elles, mais je vous ai préféré. Je pense que vous et la Guilde des détectives avez un grand potentiel.~
+@747 = ~Et ma décision a aussi été influencée par...~
+@748 = ~...l'absence de concurrence pour vous au sein de la guilde.~
+@749 = ~...la possibilité de devenir le bras droit d'un chef de guilde inexpérimenté qui a besoin de vos conseils.~
+@750 = ~...vous voulez miser sur un " cheval noir " et monter rapidement en cas de succès.~
+@751 = ~...le fait qu'on ne vous refusera pas ici, vu tout ce que nous vous devons pour avoir sauvé la guilde.~
+@752 = ~Cela aussi, je ne vais pas mentir. Une guilde de cette taille n'a pas besoin d'un second conseiller.~
+@753 = ~Vous avez toutes les qualités d'un chef à forte volonté, c'est pourquoi je mise sur vous. Une fois l'expérience acquise, vous dirigerez la guilde d'une main de fer, je n'en doute pas. Mais au début de votre parcours, mes conseils pourraient réellement vous être utiles.~
+@754 = ~C'est en partie vrai, mais la nouveauté n'est bonne que pour commencer, pour se faire un nom. Le véritable chemin de la prospérité passe par un travail long et difficile.~
+@755 = ~Je suis heureux que vous ayez autant apprécié ma modeste contribution au sauvetage de la guilde. Et bien entendu, j'espère pouvoir continuer à vous servir de conseiller, compte tenu de notre coopération fructueuse.~
+@756 = ~Très bien, vous êtes engagé. Votre expérience et vos compétences nous seront très utiles.~
+@757 = ~Nous n'avons pas seulement besoin d'un conseiller, mais aussi d'un trésorier.~
+@758 = ~De toute façon, je n'ai aucun autre candidat. Alors soit.~
+@759 = ~Je peux cumuler les deux fonctions, aucun problème. Je suis Sembien : je sais compter les pièces depuis l'enfance.~
+@760 = ~Je peux aussi m'occuper des finances. Je suis Sembien : je sais compter les pièces depuis l'enfance.~
+@761 = ~Je serai heureux de travailler avec vous... et avec Nordic.~
+@762 = ~Maintenant, donnez-moi un peu de temps pour examiner les affaires de la guilde...~
+@763 = ~Hmm... attendez... qu'est-ce que c'est ? Ah, je vois...~
+@764 = ~Je dois dire que la situation est un peu meilleure que je ne le pensais. Adelard a encore quelques clients dans cette ville. Cela nous aidera beaucoup au début.~
+@765 = ~Mais n'attendez pas des miracles. Nous avons toujours des factures à payer. Ce sera déjà bien si nous gagnons assez pour rester à flot.~
+
+// Main Dialogue
+@766 = ~Bonjour, <PRO_SIRMAAM>.~
+@767 = ~Des nouvelles ou des missions pour la guilde ?~
+@768 = ~La guilde a-t-elle reçu des revenus ?~
+@769 = ~À propos du recrutement... rappelez-moi ce que vous proposiez.~
+@770 = ~La guilde rapporte-t-elle quelque chose ?~
+
+// About the ranger
+@771 = ~Il y a un rôdeur qui travaillait autrefois pour Adelard. Il continue secrètement à travailler pour la guilde.~
+@772 = ~Autrement dit, il travaille à son compte, mais continue à nous verser une somme pour garder l'insigne de la guilde et éviter que les gardes ne posent trop de questions.~
+@773 = ~C'est... une affaire d'un autre monde... des marchés maudits. Ce rôdeur a besoin de l'insigne de la Guilde pour obtenir des listes de morts auprès des prêtres et du capitaine de la garde. Oh, et il va aussi dans les cimetières : les gardes le laissent passer grâce à notre insigne. Beaucoup de pauvres meurent à Athkatla ; ils sont enterrés dans des fosses communes derrière les murs de la ville.~
+@774 = ~Ses hommes déterrent des cadavres en décomposition, séparent la chair pourrie des os, puis il revend le tout. Adelard m'a dit autrefois que ce rôdeur vendait les os à des nécromanciens du Sud. Ils rr-animent des squelettes pour travailler sur les routes dans les grands marais. Les os mauvais ou incomplets, il les vend aux fabricants de farine d'os.~
+@775 = ~Oui, je sais de qui il parle. Je lui ai déjà acheté des cadavres : marchandise de premier choix, les tissus étaient presque tous intacts.~
+@776 = ~En général, il nous verse une petite somme de 500 pièces une fois par semaine.~
+
+@777 = ~Oui, c'est le revenu que nous avons réussi à obtenir.~
+@778 = ~Non, il n'y a encore aucun revenu.~
+
+// Hiring employees
+@780 = ~<PRO_SIRMAAM>, nous n'avons pas assez de détectives pour traiter les commandes actuelles. Nous pouvons en engager un ou plusieurs, mais cela coûtera de l'argent. Chaque employé coûtera environ 200 pièces.~
+@781 = ~Mais nous pourrons alors accepter davantage de missions, ce qui augmentera nos revenus.~
+@782 = ~Nous sommes une guilde de détectives, donc il nous faut des détectives. Nordic seul ne peut pas gérer autant de missions. Qu'en dites-vous ?~
+@783 = ~D'accord, engageons un détective. Voici 200 pièces.~
+@784 = ~D'accord, engageons trois détectives. Voici 600 pièces.~
+@785 = ~Non, nous avons déjà consacré assez d'efforts et d'argent à cette guilde. Je ne veux plus rien payer. Vous et Nordic vous débrouillerez ensemble.~
+@786 = ~Très bien, je donnerai tous les ordres nécessaires. Les nouveaux employés devraient être ici demain. Lorsqu'ils commenceront à travailler, nos revenus devraient augmenter un peu.~
+@787 = ~Très bien, je donnerai tous les ordres nécessaires. Les nouveaux employés devraient être ici demain. Lorsqu'ils commenceront à travailler, nos revenus devraient augmenter un peu.~
+@788 = ~*Soupire* Comme vous voudrez. Dans ce cas, n'attendez aucun revenu de la guilde. Si vous changez d'avis, dites-le-moi.~
+@789 = ~Je veux engager deux détectives de plus pour la guilde. Voici 400 pièces pour les dépenses.~
+
+@790 = ~Je suis juste passé dire bonjour. Je repars.~
+@791 = ~Au revoir, mon<PRO_LADYLORD>.~
+
+// Guild Affairs
+@792 = ~Laissez-moi réfléchir...~
+@793 = ~Une nourrice du Quartier du Gouvernement est passée. Elle affirme que l'un des enfants dont elle s'occupe est très étrange. La nuit, il réussit à sortir de son berceau et, par deux fois déjà, elle ne l'a rattrapé qu'au seuil de la maison. Elle pense que cela a un rapport avec les fées ; elle entend parfois de faibles voix dans la chambre d'enfant. Elle nous demande de suivre le garçon pour voir où il va. Elle-même a peur de le faire la nuit.~
+@794 = ~Les égouts ne servent manifestement pas qu'à évacuer les eaux usées : il s'y trame aussi des choses peu nettes. Un garde est venu nous signaler du bruit et de la lumière sous une grille d'évacuation. Il a d'abord pensé à des monstres, mais il affirme avoir entendu des voix humaines.~
+@795 = ~Quelqu'un dessine sans cesse des graffitis insultants et des images délirantes sur les murs du Conseil des Six. Apparemment, cette personne déteste la politique du gouvernement. Les gardes n'arrivent pas à attraper cet insolent, comme s'il était invisible. Ils nous ont donc demandé de le retrouver.~
+@796 = ~On raconte que des contrebandiers utilisent un tunnel secret pour franchir les murs et faire entrer du lotus noir Noire en ville. Si nous trouvons des preuves, la garde de la cité offrira une récompense pour ces informations.~
+@797 = ~Plusieurs habitants du quartier des Docks entendent chaque nuit le cri effroyable d'un homme en train de se noyer. Le phénomène se répète sans cesse, et des fantômes semblent impliqués.~
+@798 = ~Un homme mort, privé de ses bras, a récemment été découvert près de la Couronne de Cuivre. C'était un pickpocket bien connu en ville. Quelqu'un lui a tranché les bras puis l'a laissé mourir. Les gardes ont demandé de l'aide pour retrouver le meurtrier.~
+@799 = ~Un herboriste a demandé des algues nécessaires au traitement des rhumatismes. Mais personne ne sait où en trouver.~
+@800 = ~Dans le quartier des Docks, des pêcheurs ont retrouvé un corps flottant près du quai. À en juger par ses vêtements coûteux, le défunt était probablement un noble. Impossible encore de l'identifier : les poissons lui ont sévèrement rongé le visage.~
+
+// Task for Rushdie
+@801 = ~Il y a du travail pour Rushdi. *Rit.* Il est temps qu'il montre son utilité à la guilde au lieu de dormir après dîner. Nous devons retrouver quelque chose dans les égouts.~
+@802 = ~Quoi exactement ?~
+@803 = ~La dague familiale. Magique et très coûteuse. Un groupe de halfelins de la Porte de Baldur s'est récemment aventuré dans les égouts, sans réussir sa mission. Les gobelins les ont repérés et attaqués les premiers.~
+@804 = ~Lors de leur retraite, leur chef a perdu sa dague, puis est venu nous demander de la retrouver. Il est prêt à payer cinq cents pièces si nous lui rendons la dague de son arrière-grand-père.~
+@805 = ~Rushdi est à votre disposition.~
+@806 = ~Non, que Rushdi reste au sous-sol. Il ne faut pas oublier la sécurité de la guilde.~
+@807 = ~Très bien, je lui donnerai toutes les instructions nécessaires. Je suis certain qu'il réussira.~
+@808 = ~Comme vous voudrez. J'informerai les halfelins que nous ne pourrons pas accomplir la mission.~
+@809 = ~Rushdi a retrouvé dans les égouts la dague perdue dont nous avions parlé. Mission accomplie !~
+
+// About Imoen
+@812 = ~Peut-on découvrir où se trouve mon amie Imoen ? Elle a été enlevée par les Mages Cagoulés.~
+@813 = ~J'ai essayé de me renseigner, sans succès. Les Mages Cagoulés savent garder leurs secrets. L'offre de Gaelan Bayle semble être la seule option viable.~
+@814 = ~D'accord, je me débrouillerai. Mais si vous parvenez à trouver quelque chose d'utile, prévenez-moi immédiatement...~
+@815 = ~Je vous le ferai savoir, bien sûr, mon<PRO_LADYLORD>.~
+@816 = ~Comment est-ce possible ? Puisque nous sommes une guilde de détectives, nous avons peut-être des relations ou des sources particulières.~
+@817 = ~Adelard aurait peut-être pu vous aider, mais malheureusement certaines de ses sources n'étaient connues que de lui.~
+@818 = ~Peut-on découvrir où se trouve le mage Irenicus ? Il a été arrêté par les Mages Cagoulés.~
+
+// Soul of an Executed Murderer (in the basement of the guild)
+@819 = ~(Soudain, l'ombre de quelqu'un apparaît dans un coin du sous-sol devant vous, d'une façon très inquiétante...)~
+@820 = ~Qui êtes-vous ?~
+@821 = ~(Garder le silence)~
+@822 = ~Autrefois, je m'appelais Aiden... J'étais recherché pour mes crimes dans de nombreuses villes, mais j'étais insaisissable... Puis ce maudit Adelard m'a retrouvé et livré aux gardes... à cause de lui, j'ai été condamné à mort...~
+@823 = ~Je me vengerai de lui... je me vengerai de vous tous !!!~
+@824 = ~J'ai déjà entendu parler de ce genre de choses. Les âmes des criminels exécutés reviennent parfois pour se venger. Parfois, de puissants nécromanciens les invoquent. Heureusement, cela reste rare. Et nous avons assez de puissance pour leur accorder le repos.~
+@825 = ~Brrr ! Heureusement que je ne suis pas entré seul dans ce sous-sol !~
+@826 = ~On dirait que cette guilde est une véritable maison hantée.~
+@827 = ~Aiden, tu es un imbécile ! Devant toi se tient le grand et redoutable Tiax, futur souverain de tout Toril, et toi tu penses à une petite vengeance mesquine ?!~
+@828 = ~Q-quoi ? Je... je ne connais pas ce nom... Qui est Tiax ?~
+@829 = ~Tiax le Grand se tient devant toi, idiot ! Tu as l'air si stupide que tu n'es même pas digne de le servir ! Disparais, ou Tiax t'écrasera !~
+@830 = ~Vous allez mourir !!~
+@831 = ~Pauvre âme tourmentée...~
+@832 = ~On dirait que de ton vivant tu étais un criminel dangereux. Ce qui veut dire que tu mérites encore davantage de mourir une seconde fois !~
+@833 = ~Je t'avais prévenu que cette guilde ne nous apporterait que des ennuis.~
+@834 = ~Je me souviens que tante Petunia racontait l'histoire d'un fantôme qui te ressemblait un peu, Aiden. Je ne me rappelle plus son nom, mais de son vivant c'était un étudiant qui volait des pommes de terre et des choux au marché. Puis il mourut tragiquement : en rentrant ivre d'une taverne, il tomba dans un fossé et se brisa le cou. Depuis, son fantôme aurait souvent été vu la nuit au marché ; on dit qu'il continue à voler de la nourriture, mais qu'après sa mort il ne s'intéressait plus qu'aux carottes. Ce qui est étrange, vu à quel point le prix des carottes avait chuté cette année-là...~
+@835 = ~Q-quoi ? Je ne comprends rien...~
+
+// Cook
+@836 = ~Cuisine propre, Maître.~ [BUGBR01A]
+@837 = ~Je n'ai plus l'intention de manger ta cuisine, sans vouloir t'offenser. Bœuf en entrée, poulet au deuxième plat, bouillon de viande au troisième. Par les dieux ! J'ai vu un minuscule morceau de viande flotter dans un océan entier de graisse !~
+@838 = ~*Se tapote le ventre velu avec satisfaction.* C'était recette moi, miam-miam ! Mon ami comprendre que si pas laver vaisselle, plat suivant devient seulement plus gras.~
+@839 = ~Et ta cuisine n'est pas mauvaise, Nordic. Peut-être qu'elle manque un peu de variété... juste un peu. Mais tout est très bon !~
+@840 = ~Merci, demi. Mon ami comprendre que cuisiner pas cuis... ! Pas culinaire, voilà !~
+@841 = ~Nous devoir engager cuisinier, Maître.~
+@842 = ~Au fait, excellente idée. Je vais mettre une annonce ; nous trouverons peut-être quelqu'un dans quelques jours.~
+@843 = ~Bonjour. Je m'appelle Anne-Marie, mais appelez-moi Marie, sans cérémonie. Je viens pour l'annonce. Vous cherchez un cuisinier ?~
+@844 = ~Oui, la guilde cherche un cuisinier.~
+@845 = ~Non, nous ne cherchons personne.~
+@846 = ~Nous avons déjà trouvé quelqu'un, le poste est pourvu.~
+@847 = ~Hé, je vous connais ! C'est vous qui avez tué mes employeurs dans la mine. J'avais des doutes en entendant parler de vous la première fois. Je vois que vous n'avez pas perdu de temps.~
+@848 = ~Exact, nous nous sommes déjà rencontrés dans les mines. Tant mieux si vous avez réussi à vous en sortir. Comment êtes-vous arrivée à Athkatla ?~
+@849 = ~Hmm. Ça arrive. Comment êtes-vous arrivée en Amn ?~
+@850 = ~Hmm ? Pour être honnête, je ne me souviens pas de vous. Peu importe. Comment êtes-vous arrivée dans la capitale de l'Amn ?~
+@851 = ~Je suis venue par la mer. Enfin bref, amusez-vous à jouer aux détectives tant que vous voulez, ça m'est égal, du moment que vous payez à temps. Je demande 5 pièces par jour. Je prépare le déjeuner et le dîner, pas le petit-déjeuner.~
+@853 = ~D'accord, je vous prends à l'essai. Nous verrons comment vous vous débrouillez. Mais vous ne ferez pas partie de la guilde, compris ?~
+@854 = ~Ça m'est égal. Mon travail, c'est cuisiner.~
+@855 = ~*Le gobelours regarde la cuisinière avec affection, essayant déjà de se la mettre dans la poche.* Pas petit-déjeuner du tout ? Moi avoir très faim matin.~
+@856 = ~Tu survivras, grand gaillard. Si tu veux des douceurs le matin, tu m'aideras à porter les provisions du marché.~
+@857 = ~Moi faire.~
+@858 = ~Je n'achèterai que des produits frais. Pas de magie pour transformer les côtelettes d'hier en celles d'aujourd'hui, puis de demain. Je sais faire, je l'ai déjà fait dans la mine. Bon, après, même les chiens de garde refusaient de les manger, ça les rendait malades.~
+@859 = ~Pas besoin, la guilde a de l'argent.~
+@860 = ~Parfait.~
+@861 = ~Donc tu la connais ?~
+@862 = ~Depuis la guerre contre le Trône de Fer. Elle était intendante dans la mine que j'ai inondée.~
+@863 = ~Waouh, je n'avais encore jamais entendu parler de l'inondation de la mine.~
+@864 = ~Pas vraiment. Pour être honnête, je me souviens à peine de qui elle est.~
+@865 = ~Nous avons libéré les esclaves mineurs et ouvert un passage à la rivière. Ce ne fut pas une mince affaire.~
+@866 = ~Et ainsi interrompu l'approvisionnement en minerai, hein ?~
+@867 = ~Je vais vérifier ses antécédents et, en attendant, goûter sa cuisine. Si tout se passe bien, nous pourrons lui proposer un contrat de six mois, renouvelable ensuite.~
+@868 = ~Je ne fais pas affaire avec le Trône de Fer. Il n'y a pas de travail pour vous ici.~
+@869 = ~Je me fiche complètement de ce Trône ! Je n'ai plus aucun lien avec eux.~
+@870 = ~Je ne peux pas vous faire confiance si vous avez travaillé pour eux... Désolé, mais la guilde ne peut pas vous aider.~
+@871 = ~Je comprends. Alors je m'en vais. Au revoir.~
+@872 = ~Tu avais raison, l'ancienne cuisinière était meilleure.~
+@873 = ~Quelle est cette délicieuse odeur ?~
+@874 = ~Mon ragoût de légumes au poulet, spécialité de la maison. Servez-vous.~
+@875 = ~Aujourd'hui, soupe de tortue. Servez-vous.~
+@876 = ~Comment allez-vous, Marie ?~
+@877 = ~Je voulais simplement vous dire bonjour. Je repars déjà.~
+@878 = ~Bonjour, <PRO_SIRMAAM>.~
+@879 = ~Bonne journée, <PRO_SIRMAAM>.~
+@880 = ~Vous manquiez vraiment de provisions. Il n'y avait dans le garde-manger que du fromage moisi et des céréales, et je vois que le pain s'est déjà changé en pierre. Enfin, je vais remplir tout ça à ras bord.~
+@881 = ~Commencez par réparer l'escalier qui mène au deuxième étage. À chaque fois, j'ai peur de me briser le cou avant même d'arriver aux toilettes !~
+@882 = ~Vous voulez savoir comment j'ai perdu mon œil ? Je vois bien que oui. L'un des esclaves que vous avez libérés m'a attirée dans la forêt pour s'amuser. Cette brute a réussi à m'arracher un œil avant que je puisse sortir ma dague.~
+@883 = ~Eh bien, eh bien. Le même mercenaire m'a fait perdre mon emploi, puis m'a engagée. Parfois, le destin se moque de nous.~
+@884 = ~*marmonne* Mélanger, laisser reposer vingt minutes, ajouter le thym... fichu truc !~
+@885 = ~Comme vous pouvez le voir, je vais bien. Alors retournez à votre travail.~
+@886 = ~Qu'est-ce qu'il faudrait encore acheter pour la cuisine ? Je remplacerais bien deux casseroles et j'achèterais davantage d'ail, puisque vous demandez. On dit que cela éloigne les monstres nocturnes contre lesquels les Voleurs se battent. Que les bons dieux nous protègent : à cause d'eux, il faut désormais dormir d'un œil.~
+@887 = ~Que pensez-vous de la bière de la taverne du coin ? Ah, j'ai bien peur qu'en Amn ils ne sachent tout simplement pas brasser de vraie bière.~
+
+// Supplement to the dialogue with Lieutenant Egisfield
+@888 = ~Cela dit, j'ai entendu dire que vous étiez récemment devenu chef de la Guilde des détectives ? Alors peut-être pourrez-vous apprendre quelque chose.~
+
+// Numa
+@889 = ~La Guilde conserve dans son sous-sol les pièces à conviction dont personne ne réclame la propriété. La cité verse un peu d'argent pour leur stockage. Si le propriétaire ne vient pas les récupérer dans les six mois suivant le procès, elles reviennent à la Guilde. La plupart de ces objets ne sont que de vieilles choses cassées ou inutiles.~

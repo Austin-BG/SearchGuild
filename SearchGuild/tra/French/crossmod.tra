@@ -1,0 +1,40 @@
+// Coran
+@0 = ~Tu sais, les gens des grandes villes sont étranges. Avec cette guilde, tu vas être amené à faire pas mal de choses inhabituelles. Il m'est arrivé quelque chose de semblable autrefois, à la Porte de Baldur.~
+@1 = ~Raconte-moi.~
+@2 = ~Allons, l'ami, fais-nous profiter de ton expérience.~
+@3 = ~Je n'aime pas toutes ces histoires " d'amour "... *soupire* Bon, d'accord, raconte-m'en encore une.~
+@4 = ~Tu vois, j'avais alors décidé d'arrêter de " chercher " de l'or dans les poches des autres, et une affaire s'est présentée.~
+@5 = ~Un vieil homme jaloux m'a demandé d'espionner sa femme, une ravissante jeune dame nommée Leila. J'ai beaucoup d'expérience dans ce genre de choses — même si, d'ordinaire, j'étais plutôt de l'autre côté du mur — alors j'ai accepté avec plaisir.~
+@6 = ~J'ai vite découvert que la dame s'adonnait à une rencontre passionnée avec son propre cousin. J'étais terriblement partagé entre l'envie de tout dire à son mari et celle de me taire. Leila était si adorable, et ses larmes ne faisaient que la rendre plus belle encore...~
+@7 = ~Alors, après quelques baisers... (bon, après beaucoup de baisers, pour être honnête !), je lui ai fait promettre de garder le silence et de retourner auprès de son vieux mari en lui jurant une fidélité sans faille. Je lui ai également dit que je ne pensais pas que Leila lui était infidèle. Malheureusement, son mari ne m'a pas vraiment cru et, sans me verser la moindre pièce, il a rompu notre contrat.~
+@8 = ~Donc tout ce que tu y as gagné, ce sont quelques baisers et un employeur furieux ? Tu as bien fait de me raconter ça : maintenant je sais exactement qui NE participera PAS à ce genre d'affaires.~
+@9 = ~Je ne comprends même pas pourquoi tu t'es mêlé d'une histoire pareille. C'est comme si tu ne te connaissais pas toi-même. Mais si on nous confie une affaire de ce genre... tu resteras sur la touche !~
+@10 = ~Coran, je te le dis tout de suite : garde tes distances avec les affaires impliquant de jolies dames. À partir de maintenant, c'est une règle absolue de la guilde.~
+@11 = ~À mon avis, mieux vaut ne pas se mêler du tout de ce genre d'affaires.~
+@12 = ~*siffle* Toujours heureux de rendre service.~
+
+// Xzar
+@13 = ~Ta nouvelle guilde est formidable ! Tu sais, <CHARNAME>, je viens de me rappeler que j'ai déjà participé à une enquête.~ [XZAR29]
+@14 = ~Toi ?~
+@15 = ~Tu veux dire que tu t'es caché des enquêteurs ? Ou bien c'est une histoire qui remonte à ta tendre enfance ?~
+@16 = ~Tais-toi, Xzar, nous n'avons pas le temps d'écouter tes histoires.~
+@17 = ~Pff. Très bien, mais vous perdez une occasion de profiter de ma sagesse.~
+@18 = ~Oui, c'est arrivé quand j'étais enfant. L'enquête n'a pas abouti, mais... Mais les histoires doivent être racontées dans l'ordre, comme il se doit.~
+@19 = ~Il était une fois, il y a très longtemps, quelqu'un vola les biscuits de l'horrible vieille femme chez qui je vivais. Ah, cette précieuse boîte en fer-blanc, rangée dans la chambre fermée à clé où il était strictement interdit d'entrer. La vieille y mangeait seule ses biscuits sucrés, sans jamais partager la moindre miette. Seul moi, son enfant préféré, recevais parfois un petit morceau, un tout petit morceau.~
+@20 = ~Et croyez-moi, camarades, ce biscuit extraordinaire fondait littéralement dans la bouche, mmmh, c'était délicieux... Il me semble qu'on les faisait venir d'outre-mer... même si, à vrai dire, je ne m'en souviens plus.~
+@21 = ~Dans la maison de la vieille vivaient de nombreux enfants et, bien entendu, la créature soupçonna chacun d'eux du vol. Moi, en revanche, j'avais toute sa confiance, étant l'enfant le plus exemplaire, oui, parfaitement. Après avoir découvert la disparition, la sorcière m'ordonna de trouver immédiatement le coupable.~
+@22 = ~Malheureusement, je fus incapable de trouver le voleur et je retournai donc auprès de la sorcière les mains vides. Grave erreur : je n'aurais pas dû sous-estimer ma douce, douce vieille dame.~
+@23 = ~La créature connaissait très bien les herbes ; parmi ses flacons se trouvait une potion particulière qu'elle nous fit boire à tous. Les pensionnaires se mirent aussitôt à vomir, tandis que la vieille passait de l'un à l'autre pour examiner soigneusement le résultat. Il faut savoir, mes amis, que la sorcière nous nourrissait fort mal : surtout de la soupe claire aux navets ou au chou. Et tous les enfants vomirent cette soupe insipide... tous sauf moi !~
+@24 = ~*Le nécromancien marque ici une pause théâtrale* Oui, chers amis, je fus pris en flagrant délit de la manière la plus honteuse qui soit : un biscuit à moitié digéré jaillit de mon estomac, hé hé. Désespéré, je me jetai aux pieds de la vieille en espérant implorer son pardon, mais peine perdue.~
+@25 = ~La vieille avait toujours sur elle un épais bâton noueux taillé dans du chêne, dont elle ne se séparait jamais. Je me souviens que le premier coup de cette canne m'arracha la peau du front.~
+@26 = ~Je me précipitai vers la porte dans l'espoir de m'enfuir, mais, n'y voyant plus rien, je fonçai droit sur la vieille. Puis on me traîna à la cave. J'y passai trois merveilleuses journées, seul dans le noir, sans nourriture ni aucun soin pour mes blessures.~
+@27 = ~Lorsque je fus enfin prêt à abandonner et que je ne priais plus les dieux que de m'accorder une mort rapide, la cave s'ouvrit et l'on me remit à... mais... mais ça, c'est une histoire bien plus ennuyeuse.~
+@28 = ~L'essentiel est que, malgré la triste fin de mon enquête, je n'ai absolument pas perdu mon goût pour ce genre d'affaires, mon bon monsieur ! Je soutiens donc pleinement la... (comment ça s'appelle déjà... ?) ah oui, " la Guilde des détectives ".~
+@29 = ~Et j'insiste pour que le thé soit servi ici à cinq heures de l'après-midi. Cinq heures précises, et alors notre succès sera sans précédent !~
+@30 = ~Eh bien, tu as dû avoir une enfance merveilleuse. (Quelle histoire à dormir debout.)~
+@31 = ~Mmmh... Oui. C'est une histoire difficile. Je suis désolé que tu aies eu à vivre ça. Qu'est-ce qui t'est arrivé ensuite ?~
+@32 = ~Bon, aujourd'hui je suis justement d'humeur à ressasser le passé. Partons avant que les lapins ne nous rattrapent !~
+@33 = ~Eh bien, ensuite j'ai grandi. Quand je suis revenu lui rendre visite, quelqu'un m'avait devancé : l'un de ses " élèves ", un garçon formidable au demeurant, avait incendié la cabane de la vieille sorcière.~
+@34 = ~*Avec un soupir* Tu crois vraiment que ça en valait la peine ? Te faire massacrer pour un biscuit pareil !?~ [MONTY17]
+@35 = ~*Le mage éclate d'un rire joyeux et sonore* Content que tu poses la question, Monty. Mystra m'en est témoin : jamais plus de ma vie je n'ai eu l'occasion de goûter des biscuits aussi délicieux.~ [XZAR3]
+@36 = ~*Le mage éclate d'un rire joyeux et sonore* Il y a une chose que je regrette parfois, Mystra m'en est témoin : jamais plus de ma vie je n'ai eu l'occasion de goûter des biscuits aussi délicieux.~ [XZAR3]

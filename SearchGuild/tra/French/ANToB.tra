@@ -1,0 +1,11 @@
+// Amketran, Tavern
+@0 = ~Attendez... Vous êtes <CHARNAME>, de Château-Suif, n'est-ce pas ?~
+@1 = ~Oui, qu'y a-t-il ?~
+@2 = ~Disons que oui. Que voulez-vous ?~
+@3 = ~Comment connaissez-vous mon nom ?~
+@4 = ~Non, ce n'est pas moi. Je n'ai aucune idée de qui est ce <CHARNAME>.~
+@5 = ~Vous avez reçu une lettre au courrier de ce matin. *Fouille derrière le comptoir* Où est-elle... ah, la voilà.~
+@6 = ~Rien de particulier. Vous avez reçu une lettre au courrier de ce matin. *Fouille derrière le comptoir* Où est-elle... ah, la voilà.~
+@7 = ~Vous correspondez à la description de la personne que je cherche. Vous avez reçu une lettre au courrier de ce matin. *Fouille derrière le comptoir* Où est-elle... ah, la voilà.~
+@8 = ~D'accord, comme vous voudrez. Puis-je faire autre chose pour vous ?~
+@9 = ~(Vous êtes surpris de constater qu'il s'agit d'une lettre de Nordic. Vous la glissez dans votre sac à dos pour la lire plus tard.)~
